@@ -7,6 +7,7 @@ from pydub import AudioSegment
 import io
 import json
 import requests
+import re
 from pydub import AudioSegment
 from pathlib import Path
 from dotenv import load_dotenv
@@ -46,18 +47,34 @@ def find_latest_script_txt(base_dir="scripts_ok") -> Path:
 # 台本テキストを時間付きセリフのシーン単位に分割する
 def split_script_to_scenes(script_text: str) -> list[dict]:
     scenes = []
-    blocks = script_text.strip().split("（")
-    for block in blocks[1:]:
-        try:
-            time_str, content = block.split("）", 1)
-            scenes.append({
-                "start": time_str.strip(),  # 台本上の時刻（文字列）
-                "text": content.strip()     # セリフ内容
-            })
-        except ValueError:
-            continue
-    return scenes
+    lines = script_text.splitlines()
+    current_time = None
+    current_text = []
 
+    # (), （）, 【】などすべて対応（全角・半角問わず）
+    time_pattern = re.compile(r"[（(【\[]\s*(\d+:\d+)\s*[）)】\]]")
+
+    for line in lines:
+        match = time_pattern.match(line.strip())
+        if match:
+            if current_time and current_text:
+                scenes.append({
+                    "start": current_time,
+                    "text": "\n".join(current_text).strip()
+                })
+            current_time = match.group(1)
+            current_text = []
+        else:
+            current_text.append(line)
+
+    # 最後のシーンを追加
+    if current_time and current_text:
+        scenes.append({
+            "start": current_time,
+            "text": "\n".join(current_text).strip()
+        })
+
+    return scenes
 # ==== 追加ここから（助詞の読み方補正） ====
 def fix_particle_pronunciation(text: str) -> str:
     """
@@ -104,7 +121,7 @@ def synthesize_voice(text: str, output_path: Path):
 
     # クエリに音声パラメータを追加（速度・抑揚）
     query_data = query_res.json()
-    query_data["speedScale"] = 1.3          # 1.5は速すぎる傾向、1.3くらいが自然かつテンポ良し
+    query_data["speedScale"] = 1.6          # 1.5は速すぎる傾向、1.3くらいが自然かつテンポ良し
     query_data["intonationScale"] = 1.2     # 1.5だと芝居がかりすぎる恐れあり
     query_data["pitchScale"] = 0.0          # 声の高さは自然なままでOK
     query_data["volumeScale"] = 1.0

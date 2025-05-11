@@ -82,8 +82,18 @@ def fetch_all_images(scene_json_path: Path, script_id: str):
     used_urls = set()
     used_hashes = set()
 
+    seen_scene_ids = set()  # 既出scene_id（大分類）を追跡
+
     for scene in scenes:
-        scene_id = scene["scene_id"]
+        full_scene_id = scene["scene_id"]         # scene_1_1
+        parts = full_scene_id.split("_")
+        base_scene_id = "_".join(parts[:2])  # scene_1_1 → scene_1
+
+        if base_scene_id in seen_scene_ids:
+            print(f"[SKIP] すでに画像取得済み: {base_scene_id}")
+            continue
+        seen_scene_ids.add(base_scene_id)
+
         tags = scene["tags"].copy()
         if global_tag and global_tag != "その他":
             tags.insert(0, global_tag)
@@ -91,8 +101,8 @@ def fetch_all_images(scene_json_path: Path, script_id: str):
         image_url = fetch_image_url(tags, used_urls, used_hashes)
 
         if image_url:
-            print(f"[DEBUG] 使用画像URL: {image_url} （scene_id: {scene_id}）")
-            image_path = output_dir / f"{scene_id}.jpg"
+            print(f"[DEBUG] 使用画像URL: {image_url} （scene_id: {base_scene_id}）")
+            image_path = output_dir / f"{base_scene_id}.jpg"  # 保存名は大分類ID
             download_image(image_url, image_path)
         else:
             print(f"⚠️ 有効な画像が見つかりません: {tags}")

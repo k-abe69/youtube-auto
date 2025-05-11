@@ -6,12 +6,15 @@ import json
 from datetime import datetime
 from dotenv import load_dotenv
 import openai
+import re
 
 from pathlib import Path
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
 from common.script_utils import resolve_latest_script_info
 from common.global_image_tag_dict import TONE_KEYWORDS
+
+from fugashi import Tagger  # ✅ 追加：日本語分かち書き用
 
 backup_script(__file__)
 save_config_snapshot()
@@ -68,27 +71,28 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path, script_id: st
     for scene in timing_data:
         scene_id = scene["scene_id"]
         start_sec = scene["start_sec"]
+        duration = scene["duration"]
         text = scene["text"]
+
         tags = generate_tags(text)
 
         tagged_data.append({
             "scene_id": scene_id,
-            "start_sec": start_sec,
+            "start_sec": round(start_sec, 2),
+            "duration": round(duration, 2),
             "text": text,
             "tags": tags
         })
 
-    # 🔽 修正① 台本全体のテキストから共通トーンを推定
+    # 台本全体から共通トーン推定
     script_text = "。".join(scene["text"] for scene in timing_data)
     global_image_tag = detect_global_image_tag(script_text)
 
-    # 🔽 修正② 共通トーンとシーンをまとめて出力データに格納
     data = {
         "global_image_tag": global_image_tag,
         "scenes": tagged_data
     }
 
-    # 🔽 修正③ JSONファイルとして保存
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -108,4 +112,3 @@ if __name__ == "__main__":
         script_id=script_id,
         date_path=date_path
     )
-

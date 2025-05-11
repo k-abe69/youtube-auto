@@ -4,7 +4,12 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import json
 from pathlib import Path
-from moviepy.editor import ImageClip, AudioFileClip, concatenate_videoclips
+from moviepy.editor import (
+    ImageClip,
+    AudioFileClip,
+    CompositeVideoClip,
+    concatenate_videoclips,
+)
 
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
@@ -34,7 +39,9 @@ def compose_video(script_id: str, date_path: str):
         scene_id = scene["scene_id"]
         start = scene["start_sec"]
         duration = scene["duration"]
-        img_path = image_base_dir / f"{scene_id}.jpg"
+        parts = scene_id.split("_")
+        base_scene_id = "_".join(parts[:2])
+        img_path = image_base_dir / f"{base_scene_id}.jpg"
         audio_path = audio_base_dir / f"{scene_id}.wav"
 
         if not img_path.exists() or not audio_path.exists():
@@ -44,12 +51,14 @@ def compose_video(script_id: str, date_path: str):
         img_clip = (
             ImageClip(str(img_path))
             .set_duration(duration)
-            .resize(height=VIDEO_HEIGHT)  # 高さ優先リサイズ
+            .resize(height=VIDEO_HEIGHT)
             .set_position("center")
         )
         audio_clip = AudioFileClip(str(audio_path)).subclip(0, duration)
         img_clip = img_clip.set_audio(audio_clip)
-        clips.append(img_clip)
+
+        scene_clip = CompositeVideoClip([img_clip])
+        clips.append(scene_clip)
 
     if not clips:
         print("❌ 有効なシーンがありません。動画を生成できません。")
@@ -59,19 +68,22 @@ def compose_video(script_id: str, date_path: str):
     temp_path = output_dir / "no_subtitles.mp4"
     final.write_videofile(str(temp_path), fps=30)
 
-    # 字幕を重ねて最終出力
+    # 字幕をffmpegで焼き付け（中央寄り下、太字、大きめ）
     subtitle_path = Path(f"audio/{script_id}/subtitles.srt")
     final_path = output_dir / "final.mp4"
 
     if subtitle_path.exists():
-        ffmpeg_command = f'ffmpeg -y -i "{temp_path}" -vf subtitles="{subtitle_path.as_posix()}" -c:a copy "{final_path}"'
+        ffmpeg_command = (
+            f'ffmpeg -y -i "{temp_path}" '
+            f'-vf "subtitles=\'{subtitle_path.as_posix()}\':force_style=\'Alignment=2,Fontsize=20,Outline=2,MarginV=80\'" '
+            f'-c:a copy "{final_path}"'
+        )
         print(f"[ffmpeg実行] {ffmpeg_command}")
         os.system(ffmpeg_command)
         print(f"✅ 字幕付き動画を保存しました: {final_path}")
     else:
         print(f"⚠️ 字幕が見つかりません。字幕なしで保存: {temp_path}")
         temp_path.rename(final_path)
-
 
     # ✅ 再生互換版の出力（解像度を偶数に丸めて再エンコード）
     compatible_path = output_dir / "final_compatible.mp4"
