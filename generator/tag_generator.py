@@ -11,6 +11,7 @@ from pathlib import Path
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
 from common.script_utils import resolve_latest_script_info
+from common.global_image_tag_dict import TONE_KEYWORDS
 
 backup_script(__file__)
 save_config_snapshot()
@@ -43,6 +44,17 @@ def generate_tags(text: str) -> list:
         print(f"[タグ生成エラー] {text} → {e}")
         return ["キーワード1", "キーワード2"]
 
+# 共通トーン判定関数（定義は変更なし）
+def detect_global_image_tag(script_text: str) -> str:
+    scores = {}
+    for tag, keywords in TONE_KEYWORDS.items():
+        score = sum(word in script_text for word in keywords)
+        if score > 0:
+            scores[tag] = score
+    if not scores:
+        return "その他"
+    return max(scores.items(), key=lambda x: x[1])[0]
+
 # 音声のtiming.jsonを読み取り、それぞれにタグを付けて出力
 def tag_from_timing(timing_json_path: Path, output_base_dir: Path, script_id: str, date_path: str):
     with open(timing_json_path, "r", encoding="utf-8") as f:
@@ -66,8 +78,19 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path, script_id: st
             "tags": tags
         })
 
+    # 🔽 修正① 台本全体のテキストから共通トーンを推定
+    script_text = "。".join(scene["text"] for scene in timing_data)
+    global_image_tag = detect_global_image_tag(script_text)
+
+    # 🔽 修正② 共通トーンとシーンをまとめて出力データに格納
+    data = {
+        "global_image_tag": global_image_tag,
+        "scenes": tagged_data
+    }
+
+    # 🔽 修正③ JSONファイルとして保存
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(tagged_data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
     print(f"✅ タグ付きJSON出力完了: {output_path}")
     return output_path
@@ -85,3 +108,4 @@ if __name__ == "__main__":
         script_id=script_id,
         date_path=date_path
     )
+

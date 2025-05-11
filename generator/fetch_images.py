@@ -13,29 +13,50 @@ from common.script_utils import resolve_latest_script_info
 backup_script(__file__)
 save_config_snapshot()
 
-
 from dotenv import load_dotenv
 load_dotenv()  # 必ずこれが getenvより前にあること
 
+from PIL import Image
+import imagehash
+from io import BytesIO
 
 # Pixabay APIキー
 PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY")
 if not PIXABAY_API_KEY:
     raise ValueError("PixabayのAPIキーが設定されていません (.envにPIXABAY_API_KEYを追加)")
 
-# Pixabay画像を検索し、最初の結果のURLを返す
-def fetch_image_url(tags: list) -> str:
+# Pixabay画像を検索し、類似画像を避けたURLを返す
+def fetch_image_url(tags: list, used_urls: set, used_hashes: set) -> str:
     query = "+".join([quote(tag) for tag in tags])
-    url = f"https://pixabay.com/api/?key={PIXABAY_API_KEY}&q={query}&image_type=photo&orientation=vertical&per_page=3"
+    url = f"https://pixabay.com/api/?key={PIXABAY_API_KEY}&q={query}&image_type=photo&orientation=vertical&per_page=10"
     res = requests.get(url)
     if res.status_code != 200:
         raise RuntimeError(f"Pixabayリクエスト失敗: {res.text}")
     data = res.json()
-    hits = data.get("hits")
-    if hits:
-        return hits[0]["largeImageURL"]
-    else:
-        return ""
+    hits = data.get("hits", [])
+
+    for hit in hits:
+        image_url = hit["largeImageURL"]
+        if image_url in used_urls:
+            continue
+
+        try:
+            response = requests.get(image_url)
+            img = Image.open(BytesIO(response.content)).convert("RGB")
+            hash_val = imagehash.phash(img)
+            is_duplicate = any(existing - hash_val <= 5 for existing in used_hashes)
+            if is_duplicate:
+                print(f"[SKIP] 類似画像のためスキップ: {image_url}")
+                continue
+
+            used_urls.add(image_url)
+            used_hashes.add(hash_val)
+            return image_url
+        except Exception as e:
+            print(f"[ERROR] ハッシュ生成失敗: {e}")
+            continue
+
+    return ""  # 有効な画像がなければ空文字を返す
 
 # 画像を保存する
 def download_image(url: str, save_path: Path):
@@ -50,21 +71,31 @@ def download_image(url: str, save_path: Path):
 # メイン処理
 def fetch_all_images(scene_json_path: Path, script_id: str):
     with open(scene_json_path, "r", encoding="utf-8") as f:
-        scenes = json.load(f)
+        data = json.load(f)
+
+    global_tag = data.get("global_image_tag", "")
+    scenes = data.get("scenes", [])
 
     output_dir = Path(f"images/{script_id}")
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    used_urls = set()
+    used_hashes = set()
+
     for scene in scenes:
         scene_id = scene["scene_id"]
-        tags = scene["tags"]
-        image_url = fetch_image_url(tags)
+        tags = scene["tags"].copy()
+        if global_tag and global_tag != "その他":
+            tags.insert(0, global_tag)
+
+        image_url = fetch_image_url(tags, used_urls, used_hashes)
 
         if image_url:
+            print(f"[DEBUG] 使用画像URL: {image_url} （scene_id: {scene_id}）")
             image_path = output_dir / f"{scene_id}.jpg"
             download_image(image_url, image_path)
         else:
-            print(f"⚠️ 画像が見つかりません: {tags}")
+            print(f"⚠️ 有効な画像が見つかりません: {tags}")
 
 if __name__ == "__main__":
     info = resolve_latest_script_info()

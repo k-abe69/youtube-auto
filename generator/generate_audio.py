@@ -3,11 +3,15 @@ import os
 # スクリプトの場所からプロジェクトのルートパスをimport対象に追加
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+from pydub import AudioSegment
+import io
 import json
 import requests
 from pydub import AudioSegment
 from pathlib import Path
 from dotenv import load_dotenv
+from common.misread_dict import apply_misread_corrections  # ← 追加
+
 
 # バックアップと設定のバージョン記録（共通処理）
 from common.backup_script import backup_script
@@ -20,6 +24,17 @@ load_dotenv()
 
 VOICEVOX_ENGINE_URL = os.getenv("VOICEVOX_ENGINE_URL", "http://localhost:50021")
 SPEAKER_ID = int(os.getenv("VOICEROID_SPEAKER_ID", 1))
+
+# ==== 追加ここから（ルビ変換） ====
+# 読み誤りを防ぐため、テキストをひらがなに変換する処理を追加
+from fugashi import Tagger
+
+tagger = Tagger()
+
+def convert_to_hiragana(text: str) -> str:
+    """MeCabを使ってテキストをひらがなに変換する"""
+    return "".join([word.feature.kana if word.feature.kana else word.surface for word in tagger(text)])
+# ==== 追加ここまで ====
 
 # 最新の台本（.txt）ファイルを探してパスを返す
 def find_latest_script_txt(base_dir="scripts_ok") -> Path:
@@ -43,9 +58,44 @@ def split_script_to_scenes(script_text: str) -> list[dict]:
             continue
     return scenes
 
+# ==== 追加ここから（助詞の読み方補正） ====
+def fix_particle_pronunciation(text: str) -> str:
+    """
+    ひらがなテキストのうち、助詞で使われる「は」「へ」「を」を
+    発音に合わせて「わ」「え」「お」に変換する（表記は変えずに音声用に調整）
+    """
+    tokens = tagger(text)
+    result = []
+    for token in tokens:
+        surface = token.surface
+        pos = token.feature[0]  # ← 主品詞（"助詞" など）
+
+        if pos == '助詞':
+            if surface == 'は':
+                result.append('わ')
+                continue
+            elif surface == 'へ':
+                result.append('え')
+                continue
+            elif surface == 'を':
+                result.append('お')
+                continue
+
+        result.append(surface)
+
+    return ''.join(result)
+# ==== 追加ここまで ====
+
+
 # VOICEVOXエンジンにテキストを送信して音声（mp3）を生成
 def synthesize_voice(text: str, output_path: Path):
-    query_payload = {"text": text, "speaker": SPEAKER_ID}
+    # ==== 修正ここから ====
+    # textをひらがなに変換し、助詞の読み間違いも補正する
+    text = apply_misread_corrections(text)  # ← 辞書適用を先に
+    hiragana_text = convert_to_hiragana(text)
+    hiragana_text = fix_particle_pronunciation(hiragana_text)
+    query_payload = {"text": hiragana_text, "speaker": SPEAKER_ID}
+    # ==== 修正ここまで ====
 
     # 音声合成のためのクエリ取得
     query_res = requests.post(f"{VOICEVOX_ENGINE_URL}/audio_query", params=query_payload)
@@ -54,8 +104,13 @@ def synthesize_voice(text: str, output_path: Path):
 
     # クエリに音声パラメータを追加（速度・抑揚）
     query_data = query_res.json()
-    query_data["speedScale"] = 1.5          # 話速を速める（1.0=標準）
-    query_data["intonationScale"] = 1.5      # 抑揚強め
+    query_data["speedScale"] = 1.3          # 1.5は速すぎる傾向、1.3くらいが自然かつテンポ良し
+    query_data["intonationScale"] = 1.2     # 1.5だと芝居がかりすぎる恐れあり
+    query_data["pitchScale"] = 0.0          # 声の高さは自然なままでOK
+    query_data["volumeScale"] = 1.0
+    query_data["prePhonemeLength"] = 0.1    # 発音前の無音調整で滑らかに
+    query_data["postPhonemeLength"] = 0.1   # 発音後の無音調整でブツ切れ対策
+
 
     # 合成リクエスト
     synthesis_res = requests.post(
@@ -71,10 +126,12 @@ def synthesize_voice(text: str, output_path: Path):
     with open(output_path, "wb") as f:
         f.write(synthesis_res.content)
 
-# mp3ファイルをwav形式に変換
+# mp3ファイルをwav形式に変換（末尾に無音追加）
 def convert_to_wav(mp3_path: Path, wav_path: Path):
     sound = AudioSegment.from_file(mp3_path)
+    sound += AudioSegment.silent(duration=100)  # 100msの無音追加
     sound.export(wav_path, format="wav")
+
 
 def main():
     # 最新の台本ファイルを取得して出力フォルダを作成
