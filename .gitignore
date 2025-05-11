@@ -1,0 +1,19 @@
+# キャッシュや一時ファイル
+__pycache__/
+*.pyc
+
+# 出力成果物
+output/
+audio/
+images/
+data/
+scripts_ok/
+config/versions/
+backup/
+subtitles/
+videos/
+
+# 個人環境
+.env
+.vscode/
+.DS_Store
