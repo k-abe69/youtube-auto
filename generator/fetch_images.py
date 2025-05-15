@@ -3,29 +3,29 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import json
+import random
 import requests
+import shutil
 from pathlib import Path
 from urllib.parse import quote
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
-from common.script_utils import resolve_latest_script_info
+from common.script_utils import extract_script_id, find_oldest_script_file, find_oldest_script_id  # ← 修正点
 
 backup_script(__file__)
 save_config_snapshot()
 
 from dotenv import load_dotenv
-load_dotenv()  # 必ずこれが getenvより前にあること
+load_dotenv()
 
 from PIL import Image
 import imagehash
 from io import BytesIO
 
-# Pixabay APIキー
 PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY")
 if not PIXABAY_API_KEY:
     raise ValueError("PixabayのAPIキーが設定されていません (.envにPIXABAY_API_KEYを追加)")
 
-# Pixabay画像を検索し、類似画像を避けたURLを返す
 def fetch_image_url(tags: list, used_urls: set, used_hashes: set) -> str:
     query = "+".join([quote(tag) for tag in tags])
     url = f"https://pixabay.com/api/?key={PIXABAY_API_KEY}&q={query}&image_type=photo&orientation=vertical&per_page=10"
@@ -56,9 +56,8 @@ def fetch_image_url(tags: list, used_urls: set, used_hashes: set) -> str:
             print(f"[ERROR] ハッシュ生成失敗: {e}")
             continue
 
-    return ""  # 有効な画像がなければ空文字を返す
+    return ""
 
-# 画像を保存する
 def download_image(url: str, save_path: Path):
     res = requests.get(url)
     if res.status_code == 200:
@@ -68,49 +67,74 @@ def download_image(url: str, save_path: Path):
     else:
         print(f"❌ 画像ダウンロード失敗: {url}")
 
-# メイン処理
-def fetch_all_images(scene_json_path: Path, script_id: str):
+def fetch_all_images(scene_json_path: Path, script_id: str, group_size: int = 3):
     with open(scene_json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     global_tag = data.get("global_image_tag", "")
     scenes = data.get("scenes", [])
 
-    output_dir = Path(f"images/{script_id}")
+    output_dir = Path(f"data/stage_3_images/{script_id}")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     used_urls = set()
     used_hashes = set()
 
-    seen_scene_ids = set()  # 既出scene_id（大分類）を追跡
+    # 3シーンごとに1枚の画像を共通使用
+    for i in range(0, len(scenes), group_size):
+        chunk = scenes[i:i + group_size]
+        scene_ids = [scene["scene_id"] for scene in chunk]
 
-    for scene in scenes:
-        full_scene_id = scene["scene_id"]         # scene_1_1
-        parts = full_scene_id.split("_")
-        base_scene_id = "_".join(parts[:2])  # scene_1_1 → scene_1
-
-        if base_scene_id in seen_scene_ids:
-            print(f"[SKIP] すでに画像取得済み: {base_scene_id}")
-            continue
-        seen_scene_ids.add(base_scene_id)
-
-        tags = scene["tags"].copy()
+        # チャンク内のすべてのタグを集めてゆらぎありにサンプリング
+        all_tags = [tag for scene in chunk for tag in scene.get("tags", [])]
         if global_tag and global_tag != "その他":
-            tags.insert(0, global_tag)
+            all_tags.insert(0, global_tag)
 
-        image_url = fetch_image_url(tags, used_urls, used_hashes)
+        # タグがなければスキップ
+        if not all_tags:
+            print(f"⚠️ タグが見つかりません（scene_ids: {scene_ids}）")
+            continue
+
+        selected_tags = random.sample(all_tags, min(3, len(all_tags)))
+
+        image_url = fetch_image_url(selected_tags, used_urls, used_hashes)
 
         if image_url:
-            print(f"[DEBUG] 使用画像URL: {image_url} （scene_id: {base_scene_id}）")
-            image_path = output_dir / f"{base_scene_id}.jpg"  # 保存名は大分類ID
-            download_image(image_url, image_path)
+            print(f"[DEBUG] 使用画像URL: {image_url} → scenes: {scene_ids}")
+            for scene_id in scene_ids:
+                image_path = output_dir / f"{scene_id}.jpg"
+                download_image(image_url, image_path)
         else:
-            print(f"⚠️ 有効な画像が見つかりません: {tags}")
+            print(f"⚠️ 有効な画像が見つかりません: {selected_tags}")
 
 if __name__ == "__main__":
-    info = resolve_latest_script_info()
-    script_id = info["script_id"]
-    date_path = info["date_path"]
-    scene_json_path = Path(f"data/scenes_json/{date_path}/{script_id}.json")
+    input_dir = Path("data/stage_2_tag")
+    output_dir = Path("data/stage_3_image")
 
-    fetch_all_images(scene_json_path=scene_json_path, script_id=script_id)
+    if len(sys.argv) > 1:
+        script_id = sys.argv[1]
+    else:
+        script_id = find_oldest_script_id(Path("scripts_done"))
+
+    # サブディレクトリを探索し、各中にある .json ファイルを収集
+    all_json_files = []
+    # 修正後
+    json_files = list(input_dir.glob("tags_*.json"))
+    all_json_files.extend(json_files)
+
+    # 台本IDが取れるものだけに限定
+    valid_json_files = [f for f in all_json_files if extract_script_id(f.name)]
+    valid_json_files.sort(key=lambda f: extract_script_id(f.name))
+
+    if not valid_json_files:
+        print("❌ 処理可能なJSONファイルが見つかりません")
+        exit()
+
+    scene_json_file = input_dir / f"tags_{script_id}.json"
+    print(f"[DEBUG] script_id = {script_id}")
+
+    if not scene_json_file.exists():
+        print(f"❌ JSONファイルが見つかりません: {scene_json_file}")
+        exit()
+
+    fetch_all_images(scene_json_path=scene_json_file, script_id=script_id)

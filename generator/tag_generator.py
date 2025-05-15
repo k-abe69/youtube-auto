@@ -7,14 +7,15 @@ from datetime import datetime
 from dotenv import load_dotenv
 import openai
 import re
-
 from pathlib import Path
+from shutil import move
+
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
-from common.script_utils import resolve_latest_script_info
 from common.global_image_tag_dict import TONE_KEYWORDS
-
 from fugashi import Tagger  # ✅ 追加：日本語分かち書き用
+from common.script_utils import extract_script_id, find_oldest_script_id
+
 
 backup_script(__file__)
 save_config_snapshot()
@@ -33,7 +34,8 @@ def load_prompt(template_path: str, variables: dict) -> str:
 
 # GPTにタグを問い合わせ
 def generate_tags(text: str) -> list:
-    prompt = load_prompt("prompts/image/tags_prompt.txt", {"TEXT": text})
+    prompt_path = Path(__file__).parent / ".." / "prompts" / "image" / "tags_prompt.txt"
+    prompt = load_prompt(str(prompt_path.resolve()), {"TEXT": text}) 
     try:
         response = openai.ChatCompletion.create(
             model="gpt-4o",
@@ -59,13 +61,16 @@ def detect_global_image_tag(script_text: str) -> str:
     return max(scores.items(), key=lambda x: x[1])[0]
 
 # 音声のtiming.jsonを読み取り、それぞれにタグを付けて出力
-def tag_from_timing(timing_json_path: Path, output_base_dir: Path, script_id: str, date_path: str):
+def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
     with open(timing_json_path, "r", encoding="utf-8") as f:
         timing_data = json.load(f)
 
-    output_dir = output_base_dir / date_path
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = output_dir / f"{script_id}.json"
+    # ファイル名から script_id（basename）と date_path を抽出
+    script_id = timing_json_path.stem.replace("timing_", "")
+    output_path = output_base_dir / f"tags_{script_id}.json"
+
+    # ✅ 保存先ディレクトリが存在しなければ作成
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     tagged_data = []
     for scene in timing_data:
@@ -99,16 +104,30 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path, script_id: st
     print(f"✅ タグ付きJSON出力完了: {output_path}")
     return output_path
 
-# 実行部分
+# 実行部分（timingファイルを順に処理して scenes_json に出力）
 if __name__ == "__main__":
-    info = resolve_latest_script_info()
-    script_id = info["script_id"]
-    date_path = info["date_path"]
-    timing_json_path = Path(f"audio/{script_id}/timing.json")
+    input_dir = Path("data/stage_1_audio")
+    output_dir = Path("data/stage_2_tag")
 
-    tag_from_timing(
-        timing_json_path=timing_json_path,
-        output_base_dir=Path("data/scenes_json"),
-        script_id=script_id,
-        date_path=date_path
-    )
+    # ✅ script_idを引数から取得、なければ自動取得
+    if len(sys.argv) > 1:
+        script_id = sys.argv[1]
+    else:
+        script_id = find_oldest_script_id(Path("scripts_done"))  # 台本は移動済みなのでここでOK
+
+
+    timing_json = input_dir / script_id / f"timing_{script_id}.json"
+    if not timing_json.exists():
+        print(f"❌ timingファイルが見つかりません: {timing_json}")
+        exit()
+ 
+    date_path = timing_json.parent.name
+    out_path = output_dir / f"tags_{script_id}.json"
+    if out_path.exists():
+        print(f"⚠️ 既に処理済み: {out_path}")
+        exit()
+
+    try:
+        tag_from_timing(timing_json_path=timing_json, output_base_dir=output_dir)
+    except Exception as e:
+        print(f"[ERROR] 処理失敗: {timing_json} → {e}")

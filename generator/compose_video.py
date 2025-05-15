@@ -3,99 +3,161 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import json
-from pathlib import Path
-from moviepy.editor import (
-    ImageClip,
-    AudioFileClip,
-    CompositeVideoClip,
-    concatenate_videoclips,
-)
+import numpy as np
+import re
 
+from moviepy.editor import *
+from moviepy.video.fx.all import fadein
+from common.constants import SILENCE_DURATION
+from pathlib import Path
+from dotenv import load_dotenv
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
-from common.script_utils import resolve_latest_script_info
+from common.script_utils import find_oldest_script_id
+from PIL import Image
 
+from datetime import datetime, timedelta
+
+# 初期処理
 backup_script(__file__)
 save_config_snapshot()
+load_dotenv()
 
-# 動画の幅と高さ（縦動画向け）
+# 定数
 VIDEO_WIDTH = 720
 VIDEO_HEIGHT = 1280
 
-# 字幕付きの動画を出力
-def compose_video(script_id: str, date_path: str):
-    timing_path = Path(f"audio/{script_id}/timing.json")
-    audio_base_dir = Path(f"audio/{script_id}")
-    image_base_dir = Path(f"images/{script_id}")
-    output_dir = Path(f"output/{script_id}")
+
+
+
+def parse_srt_time(t: str) -> float:
+    dt = datetime.strptime(t.strip(), "%H:%M:%S,%f")
+    return timedelta(
+        hours=dt.hour,
+        minutes=dt.minute,
+        seconds=dt.second,
+        microseconds=dt.microsecond
+    ).total_seconds()
+
+def check_srt_overlaps(srt_path: Path):
+    print("\n🧐 字幕オーバーラップチェック開始")
+    with open(srt_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    entries = re.findall(r"(\d+)\n(\d{2}:\d{2}:\d{2},\d{3}) --> (\d{2}:\d{2}:\d{2},\d{3})\n", content)
+
+    prev_end = 0
+    for idx, (_, start_str, end_str) in enumerate(entries):
+        start_sec = parse_srt_time(start_str)
+        end_sec = parse_srt_time(end_str)
+
+        if start_sec < prev_end:
+            print(f"⚠️ 重複: #{idx+1} start={start_sec:.3f}s overlaps with previous end={prev_end:.3f}s")
+        prev_end = end_sec
+
+    print("✅ 字幕オーバーラップチェック完了\n")
+
+def compose_video(script_id: str):
+    timing_path = Path(f"data/stage_1_audio/{script_id}/timing_{script_id}.json")
+    subtitle_path = Path(f"data/stage_4_subtitles/subtitles_{script_id}.srt")
+    audio_base_dir = Path(f"data/stage_1_audio/{script_id}")
+    image_base_dir = Path(f"data/stage_3_images/{script_id}")
+    output_dir = Path(f"data/stage_5_output/{script_id}")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     with open(timing_path, "r", encoding="utf-8") as f:
         scenes = json.load(f)
 
     clips = []
+    audio_clips = []
+    current_start = 0.0  # 累積型の再生開始時刻（すべての基準）
 
-    for scene in scenes:
+    for i, scene in enumerate(scenes):
         scene_id = scene["scene_id"]
-        start = scene["start_sec"]
-        duration = scene["duration"]
-        parts = scene_id.split("_")
-        base_scene_id = "_".join(parts[:2])
-        img_path = image_base_dir / f"{base_scene_id}.jpg"
         audio_path = audio_base_dir / f"{scene_id}.wav"
+        img_path = image_base_dir / f"{scene_id}.jpg"
 
-        if not img_path.exists() or not audio_path.exists():
+        if not audio_path.exists() or not img_path.exists():
             print(f"⚠️ スキップ: {scene_id}（画像または音声が見つからない）")
             continue
 
-        img_clip = (
+        # 音声読み込み + 無音0秒追加
+        audio_clip = AudioFileClip(str(audio_path))
+        silence = AudioClip(make_frame=lambda t: [0], duration=SILENCE_DURATION, fps=44100).set_fps(44100)
+        audio_clip = concatenate_audioclips([audio_clip, silence])
+        real_duration = audio_clip.duration  # SILENCE_DURATIONを含む
+
+        # 安全な時間定義
+        start_time = current_start
+        end_time = start_time + real_duration
+        duration = end_time - start_time  # ← duration を先に定義！
+
+
+        # ズームなしで静止画像として表示
+        image_clip = (
             ImageClip(str(img_path))
-            .set_duration(duration)
             .resize(height=VIDEO_HEIGHT)
             .set_position("center")
+            .set_duration(duration)
+            .set_start(start_time)
         )
-        audio_clip = AudioFileClip(str(audio_path)).subclip(0, duration)
-        img_clip = img_clip.set_audio(audio_clip)
 
-        scene_clip = CompositeVideoClip([img_clip])
-        clips.append(scene_clip)
+        # 冒頭シーンだけフェードイン（柔らかく始める）
+        if i == 0:
+            image_clip = image_clip.fx(fadein, 0.3)  # 0.3秒かけて明るく
+            
+        clips.append(image_clip)
+
+        # 音声clip（明示的にstart/endを指定）
+        audio_clip = audio_clip.set_start(start_time).set_end(end_time)
+        audio_clips.append(audio_clip)
+
+        current_start = end_time  # 次のsceneの基準時間に進める
 
     if not clips:
-        print("❌ 有効なシーンがありません。動画を生成できません。")
+        print("❌ 有効なsceneがありません。動画を生成できません。")
         return
 
-    final = concatenate_videoclips(clips, method="compose")
+    final_audio = concatenate_audioclips(audio_clips)
+
+    # チラつき対策
+    final = CompositeVideoClip(clips, size=(VIDEO_WIDTH, VIDEO_HEIGHT)).set_audio(final_audio)
+
     temp_path = output_dir / "no_subtitles.mp4"
     final.write_videofile(str(temp_path), fps=30)
 
-    # 字幕をffmpegで焼き付け（中央寄り下、太字、大きめ）
-    subtitle_path = Path(f"audio/{script_id}/subtitles.srt")
     final_path = output_dir / "final.mp4"
 
     if subtitle_path.exists():
+        check_srt_overlaps(subtitle_path)
+
         ffmpeg_command = (
-            f'ffmpeg -y -i "{temp_path}" '
-            f'-vf "subtitles=\'{subtitle_path.as_posix()}\':force_style=\'Alignment=2,Fontsize=20,Outline=2,MarginV=80\'" '
-            f'-c:a copy "{final_path}"'
+            f'ffmpeg -y -hwaccel cuda -i "{temp_path}" '
+            f'-vf "subtitles=\'{subtitle_path.as_posix()}\':force_style=\'Fontname=Noto Sans CJK JP, Alignment=2,Fontsize=18,Outline=2,MarginV=80,Shadow=1, PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,ShadowColour=&H80000000,BorderStyle=1, LineSpacing=0\'" '
+            f'-c:v h264_nvenc -preset fast -c:a copy "{final_path}"'
         )
-        print(f"[ffmpeg実行] {ffmpeg_command}")
+        print(f"[GPU字幕焼き込み] {ffmpeg_command}")
         os.system(ffmpeg_command)
-        print(f"✅ 字幕付き動画を保存しました: {final_path}")
+        print(f"✅ 字幕付き動画をGPUで保存しました: {final_path}")
     else:
         print(f"⚠️ 字幕が見つかりません。字幕なしで保存: {temp_path}")
         temp_path.rename(final_path)
 
-    # ✅ 再生互換版の出力（解像度を偶数に丸めて再エンコード）
     compatible_path = output_dir / "final_compatible.mp4"
     ffmpeg_compat_cmd = (
-        f'ffmpeg -y -i "{final_path}" '
+        f'ffmpeg -y -hwaccel cuda -i "{final_path}" '
         f'-vf "scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p" '
-        f'-profile:v baseline -level 3.0 -c:v libx264 -c:a copy "{compatible_path}"'
+        f'-c:v h264_nvenc -preset fast -c:a copy "{compatible_path}"'
     )
-    print(f"[ffmpeg互換変換] {ffmpeg_compat_cmd}")
+
+    print(f"[GPU互換変換] {ffmpeg_compat_cmd}")
     os.system(ffmpeg_compat_cmd)
-    print(f"✅ 再生互換版動画を保存しました: {compatible_path}")
+    print(f"✅ 再生互換版動画（GPU使用）を保存しました: {compatible_path}")
+
 
 if __name__ == "__main__":
-    info = resolve_latest_script_info()
-    compose_video(info["script_id"], info["date_path"])
+    if len(sys.argv) > 1:
+        script_id = sys.argv[1]
+    else:
+        script_id = find_oldest_script_id(Path("scripts_done"))
+    compose_video(script_id)
