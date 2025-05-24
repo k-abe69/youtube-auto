@@ -100,7 +100,19 @@ if __name__ == "__main__":
     output = {}
     for parent_id, scenes in parent_groups.items():
         # テーマは各回ランダム選択
-        theme = random.choice(list(default_data.keys()))
+
+        # 出現比率の設定
+        weighted_theme_choices = (
+            ["girl"] * 3 +               # 30%
+            ["beauty"] * 3 +             # 30%
+            ["animal"] * 1 +             # 10%
+            ["scenery"] * 1 +            # 10%
+            ["normal_beauty"] * 2        # 20%
+        )
+
+        # テーマを確率に基づいて選択
+        theme = random.choice(weighted_theme_choices)
+
         gpt_suffix = call_gpt_suffix_generator(theme, scenes)
         prompt = generate_sd_prompt(theme, default_data, comp_data, human_comp_data, gpt_suffix)
         output[parent_id] = {
