@@ -78,7 +78,7 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
     total = len(keys)
     batch = keys[start_index - 1:start_index - 1 + batch_size]
 
-    negative_prompt = "ugly, deformed, lowres, blurry, text, watermark, tight clothes, bikini, confident pose, looking back, soft lighting, long legs, attractive woman, wet shirt, sideboob (maybe), elegant cleavage, seductive gaze, thigh-highs, skirt fluttering"
+    negative_prompt = "ugly, deformed, lowres, blurry, text, watermark, centered composition, circular framing, tight clothes, bikini, confident pose, looking back, soft lighting, wet shirt, sideboob, elegant cleavage, seductive gaze, thigh-highs, skirt fluttering, bad anatomy, extra limbs, fused fingers, bad eyes, bad hands"
 
     for i, parent_id in enumerate(batch):
         prompt_data = data[parent_id]  # ← これが必要！
