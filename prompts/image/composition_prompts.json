@@ -31,16 +31,18 @@
     "crawling_up_wall": "moving vertically along wall like insect"
   },
   "composition": {
-    "off_center_tension": "subject clinging to frame edge, tension",
-    "subject_on_edge": "subject barely visible, half-cropped in motion",
-    "symmetry_center": "hyper-symmetrical with recursive elements",
-    "backlight_shadow": "backlit with surreal color shadows",
-    "large_foreground": "foreground dominates 80%, distorted background",
-    "upside_down_center": "subject centered but flipped upside down",
-    "subject_half_erased": "half of subject fading into noise or fog",
-    "hole_frame": "composition framed through natural or broken hole",
-    "portal_focus": "centered around a glowing or dimensional portal",
-    "diagonal_split": "scene split diagonally into two realities"
+    "extreme_off_center": "subject pushed to the extreme edge of the frame, strong negative space",
+    "spiral_vortex_center": "camera spirals around center point, subject offset",
+    "broken_mirror_fragment": "subject shown through uneven mirror shards, overlapping layers",
+    "top_corner_focus": "main subject located in top left or right corner, sky dominant",
+    "ground_peek": "viewed from a crack in the ground, subject half-cropped above",
+    "offscreen_body": "only part of body visible, most is cropped out in motion",
+    "skewed_fisheye_split": "fisheye effect with diagonal split, subject warped sideways",
+    "asymmetrical_chaos": "composition with no symmetry, elements scattered unevenly",
+    "edge_tracking_motion": "subject running across bottom frame edge, blurred",
+    "sky_floor_merge": "horizon twisted, sky blends into floor, subject falling sideways",
+    "sliced_diagonal": "scene cut across diagonally with light or shadow, subject floats across",
+    "exploded_center_void": "central void pulling composition inward, subject escaping frame"
   },
   "focus": {
     "lens_flare_backlight": "intense lens flare from unnatural light source",
