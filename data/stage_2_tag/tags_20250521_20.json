@@ -1,0 +1,499 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 5.19,
+      "text": "イケメンの親切は\n信じられるのに\n“キモい男の親切”は\n警戒されるのはなぜ？",
+      "type": "main_title",
+      "tags": [
+        "イケメン",
+        "親切",
+        "警戒"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 5.19,
+      "duration": 2.33,
+      "text": "見た目で判断されるのは\n0.1秒以内",
+      "type": "title",
+      "tags": [
+        "見た目",
+        "判断",
+        "0.1秒"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 7.52,
+      "duration": 1.5,
+      "text": "人間は他人の顔を見て、",
+      "type": "summary",
+      "tags": [
+        "顔認識",
+        "表情分析",
+        "対人コミュニケーション"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 9.02,
+      "duration": 1.5,
+      "text": "わずか0.1秒以内に",
+      "type": "summary",
+      "tags": [
+        "高速",
+        "瞬間",
+        "スピード"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 10.53,
+      "duration": 1.67,
+      "text": "「信頼できる／できない」",
+      "type": "summary",
+      "tags": [
+        "信頼",
+        "信用",
+        "信頼関係"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 12.2,
+      "duration": 0.85,
+      "text": "を判断している。",
+      "type": "summary",
+      "tags": [
+        "判断",
+        "決定",
+        "分析"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 13.06,
+      "duration": 0.52,
+      "text": "これは",
+      "type": "summary",
+      "tags": [
+        "これ",
+        "これです",
+        "これが"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 13.58,
+      "duration": 1.39,
+      "text": "意識的な評価ではなく、",
+      "type": "summary",
+      "tags": [
+        "意識",
+        "評価",
+        "心理学"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 14.97,
+      "duration": 1.01,
+      "text": "脳の潜在的な",
+      "type": "summary",
+      "tags": [
+        "脳",
+        "潜在能力",
+        "脳科学"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 15.98,
+      "duration": 1.89,
+      "text": "判断メカニズムに基づくとされる。",
+      "type": "summary",
+      "tags": [
+        "判断",
+        "メカニズム",
+        "基づく"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 17.87,
+      "duration": 2.93,
+      "text": "“見た目が良い人”は\n無条件に\n好意的に見られる",
+      "type": "title",
+      "tags": [
+        "見た目が良い",
+        "好意的に見られる",
+        "魅力的な人"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 20.8,
+      "duration": 1.46,
+      "text": "外見が魅力的な人は、",
+      "type": "summary",
+      "tags": [
+        "外見",
+        "魅力的な人",
+        "美しい人"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 22.26,
+      "duration": 1.19,
+      "text": "性格や知能までも",
+      "type": "summary",
+      "tags": [
+        "性格",
+        "知能",
+        "心理学"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 23.46,
+      "duration": 1.49,
+      "text": "高く評価されやすいという",
+      "type": "summary",
+      "tags": [
+        "評価",
+        "高評価",
+        "評価基準"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 24.95,
+      "duration": 2.07,
+      "text": "「ハロー効果」の影響を受けやすい。",
+      "type": "summary",
+      "tags": [
+        "ハロー効果",
+        "心理学",
+        "影響"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 27.02,
+      "duration": 1.1,
+      "text": "これは見た目だけで",
+      "type": "summary",
+      "tags": [
+        "見た目",
+        "外観",
+        "ビジュアル"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 28.12,
+      "duration": 1.69,
+      "text": "“総合的に良さそう”と",
+      "type": "summary",
+      "tags": [
+        "総合評価",
+        "良さそう",
+        "判断"
+      ],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 29.8,
+      "duration": 1.64,
+      "text": "判断される心理的バイアス。",
+      "type": "summary",
+      "tags": [
+        "心理的バイアス",
+        "認知バイアス",
+        "判断エラー"
+      ],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 31.45,
+      "duration": 3.01,
+      "text": "顔の対称性が\n“信頼”\nと結びついている",
+      "type": "title",
+      "tags": [
+        "顔の対称性",
+        "信頼",
+        "心理学"
+      ],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 34.45,
+      "duration": 1.87,
+      "text": "顔の左右対称性が高いほど、",
+      "type": "summary",
+      "tags": [
+        "顔",
+        "左右対称",
+        "美しさ"
+      ],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 36.32,
+      "duration": 2.84,
+      "text": "被験者はその人物を「信頼できる」と",
+      "type": "summary",
+      "tags": [
+        "被験者",
+        "信頼",
+        "人物"
+      ],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 39.16,
+      "duration": 1.27,
+      "text": "判断する傾向がある。",
+      "type": "summary",
+      "tags": [
+        "傾向",
+        "判断"
+      ],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 40.43,
+      "duration": 1.74,
+      "text": "美的評価が社会的信用に",
+      "type": "summary",
+      "tags": [
+        "美的評価",
+        "社会的信用",
+        "信頼性"
+      ],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 42.17,
+      "duration": 1.97,
+      "text": "影響することが実験で示されている。",
+      "type": "summary",
+      "tags": [
+        "実験結果",
+        "影響",
+        "科学研究"
+      ],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 44.14,
+      "duration": 4.29,
+      "text": "表情と眼差しだけで\n「好意」か「警戒」かを\n判定",
+      "type": "title",
+      "tags": [
+        "表情",
+        "眼差し",
+        "好意",
+        "警戒"
+      ],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 48.43,
+      "duration": 2.22,
+      "text": "被験者はわずかな表情や目の動きから、",
+      "type": "summary",
+      "tags": [
+        "表情",
+        "目の動き",
+        "被験者"
+      ],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 50.65,
+      "duration": 1.74,
+      "text": "相手が敵意を持っているかどうかを",
+      "type": "summary",
+      "tags": [
+        "敵意",
+        "警戒",
+        "対立"
+      ],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_28",
+      "start_sec": 52.38,
+      "duration": 1.01,
+      "text": "即座に察知する。",
+      "type": "summary",
+      "tags": [
+        "直感",
+        "反応",
+        "洞察"
+      ],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_29",
+      "start_sec": 53.4,
+      "duration": 1.74,
+      "text": "これは進化的に獲得された",
+      "type": "summary",
+      "tags": [
+        "進化",
+        "獲得",
+        "進化論"
+      ],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_30",
+      "start_sec": 55.14,
+      "duration": 1.95,
+      "text": "“危険回避”の能力とされている。",
+      "type": "summary",
+      "tags": [
+        "危険回避",
+        "能力",
+        "スキル"
+      ],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_31",
+      "start_sec": 57.09,
+      "duration": 4.11,
+      "text": "外見が良い人ほど\n“得をする”のは\n経済的にも証明済み",
+      "type": "title",
+      "tags": [
+        "外見",
+        "魅力",
+        "経済効果"
+      ],
+      "parent_scene_id": "012"
+    },
+    {
+      "scene_id": "scene_32",
+      "start_sec": 61.19,
+      "duration": 1.54,
+      "text": "容姿が平均より良い人は、",
+      "type": "summary",
+      "tags": [
+        "美男美女",
+        "魅力的な容姿",
+        "平均以上のルックス"
+      ],
+      "parent_scene_id": "012"
+    },
+    {
+      "scene_id": "scene_33",
+      "start_sec": 62.73,
+      "duration": 1.26,
+      "text": "そうでない人に比べて",
+      "type": "summary",
+      "tags": [
+        "比較",
+        "対比",
+        "違い"
+      ],
+      "parent_scene_id": "012"
+    },
+    {
+      "scene_id": "scene_34",
+      "start_sec": 63.99,
+      "duration": 2.43,
+      "text": "平均で5〜10%年収が高い",
+      "type": "summary",
+      "tags": [
+        "年収",
+        "平均",
+        "収入アップ"
+      ],
+      "parent_scene_id": "013"
+    },
+    {
+      "scene_id": "scene_35",
+      "start_sec": 66.42,
+      "duration": 1.15,
+      "text": "傾向があると判明。",
+      "type": "summary",
+      "tags": [
+        "傾向",
+        "発見",
+        "分析"
+      ],
+      "parent_scene_id": "013"
+    },
+    {
+      "scene_id": "scene_36",
+      "start_sec": 67.57,
+      "duration": 1.46,
+      "text": "これは単に印象が良い",
+      "type": "summary",
+      "tags": [
+        "印象",
+        "良い印象",
+        "ポジティブな印象"
+      ],
+      "parent_scene_id": "013"
+    },
+    {
+      "scene_id": "scene_37",
+      "start_sec": 69.03,
+      "duration": 0.96,
+      "text": "という理由だけで",
+      "type": "summary",
+      "tags": [
+        "理由",
+        "だけで",
+        "理由だけで"
+      ],
+      "parent_scene_id": "014"
+    },
+    {
+      "scene_id": "scene_38",
+      "start_sec": 69.99,
+      "duration": 2.54,
+      "text": "“待遇差”が発生している証拠である。",
+      "type": "summary",
+      "tags": [
+        "待遇差",
+        "証拠",
+        "職場問題"
+      ],
+      "parent_scene_id": "014"
+    }
+  ]
+}
