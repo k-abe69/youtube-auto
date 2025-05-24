@@ -47,11 +47,10 @@
     "color_gradient": "colorful light gradient across background",
     "backlight_glow": "light source behind creating glow around hair"
   },
-  "distance": {
-    "close_face": "tight framing around face only",
-    "head_and_shoulders": "framed from head to upper shoulders",
-    "half_body": "from head to waist, softly lit",
-    "cropped_view": "partially cropped view with implied figure",
-    "within_reach": "viewer feels physically close to subject"
-  }
+
+    "distance": {
+    "close_up": "tight face crop, expressive eyes, detailed makeup",
+    "upper_body": "shoulders and head visible, soft lighting",
+    "portrait": "upper half body, elegant posture, cinematic feel"
+    }
 }
