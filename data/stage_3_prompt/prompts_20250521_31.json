@@ -1,0 +1,176 @@
+{
+  "001": {
+    "prompt": "mountain range made of prisms bending sunlight into wild colors, waist-up composition, hands partially visible, balanced framing, top-down angle with subject placed off-center, avoids symmetry, taking selfie from tilted camera, not facing directly, viewed from a crack in the ground, subject half-cropped above, asymmetrical, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "女は\n「普通の男の優しさ」\nは気持ち悪がるのに、\nイケメンの横暴は\n許されるのか？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "イケメンの言動は\nポジティブに歪んで解釈される"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "同じ「横柄な態度」をとったとしても、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "魅力的な顔の男性は「自信がある」と評価され、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, blurred object partially in foreground, framing face, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "不細工な男性は「威圧的」「不快」とされる傾向が"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "実験で明らかになった。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "mountain range entirely transparent, light bending across its jagged edges, subject seen through an endless corridor or portal, exaggerated depth, viewed from corner with sharp perspective line, subject in lower third, stretching motion mid-action, not facing front, cropped, horizon twisted, sky blends into floor, subject falling diagonally, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_07",
+        "text": "顔面偏差値は\n“性格評価”\nにすら影響する"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "顔が整っていると「性格も良さそう」と見なされ、"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "逆にブサイクだと「不誠実そう」「気持ち悪い」といった"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, holding an umbrella, waiting at a quiet intersection, soft drizzle, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, looking slightly upward, hopeful expression, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "負の印象を持たれやすいことが"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "心理実験で判明した。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "elephant made of colored glass panes, trunk steaming with light, shoulder-back view, subject turning face toward camera, angled view through a broken side window, subject offset and cropped, taking selfie from tilted camera, not facing directly, horizon twisted, sky blends into floor, subject falling diagonally, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "女性の警戒スイッチは\n“顔”\nで作動する"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "女性は相手の外見が不快または"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "脅威と感じた場合、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, hand reaching toward the camera softly, face positioned off-center with balanced lighting, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "自動的に扁桃体の活動が活発化し、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "「防御的な態度」を無意識に取るという結果が"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "fMRI実験で示された。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural, waist-up composition, hands partially visible, balanced framing, top-down angle with subject placed off-center, avoids symmetry, floating pose, hands extending off one side of frame, subject running across bottom frame edge, blurred, anti-center, multiple vanishing points converging unnaturally, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "“不快な親切”\nは男性差で\n評価が真逆に"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "同じ「親切な行動」をされた場合、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "好意のない相手（特に外見的魅力が低い男性）から受けると"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, hand reaching toward the camera softly, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "「気持ち悪い」とすら感じる女性が"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "有意に多かった。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, hourglass silhouette in backlight, curvy hips, soft lips, sunset glow, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, looking slightly upward, hopeful expression, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "恋愛市場における\n“顔の正義”\nは統計でも\n裏付けられている"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "上位20%の見た目の男性が、"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "全女性の80%以上の“いいね”を独占していた。"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, looking slightly upward, hopeful expression, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "下位80%の男性は、"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "ほぼ見向きもされない構造が明らかになっている。"
+      }
+    ]
+  }
+}

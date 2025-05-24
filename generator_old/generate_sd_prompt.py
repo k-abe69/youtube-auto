@@ -28,33 +28,33 @@ with open("prompts/image/human_composition_prompts.json", "r") as f:
     human_comp_data = json.load(f)
 
 
-def call_gpt_suffix_generator(theme, scenes):
-    """
-    GPT APIを呼び出して、SDに追加するためのプロンプト(gpt_suffix)を生成する。
-    - theme: テーマカテゴリ（例："girl"）
-    - scenes: 同じ親シーンIDに属するテキスト群（例：[{scene_id, text}, ...]）
-    """
+# def call_gpt_suffix_generator(theme, scenes):
+#     """
+#     GPT APIを呼び出して、SDに追加するためのプロンプト(gpt_suffix)を生成する。
+#     - theme: テーマカテゴリ（例："girl"）
+#     - scenes: 同じ親シーンIDに属するテキスト群（例：[{scene_id, text}, ...]）
+#     """
 
-    user_input = {
-        "theme": theme,
-        "scenes": scenes
-    }
+#     user_input = {
+#         "theme": theme,
+#         "scenes": scenes
+#     }
 
-    response = client.chat.completions.create(
-        model="gpt-4",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": json.dumps(user_input, ensure_ascii=False)}
-        ],
-        temperature=0.7
-    )
+#     response = client.chat.completions.create(
+#         model="gpt-4",
+#         messages=[
+#             {"role": "system", "content": system_prompt},
+#             {"role": "user", "content": json.dumps(user_input, ensure_ascii=False)}
+#         ],
+#         temperature=0.7
+#     )
 
-    result_text = response.choices[0].message.content
-    try:
-        result_json = json.loads(result_text)
-        return result_json["gpt_suffix"]
-    except Exception as e:
-        return f"Error parsing GPT output: {e}"
+#     result_text = response.choices[0].message.content
+#     try:
+#         result_json = json.loads(result_text)
+#         return result_json["gpt_suffix"]
+#     except Exception as e:
+#         return f"Error parsing GPT output: {e}"
 
 
 def generate_sd_prompt(theme, default_data, comp_data, human_comp_data, gpt_suffix):
@@ -103,17 +103,17 @@ if __name__ == "__main__":
 
         # 出現比率の設定
         weighted_theme_choices = (
-            ["girl"] * 3 +               # 30%
-            ["beauty"] * 3 +             # 30%
+            ["girl"] * 1 +               # 10%
+            ["beauty"] * 2 +             # 20%
             ["animal"] * 1 +             # 10%
             ["scenery"] * 1 +            # 10%
-            ["normal_beauty"] * 2        # 20%
+            ["normal_beauty"] * 5        # 50%
         )
 
         # テーマを確率に基づいて選択
         theme = random.choice(weighted_theme_choices)
 
-        gpt_suffix = call_gpt_suffix_generator(theme, scenes)
+        gpt_suffix = ""
         prompt = generate_sd_prompt(theme, default_data, comp_data, human_comp_data, gpt_suffix)
         output[parent_id] = {
             "prompt": prompt,

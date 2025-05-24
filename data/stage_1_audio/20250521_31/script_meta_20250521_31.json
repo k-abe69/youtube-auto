@@ -1,0 +1,226 @@
+[
+  {
+    "scene_id": "scene_01",
+    "type": "main_title",
+    "text": "女は\n「普通の男の優しさ」\nは気持ち悪がるのに、\nイケメンの横暴は\n許されるのか？",
+    "start_sec": 0.0,
+    "duration": 5.44
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "title",
+    "text": "イケメンの言動は\nポジティブに歪んで解釈される",
+    "start_sec": 5.44,
+    "duration": 2.68
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "source",
+    "text": "立命館大学 大坊郁夫研究室（2014）",
+    "start_sec": 5.44,
+    "duration": 2.68
+  },
+  {
+    "scene_id": "scene_03",
+    "type": "summary",
+    "text": "同じ「横柄な態度」をとったとしても、",
+    "start_sec": 8.12,
+    "duration": 2.6
+  },
+  {
+    "scene_id": "scene_04",
+    "type": "summary",
+    "text": "魅力的な顔の男性は「自信がある」と評価され、",
+    "start_sec": 10.72,
+    "duration": 3.38
+  },
+  {
+    "scene_id": "scene_05",
+    "type": "summary",
+    "text": "不細工な男性は「威圧的」「不快」とされる傾向が",
+    "start_sec": 14.1,
+    "duration": 3.66
+  },
+  {
+    "scene_id": "scene_06",
+    "type": "summary",
+    "text": "実験で明らかになった。",
+    "start_sec": 17.76,
+    "duration": 1.3
+  },
+  {
+    "scene_id": "scene_07",
+    "type": "title",
+    "text": "顔面偏差値は\n“性格評価”\nにすら影響する",
+    "start_sec": 19.06,
+    "duration": 3.24
+  },
+  {
+    "scene_id": "scene_07",
+    "type": "source",
+    "text": "加藤隆弘ほか『顔の魅力が性格印象に与える影響』九州大学（2006）",
+    "start_sec": 19.06,
+    "duration": 3.24
+  },
+  {
+    "scene_id": "scene_08",
+    "type": "summary",
+    "text": "顔が整っていると「性格も良さそう」と見なされ、",
+    "start_sec": 22.3,
+    "duration": 3.49
+  },
+  {
+    "scene_id": "scene_09",
+    "type": "summary",
+    "text": "逆にブサイクだと「不誠実そう」「気持ち悪い」といった",
+    "start_sec": 25.79,
+    "duration": 3.91
+  },
+  {
+    "scene_id": "scene_10",
+    "type": "summary",
+    "text": "負の印象を持たれやすいことが",
+    "start_sec": 29.71,
+    "duration": 1.65
+  },
+  {
+    "scene_id": "scene_11",
+    "type": "summary",
+    "text": "心理実験で判明した。",
+    "start_sec": 31.36,
+    "duration": 1.45
+  },
+  {
+    "scene_id": "scene_12",
+    "type": "title",
+    "text": "女性の警戒スイッチは\n“顔”\nで作動する",
+    "start_sec": 32.81,
+    "duration": 3.03
+  },
+  {
+    "scene_id": "scene_12",
+    "type": "source",
+    "text": "岡山大学 医学部 精神神経医学講座（2018）",
+    "start_sec": 32.81,
+    "duration": 3.03
+  },
+  {
+    "scene_id": "scene_13",
+    "type": "summary",
+    "text": "女性は相手の外見が不快または",
+    "start_sec": 35.84,
+    "duration": 1.99
+  },
+  {
+    "scene_id": "scene_14",
+    "type": "summary",
+    "text": "脅威と感じた場合、",
+    "start_sec": 37.83,
+    "duration": 1.15
+  },
+  {
+    "scene_id": "scene_15",
+    "type": "summary",
+    "text": "自動的に扁桃体の活動が活発化し、",
+    "start_sec": 38.99,
+    "duration": 2.31
+  },
+  {
+    "scene_id": "scene_16",
+    "type": "summary",
+    "text": "「防御的な態度」を無意識に取るという結果が",
+    "start_sec": 41.3,
+    "duration": 2.69
+  },
+  {
+    "scene_id": "scene_17",
+    "type": "summary",
+    "text": "fMRI実験で示された。",
+    "start_sec": 43.99,
+    "duration": 1.83
+  },
+  {
+    "scene_id": "scene_18",
+    "type": "title",
+    "text": "“不快な親切”\nは男性差で\n評価が真逆に",
+    "start_sec": 45.82,
+    "duration": 2.89
+  },
+  {
+    "scene_id": "scene_18",
+    "type": "source",
+    "text": "早稲田大学 文学研究科 認知心理学実験（2017）",
+    "start_sec": 45.82,
+    "duration": 2.89
+  },
+  {
+    "scene_id": "scene_19",
+    "type": "summary",
+    "text": "同じ「親切な行動」をされた場合、",
+    "start_sec": 48.71,
+    "duration": 2.75
+  },
+  {
+    "scene_id": "scene_20",
+    "type": "summary",
+    "text": "好意のない相手（特に外見的魅力が低い男性）から受けると",
+    "start_sec": 51.47,
+    "duration": 4.25
+  },
+  {
+    "scene_id": "scene_21",
+    "type": "summary",
+    "text": "「気持ち悪い」とすら感じる女性が",
+    "start_sec": 55.71,
+    "duration": 2.21
+  },
+  {
+    "scene_id": "scene_22",
+    "type": "summary",
+    "text": "有意に多かった。",
+    "start_sec": 57.92,
+    "duration": 0.94
+  },
+  {
+    "scene_id": "scene_23",
+    "type": "title",
+    "text": "恋愛市場における\n“顔の正義”\nは統計でも\n裏付けられている",
+    "start_sec": 58.86,
+    "duration": 4.15
+  },
+  {
+    "scene_id": "scene_23",
+    "type": "source",
+    "text": "Tinderマッチング実験（OKCupidデータ分析、2014）",
+    "start_sec": 58.86,
+    "duration": 4.15
+  },
+  {
+    "scene_id": "scene_24",
+    "type": "summary",
+    "text": "上位20%の見た目の男性が、",
+    "start_sec": 63.01,
+    "duration": 2.12
+  },
+  {
+    "scene_id": "scene_25",
+    "type": "summary",
+    "text": "全女性の80%以上の“いいね”を独占していた。",
+    "start_sec": 65.13,
+    "duration": 3.96
+  },
+  {
+    "scene_id": "scene_26",
+    "type": "summary",
+    "text": "下位80%の男性は、",
+    "start_sec": 69.09,
+    "duration": 1.81
+  },
+  {
+    "scene_id": "scene_27",
+    "type": "summary",
+    "text": "ほぼ見向きもされない構造が明らかになっている。",
+    "start_sec": 70.9,
+    "duration": 2.36
+  }
+]
