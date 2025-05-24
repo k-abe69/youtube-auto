@@ -20,9 +20,6 @@ from common.script_utils import extract_script_id, find_oldest_script_file, find
 backup_script(__file__)
 save_config_snapshot()
 
-from dotenv import load_dotenv
-load_dotenv()
-
 from PIL import Image
 import imagehash
 from io import BytesIO
