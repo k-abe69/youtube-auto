@@ -2,34 +2,56 @@
   "distance": {
     "tiny_subject_far": "distant shot, tiny subject, wide surreal background",
     "silhouette_far": "silhouette in unnatural lighting, distorted horizon",
-    "face_closeup": "extreme close-up with stretched perspective, unrealistic lens"
+    "face_closeup": "extreme close-up with stretched perspective, unrealistic lens",
+    "hole_view": "scene viewed through a small hole or tunnel, warped edges",
+    "infinity_depth": "subject seen through an endless corridor or portal, exaggerated depth",
+    "from_orbit": "extremely distant perspective from space or high orbit"
   },
   "angle": {
     "worm_eye": "viewed from below, towering distortion",
     "bird_eye": "bird's-eye with warped gravity",
     "mirrored_view": "reflected in impossible mirror placement",
     "window_peek": "seen through broken or floating window",
-    "tilted_angle": "severely tilted Dutch angle, disoriented feel"
+    "tilted_angle": "severely tilted Dutch angle, disoriented feel",
+    "ceiling_flip": "ceiling becomes floor, camera facing up from impossible angle",
+    "through_mouth": "scene viewed from inside a character’s open mouth",
+    "from_below_water": "looking up from underwater at distorted world above",
+    "eyeball_view": "first-person view from inside someone’s eye"
   },
   "pose": {
     "jumping_motion": "mid-air frozen in impossible posture",
     "one_leg_pose": "balancing in midair, slight levitation",
     "lying_on_floor": "lying on glass above the viewer",
     "running_forward": "running in zero-gravity arc",
-    "holding_camera": "taking selfie while falling upward"
+    "holding_camera": "taking selfie while falling upward",
+    "impossible_yoga": "twisted, hyper-flexible pose, physically improbable",
+    "spiral_motion": "body rotating or twisting like a vortex",
+    "fragmented_form": "body in mid-disintegration or assembling from pieces",
+    "levitating_hands": "floating in lotus pose with disconnected hands",
+    "crawling_up_wall": "moving vertically along wall like insect"
   },
   "composition": {
     "off_center_tension": "subject clinging to frame edge, tension",
     "subject_on_edge": "subject barely visible, half-cropped in motion",
     "symmetry_center": "hyper-symmetrical with recursive elements",
     "backlight_shadow": "backlit with surreal color shadows",
-    "large_foreground": "foreground dominates 80%, distorted background"
+    "large_foreground": "foreground dominates 80%, distorted background",
+    "upside_down_center": "subject centered but flipped upside down",
+    "subject_half_erased": "half of subject fading into noise or fog",
+    "hole_frame": "composition framed through natural or broken hole",
+    "portal_focus": "centered around a glowing or dimensional portal",
+    "diagonal_split": "scene split diagonally into two realities"
   },
   "focus": {
     "lens_flare_backlight": "intense lens flare from unnatural light source",
     "shadow_play": "shadows cast in conflicting directions",
     "tunnel_view": "tunnel view into a mirror world",
     "foggy_mist": "dense fog with colored lights and silhouette",
-    "glass_reflection": "multi-surface reflection in fractured space"
+    "glass_reflection": "multi-surface reflection in fractured space",
+    "bokeh_inversion": "background is sharp while subject is blurred",
+    "time_trail": "subject leaving motion trail like time echo",
+    "fractured_blur": "blurred view as if seen through shattered glass",
+    "perspective_collapse": "multiple vanishing points converging unnaturally",
+    "double_light_source": "lighting from two contradictory directions"
   }
 }
