@@ -95,7 +95,7 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
             print(f"[{i+1}/{len(batch)}] Generating image for parent_id={parent_id}")
             
             start_time = time.time()
-            image = generate_sd_image(prompt, negative_prompt, port=7860)
+            image = generate_sd_image(prompt, negative_prompt, port=7861)
 
             image.save(out_path)
             duration = time.time() - start_time
