@@ -1,15 +1,15 @@
 {
   "girl": {
-    "crystal_refraction": "1girl, beautiful face split into fragments like a kaleidoscope, reflections scattered, glowing shards",
-    "void_skin": "1girl, elegant but her skin fades into pure void, eyes like galaxies, calm expression",
-    "asymmetrical_goddess": "1girl, stunning but with mismatched wings and legs, regal dress floating off her body",
-    "glass_masked": "1girl, breathtaking with a cracked glass mask partially hiding her face, mysterious eyes shining through",
-    "headless_grace": "1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile",
-    "liquid_body": "1girl, beautiful face, body made of flowing transparent liquid, shape constantly shifting",
-    "pixel_tear": "1girl, glitching at the edges, pixels falling from her skin, crying glowing particles",
-    "ribbon_wrapped": "1girl, suspended midair, entire body wrapped in glowing ribbons, serene look",
-    "clock_heart": "1girl, open chest revealing ticking clock inside, expression of quiet sadness",
-    "mirror_spine": "1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities"
+    "crystal_refraction": "(Su_MCraft_AP_Ep81:0.65), 1girl, beautiful face split into fragments like a kaleidoscope, reflections scattered, glowing shards",
+    "void_skin": "(Su_MCraft_AP_Ep81:0.65), 1girl, elegant but her skin fades into pure void, eyes like galaxies, calm expression",
+    "asymmetrical_goddess": "(Su_MCraft_AP_Ep81:0.65), 1girl, stunning but with mismatched wings and legs, regal dress floating off her body",
+    "glass_masked": "(Su_MCraft_AP_Ep81:0.65), 1girl, breathtaking with a cracked glass mask partially hiding her face, mysterious eyes shining through",
+    "headless_grace": "(Su_MCraft_AP_Ep81:0.65), 1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile",
+    "liquid_body": "(Su_MCraft_AP_Ep81:0.65), 1girl, beautiful face, body made of flowing transparent liquid, shape constantly shifting",
+    "pixel_tear": "(Su_MCraft_AP_Ep81:0.65), 1girl, glitching at the edges, pixels falling from her skin, crying glowing particles",
+    "ribbon_wrapped": "(Su_MCraft_AP_Ep81:0.65), 1girl, suspended midair, entire body wrapped in glowing ribbons, serene look",
+    "clock_heart": "(Su_MCraft_AP_Ep81:0.65), 1girl, open chest revealing ticking clock inside, expression of quiet sadness",
+    "mirror_spine": "(Su_MCraft_AP_Ep81:0.65), 1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities"
   },
 
   "scenery": {
@@ -39,15 +39,15 @@
   },
 
   "pair": {
-    "split_face_lovers": "two beautiful girls sharing one mirrored face, opposite expressions, lighting clash",
-    "mirror_kiss": "girl kissing her own reflection in a cracked floating mirror, emotional tension",
-    "burning_and_frozen": "two dancers—one engulfed in flame, one in snowflakes—spinning midair together",
-    "looping_twins": "two girls endlessly chasing each other in a Möbius strip path, each unaware of the loop",
-    "back_to_back_future": "elegant girl and her future self sitting back to back in a broken clock chamber",
-    "linked_by_light": "two girls bound by beams of solid light stretching between them, floating in void",
-    "shadow_and_clone": "girl facing her own shadow clone in a dramatic pose, both glowing differently",
-    "halo_and_horns": "angelic girl and her devilish twin sitting on a giant scale floating above ruins",
-    "inverted_embrace": "girl holding another upside down in midair, dresses swirling like spirals",
-    "cracked_unity": "pair with fractured bodies that perfectly align when standing together, eerie harmony"
+    "split_face_lovers": "(Su_MCraft_AP_Ep81:0.65), two beautiful girls sharing one mirrored face, opposite expressions, lighting clash",
+    "mirror_kiss": "(Su_MCraft_AP_Ep81:0.65), girl kissing her own reflection in a cracked floating mirror, emotional tension",
+    "burning_and_frozen": "(Su_MCraft_AP_Ep81:0.65), two dancers—one engulfed in flame, one in snowflakes—spinning midair together",
+    "looping_twins": "(Su_MCraft_AP_Ep81:0.65), two girls endlessly chasing each other in a Möbius strip path, each unaware of the loop",
+    "back_to_back_future": "(Su_MCraft_AP_Ep81:0.65), elegant girl and her future self sitting back to back in a broken clock chamber",
+    "linked_by_light": "(Su_MCraft_AP_Ep81:0.65), two girls bound by beams of solid light stretching between them, floating in void",
+    "shadow_and_clone": "(Su_MCraft_AP_Ep81:0.65), girl facing her own shadow clone in a dramatic pose, both glowing differently",
+    "halo_and_horns": "(Su_MCraft_AP_Ep81:0.65), angelic girl and her devilish twin sitting on a giant scale floating above ruins",
+    "inverted_embrace": "(Su_MCraft_AP_Ep81:0.65), girl holding another upside down in midair, dresses swirling like spirals",
+    "cracked_unity": "(Su_MCraft_AP_Ep81:0.65), pair with fractured bodies that perfectly align when standing together, eerie harmony"
   }
 }
