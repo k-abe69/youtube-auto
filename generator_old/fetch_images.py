@@ -33,9 +33,9 @@ def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Im
     payload = {
         "prompt": prompt,
         "negative_prompt": negative_prompt,
-        "model": "RealisticVisionXL_v57 [49E4F2939A]"
-        "width": 512,
-        "height": 512,
+        "model": "RealisticVisionXL_v57 [49E4F2939A]",
+        "width": 1024,
+        "height": 1024,
         "steps": 25,
         "sampler_index": "DPM++ 2M Karras",
     }
