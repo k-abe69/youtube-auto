@@ -26,7 +26,7 @@ from io import BytesIO
 
 
 # 修正済み generate_sd_image
-def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
+def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7861) -> Image.Image:
     payload = {
         "prompt": prompt,
         "negative_prompt": negative_prompt,
