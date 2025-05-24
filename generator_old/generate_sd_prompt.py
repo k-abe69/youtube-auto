@@ -24,6 +24,9 @@ with open("prompts/image/composition_prompts.json", "r") as f:
 with open("prompts/image/sd_add_prompt.txt", "r", encoding="utf-8") as f:
     system_prompt = f.read()
 
+with open("prompts/image/human_composition_prompts.json", "r") as f:
+    human_comp_data = json.load(f)
+
 
 def call_gpt_suffix_generator(theme, scenes):
     """
@@ -54,33 +57,24 @@ def call_gpt_suffix_generator(theme, scenes):
         return f"Error parsing GPT output: {e}"
 
 
-def generate_sd_prompt(default_data, comp_data, gpt_suffix):
-    """
-    SDに渡す完全なプロンプトを構成する。
-    - default_prompt: カテゴリごとの基本プロンプト
-    - composition_prompt: カメラ構図（距離＋角度）
-    - gpt_suffix: GPTで得られた文脈ベースの追加プロンプト
-    """
-    # ランダムにテーマとサブカテゴリを選ぶ
-    theme = random.choice(list(default_data.keys()))
+def generate_sd_prompt(theme, default_data, comp_data, human_comp_data, gpt_suffix):
     subcategory = random.choice(list(default_data[theme].keys()))
     base_prompt = default_data[theme][subcategory]
 
-    # 各構図カテゴリから1つずつランダムに選択
-    distance_prompt = random.choice(list(comp_data["distance"].values()))
-    angle_prompt = random.choice(list(comp_data["angle"].values()))
-    pose_prompt = random.choice(list(comp_data["pose"].values()))
-    composition_prompt = random.choice(list(comp_data["composition"].values()))
-    focus_prompt = random.choice(list(comp_data["focus"].values()))
+    # 人間系テーマの場合はhuman_comp_dataを使用
+    if theme in ["girl", "beauty", "normal_beauty"]:
+        cdata = human_comp_data
+    else:
+        cdata = comp_data
 
-    # 最終プロンプトを組み立てる
+    distance_prompt = random.choice(list(cdata["distance"].values()))
+    angle_prompt = random.choice(list(cdata["angle"].values()))
+    pose_prompt = random.choice(list(cdata["pose"].values()))
+    composition_prompt = random.choice(list(cdata["composition"].values()))
+    focus_prompt = random.choice(list(cdata["focus"].values()))
+
     final_prompt = f"{base_prompt}, {distance_prompt}, {angle_prompt}, {pose_prompt}, {composition_prompt}, {focus_prompt}, {gpt_suffix}"
     return final_prompt
-
-# 上記関数を組み合わせて使えば完全なプロンプトが生成可能
-# 呼び出し例（scenesをscene_jsonから渡せばOK）:
-# gpt_suffix = call_gpt_suffix_generator("girl", scenes)
-# full_prompt = generate_sd_prompt(default_data, comp_data, gpt_suffix)
 
 if __name__ == "__main__":
 
@@ -108,7 +102,7 @@ if __name__ == "__main__":
         # テーマは各回ランダム選択
         theme = random.choice(list(default_data.keys()))
         gpt_suffix = call_gpt_suffix_generator(theme, scenes)
-        prompt = generate_sd_prompt(default_data, comp_data, gpt_suffix)
+        prompt = generate_sd_prompt(theme, default_data, comp_data, human_comp_data, gpt_suffix)
         output[parent_id] = {
             "prompt": prompt,
             "theme": theme,
