@@ -11,6 +11,16 @@ from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
 from common.script_utils import extract_script_id, find_oldest_script_id, resolve_script_id 
 from common.constants import SILENCE_DURATION
+from openai import OpenAI
+from dotenv import load_dotenv
+
+# APIキー読み込み
+load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# div_prompt.txt の読み込み（初回のみ）
+with open("prompts/subtitle/div_prompt.txt", "r", encoding="utf-8") as f:
+    system_prompt = f.read()
 
 # スクリプトのバックアップと設定保存（トレーサビリティ確保）
 backup_script(__file__)
@@ -31,9 +41,6 @@ def apply_highlight_tags(text: str, highlight_dict: dict) -> str:
         text = text.replace(word, r"{\1c&H0000FF&}" + word + r"{\r}")  # blue（赤なら &H0000FF& を赤コードに変更）
     return text
 
-
-
-
 # 秒数を SRT の "00:00:00,000" フォーマットに変換
 def format_srt_time(seconds: float) -> str:
     td = timedelta(seconds=seconds)
@@ -52,17 +59,27 @@ def format_ass_time(seconds: float) -> str:
     return f"{h:01}:{m:02}:{s:02}.{cs:02}"
 
 
-def smart_line_break(text: str, max_len: int = 20):
-    # 意味的に自然な改行位置を優先（句読点・助詞など）
-    break_chars = ['、', '。', '，', '．', '・', 'が', 'は', 'を', 'に', 'で', 'の', 'と']
-    for char in break_chars:
-        idx = text.find(char)
-        if 0 < idx < max_len:
-            return text[:idx+1] + r'\N' + text[idx+1:]
-    # fallback：半分で切る
-    mid = len(text) // 2
-    return text[:mid] + r'\N' + text[mid:]
+def apply_ai_line_break(text: str) -> str:
+    try:
+        user_input = {
+            "text": text
+        }
 
+        response = client.chat.completions.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": json.dumps(user_input, ensure_ascii=False)}
+            ],
+            temperature=0.7
+        )
+
+        result = response.choices[0].message.content.strip()
+        return result
+
+    except Exception as e:
+        print(f"[LineBreak API Error] {e}")
+        return text  # エラー時は改行なしでそのまま返す
 
 # 字幕ファイル（.srt）と構造化JSONを生成
 def generate_subtitles(timing_json_path: Path, output_dir: Path, script_id: str):
@@ -83,9 +100,14 @@ def generate_subtitles(timing_json_path: Path, output_dir: Path, script_id: str)
         scene_id = scene["scene_id"]
         text = scene["text"]
         # すべての改行をASS用改行に統一
+        # 1. 手動改行があるかを確認
         text = scene["text"].replace("\\n", "\n").replace("\n", r"\N")
-        if r"\N" not in text:
-            text = smart_line_break(text)
+        has_manual_break = r"\N" in text
+
+        # 2. 改行がない場合のみ、自動処理（外部APIなど）
+        if not has_manual_break:
+            # APIを使って自然改行を挿入する（仮の関数名：apply_ai_line_break）
+            text = apply_ai_line_break(text)
 
 
         # 音声ファイルから正確なdurationを取得（＋無音0.1sを加算）
