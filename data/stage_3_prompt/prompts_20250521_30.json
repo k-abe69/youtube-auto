@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "city made of soft fog and light, buildings flicker in and out of view, scene viewed through a small hole or tunnel, warped edges, reflected in impossible mirror placement, running in zero-gravity arc, camera spirals around offset point (not center), centrifugal composition, tunnel view into a mirror world, handsome man being kind, unattractive man being kind, suspicious looks",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, breathtaking with a cracked glass mask partially hiding her face, mysterious eyes shining through, shoulder-back view, subject turning face toward camera, angled view through a broken side window, subject offset and cropped, jumping midair at diagonal angle, limbs offset, subject cropped, subject pushed to the extreme edge of the frame, strong negative space, dense fog with colored lights and silhouette, handsome man helping, suspicious looking man offering help",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), angelic girl and her devilish twin sitting on a giant scale floating above ruins, silhouette in unnatural lighting, distorted horizon, reflected in impossible mirror placement, twisted, hyper-flexible pose, physically improbable, camera spirals around offset point (not center), centrifugal composition, tunnel view into a mirror world, girl's face, quick glance",
-    "theme": "girl",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), pair with fractured bodies that perfectly align when standing together, eerie harmony, extremely distant perspective from space or high orbit, viewed from below with strong tilt, subject placed near frame edge, stretching motion mid-action, not facing front, cropped, frame split vertically with two worlds, subject compressed to one side, multiple vanishing points converging unnaturally, human observing, face recognition",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,8 +28,8 @@
     ]
   },
   "003": {
-    "prompt": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze, subject seen through an endless corridor or portal, exaggerated depth, severely tilted Dutch angle, disoriented feel, lying on glass above the viewer, only part of body visible, most is cropped out in motion, avoids central framing, multi-surface reflection in fractured space, ",
-    "theme": "girl",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), pair with fractured bodies that perfectly align when standing together, eerie harmony, scene viewed through a small hole or tunnel, warped edges, reflections in shattered mirror, subject asymmetric and offset, running motion along slanted ground, angled frame, off-center, composition with no symmetry, elements scattered unevenly, avoids centering, intense lens flare from unnatural light source, pair evaluating each other",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_05",
@@ -46,7 +46,7 @@
     ]
   },
   "004": {
-    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, silhouette in unnatural lighting, distorted horizon, ceiling becomes floor, camera facing up from impossible angle, mid-air frozen in impossible posture, subject shown through uneven mirror shards, overlapping layers, scattered, shadows cast in conflicting directions, ",
+    "prompt": "ocean waves stacked vertically into a tower, boats circling it upward, shoulder-back view, subject turning face toward camera, reflections in shattered mirror, subject asymmetric and offset, climbing diagonally across a wall, angle from below-left, scene cut across diagonally with light or shadow, subject floats across at edge, subject leaving motion trail like time echo, girl thinking, brain, mechanism",
     "theme": "girl",
     "scenes": [
       {
@@ -64,8 +64,8 @@
     ]
   },
   "005": {
-    "prompt": "mountain range entirely transparent, light bending across its jagged edges, subject seen through an endless corridor or portal, exaggerated depth, seen through broken or floating window, mid-air frozen in impossible posture, camera spirals around offset point (not center), centrifugal composition, lighting from two contradictory directions, attractive person, looked favorably",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, scene viewed through a small hole or tunnel, warped edges, viewed from corner with sharp perspective line, subject in lower third, floating pose, hands extending off one side of frame, subject pushed to the extreme edge of the frame, strong negative space, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_11",
@@ -82,8 +82,8 @@
     ]
   },
   "006": {
-    "prompt": "landscape composed of floating photograph fragments, memories fading midair, silhouette in unnatural lighting, distorted horizon, seen through broken or floating window, floating in lotus pose with disconnected hands, central void pulling elements away, subject escaping toward edge, background is sharp while subject is blurred, ",
-    "theme": "beauty",
+    "prompt": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural, side angle close-up with focus on cheek and ear, cropped frame, severe Dutch angle with asymmetric framing, tension emphasis, lying on transparent surface, face to the side, half-framed, scene cut across diagonally with light or shadow, subject floats across at edge, shadows cast in conflicting directions, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_14",
@@ -100,7 +100,7 @@
     ]
   },
   "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), two beautiful girls sharing one mirrored face, opposite expressions, lighting clash, side angle close-up with focus on cheek and ear, cropped frame, ceiling becomes floor, camera facing up from impossible angle, moving vertically along wall like insect, subject running across bottom frame edge, blurred, anti-center, subject leaving motion trail like time echo, woman making decision, various options",
+    "prompt": "forest frozen in multiple seasons simultaneously, color distortion everywhere, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, viewed from corner with sharp perspective line, subject in lower third, twisting body diagonally, motion trail along frame edge, subject pushed to the extreme edge of the frame, strong negative space, lighting from two contradictory directions, ",
     "theme": "beauty",
     "scenes": [
       {
@@ -114,8 +114,8 @@
     ]
   },
   "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, stunning but with mismatched wings and legs, regal dress floating off her body, subject seen through an endless corridor or portal, exaggerated depth, viewed from below, towering distortion, lying on glass above the viewer, fisheye effect with diagonal split, subject warped to side, no circular framing, blurred view as if seen through shattered glass, symmetrical face, person being observed",
-    "theme": "pair",
+    "prompt": "dog with body made of stained glass, light leaking from cracks, subject seen through an endless corridor or portal, exaggerated depth, viewed from below with strong tilt, subject placed near frame edge, jumping midair at diagonal angle, limbs offset, subject cropped, composition with no symmetry, elements scattered unevenly, avoids centering, multiple vanishing points converging unnaturally, symmetrical face, trust perception",
+    "theme": "beauty",
     "scenes": [
       {
         "scene_id": "scene_19",
@@ -132,8 +132,8 @@
     ]
   },
   "009": {
-    "prompt": "fox with a ticking clock as a face, tail spinning like hands, side angle close-up with focus on cheek and ear, cropped frame, ceiling becomes floor, camera facing up from impossible angle, lying on glass above the viewer, scene cut across diagonally with light or shadow, subject floats across at edge, lighting from two contradictory directions, animal judging, social influences, experimental setting",
-    "theme": "animal",
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, headshot with forehead cropped, cinematic intensity, top-down angle with subject placed off-center, avoids symmetry, taking selfie from tilted camera, not facing directly, scene cut across diagonally with light or shadow, subject floats across at edge, multiple vanishing points converging unnaturally, beauty judgment, social credit, experimental setting",
+    "theme": "beauty",
     "scenes": [
       {
         "scene_id": "scene_22",
@@ -150,8 +150,8 @@
     ]
   },
   "010": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, scene viewed through a small hole or tunnel, warped edges, severely tilted Dutch angle, disoriented feel, balancing in midair, slight levitation, main subject located in top left or right corner, sky dominant, asymmetric, multiple vanishing points converging unnaturally, girl with expressive eyes, slight facial movements",
-    "theme": "girl",
+    "prompt": "city made of soft fog and light, buildings flicker in and out of view, side angle close-up with focus on cheek and ear, cropped frame, top-down angle with subject placed off-center, avoids symmetry, climbing diagonally across a wall, angle from below-left, subject running across bottom frame edge, blurred, anti-center, dense fog with colored lights and silhouette, animal intense gaze, subtle facial movements",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_25",
@@ -168,7 +168,7 @@
     ]
   },
   "011": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant girl and her future self sitting back to back in a broken clock chamber, waist-up composition, hands partially visible, balanced framing, seen through broken or floating window, floating in lotus pose with disconnected hands, fisheye effect with diagonal split, subject warped to side, no circular framing, subject leaving motion trail like time echo, sensing danger, evolution concept",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, open chest revealing ticking clock inside, expression of quiet sadness, extreme close-up with stretched perspective, unrealistic lens, ceiling becomes floor, subject positioned diagonally, stretching motion mid-action, not facing front, cropped, subject running across bottom frame edge, blurred, anti-center, lighting from two contradictory directions, alert animal, sensing danger",
     "theme": "scenery",
     "scenes": [
       {
@@ -186,8 +186,8 @@
     ]
   },
   "012": {
-    "prompt": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur, waist-up composition, hands partially visible, balanced framing, ceiling becomes floor, camera facing up from impossible angle, lying on glass above the viewer, subject running across bottom frame edge, blurred, anti-center, lighting from two contradictory directions, attractive person, economic benefits",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, running motion along slanted ground, angled frame, off-center, subject pushed to the extreme edge of the frame, strong negative space, lighting from two contradictory directions, attractive person, economic benefits",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_31",
@@ -204,8 +204,8 @@
     ]
   },
   "013": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), girl kissing her own reflection in a cracked floating mirror, emotional tension, distant shot, tiny subject, wide surreal background, first-person view from inside someone窶冱 eye, body in mid-disintegration or assembling from pieces, camera spirals around offset point (not center), centrifugal composition, background is sharp while subject is blurred, ",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), two girls endlessly chasing each other in a Mﾃｶbius strip path, each unaware of the loop, extremely distant perspective from space or high orbit, reflections in shattered mirror, subject asymmetric and offset, body fragmenting toward left or right frame, non-radial, subject pushed to the extreme edge of the frame, strong negative space, multi-surface reflection in fractured space, ",
+    "theme": "beauty",
     "scenes": [
       {
         "scene_id": "scene_34",
@@ -222,8 +222,8 @@
     ]
   },
   "014": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant girl and her future self sitting back to back in a broken clock chamber, waist-up composition, hands partially visible, balanced framing, seen through broken or floating window, body rotating or twisting like a vortex, horizon twisted, sky blends into floor, subject falling diagonally, dense fog with colored lights and silhouette, ",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), girl holding another upside down in midair, dresses swirling like spirals, extremely distant perspective from space or high orbit, angled view through a broken side window, subject offset and cropped, taking selfie from tilted camera, not facing directly, subject pushed to the extreme edge of the frame, strong negative space, background is sharp while subject is blurred, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_37",
@@ -236,8 +236,8 @@
     ]
   },
   "015": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), pair with fractured bodies that perfectly align when standing together, eerie harmony, side angle close-up with focus on cheek and ear, cropped frame, reflected in impossible mirror placement, mid-air frozen in impossible posture, subject shown through uneven mirror shards, overlapping layers, scattered, tunnel view into a mirror world, beautiful girl, relaxed, unguarded",
-    "theme": "girl",
+    "prompt": "fox with a ticking clock as a face, tail spinning like hands, headshot with forehead cropped, cinematic intensity, viewed from below with strong tilt, subject placed near frame edge, lying on transparent surface, face to the side, half-framed, subject running across bottom frame edge, blurred, anti-center, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_39",
@@ -254,8 +254,8 @@
     ]
   },
   "016": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), mysterious beauty in ornate opera mask, golden embroidery, dark velvet curtain backdrop, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, bird's-eye with warped gravity, moving vertically along wall like insect, subject shown through uneven mirror shards, overlapping layers, scattered, shadows cast in conflicting directions, group of people cooperating, harmonious atmosphere",
-    "theme": "beauty",
+    "prompt": "desert where sand is made of singing crystals, sunlight refracted like rainbows, distant shot, tiny subject, wide surreal background, viewed from corner with sharp perspective line, subject in lower third, climbing diagonally across a wall, angle from below-left, motion blur in horizontal pan, subject near far edge of image, multiple vanishing points converging unnaturally, two people cooperating, friendly interaction",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_42",
@@ -264,8 +264,8 @@
     ]
   },
   "017": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, beautiful face, body made of flowing transparent liquid, shape constantly shifting, silhouette in unnatural lighting, distorted horizon, reflected in impossible mirror placement, lying on glass above the viewer, composition with no symmetry, elements scattered unevenly, avoids centering, multi-surface reflection in fractured space, person looking at mirror, satisfied expression",
-    "theme": "beauty",
+    "prompt": "wolf with part-human eyes and elegant features, glowing fur, silent power, extremely distant perspective from space or high orbit, viewed from below with strong tilt, subject placed near frame edge, jumping midair at diagonal angle, limbs offset, subject cropped, subject running across bottom frame edge, blurred, anti-center, background is sharp while subject is blurred, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_43",
@@ -282,8 +282,8 @@
     ]
   },
   "018": {
-    "prompt": "city made of soft fog and light, buildings flicker in and out of view, extreme close-up with stretched perspective, unrealistic lens, seen through broken or floating window, twisted, hyper-flexible pose, physically improbable, subject shown through uneven mirror shards, overlapping layers, scattered, multiple vanishing points converging unnaturally, animal lying relaxed, spacious surroundings",
-    "theme": "animal",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), two dancers窶俳ne engulfed in flame, one in snowflakes窶敗pinning midair together, silhouette in unnatural lighting, distorted horizon, ceiling becomes floor, subject positioned diagonally, jumping midair at diagonal angle, limbs offset, subject cropped, subject emerging partially from frame corner, majority off-frame, shadows cast in conflicting directions, two people talking, relaxed facial expressions, open body language",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_46",
@@ -292,8 +292,8 @@
     ]
   },
   "019": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, beautiful face split into fragments like a kaleidoscope, reflections scattered, glowing shards, distant shot, tiny subject, wide surreal background, viewed from below, towering distortion, floating in lotus pose with disconnected hands, central void pulling elements away, subject escaping toward edge, intense lens flare from unnatural light source, girl understanding emotions, empathetic expression",
-    "theme": "girl",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, lying on transparent surface, face to the side, half-framed, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, woman reading emotions, high accuracy, positive correlation",
+    "theme": "beauty",
     "scenes": [
       {
         "scene_id": "scene_47",
@@ -310,7 +310,7 @@
     ]
   },
   "020": {
-    "prompt": "city made of soft fog and light, buildings flicker in and out of view, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, first-person view from inside someone窶冱 eye, twisted, hyper-flexible pose, physically improbable, subject pushed to the extreme edge of the frame, strong negative space, intense lens flare from unnatural light source, ",
+    "prompt": "owl folded from shimmering paper, unfolding mid-flight, trails of ink in the air, silhouette in unnatural lighting, distorted horizon, top-down angle with subject placed off-center, avoids symmetry, running motion along slanted ground, angled frame, off-center, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
     "theme": "animal",
     "scenes": [
       {
@@ -324,8 +324,8 @@
     ]
   },
   "021": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), two beautiful girls sharing one mirrored face, opposite expressions, lighting clash, shoulder-back view, subject turning face toward camera, reflected in impossible mirror placement, taking selfie while falling upward, horizon twisted, sky blends into floor, subject falling diagonally, lighting from two contradictory directions, ",
-    "theme": "scenery",
+    "prompt": "forest frozen in multiple seasons simultaneously, color distortion everywhere, waist-up composition, hands partially visible, balanced framing, angled view through a broken side window, subject offset and cropped, twisting body diagonally, motion trail along frame edge, composition with no symmetry, elements scattered unevenly, avoids centering, dense fog with colored lights and silhouette, attractive pair, kind expressions",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_52",
@@ -342,8 +342,8 @@
     ]
   },
   "022": {
-    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, waist-up composition, hands partially visible, balanced framing, ceiling becomes floor, camera facing up from impossible angle, body rotating or twisting like a vortex, subject shown through uneven mirror shards, overlapping layers, scattered, subject leaving motion trail like time echo, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), girl kissing her own reflection in a cracked floating mirror, emotional tension, extremely distant perspective from space or high orbit, viewed from corner with sharp perspective line, subject in lower third, standing on one leg, viewed from side angle, slight off-balance, only part of body visible, most is cropped out in motion, avoids central framing, intense lens flare from unnatural light source, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_55",
@@ -356,8 +356,8 @@
     ]
   },
   "023": {
-    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, scene viewed through a small hole or tunnel, warped edges, first-person view from inside someone窶冱 eye, moving vertically along wall like insect, central void pulling elements away, subject escaping toward edge, intense lens flare from unnatural light source, beautiful woman, social interaction",
-    "theme": "girl",
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, subject seen through an endless corridor or portal, exaggerated depth, top-down angle with subject placed off-center, avoids symmetry, taking selfie from tilted camera, not facing directly, composition with no symmetry, elements scattered unevenly, avoids centering, tunnel view into a mirror world, beautiful woman, social interaction",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_57",
@@ -374,8 +374,8 @@
     ]
   },
   "024": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), pair with fractured bodies that perfectly align when standing together, eerie harmony, side angle close-up with focus on cheek and ear, cropped frame, seen through broken or floating window, body rotating or twisting like a vortex, composition with no symmetry, elements scattered unevenly, avoids centering, lighting from two contradictory directions, struggling small animal",
-    "theme": "animal",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, beautiful face, body made of flowing transparent liquid, shape constantly shifting, headshot with forehead cropped, cinematic intensity, angled view through a broken side window, subject offset and cropped, taking selfie from tilted camera, not facing directly, horizon twisted, sky blends into floor, subject falling diagonally, shadows cast in conflicting directions, stunted growth, harsh conditions",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_60",

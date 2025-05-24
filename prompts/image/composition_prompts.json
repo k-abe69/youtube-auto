@@ -13,42 +13,44 @@
     "from_orbit": "extremely distant perspective from space or high orbit"
   },
   "angle": {
-    "worm_eye": "viewed from below, towering distortion",
-    "bird_eye": "bird's-eye with warped gravity",
-    "mirrored_view": "reflected in impossible mirror placement",
-    "window_peek": "seen through broken or floating window",
-    "tilted_angle": "severely tilted Dutch angle, disoriented feel",
-    "ceiling_flip": "ceiling becomes floor, camera facing up from impossible angle",
-    "through_mouth": "scene viewed from inside a character’s open mouth",
-    "from_below_water": "looking up from underwater at distorted world above",
-    "eyeball_view": "first-person view from inside someone’s eye"
+    "angled_from_below": "viewed from below with strong tilt, subject placed near frame edge",
+    "angled_from_above": "top-down angle with subject placed off-center, avoids symmetry",
+    "window_peek_aside": "angled view through a broken side window, subject offset and cropped",
+    "fragmented_reflection": "reflections in shattered mirror, subject asymmetric and offset",
+    "tilted_asymmetry": "severe Dutch angle with asymmetric framing, tension emphasis",
+    "ceiling_flip_offset": "ceiling becomes floor, subject positioned diagonally",
+    "underwater_diagonal": "angled underwater perspective, camera tilted, subject half-in frame",
+    "from_side_corner": "viewed from corner with sharp perspective line, subject in lower third"
   },
+
   "pose": {
-    "jumping_motion": "mid-air frozen in impossible posture",
-    "one_leg_pose": "balancing in midair, slight levitation",
-    "lying_on_floor": "lying on glass above the viewer",
-    "running_forward": "running in zero-gravity arc",
-    "holding_camera": "taking selfie while falling upward",
-    "impossible_yoga": "twisted, hyper-flexible pose, physically improbable",
-    "spiral_motion": "body rotating or twisting like a vortex",
-    "fragmented_form": "body in mid-disintegration or assembling from pieces",
-    "levitating_hands": "floating in lotus pose with disconnected hands",
-    "crawling_up_wall": "moving vertically along wall like insect"
+    "jumping_diagonal": "jumping midair at diagonal angle, limbs offset, subject cropped",
+    "one_leg_pose_side": "standing on one leg, viewed from side angle, slight off-balance",
+    "glass_lie_offset": "lying on transparent surface, face to the side, half-framed",
+    "running_slanted": "running motion along slanted ground, angled frame, off-center",
+    "camera_selfie_side": "taking selfie from tilted camera, not facing directly",
+    "twist_diagonal": "twisting body diagonally, motion trail along frame edge",
+    "break_apart_side": "body fragmenting toward left or right frame, non-radial",
+    "levitating_sidehands": "floating pose, hands extending off one side of frame",
+    "wall_climb_angle": "climbing diagonally across a wall, angle from below-left",
+    "stretching_mid_frame": "stretching motion mid-action, not facing front, cropped"
   },
+
   "composition": {
     "extreme_off_center": "subject pushed to the extreme edge of the frame, strong negative space",
-    "spiral_vortex_center": "camera spirals around offset point (not center), centrifugal composition",
     "broken_mirror_fragment": "subject shown through uneven mirror shards, overlapping layers, scattered",
     "top_corner_focus": "main subject located in top left or right corner, sky dominant, asymmetric",
     "ground_peek": "viewed from a crack in the ground, subject half-cropped above, asymmetrical",
     "offscreen_body": "only part of body visible, most is cropped out in motion, avoids central framing",
-    "skewed_fisheye_split": "fisheye effect with diagonal split, subject warped to side, no circular framing",
     "asymmetrical_chaos": "composition with no symmetry, elements scattered unevenly, avoids centering",
     "edge_tracking_motion": "subject running across bottom frame edge, blurred, anti-center",
     "sky_floor_merge": "horizon twisted, sky blends into floor, subject falling diagonally",
     "sliced_diagonal": "scene cut across diagonally with light or shadow, subject floats across at edge",
-    "exploded_center_void": "central void pulling elements away, subject escaping toward edge"
+    "corner_peek": "subject emerging partially from frame corner, majority off-frame",
+    "mid_action_pan": "motion blur in horizontal pan, subject near far edge of image",
+    "split_frame_dual": "frame split vertically with two worlds, subject compressed to one side"
   },
+
   "focus": {
     "lens_flare_backlight": "intense lens flare from unnatural light source",
     "shadow_play": "shadows cast in conflicting directions",
