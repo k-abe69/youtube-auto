@@ -1,33 +1,53 @@
 {
   "girl": {
-    "floating_priestess": "1girl, floating above a glowing magic circle in the sky, long hair suspended, serene expression, robes billowing unnaturally",
-    "mirror_girl": "1girl, emerging from a broken mirror surface, half-transparent body, expressionless gaze, surreal lighting",
-    "gravity_defying": "1girl, upside down in midair, skirt flowing upward, relaxed expression, impossible posture",
-    "fragmented_entity": "1girl, body partially pixelated or fractured, glitch effects, neon fragments hovering",
-    "dream_swimmer": "1girl, swimming through air as if underwater, surrounded by glowing jellyfish, deep calm expression"
+    "crystal_refraction": "1girl, beautiful face split into fragments like a kaleidoscope, reflections scattered, glowing shards",
+    "void_skin": "1girl, elegant but her skin fades into pure void, eyes like galaxies, calm expression",
+    "asymmetrical_goddess": "1girl, stunning but with mismatched wings and legs, regal dress floating off her body",
+    "glass_masked": "1girl, breathtaking with a cracked glass mask partially hiding her face, mysterious eyes shining through",
+    "headless_grace": "1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile",
+    "liquid_body": "1girl, beautiful face, body made of flowing transparent liquid, shape constantly shifting",
+    "pixel_tear": "1girl, glitching at the edges, pixels falling from her skin, crying glowing particles",
+    "ribbon_wrapped": "1girl, suspended midair, entire body wrapped in glowing ribbons, serene look",
+    "clock_heart": "1girl, open chest revealing ticking clock inside, expression of quiet sadness",
+    "mirror_spine": "1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities"
   },
 
   "scenery": {
-    "inverted_city": "cityscape floating upside down above a normal one, dual lighting, gravity conflict, surreal vibe",
-    "fractured_horizon": "landscape splitting at the horizon, mismatched lighting directions, chaotic geometry",
-    "sky_tunnel": "cylindrical sky with clouds spiraling inward, horizon curve visible, dreamlike",
-    "lava_rain": "molten rain falling from calm clouds, reflective glass ground, red glow atmosphere",
-    "space_garden": "garden in outer space, floating stones and glowing trees, planets visible in sky"
+    "inverted_sky": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural",
+    "memory_cascade": "landscape composed of floating photograph fragments, memories fading midair",
+    "looping_bridge": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze",
+    "time_rift_forest": "forest frozen in multiple seasons simultaneously, color distortion everywhere",
+    "fragmented_dimension": "space with chunks of reality missing, landscape stitched together from different worlds",
+    "crystal_desert": "desert where sand is made of singing crystals, sunlight refracted like rainbows",
+    "floating_horizon": "horizon line suspended midair, terrain dissolving beneath it",
+    "tower_of_waves": "ocean waves stacked vertically into a tower, boats circling it upward",
+    "city_in_mist": "city made of soft fog and light, buildings flicker in and out of view",
+    "glass_mountain": "mountain range entirely transparent, light bending across its jagged edges"
   },
 
   "animal": {
-    "glitch_cat": "cat-like creature with glitching outlines, neon eyes, levitating slightly, pixel tail trailing",
-    "glass_fox": "transparent fox with liquid core, refracting light, walking on water",
-    "dragon_flower": "floral-scaled dragon, petal wings, breathing glowing pollen",
-    "clock_rabbit": "rabbit with gears and clock face, antique texture, walking upright",
-    "shadow_bird": "bird made of living shadow, shifting edges, red pupils, silent presence"
+    "face_blended_wolf": "wolf with part-human eyes and elegant features, glowing fur, silent power",
+    "mirrored_tiger": "tiger with perfect bilateral symmetry, one side organic, one side glass",
+    "origami_owl": "owl folded from shimmering paper, unfolding mid-flight, trails of ink in the air",
+    "neon_whale": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it",
+    "mechanical_kitten": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur",
+    "melting_horse": "horse mid-gallop, body melting into paint streams as it runs",
+    "ghost_deer": "ethereal deer glowing faintly, walking through solid objects without resistance",
+    "clock_faced_fox": "fox with a ticking clock as a face, tail spinning like hands",
+    "cloud_snake": "serpent composed of cloud segments and lightning veins, drifting through the air",
+    "fractured_dog": "dog with body made of stained glass, light leaking from cracks"
   },
 
   "pair": {
-    "time_split_twins": "two girls facing away from each other, one bathed in sunset, one in moonlight, mirror symmetry",
-    "angel_and_void": "bright-winged girl standing next to a pitch-black silhouette, no facial features, tension in posture",
-    "glitch_conversation": "two figures mid-dialogue, one dissolving into data, the other sketch-like lines",
-    "reflected_pairs": "two pairs interacting across an invisible mirror plane, inverted poses and expressions",
-    "gravity_dancers": "two dancers midair, one upright, one upside down, in perfect mirrored pose"
+    "split_face_lovers": "two beautiful girls sharing one mirrored face, opposite expressions, lighting clash",
+    "mirror_kiss": "girl kissing her own reflection in a cracked floating mirror, emotional tension",
+    "burning_and_frozen": "two dancers—one engulfed in flame, one in snowflakes—spinning midair together",
+    "looping_twins": "two girls endlessly chasing each other in a Möbius strip path, each unaware of the loop",
+    "back_to_back_future": "elegant girl and her future self sitting back to back in a broken clock chamber",
+    "linked_by_light": "two girls bound by beams of solid light stretching between them, floating in void",
+    "shadow_and_clone": "girl facing her own shadow clone in a dramatic pose, both glowing differently",
+    "halo_and_horns": "angelic girl and her devilish twin sitting on a giant scale floating above ruins",
+    "inverted_embrace": "girl holding another upside down in midair, dresses swirling like spirals",
+    "cracked_unity": "pair with fractured bodies that perfectly align when standing together, eerie harmony"
   }
 }

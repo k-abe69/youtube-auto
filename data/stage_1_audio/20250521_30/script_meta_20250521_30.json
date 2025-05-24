@@ -1,0 +1,492 @@
+[
+  {
+    "scene_id": "scene_01",
+    "type": "main_title",
+    "text": "イケメンの親切は\n信じられるのに\n“キモい男の親切”は\n警戒されるのはなぜ？",
+    "start_sec": 0.0,
+    "duration": 5.19
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "title",
+    "text": "見た目で判断されるのは\n0.1秒以内",
+    "start_sec": 5.19,
+    "duration": 2.33
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "source",
+    "text": "Princeton大学\n「First Impressions」研究\n（Willis & Todorov, 2006）",
+    "start_sec": 5.19,
+    "duration": 2.33
+  },
+  {
+    "scene_id": "scene_03",
+    "type": "summary",
+    "text": "人間は他人の顔を見て、",
+    "start_sec": 7.52,
+    "duration": 1.5
+  },
+  {
+    "scene_id": "scene_04",
+    "type": "summary",
+    "text": "わずか0.1秒以内に",
+    "start_sec": 9.02,
+    "duration": 1.5
+  },
+  {
+    "scene_id": "scene_05",
+    "type": "summary",
+    "text": "「信頼できる／できない」",
+    "start_sec": 10.53,
+    "duration": 1.67
+  },
+  {
+    "scene_id": "scene_06",
+    "type": "summary",
+    "text": "を判断している。",
+    "start_sec": 12.2,
+    "duration": 0.85
+  },
+  {
+    "scene_id": "scene_07",
+    "type": "summary",
+    "text": "これは",
+    "start_sec": 13.06,
+    "duration": 0.52
+  },
+  {
+    "scene_id": "scene_08",
+    "type": "summary",
+    "text": "意識的な評価ではなく、",
+    "start_sec": 13.58,
+    "duration": 1.39
+  },
+  {
+    "scene_id": "scene_09",
+    "type": "summary",
+    "text": "脳の潜在的な",
+    "start_sec": 14.97,
+    "duration": 1.01
+  },
+  {
+    "scene_id": "scene_10",
+    "type": "summary",
+    "text": "判断メカニズムに基づくとされる。",
+    "start_sec": 15.98,
+    "duration": 1.89
+  },
+  {
+    "scene_id": "scene_11",
+    "type": "title",
+    "text": "“見た目が良い人”は\n無条件に\n好意的に見られる",
+    "start_sec": 17.87,
+    "duration": 2.93
+  },
+  {
+    "scene_id": "scene_11",
+    "type": "source",
+    "text": "Eagly & Ashmore (1991),\n\"What is beautiful is good\" 仮説",
+    "start_sec": 17.87,
+    "duration": 2.93
+  },
+  {
+    "scene_id": "scene_12",
+    "type": "summary",
+    "text": "外見が魅力的な人は、",
+    "start_sec": 20.8,
+    "duration": 1.46
+  },
+  {
+    "scene_id": "scene_13",
+    "type": "summary",
+    "text": "性格や知能までも",
+    "start_sec": 22.26,
+    "duration": 1.19
+  },
+  {
+    "scene_id": "scene_14",
+    "type": "summary",
+    "text": "高く評価されやすいという",
+    "start_sec": 23.46,
+    "duration": 1.49
+  },
+  {
+    "scene_id": "scene_15",
+    "type": "summary",
+    "text": "「ハロー効果」の影響を受けやすい。",
+    "start_sec": 24.95,
+    "duration": 2.07
+  },
+  {
+    "scene_id": "scene_16",
+    "type": "summary",
+    "text": "これは見た目だけで",
+    "start_sec": 27.02,
+    "duration": 1.1
+  },
+  {
+    "scene_id": "scene_17",
+    "type": "summary",
+    "text": "“総合的に良さそう”と",
+    "start_sec": 28.12,
+    "duration": 1.69
+  },
+  {
+    "scene_id": "scene_18",
+    "type": "summary",
+    "text": "判断される心理的バイアス。",
+    "start_sec": 29.8,
+    "duration": 1.64
+  },
+  {
+    "scene_id": "scene_19",
+    "type": "title",
+    "text": "顔の対称性が\n“信頼”\nと結びついている",
+    "start_sec": 31.45,
+    "duration": 3.01
+  },
+  {
+    "scene_id": "scene_19",
+    "type": "source",
+    "text": "Harvard大学\n心理学研究所（2008）",
+    "start_sec": 31.45,
+    "duration": 3.01
+  },
+  {
+    "scene_id": "scene_20",
+    "type": "summary",
+    "text": "顔の左右対称性が高いほど、",
+    "start_sec": 34.45,
+    "duration": 1.87
+  },
+  {
+    "scene_id": "scene_21",
+    "type": "summary",
+    "text": "被験者はその人物を「信頼できる」と",
+    "start_sec": 36.32,
+    "duration": 2.84
+  },
+  {
+    "scene_id": "scene_22",
+    "type": "summary",
+    "text": "判断する傾向がある。",
+    "start_sec": 39.16,
+    "duration": 1.27
+  },
+  {
+    "scene_id": "scene_23",
+    "type": "summary",
+    "text": "美的評価が社会的信用に",
+    "start_sec": 40.43,
+    "duration": 1.74
+  },
+  {
+    "scene_id": "scene_24",
+    "type": "summary",
+    "text": "影響することが実験で示されている。",
+    "start_sec": 42.17,
+    "duration": 1.97
+  },
+  {
+    "scene_id": "scene_25",
+    "type": "title",
+    "text": "表情と眼差しだけで\n「好意」か「警戒」かを\n判定",
+    "start_sec": 44.14,
+    "duration": 4.29
+  },
+  {
+    "scene_id": "scene_25",
+    "type": "source",
+    "text": "Psychological Science\n（2014）論文",
+    "start_sec": 44.14,
+    "duration": 4.29
+  },
+  {
+    "scene_id": "scene_26",
+    "type": "summary",
+    "text": "被験者はわずかな表情や目の動きから、",
+    "start_sec": 48.43,
+    "duration": 2.22
+  },
+  {
+    "scene_id": "scene_27",
+    "type": "summary",
+    "text": "相手が敵意を持っているかどうかを",
+    "start_sec": 50.65,
+    "duration": 1.74
+  },
+  {
+    "scene_id": "scene_28",
+    "type": "summary",
+    "text": "即座に察知する。",
+    "start_sec": 52.38,
+    "duration": 1.01
+  },
+  {
+    "scene_id": "scene_29",
+    "type": "summary",
+    "text": "これは進化的に獲得された",
+    "start_sec": 53.4,
+    "duration": 1.74
+  },
+  {
+    "scene_id": "scene_30",
+    "type": "summary",
+    "text": "“危険回避”の能力とされている。",
+    "start_sec": 55.14,
+    "duration": 1.95
+  },
+  {
+    "scene_id": "scene_31",
+    "type": "title",
+    "text": "外見が良い人ほど\n“得をする”のは\n経済的にも証明済み",
+    "start_sec": 57.09,
+    "duration": 4.11
+  },
+  {
+    "scene_id": "scene_31",
+    "type": "source",
+    "text": "University of Texas\n「外見と年収」調査（2011）",
+    "start_sec": 57.09,
+    "duration": 4.11
+  },
+  {
+    "scene_id": "scene_32",
+    "type": "summary",
+    "text": "容姿が平均より良い人は、",
+    "start_sec": 61.19,
+    "duration": 1.54
+  },
+  {
+    "scene_id": "scene_33",
+    "type": "summary",
+    "text": "そうでない人に比べて",
+    "start_sec": 62.73,
+    "duration": 1.26
+  },
+  {
+    "scene_id": "scene_34",
+    "type": "summary",
+    "text": "平均で5〜10%年収が高い",
+    "start_sec": 63.99,
+    "duration": 2.43
+  },
+  {
+    "scene_id": "scene_35",
+    "type": "summary",
+    "text": "傾向があると判明。",
+    "start_sec": 66.42,
+    "duration": 1.15
+  },
+  {
+    "scene_id": "scene_36",
+    "type": "summary",
+    "text": "これは単に印象が良い",
+    "start_sec": 67.57,
+    "duration": 1.46
+  },
+  {
+    "scene_id": "scene_37",
+    "type": "summary",
+    "text": "という理由だけで",
+    "start_sec": 69.03,
+    "duration": 0.96
+  },
+  {
+    "scene_id": "scene_38",
+    "type": "summary",
+    "text": "“待遇差”が発生している証拠である。",
+    "start_sec": 69.99,
+    "duration": 2.54
+  },
+  {
+    "scene_id": "scene_39",
+    "type": "title",
+    "text": "美人は攻撃されない",
+    "start_sec": 72.53,
+    "duration": 1.29
+  },
+  {
+    "scene_id": "scene_39",
+    "type": "source",
+    "text": "ハーバード大学・社会心理学研究（2012年）",
+    "start_sec": 72.53,
+    "duration": 1.29
+  },
+  {
+    "scene_id": "scene_40",
+    "type": "summary",
+    "text": "非難や敵意を受けにくく、結果として",
+    "start_sec": 73.82,
+    "duration": 2.37
+  },
+  {
+    "scene_id": "scene_41",
+    "type": "summary",
+    "text": "他人への警戒心が低くなり、",
+    "start_sec": 76.19,
+    "duration": 1.62
+  },
+  {
+    "scene_id": "scene_42",
+    "type": "summary",
+    "text": "協調的な性格が育ちやすい傾向がある。",
+    "start_sec": 77.81,
+    "duration": 2.28
+  },
+  {
+    "scene_id": "scene_43",
+    "type": "title",
+    "text": "外見で“得している”実感が自己肯定感を形成",
+    "start_sec": 80.1,
+    "duration": 3.36
+  },
+  {
+    "scene_id": "scene_43",
+    "type": "source",
+    "text": "カリフォルニア大学ロサンゼルス校（UCLA）心理学部・2014年",
+    "start_sec": 80.1,
+    "duration": 3.36
+  },
+  {
+    "scene_id": "scene_44",
+    "type": "summary",
+    "text": "多く経験した人は、自己肯定感が",
+    "start_sec": 83.46,
+    "duration": 2.31
+  },
+  {
+    "scene_id": "scene_45",
+    "type": "summary",
+    "text": "高くなる傾向があり、その影響で",
+    "start_sec": 85.77,
+    "duration": 2.3
+  },
+  {
+    "scene_id": "scene_46",
+    "type": "summary",
+    "text": "対人関係における余裕や寛容性が増す。",
+    "start_sec": 88.07,
+    "duration": 2.39
+  },
+  {
+    "scene_id": "scene_47",
+    "type": "title",
+    "text": "魅力度と共感性に正の相関",
+    "start_sec": 90.46,
+    "duration": 1.95
+  },
+  {
+    "scene_id": "scene_47",
+    "type": "source",
+    "text": "日本心理学会・『心理学研究』第85巻（2014年）",
+    "start_sec": 90.46,
+    "duration": 1.95
+  },
+  {
+    "scene_id": "scene_48",
+    "type": "summary",
+    "text": "他者の感情をより正確に",
+    "start_sec": 92.42,
+    "duration": 1.6
+  },
+  {
+    "scene_id": "scene_49",
+    "type": "summary",
+    "text": "読み取る能力が高いという",
+    "start_sec": 94.02,
+    "duration": 1.47
+  },
+  {
+    "scene_id": "scene_50",
+    "type": "summary",
+    "text": "データがあり、共感性においても",
+    "start_sec": 95.49,
+    "duration": 2.08
+  },
+  {
+    "scene_id": "scene_51",
+    "type": "summary",
+    "text": "高いスコアを示した。",
+    "start_sec": 97.57,
+    "duration": 1.19
+  },
+  {
+    "scene_id": "scene_52",
+    "type": "title",
+    "text": "見た目の良さは「親切な性格」と連想されやすい",
+    "start_sec": 98.76,
+    "duration": 3.42
+  },
+  {
+    "scene_id": "scene_52",
+    "type": "source",
+    "text": "アメリカ心理学会（APA）・“Halo Effect”研究（2010年）",
+    "start_sec": 98.76,
+    "duration": 3.42
+  },
+  {
+    "scene_id": "scene_53",
+    "type": "summary",
+    "text": "対して内面も優れているという",
+    "start_sec": 102.19,
+    "duration": 1.82
+  },
+  {
+    "scene_id": "scene_54",
+    "type": "summary",
+    "text": "印象（ハロー効果）を抱きやすく、",
+    "start_sec": 104.01,
+    "duration": 2.42
+  },
+  {
+    "scene_id": "scene_55",
+    "type": "summary",
+    "text": "それが自己期待の強化と",
+    "start_sec": 106.43,
+    "duration": 1.4
+  },
+  {
+    "scene_id": "scene_56",
+    "type": "summary",
+    "text": "性格形成に影響することがある。",
+    "start_sec": 107.83,
+    "duration": 1.96
+  },
+  {
+    "scene_id": "scene_57",
+    "type": "title",
+    "text": "美人は「無意味なマウンティング」をされにくい",
+    "start_sec": 109.79,
+    "duration": 2.67
+  },
+  {
+    "scene_id": "scene_57",
+    "type": "source",
+    "text": "京都大学・人間環境学研究（2017年）",
+    "start_sec": 109.79,
+    "duration": 2.67
+  },
+  {
+    "scene_id": "scene_58",
+    "type": "summary",
+    "text": "頻度が低く、それによるストレス要因が",
+    "start_sec": 112.46,
+    "duration": 2.62
+  },
+  {
+    "scene_id": "scene_59",
+    "type": "summary",
+    "text": "減るため、社会的な攻撃性が",
+    "start_sec": 115.08,
+    "duration": 2.2
+  },
+  {
+    "scene_id": "scene_60",
+    "type": "summary",
+    "text": "育ちにくい傾向がある。",
+    "start_sec": 117.28,
+    "duration": 1.24
+  }
+]

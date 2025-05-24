@@ -1,0 +1,386 @@
+{
+  "001": {
+    "prompt": "elegant girl and her future self sitting back to back in a broken clock chamber, subject seen through an endless corridor or portal, exaggerated depth, looking up from underwater at distorted world above, balancing in midair, slight levitation, backlit with surreal color shadows, shadows cast in conflicting directions, handsome man being kind, unattractive man being cautious",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "イケメンの親切は\n信じられるのに\n“キモい男の親切”は\n警戒されるのはなぜ？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "pair with fractured bodies that perfectly align when standing together, eerie harmony, distant shot, tiny subject, wide surreal background, viewed from below, towering distortion, body in mid-disintegration or assembling from pieces, backlit with surreal color shadows, intense lens flare from unnatural light source, two people facing each other, quick glance",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "見た目で判断されるのは\n0.1秒以内"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間は他人の顔を見て、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "わずか0.1秒以内に"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile, extremely distant perspective from space or high orbit, scene viewed from inside a character窶冱 open mouth, balancing in midair, slight levitation, subject clinging to frame edge, tension, intense lens flare from unnatural light source, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "「信頼できる／できない」"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "を判断している。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これは"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "ocean waves stacked vertically into a tower, boats circling it upward, extreme close-up with stretched perspective, unrealistic lens, ceiling becomes floor, camera facing up from impossible angle, lying on glass above the viewer, subject centered but flipped upside down, shadows cast in conflicting directions, girl pondering, abstract brain representation",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "意識的な評価ではなく、"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "脳の潜在的な"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "判断メカニズムに基づくとされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "angelic girl and her devilish twin sitting on a giant scale floating above ruins, extremely distant perspective from space or high orbit, first-person view from inside someone窶冱 eye, moving vertically along wall like insect, composition framed through natural or broken hole, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "“見た目が良い人”は\n無条件に\n好意的に見られる"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "外見が魅力的な人は、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "性格や知能までも"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "girl holding another upside down in midair, dresses swirling like spirals, scene viewed through a small hole or tunnel, warped edges, scene viewed from inside a character窶冱 open mouth, body in mid-disintegration or assembling from pieces, hyper-symmetrical with recursive elements, intense lens flare from unnatural light source, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "高く評価されやすいという"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "「ハロー効果」の影響を受けやすい。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "これは見た目だけで"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "1girl, beautiful face split into fragments like a kaleidoscope, reflections scattered, glowing shards, distant shot, tiny subject, wide surreal background, scene viewed from inside a character窶冱 open mouth, floating in lotus pose with disconnected hands, half of subject fading into noise or fog, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "“総合的に良さそう”と"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "判断される心理的バイアス。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "two girls endlessly chasing each other in a Mﾃｶbius strip path, each unaware of the loop, scene viewed through a small hole or tunnel, warped edges, looking up from underwater at distorted world above, lying on glass above the viewer, centered around a glowing or dimensional portal, intense lens flare from unnatural light source, symmetrical face, pair of people",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "顔の対称性が\n“信頼”\nと結びついている"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "顔の左右対称性が高いほど、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "被験者はその人物を「信頼できる」と"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "serpent composed of cloud segments and lightning veins, drifting through the air, extremely distant perspective from space or high orbit, viewed from below, towering distortion, twisted, hyper-flexible pose, physically improbable, backlit with surreal color shadows, background is sharp while subject is blurred, girl making decision, social setting, experimental environment",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "判断する傾向がある。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "美的評価が社会的信用に"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "影響することが実験で示されている。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur, subject seen through an endless corridor or portal, exaggerated depth, reflected in impossible mirror placement, moving vertically along wall like insect, hyper-symmetrical with recursive elements, intense lens flare from unnatural light source, animal eyes, alert expression, subtle movements",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "表情と眼差しだけで\n「好意」か「警戒」かを\n判定"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "被験者はわずかな表情や目の動きから、"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "相手が敵意を持っているかどうかを"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "ethereal deer glowing faintly, walking through solid objects without resistance, scene viewed through a small hole or tunnel, warped edges, severely tilted Dutch angle, disoriented feel, body in mid-disintegration or assembling from pieces, scene split diagonally into two realities, blurred view as if seen through shattered glass, pair sensing danger, alert posture",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_28",
+        "text": "即座に察知する。"
+      },
+      {
+        "scene_id": "scene_29",
+        "text": "これは進化的に獲得された"
+      },
+      {
+        "scene_id": "scene_30",
+        "text": "“危険回避”の能力とされている。"
+      }
+    ]
+  },
+  "012": {
+    "prompt": "girl facing her own shadow clone in a dramatic pose, both glowing differently, extreme close-up with stretched perspective, unrealistic lens, ceiling becomes floor, camera facing up from impossible angle, lying on glass above the viewer, centered around a glowing or dimensional portal, subject leaving motion trail like time echo, beautiful girl, economic benefit",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_31",
+        "text": "外見が良い人ほど\n“得をする”のは\n経済的にも証明済み"
+      },
+      {
+        "scene_id": "scene_32",
+        "text": "容姿が平均より良い人は、"
+      },
+      {
+        "scene_id": "scene_33",
+        "text": "そうでない人に比べて"
+      }
+    ]
+  },
+  "013": {
+    "prompt": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, running in zero-gravity arc, scene split diagonally into two realities, subject leaving motion trail like time echo, Error parsing GPT output: Expecting value: line 1 column 1 (char 0)",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_34",
+        "text": "平均で5〜10%年収が高い"
+      },
+      {
+        "scene_id": "scene_35",
+        "text": "傾向があると判明。"
+      },
+      {
+        "scene_id": "scene_36",
+        "text": "これは単に印象が良い"
+      }
+    ]
+  },
+  "014": {
+    "prompt": "tiger with perfect bilateral symmetry, one side organic, one side glass, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, moving vertically along wall like insect, centered around a glowing or dimensional portal, lighting from two contradictory directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_37",
+        "text": "という理由だけで"
+      },
+      {
+        "scene_id": "scene_38",
+        "text": "“待遇差”が発生している証拠である。"
+      }
+    ]
+  },
+  "015": {
+    "prompt": "mountain range entirely transparent, light bending across its jagged edges, distant shot, tiny subject, wide surreal background, reflected in impossible mirror placement, taking selfie while falling upward, scene split diagonally into two realities, shadows cast in conflicting directions, animal being unthreatened, peaceful environment",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_39",
+        "text": "美人は攻撃されない"
+      },
+      {
+        "scene_id": "scene_40",
+        "text": "非難や敵意を受けにくく、結果として"
+      },
+      {
+        "scene_id": "scene_41",
+        "text": "他人への警戒心が低くなり、"
+      }
+    ]
+  },
+  "016": {
+    "prompt": "1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities, silhouette in unnatural lighting, distorted horizon, reflected in impossible mirror placement, body in mid-disintegration or assembling from pieces, subject clinging to frame edge, tension, intense lens flare from unnatural light source, group of animals, working together",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_42",
+        "text": "協調的な性格が育ちやすい傾向がある。"
+      }
+    ]
+  },
+  "017": {
+    "prompt": "girl holding another upside down in midair, dresses swirling like spirals, extreme close-up with stretched perspective, unrealistic lens, severely tilted Dutch angle, disoriented feel, running in zero-gravity arc, half of subject fading into noise or fog, lighting from two contradictory directions, two people, various experiences, positive vibes",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_43",
+        "text": "外見で“得している”実感が自己肯定感を形成"
+      },
+      {
+        "scene_id": "scene_44",
+        "text": "多く経験した人は、自己肯定感が"
+      },
+      {
+        "scene_id": "scene_45",
+        "text": "高くなる傾向があり、その影響で"
+      }
+    ]
+  },
+  "018": {
+    "prompt": "desert where sand is made of singing crystals, sunlight refracted like rainbows, scene viewed through a small hole or tunnel, warped edges, bird's-eye with warped gravity, mid-air frozen in impossible posture, centered around a glowing or dimensional portal, shadows cast in conflicting directions, two people talking, relaxed atmosphere, open gestures",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_46",
+        "text": "対人関係における余裕や寛容性が増す。"
+      }
+    ]
+  },
+  "019": {
+    "prompt": "two beautiful girls sharing one mirrored face, opposite expressions, lighting clash, scene viewed through a small hole or tunnel, warped edges, seen through broken or floating window, twisted, hyper-flexible pose, physically improbable, foreground dominates 80%, distorted background, dense fog with colored lights and silhouette, two people, expressive faces, understanding emotions",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_47",
+        "text": "魅力度と共感性に正の相関"
+      },
+      {
+        "scene_id": "scene_48",
+        "text": "他者の感情をより正確に"
+      },
+      {
+        "scene_id": "scene_49",
+        "text": "読み取る能力が高いという"
+      }
+    ]
+  },
+  "020": {
+    "prompt": "girl facing her own shadow clone in a dramatic pose, both glowing differently, silhouette in unnatural lighting, distorted horizon, severely tilted Dutch angle, disoriented feel, mid-air frozen in impossible posture, composition framed through natural or broken hole, blurred view as if seen through shattered glass, girl studying data, high score",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_50",
+        "text": "データがあり、共感性においても"
+      },
+      {
+        "scene_id": "scene_51",
+        "text": "高いスコアを示した。"
+      }
+    ]
+  },
+  "021": {
+    "prompt": "ethereal deer glowing faintly, walking through solid objects without resistance, silhouette in unnatural lighting, distorted horizon, scene viewed from inside a character窶冱 open mouth, lying on glass above the viewer, half of subject fading into noise or fog, tunnel view into a mirror world, attractive couple, showing kindness",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_52",
+        "text": "見た目の良さは「親切な性格」と連想されやすい"
+      },
+      {
+        "scene_id": "scene_53",
+        "text": "対して内面も優れているという"
+      },
+      {
+        "scene_id": "scene_54",
+        "text": "印象（ハロー効果）を抱きやすく、"
+      }
+    ]
+  },
+  "022": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, extremely distant perspective from space or high orbit, severely tilted Dutch angle, disoriented feel, twisted, hyper-flexible pose, physically improbable, backlit with surreal color shadows, lighting from two contradictory directions, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_55",
+        "text": "それが自己期待の強化と"
+      },
+      {
+        "scene_id": "scene_56",
+        "text": "性格形成に影響することがある。"
+      }
+    ]
+  },
+  "023": {
+    "prompt": "elegant girl and her future self sitting back to back in a broken clock chamber, silhouette in unnatural lighting, distorted horizon, scene viewed from inside a character窶冱 open mouth, body rotating or twisting like a vortex, subject clinging to frame edge, tension, multiple vanishing points converging unnaturally, beautiful woman, less stress",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_57",
+        "text": "美人は「無意味なマウンティング」をされにくい"
+      },
+      {
+        "scene_id": "scene_58",
+        "text": "頻度が低く、それによるストレス要因が"
+      },
+      {
+        "scene_id": "scene_59",
+        "text": "減るため、社会的な攻撃性が"
+      }
+    ]
+  },
+  "024": {
+    "prompt": "1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities, distant shot, tiny subject, wide surreal background, looking up from underwater at distorted world above, taking selfie while falling upward, hyper-symmetrical with recursive elements, multi-surface reflection in fractured space, ",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_60",
+        "text": "育ちにくい傾向がある。"
+      }
+    ]
+  }
+}
