@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "boy and girl dancing together, elegant posture, stage spotlight, tight shot of side profile, viewed through window, partial frame, waving hand, playful mood, rule of thirds composition, blurred foreground, focus behind, handsome man helping, suspicious looking man offering help",
-    "theme": "scenery",
+    "prompt": "bird made of living shadow, shifting edges, red pupils, silent presence, distant shot, tiny subject, wide surreal background, viewed from below, towering distortion, balancing in midair, slight levitation, subject barely visible, half-cropped in motion, intense lens flare from unnatural light source, handsome man being kind, unattractive man showing kindness",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "1girl, modern casual clothes, hoodie and denim shorts, natural hairstyle, playful and relaxed expression, shot from knees up, natural posture, viewed from above, bird's-eye view, holding a camera, selfie style, backlit with strong shadow contrast, creative use of shadow and light, two people facing each other, quick glance",
-    "theme": "pair",
+    "prompt": "1girl, body partially pixelated or fractured, glitch effects, neon fragments hovering, extreme close-up with stretched perspective, unrealistic lens, bird's-eye with warped gravity, balancing in midair, slight levitation, subject barely visible, half-cropped in motion, dense fog with colored lights and silhouette, girl looking quickly, brief glance",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,7 +28,7 @@
     ]
   },
   "003": {
-    "prompt": "brother and sister, casual clothing, walking side by side, family bond, bust-up shot, shoulders and above, pure side view, profile centered, stretching arms upward, subject near edge of frame, focused on feet, soft surroundings, ",
+    "prompt": "cylindrical sky with clouds spiraling inward, horizon curve visible, dreamlike, silhouette in unnatural lighting, distorted horizon, bird's-eye with warped gravity, running in zero-gravity arc, backlit with surreal color shadows, shadows cast in conflicting directions, ",
     "theme": "scenery",
     "scenes": [
       {
@@ -46,8 +46,8 @@
     ]
   },
   "004": {
-    "prompt": "1girl, in athletic sportswear with a headband, toned and muscular build, energetic, smiling with enthusiasm, extreme close-up of face, emotional expression, slightly tilted camera angle, mid-jump, dynamic movement, symmetrical composition, centered, tunnel framing, drawn inward, ",
-    "theme": "animal",
+    "prompt": "1girl, body partially pixelated or fractured, glitch effects, neon fragments hovering, silhouette in unnatural lighting, distorted horizon, viewed from below, towering distortion, taking selfie while falling upward, subject barely visible, half-cropped in motion, intense lens flare from unnatural light source, two brains, one hidden, scale balancing",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_08",
@@ -64,7 +64,7 @@
     ]
   },
   "005": {
-    "prompt": "brother and sister, casual clothing, walking side by side, family bond, full body, centered composition, viewed from behind at 3/4 angle, stretching arms upward, subject near edge of frame, foggy or misty atmosphere, ",
+    "prompt": "1girl, swimming through air as if underwater, surrounded by glowing jellyfish, deep calm expression, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, mid-air frozen in impossible posture, subject barely visible, half-cropped in motion, dense fog with colored lights and silhouette, attractive person, favorable view",
     "theme": "animal",
     "scenes": [
       {
@@ -82,8 +82,8 @@
     ]
   },
   "006": {
-    "prompt": "1girl, in athletic sportswear with a headband, toned and muscular build, energetic, smiling with enthusiasm, tight shot of side profile, subject turning away from camera, running toward camera, motion blur, subject near edge of frame, sharp subject, bokeh background, girl under spotlight, visual influence",
-    "theme": "girl",
+    "prompt": "molten rain falling from calm clouds, reflective glass ground, red glow atmosphere, extreme close-up with stretched perspective, unrealistic lens, seen through broken or floating window, mid-air frozen in impossible posture, hyper-symmetrical with recursive elements, shadows cast in conflicting directions, ",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_14",
@@ -100,7 +100,7 @@
     ]
   },
   "007": {
-    "prompt": "dragon beastman, humanoid body, reptilian skin, horns and wings, powerful presence, shot from knees up, natural posture, slightly tilted camera angle, running toward camera, motion blur, looking to the side, distant gaze, vignette around corners, two people discussing, nodding in agreement",
+    "prompt": "cylindrical sky with clouds spiraling inward, horizon curve visible, dreamlike, extreme close-up with stretched perspective, unrealistic lens, severely tilted Dutch angle, disoriented feel, taking selfie while falling upward, subject barely visible, half-cropped in motion, tunnel view into a mirror world, ",
     "theme": "pair",
     "scenes": [
       {
@@ -114,8 +114,8 @@
     ]
   },
   "008": {
-    "prompt": "avian humanoid, feathered arms, majestic wingspan, floating mid-air, eagle-like face, tight shot of side profile, reflected in a mirror, standing on one leg, balancing, backlit with strong shadow contrast, blurred foreground, focus behind, symmetrical face, trust perception",
-    "theme": "pair",
+    "prompt": "transparent fox with liquid core, refracting light, walking on water, silhouette in unnatural lighting, distorted horizon, viewed from below, towering distortion, mid-air frozen in impossible posture, backlit with surreal color shadows, intense lens flare from unnatural light source, animal with symmetrical face",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_19",
@@ -132,8 +132,8 @@
     ]
   },
   "009": {
-    "prompt": "young couple sitting at a cafe, drinks in hand, smiling softly, shot from knees up, natural posture, subject turning away from camera, kneeling on one knee, looking to the side, distant gaze, lens flare with backlight, girl making a decision, social context, scientific experiment",
-    "theme": "girl",
+    "prompt": "1girl, upside down in midair, skirt flowing upward, relaxed expression, impossible posture, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, running in zero-gravity arc, subject barely visible, half-cropped in motion, tunnel view into a mirror world, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_22",
@@ -150,8 +150,8 @@
     ]
   },
   "010": {
-    "prompt": "snow-covered forest, white trees, silent and cold atmosphere, winter light, full body, centered composition, pure side view, profile centered, kneeling on one knee, symmetrical composition, centered, partially reflected in glass, animal gaze, subtle expressions, sense of caution",
-    "theme": "animal",
+    "prompt": "1girl, upside down in midair, skirt flowing upward, relaxed expression, impossible posture, distant shot, tiny subject, wide surreal background, reflected in impossible mirror placement, taking selfie while falling upward, subject clinging to frame edge, tension, multi-surface reflection in fractured space, eye expressions, subtle facial movements",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_25",
@@ -168,8 +168,8 @@
     ]
   },
   "011": {
-    "prompt": "anthro bear creature, bulky build, wearing armor, fantasy setting, silhouette in the distance, backlight, viewed from behind at 3/4 angle, lying on the floor, relaxed posture, looking downward gently, creative use of shadow and light, animal on alert, defensive posture",
-    "theme": "animal",
+    "prompt": "floral-scaled dragon, petal wings, breathing glowing pollen, silhouette in unnatural lighting, distorted horizon, bird's-eye with warped gravity, taking selfie while falling upward, foreground dominates 80%, distorted background, intense lens flare from unnatural light source, girl sensing danger, alert expression",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_28",
@@ -186,8 +186,8 @@
     ]
   },
   "012": {
-    "prompt": "mountain landscape, distant peaks, crisp air, panoramic view, low angle, focus on feet, eye-level POV, natural perspective, stretching arms upward, looking to the side, distant gaze, partially reflected in glass, statistics charts, economic symbols",
-    "theme": "scenery",
+    "prompt": "bird made of living shadow, shifting edges, red pupils, silent presence, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, mid-air frozen in impossible posture, hyper-symmetrical with recursive elements, dense fog with colored lights and silhouette, attractive people, average looking people, comparison",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_31",
@@ -204,8 +204,8 @@
     ]
   },
   "013": {
-    "prompt": "boy and girl studying together, notebooks open, light academic setting, bust-up shot, shoulders and above, eye-level POV, natural perspective, waving hand, playful mood, direct eye contact with viewer, lens flare with backlight, ",
-    "theme": "scenery",
+    "prompt": "cityscape floating upside down above a normal one, dual lighting, gravity conflict, surreal vibe, extreme close-up with stretched perspective, unrealistic lens, reflected in impossible mirror placement, lying on glass above the viewer, subject barely visible, half-cropped in motion, shadows cast in conflicting directions, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_34",
@@ -222,8 +222,8 @@
     ]
   },
   "014": {
-    "prompt": "1girl, black pointed witch hat and cape, curvy figure, confident pose, seductive smirk, mysterious charm, bust-up shot, shoulders and above, viewed from above, bird's-eye view, waving hand, playful mood, rule of thirds composition, blurred foreground, focus behind, ",
-    "theme": "scenery",
+    "prompt": "1girl, swimming through air as if underwater, surrounded by glowing jellyfish, deep calm expression, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, lying on glass above the viewer, hyper-symmetrical with recursive elements, dense fog with colored lights and silhouette, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_37",

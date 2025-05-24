@@ -1,62 +1,35 @@
 {
   "distance": {
-    "face_closeup": "extreme close-up of face, emotional expression",
-    "bust_up": "bust-up shot, shoulders and above",
-    "knees_up": "shot from knees up, natural posture",
-    "full_body_center": "full body, centered composition",
-    "tiny_subject_far": "distant shot, tiny subject, wide background",
-    "profile_tight": "tight shot of side profile",
-    "waist_up": "waist-up shot, neutral stance",
-    "over_the_shoulder": "over-the-shoulder view",
-    "foot_focus": "low angle, focus on feet",
-    "silhouette_far": "silhouette in the distance, backlight"
+    "tiny_subject_far": "distant shot, tiny subject, wide surreal background",
+    "silhouette_far": "silhouette in unnatural lighting, distorted horizon",
+    "face_closeup": "extreme close-up with stretched perspective, unrealistic lens"
   },
   "angle": {
-    "bird_eye": "viewed from above, bird's-eye view",
-    "worm_eye": "viewed from below, worm's-eye view",
-    "back_3quarter": "viewed from behind at 3/4 angle",
-    "pov_eyelevel": "eye-level POV, natural perspective",
-    "looking_up_at_camera": "camera below, subject looking down",
-    "side_profile": "pure side view, profile centered",
-    "looking_away": "subject turning away from camera",
-    "tilted_angle": "slightly tilted camera angle",
-    "mirrored_view": "reflected in a mirror",
-    "window_peek": "viewed through window, partial frame"
+    "worm_eye": "viewed from below, towering distortion",
+    "bird_eye": "bird's-eye with warped gravity",
+    "mirrored_view": "reflected in impossible mirror placement",
+    "window_peek": "seen through broken or floating window",
+    "tilted_angle": "severely tilted Dutch angle, disoriented feel"
   },
   "pose": {
-    "sitting_sideways": "sitting sideways, legs bent naturally",
-    "lying_on_floor": "lying on the floor, relaxed posture",
-    "jumping_motion": "mid-jump, dynamic movement",
-    "waving_hand": "waving hand, playful mood",
-    "leaning_against_wall": "leaning against wall, casual",
-    "running_forward": "running toward camera, motion blur",
-    "kneeling_pose": "kneeling on one knee",
-    "stretching_pose": "stretching arms upward",
-    "one_leg_pose": "standing on one leg, balancing",
-    "holding_camera": "holding a camera, selfie style"
+    "jumping_motion": "mid-air frozen in impossible posture",
+    "one_leg_pose": "balancing in midair, slight levitation",
+    "lying_on_floor": "lying on glass above the viewer",
+    "running_forward": "running in zero-gravity arc",
+    "holding_camera": "taking selfie while falling upward"
   },
   "composition": {
-    "direct_eye_contact": "direct eye contact with viewer",
-    "looking_sideways": "looking to the side, distant gaze",
-    "over_the_top_eye": "eyes looking upward",
-    "looking_down_gaze": "looking downward gently",
-    "rule_of_thirds": "rule of thirds composition",
-    "symmetry_center": "symmetrical composition, centered",
-    "off_center_tension": "subject off-center for tension",
-    "backlight_shadow": "backlit with strong shadow contrast",
-    "subject_on_edge": "subject near edge of frame",
-    "large_foreground": "foreground object large, background depth"
+    "off_center_tension": "subject clinging to frame edge, tension",
+    "subject_on_edge": "subject barely visible, half-cropped in motion",
+    "symmetry_center": "hyper-symmetrical with recursive elements",
+    "backlight_shadow": "backlit with surreal color shadows",
+    "large_foreground": "foreground dominates 80%, distorted background"
   },
   "focus": {
-    "bokeh_background": "sharp subject, bokeh background",
-    "focus_on_feet": "focused on feet, soft surroundings",
-    "depth_of_field_play": "strong depth of field",
-    "blurred_foreground": "blurred foreground, focus behind",
-    "lens_flare_backlight": "lens flare with backlight",
-    "shadow_play": "creative use of shadow and light",
-    "foggy_mist": "foggy or misty atmosphere",
-    "glass_reflection": "partially reflected in glass",
-    "tunnel_view": "tunnel framing, drawn inward",
-    "vignette_edges": "vignette around corners"
+    "lens_flare_backlight": "intense lens flare from unnatural light source",
+    "shadow_play": "shadows cast in conflicting directions",
+    "tunnel_view": "tunnel view into a mirror world",
+    "foggy_mist": "dense fog with colored lights and silhouette",
+    "glass_reflection": "multi-surface reflection in fractured space"
   }
 }
