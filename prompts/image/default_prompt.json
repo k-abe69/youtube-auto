@@ -35,7 +35,17 @@
     "floating_horizon": "horizon line suspended midair, terrain dissolving beneath it",
     "tower_of_waves": "ocean waves stacked vertically into a tower, boats circling it upward",
     "city_in_mist": "city made of soft fog and light, buildings flicker in and out of view",
-    "glass_mountain": "mountain range entirely transparent, light bending across its jagged edges"
+    "glass_mountain": "mountain range entirely transparent, light bending across its jagged edges",
+    "frozen_lightning_valley": "a valley where lightning is frozen in midair, illuminating the terrain eternally",
+    "gravity_well_lake": "a lake curving inward like a vortex, boats caught in circular drift",
+    "staircase_sky": "spiraling staircases stretching infinitely upward into clouds",
+    "sunken_city_sky": "an upside-down submerged city floating in the sky, buildings distorted in water",
+    "bioluminescent_swamp": "glowing plants and misty lights, swamp reflecting alien colors",
+    "fractured_sunset": "sunset shattered across geometric planes in the air",
+    "endless_library_field": "open grass field filled with standing bookshelves under cloudy sky",
+    "rotating_meadow": "flower meadow rotating like a carousel, petals flying",
+    "cloud_maze": "clouds forming walls like a labyrinth, paths lit by starlight",
+    "prism_ridge": "mountain range made of prisms bending sunlight into wild colors"
   },
 
   "animal": {
@@ -48,19 +58,40 @@
     "ghost_deer": "ethereal deer glowing faintly, walking through solid objects without resistance",
     "clock_faced_fox": "fox with a ticking clock as a face, tail spinning like hands",
     "cloud_snake": "serpent composed of cloud segments and lightning veins, drifting through the air",
-    "fractured_dog": "dog with body made of stained glass, light leaking from cracks"
+    "fractured_dog": "dog with body made of stained glass, light leaking from cracks",
+    "mirror_panther": "panther reflecting its surroundings like liquid metal, shifting constantly",
+    "glowfish_flock": "flock of flying fish glowing with inner light, orbiting together in patterns",
+    "crystal_antlers_stag": "majestic stag with branching antlers made of crystal, catching rainbow light",
+    "inkdrop_bird": "bird that leaves ink drops behind mid-flight, tail trailing into calligraphy",
+    "shadow_lion": "lion formed from darkness itself, almost intangible, only seen through motion",
+    "root_rabbit": "rabbit with roots instead of legs, growing moss as it hops",
+    "glass_elephant": "elephant made of colored glass panes, trunk steaming with light",
+    "feather_moth": "moth with feathers instead of wings, patterns shifting as it flutters",
+    "starling_cluster": "bird composed of a moving swarm of smaller glowing birds",
+    "sapphire_gecko": "gecko with gemstone scales, light shimmering with each movement"
   },
 
-  "pair": {
-    "split_face_lovers": "(Su_MCraft_AP_Ep81:0.65), two beautiful girls sharing one mirrored face, opposite expressions, lighting clash",
-    "mirror_kiss": "(Su_MCraft_AP_Ep81:0.65), girl kissing her own reflection in a cracked floating mirror, emotional tension",
-    "burning_and_frozen": "(Su_MCraft_AP_Ep81:0.65), two dancers—one engulfed in flame, one in snowflakes—spinning midair together",
-    "looping_twins": "(Su_MCraft_AP_Ep81:0.65), two girls endlessly chasing each other in a Möbius strip path, each unaware of the loop",
-    "back_to_back_future": "(Su_MCraft_AP_Ep81:0.65), elegant girl and her future self sitting back to back in a broken clock chamber",
-    "linked_by_light": "(Su_MCraft_AP_Ep81:0.65), two girls bound by beams of solid light stretching between them, floating in void",
-    "shadow_and_clone": "(Su_MCraft_AP_Ep81:0.65), girl facing her own shadow clone in a dramatic pose, both glowing differently",
-    "halo_and_horns": "(Su_MCraft_AP_Ep81:0.65), angelic girl and her devilish twin sitting on a giant scale floating above ruins",
-    "inverted_embrace": "(Su_MCraft_AP_Ep81:0.65), girl holding another upside down in midair, dresses swirling like spirals",
-    "cracked_unity": "(Su_MCraft_AP_Ep81:0.65), pair with fractured bodies that perfectly align when standing together, eerie harmony"
+  "normal_beauty": {
+    "soft_office_lady": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture",
+    "sunlight_student": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression",
+    "cafe_morning": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile",
+    "book_girl": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background",
+    "park_walk": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze",
+    "windy_day": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind",
+    "glasses_and_smile": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile",
+    "sunset_portrait": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance",
+    "elegant_dress": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression",
+    "casual_chair": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture",
+    "train_window": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood",
+    "quiet_room": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression",
+    "simple_white_shirt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background",
+    "garden_morning": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look",
+    "raincoat_waiting": "(Su_MCraft_AP_Ep81:0.65), 1girl, holding an umbrella, waiting at a quiet intersection, soft drizzle",
+    "piano_scene": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face",
+    "glow_earring": "(Su_MCraft_AP_Ep81:0.65), 1girl, adjusting earring in front of mirror, soft backlight, elegant neck line",
+    "library_focus": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought",
+    "candle_evening": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face",
+    "just_woke_up": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light"
   }
+
 }

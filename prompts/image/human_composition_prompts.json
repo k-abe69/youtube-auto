@@ -1,0 +1,57 @@
+{
+  "angle": {
+    "straight_on": "camera facing directly forward, eye-level symmetry",
+    "slightly_above": "camera angled slightly from above, flattering light",
+    "slightly_below": "viewed subtly from below, strong presence",
+    "tilted_head": "head slightly tilted toward camera, intimate framing",
+    "mirror_reflection": "viewed through mirror reflection, frame visible",
+    "cheek_angle": "angled from one cheek, soft perspective",
+    "through_object": "seen through glass or fabric, light distortion",
+    "off_axis_gaze": "looking past the camera, not directly at viewer"
+  },
+  "pose": {
+    "resting_chin": "resting chin on hand, calm expression",
+    "crossed_arms": "arms crossed lightly, relaxed and confident",
+    "hair_touching": "touching her hair gently, slightly dreamy pose",
+    "gazing_upward": "looking slightly upward, hopeful expression",
+    "sideways_glance": "body turned, head looking over shoulder",
+    "hands_clasped": "hands clasped in front, formal yet soft pose",
+    "reaching_forward": "hand reaching toward the camera softly",
+    "leaning_forward": "upper body leaning toward viewer",
+    "hand_near_face": "fingers near lips or cheek, subtle flirtation",
+    "looking_down": "gaze lowered, reflective mood",
+    "over_shoulder_smile": "slight smile while looking back over shoulder",
+    "covering_mouth": "covering mouth slightly in surprise or playfulness",
+    "arms_behind_back": "arms gently behind back, posture upright",
+    "side_leaning": "leaning sideways, hair cascading",
+    "holding_flower": "holding a delicate flower near face",
+    "eyes_closed": "eyes softly closed, calm or dreamlike atmosphere"
+  },
+  "composition": {
+    "tight_crop": "tight head-and-shoulders crop, minimal background",
+    "shoulder_center": "shoulders perfectly centered, symmetric framing",
+    "offset_balance": "face positioned off-center with balanced lighting",
+    "framed_with_light": "light shapes framing the face from side or back",
+    "soft_depth": "background blurred to focus sharply on eyes",
+    "asymmetric_crop": "intentional asymmetric crop for tension",
+    "foreground_blur": "blurred object partially in foreground, framing face",
+    "reflected_balance": "symmetrical composition with mirrored elements"
+  },
+  "focus": {
+    "eye_highlight": "sparkle and sharp detail in eyes",
+    "soft_lens_glow": "soft glow around subject with light bloom",
+    "subtle_bokeh": "gentle bokeh in background, soft tones",
+    "glass_filter": "light refracted through semi-transparent glass",
+    "shadow_detail": "face half in soft shadow, delicate contrast",
+    "silk_texture": "emphasis on skin texture like silk, gentle lighting",
+    "color_gradient": "colorful light gradient across background",
+    "backlight_glow": "light source behind creating glow around hair"
+  },
+  "distance": {
+    "close_face": "tight framing around face only",
+    "head_and_shoulders": "framed from head to upper shoulders",
+    "half_body": "from head to waist, softly lit",
+    "cropped_view": "partially cropped view with implied figure",
+    "within_reach": "viewer feels physically close to subject"
+  }
+}
