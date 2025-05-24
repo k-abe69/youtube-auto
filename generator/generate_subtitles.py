@@ -16,6 +16,24 @@ from common.constants import SILENCE_DURATION
 backup_script(__file__)
 save_config_snapshot()
 
+# ハイライト単語辞書を読み込み
+highlight_path = Path("fixed_assets/subtitle_highlight_words.json")
+if highlight_path.exists():
+    with open(highlight_path, "r", encoding="utf-8") as f:
+        highlight_dict = json.load(f)
+else:
+    highlight_dict = {"emotional": [], "emphasis": []}
+
+def apply_highlight_tags(text: str, highlight_dict: dict) -> str:
+    for word in highlight_dict.get("emotional", []):
+        text = text.replace(word, r"{\1c&H33FFFF&}" + word + r"{\r}")  # yellow
+    for word in highlight_dict.get("emphasis", []):
+        text = text.replace(word, r"{\1c&H0000FF&}" + word + r"{\r}")  # blue（赤なら &H0000FF& を赤コードに変更）
+    return text
+
+
+
+
 # 秒数を SRT の "00:00:00,000" フォーマットに変換
 def format_srt_time(seconds: float) -> str:
     td = timedelta(seconds=seconds)
@@ -206,6 +224,8 @@ def generate_ass_from_json(json_path: Path, output_path: Path):
 
 
         text = scene["text"].replace("\\n", "\n").replace("\n", r"\N").replace(',', '，')
+        text = apply_highlight_tags(text, highlight_dict)
+
         ass_events.append(
             f"Dialogue: {layer},{format_ass_time(start)},{format_ass_time(end)},{style},,"
             f"0,0,0,,{text}"
