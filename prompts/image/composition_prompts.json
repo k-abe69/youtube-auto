@@ -1,8 +1,13 @@
 {
   "distance": {
+    "face_closeup": "extreme close-up with stretched perspective, unrealistic lens",
+    "bust_portrait": "bust-up portrait, shoulders visible, subject slightly turned away, natural angle",
+    "half_body_focus": "waist-up composition, hands partially visible, balanced framing",
+    "cropped_forehead": "headshot with forehead cropped, cinematic intensity",
+    "over_the_shoulder": "shoulder-back view, subject turning face toward camera",
+    "cheek_focus": "side angle close-up with focus on cheek and ear, cropped frame",
     "tiny_subject_far": "distant shot, tiny subject, wide surreal background",
     "silhouette_far": "silhouette in unnatural lighting, distorted horizon",
-    "face_closeup": "extreme close-up with stretched perspective, unrealistic lens",
     "hole_view": "scene viewed through a small hole or tunnel, warped edges",
     "infinity_depth": "subject seen through an endless corridor or portal, exaggerated depth",
     "from_orbit": "extremely distant perspective from space or high orbit"
@@ -32,17 +37,17 @@
   },
   "composition": {
     "extreme_off_center": "subject pushed to the extreme edge of the frame, strong negative space",
-    "spiral_vortex_center": "camera spirals around center point, subject offset",
-    "broken_mirror_fragment": "subject shown through uneven mirror shards, overlapping layers",
-    "top_corner_focus": "main subject located in top left or right corner, sky dominant",
-    "ground_peek": "viewed from a crack in the ground, subject half-cropped above",
-    "offscreen_body": "only part of body visible, most is cropped out in motion",
-    "skewed_fisheye_split": "fisheye effect with diagonal split, subject warped sideways",
-    "asymmetrical_chaos": "composition with no symmetry, elements scattered unevenly",
-    "edge_tracking_motion": "subject running across bottom frame edge, blurred",
-    "sky_floor_merge": "horizon twisted, sky blends into floor, subject falling sideways",
-    "sliced_diagonal": "scene cut across diagonally with light or shadow, subject floats across",
-    "exploded_center_void": "central void pulling composition inward, subject escaping frame"
+    "spiral_vortex_center": "camera spirals around offset point (not center), centrifugal composition",
+    "broken_mirror_fragment": "subject shown through uneven mirror shards, overlapping layers, scattered",
+    "top_corner_focus": "main subject located in top left or right corner, sky dominant, asymmetric",
+    "ground_peek": "viewed from a crack in the ground, subject half-cropped above, asymmetrical",
+    "offscreen_body": "only part of body visible, most is cropped out in motion, avoids central framing",
+    "skewed_fisheye_split": "fisheye effect with diagonal split, subject warped to side, no circular framing",
+    "asymmetrical_chaos": "composition with no symmetry, elements scattered unevenly, avoids centering",
+    "edge_tracking_motion": "subject running across bottom frame edge, blurred, anti-center",
+    "sky_floor_merge": "horizon twisted, sky blends into floor, subject falling diagonally",
+    "sliced_diagonal": "scene cut across diagonally with light or shadow, subject floats across at edge",
+    "exploded_center_void": "central void pulling elements away, subject escaping toward edge"
   },
   "focus": {
     "lens_flare_backlight": "intense lens flare from unnatural light source",
