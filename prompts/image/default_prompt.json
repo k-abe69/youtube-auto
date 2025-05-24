@@ -12,6 +12,19 @@
     "mirror_spine": "(Su_MCraft_AP_Ep81:0.65), 1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities"
   },
 
+  "beauty": {
+    "android_muse": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression",
+    "silver_warrior": "(Su_MCraft_AP_Ep81:0.65), woman in futuristic battle armor, silver-plated face mask partially removed, eyes glowing",
+    "samurai_geisha": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with traditional hairstyle, crimson kimono blowing in wind, katana resting on shoulder",
+    "cyber_priestess": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence",
+    "beastwoman_serenity": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background",
+    "fractured_royalty": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles",
+    "masked_opera": "(Su_MCraft_AP_Ep81:0.65), mysterious beauty in ornate opera mask, golden embroidery, dark velvet curtain backdrop",
+    "military_glare": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke",
+    "wraith_dancer": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile",
+    "alien_empress": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind"
+  },
+
   "scenery": {
     "inverted_sky": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural",
     "memory_cascade": "landscape composed of floating photograph fragments, memories fading midair",
