@@ -1,55 +1,33 @@
 {
   "girl": {
-    "gothic_lolita": "1girl, wearing a gothic lolita dress with lace and ribbons, petite body, pale skin, mysterious aura, calm expression",
-    "school_uniform": "1girl, in a classic Japanese sailor school uniform, youthful face, short black hair, innocent and shy demeanor",
-    "shrine_maiden": "1girl, dressed in traditional miko robes with red hakama, elegant face, soft eyes, pure and serene presence",
-    "cyberpunk_woman": "1girl, wearing cyberpunk armor with neon accents, sharp features, fit body, confident and focused gaze",
-    "sporty_girl": "1girl, in athletic sportswear with a headband, toned and muscular build, energetic, smiling with enthusiasm",
-    "dancer_pose": "1girl, tight leotard and ballet shoes, slender figure, long legs, graceful pose on stage, concentrated look",
-    "princess_style": "1girl, wearing a flowing dress and tiara, elegant posture, refined face, gentle and noble aura",
-    "witch_style": "1girl, black pointed witch hat and cape, curvy figure, confident pose, seductive smirk, mysterious charm",
-    "casual_modern": "1girl, modern casual clothes, hoodie and denim shorts, natural hairstyle, playful and relaxed expression",
-    "beachwear": "1girl, wearing a bikini with sunglasses, slightly tanned skin, slim waist, flirty pose, summer vibe",
-    "angelic": "1girl, white angel wings, glowing light around her, delicate features, kind smile, divine and peaceful presence",
-    "devilish": "1girl, small black horns, dark outfit, voluptuous body, sharp eyes, mischievous and seductive expression"
+    "floating_priestess": "1girl, floating above a glowing magic circle in the sky, long hair suspended, serene expression, robes billowing unnaturally",
+    "mirror_girl": "1girl, emerging from a broken mirror surface, half-transparent body, expressionless gaze, surreal lighting",
+    "gravity_defying": "1girl, upside down in midair, skirt flowing upward, relaxed expression, impossible posture",
+    "fragmented_entity": "1girl, body partially pixelated or fractured, glitch effects, neon fragments hovering",
+    "dream_swimmer": "1girl, swimming through air as if underwater, surrounded by glowing jellyfish, deep calm expression"
   },
 
   "scenery": {
-    "urban_city": "cityscape, modern skyscrapers, NYC style, urban atmosphere, daylight",
-    "bamboo_forest": "bamboo forest, dim lighting, natural shadows, serene, green tones",
-    "sunset_beach": "sunset beach, orange sky, calm waves, warm light, peaceful horizon",
-    "snowy_forest": "snow-covered forest, white trees, silent and cold atmosphere, winter light",
-    "neon_city_night": "cyberpunk city at night, neon signs, wet pavement, futuristic vibe",
-    "rural_village": "countryside village, old wooden houses, narrow path, tranquil setting",
-    "starry_sky": "wide starry sky, visible Milky Way, dark blue gradient, quiet night",
-    "sakura_path": "cherry blossom path, petals falling, soft lighting, spring mood",
-    "mountain_view": "mountain landscape, distant peaks, crisp air, panoramic view",
-    "rainy_street": "rainy street at night, reflections on asphalt, umbrellas, gentle ambiance"
+    "inverted_city": "cityscape floating upside down above a normal one, dual lighting, gravity conflict, surreal vibe",
+    "fractured_horizon": "landscape splitting at the horizon, mismatched lighting directions, chaotic geometry",
+    "sky_tunnel": "cylindrical sky with clouds spiraling inward, horizon curve visible, dreamlike",
+    "lava_rain": "molten rain falling from calm clouds, reflective glass ground, red glow atmosphere",
+    "space_garden": "garden in outer space, floating stones and glowing trees, planets visible in sky"
   },
 
   "animal": {
-    "fox_hybrid": "humanoid fox, fox face, wearing traditional Japanese kimono, fantasy creature, anthropomorphic",
-    "shiba_inu": "shiba inu, simple cute dog, small size, fluffy, standing",
-    "cat_girl": "catgirl, human-like with cat ears and tail, playful expression, sleek body, wearing casual clothes",
-    "dragon_beast": "dragon beastman, humanoid body, reptilian skin, horns and wings, powerful presence",
-    "bird_creature": "avian humanoid, feathered arms, majestic wingspan, floating mid-air, eagle-like face",
-    "bear_fantasy": "anthro bear creature, bulky build, wearing armor, fantasy setting",
-    "dog_girl": "doggirl, fluffy ears, wagging tail, cheerful and energetic, simple outfit",
-    "deer_forest": "deer-headed spirit, tall and slender, mystical glow, standing in forest",
-    "rabbit_hybrid": "rabbit-eared humanoid, gentle smile, soft posture, spring flowers",
-    "tiger_warrior": "tiger beastman, muscular, striped fur, combat pose, tribal armor"
+    "glitch_cat": "cat-like creature with glitching outlines, neon eyes, levitating slightly, pixel tail trailing",
+    "glass_fox": "transparent fox with liquid core, refracting light, walking on water",
+    "dragon_flower": "floral-scaled dragon, petal wings, breathing glowing pollen",
+    "clock_rabbit": "rabbit with gears and clock face, antique texture, walking upright",
+    "shadow_bird": "bird made of living shadow, shifting edges, red pupils, silent presence"
   },
 
   "pair": {
-    "man_woman_generic": "1boy, 1girl, casual clothes, standing close, looking at each other, natural interaction",
-    "lovers_evening": "romantic couple, walking together at sunset, holding hands, warm expression",
-    "friends_chatting": "male and female friends talking, casual scene, laughing, relaxed mood",
-    "rivals_confronting": "two opponents, tense atmosphere, standing face to face, competition vibe",
-    "siblings_casual": "brother and sister, casual clothing, walking side by side, family bond",
-    "dance_pair": "boy and girl dancing together, elegant posture, stage spotlight",
-    "date_at_cafe": "young couple sitting at a cafe, drinks in hand, smiling softly",
-    "running_together": "1boy, 1girl jogging side by side, energetic and healthy feeling",
-    "festival_scene": "couple in yukata at festival, night lights, holding snacks",
-    "study_session": "boy and girl studying together, notebooks open, light academic setting"
+    "time_split_twins": "two girls facing away from each other, one bathed in sunset, one in moonlight, mirror symmetry",
+    "angel_and_void": "bright-winged girl standing next to a pitch-black silhouette, no facial features, tension in posture",
+    "glitch_conversation": "two figures mid-dialogue, one dissolving into data, the other sketch-like lines",
+    "reflected_pairs": "two pairs interacting across an invisible mirror plane, inverted poses and expressions",
+    "gravity_dancers": "two dancers midair, one upright, one upside down, in perfect mirrored pose"
   }
 }
