@@ -33,7 +33,8 @@ def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7861) -> Im
         "model": "RealisticVisionXL_v57 [49E4F2939A]",
         "width": 1024,
         "height": 1024,
-        "steps": 25,
+        "steps": 45,
+        "cfg_scale": 8.0
         "sampler_index": "DPM++ 2M Karras",
     }
 
