@@ -1,0 +1,233 @@
+[
+  {
+    "scene_id": "scene_01",
+    "start_sec": 0.0,
+    "end_sec": 5.39,
+    "text": "イケメンの親切は信じられるのに、\\N\n“キモい男の親切”は\n警戒されるのはなぜ？",
+    "type": "main_title"
+  },
+  {
+    "scene_id": "scene_02",
+    "start_sec": 5.39,
+    "end_sec": 7.92,
+    "text": "見た目で判断されるのは\\N\n0.1秒以内",
+    "type": "title"
+  },
+  {
+    "scene_id": "scene_03",
+    "start_sec": 7.92,
+    "end_sec": 9.62,
+    "text": "人間は他人の顔を見て、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_04",
+    "start_sec": 9.62,
+    "end_sec": 11.33,
+    "text": "わずか0.1秒以内に\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_05",
+    "start_sec": 11.33,
+    "end_sec": 13.2,
+    "text": "「信頼で\\Nきる／できない」",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_06",
+    "start_sec": 13.2,
+    "end_sec": 14.26,
+    "text": "を判断している。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_07",
+    "start_sec": 14.26,
+    "end_sec": 16.13,
+    "text": "これは意識的な評価ではなく、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_08",
+    "start_sec": 16.13,
+    "end_sec": 18.32,
+    "text": "脳の潜在的な判断メカニズムに\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_09",
+    "start_sec": 18.32,
+    "end_sec": 19.45,
+    "text": "基づくとされる。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_10",
+    "start_sec": 19.45,
+    "end_sec": 22.59,
+    "text": "“見た目が\\N良い人”は\n無条件に好意的に見られる",
+    "type": "title"
+  },
+  {
+    "scene_id": "scene_11",
+    "start_sec": 22.59,
+    "end_sec": 24.25,
+    "text": "外見が魅力的な人は、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_12",
+    "start_sec": 24.25,
+    "end_sec": 26.92,
+    "text": "性格や知能まで\\Nも高く評価されやすいという",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_13",
+    "start_sec": 26.92,
+    "end_sec": 29.19,
+    "text": "「ハロー効果」の影響を受けやすい。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_14",
+    "start_sec": 29.19,
+    "end_sec": 32.26,
+    "text": "これは\\N見た目だけで“総合的に良さそう”と",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_15",
+    "start_sec": 32.26,
+    "end_sec": 34.1,
+    "text": "判断される心理的バイアス。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_16",
+    "start_sec": 34.1,
+    "end_sec": 37.31,
+    "text": "顔の対称性が\\N“信頼”と結びついている",
+    "type": "title"
+  },
+  {
+    "scene_id": "scene_17",
+    "start_sec": 37.31,
+    "end_sec": 39.38,
+    "text": "顔の左右対称性が高いほど、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_18",
+    "start_sec": 39.38,
+    "end_sec": 42.41,
+    "text": "被験者は\\Nその人物を「信頼できる」と",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_19",
+    "start_sec": 42.41,
+    "end_sec": 43.88,
+    "text": "判断する傾向がある。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_20",
+    "start_sec": 43.88,
+    "end_sec": 45.82,
+    "text": "美的評価が\\N社会的信用に",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_21",
+    "start_sec": 45.82,
+    "end_sec": 47.99,
+    "text": "影響することが実験で示されている。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_22",
+    "start_sec": 47.99,
+    "end_sec": 52.48,
+    "text": "表情と眼差しだけで「好意」か「警戒」かを\\N判定",
+    "type": "title"
+  },
+  {
+    "scene_id": "scene_23",
+    "start_sec": 52.48,
+    "end_sec": 54.9,
+    "text": "被験者はわずかな表情や目の動きから、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_24",
+    "start_sec": 54.9,
+    "end_sec": 56.84,
+    "text": "相手が\\N敵意を持っているかどうかを",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_25",
+    "start_sec": 56.84,
+    "end_sec": 58.05,
+    "text": "即座に察知する。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_26",
+    "start_sec": 58.05,
+    "end_sec": 59.99,
+    "text": "これは\\N進化的に獲得された",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_27",
+    "start_sec": 59.99,
+    "end_sec": 62.14,
+    "text": "“危険回避”の能力とされている。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_28",
+    "start_sec": 62.14,
+    "end_sec": 66.45,
+    "text": "外見が\\N良い人ほど“得をする”のは経済的にも証明済み",
+    "type": "title"
+  },
+  {
+    "scene_id": "scene_29",
+    "start_sec": 66.45,
+    "end_sec": 68.19,
+    "text": "容姿が平均より良い人は、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_30",
+    "start_sec": 68.19,
+    "end_sec": 69.64,
+    "text": "そうでない人に\\N比べて",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_31",
+    "start_sec": 69.64,
+    "end_sec": 73.19,
+    "text": "平均で5〜10%年収が\\N高い傾向があると判明。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_32",
+    "start_sec": 73.19,
+    "end_sec": 75.59,
+    "text": "これは単に印象が\\N良いという理由だけで",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_33",
+    "start_sec": 75.59,
+    "end_sec": 78.33,
+    "text": "“待遇差”が発生している証拠である。\\N",
+    "type": "summary"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "scene_id": "scene_01",
+    "start_sec": 0.0,
+    "end_sec": 5.39,
+    "text": "イケメンの親切は信じられるのに、\\N“キモい男の親切”は\\N警戒されるのはなぜ？",
+    "type": "main_title"
+  },
+  {
+    "scene_id": "scene_02_center",
+    "start_sec": 5.39,
+    "end_sec": 7.92,
+    "text": "見た目で判断されるのは\n0.1秒以内",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_02_top",
+    "start_sec": 7.92,
+    "end_sec": 13.06,
+    "text": "見た目で判断されるのは\n0.1秒以内",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_02",
+    "start_sec": 5.39,
+    "end_sec": 7.92,
+    "text": "Princeton大学「First Impression\\Ns」研究（Willis & Todorov, 2006）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_03",
+    "start_sec": 7.92,
+    "end_sec": 9.62,
+    "text": "人間は他人の顔を見て、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_04",
+    "start_sec": 9.62,
+    "end_sec": 11.33,
+    "text": "わずか0.1秒以内に\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_05",
+    "start_sec": 11.33,
+    "end_sec": 13.2,
+    "text": "「信頼で\\Nきる／できない」",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_06",
+    "start_sec": 13.2,
+    "end_sec": 14.26,
+    "text": "を判断している。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_07_center",
+    "start_sec": 14.26,
+    "end_sec": 17.39,
+    "text": "“見た目が良い人”は\n無条件に好意的に見られる",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_07_top",
+    "start_sec": 17.39,
+    "end_sec": 22.0,
+    "text": "“見た目が良い人”は\n無条件に好意的に見られる",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_07",
+    "start_sec": 14.26,
+    "end_sec": 17.39,
+    "text": "Eagly & Ashmore (1991), \"Wh\\Nat is beautiful is good\" 仮説",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_08",
+    "start_sec": 17.39,
+    "end_sec": 19.05,
+    "text": "外見が魅力的な人は、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_09",
+    "start_sec": 19.05,
+    "end_sec": 21.72,
+    "text": "性格や知能まで\\Nも高く評価されやすいという",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_10",
+    "start_sec": 21.72,
+    "end_sec": 23.99,
+    "text": "「ハロー効果」の影響を受けやすい。\\N",
+    "type": "summary"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "scene_id": "scene_01",
+    "start_sec": 0.0,
+    "duration": 5.19,
+    "text": "イケメンの親切は\n信じられるのに\n“キモい男の親切”は\n警戒されるのはなぜ？",
+    "type": "main_title"
+  },
+  {
+    "scene_id": "scene_02",
+    "start_sec": 5.19,
+    "duration": 2.33,
+    "text": "見た目で判断されるのは\n0.1秒以内",
+    "type": "title"
+  },
+  {
+    "scene_id": "scene_03",
+    "start_sec": 7.52,
+    "duration": 1.5,
+    "text": "人間は他人の顔を見て、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_04",
+    "start_sec": 9.02,
+    "duration": 1.5,
+    "text": "わずか0.1秒以内に",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_05",
+    "start_sec": 10.53,
+    "duration": 1.67,
+    "text": "「信頼できる／できない」",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_06",
+    "start_sec": 12.2,
+    "duration": 0.85,
+    "text": "を判断している。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_07",
+    "start_sec": 13.06,
+    "duration": 0.52,
+    "text": "これは",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_08",
+    "start_sec": 13.58,
+    "duration": 1.39,
+    "text": "意識的な評価ではなく、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_09",
+    "start_sec": 14.97,
+    "duration": 1.01,
+    "text": "脳の潜在的な",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_10",
+    "start_sec": 15.98,
+    "duration": 1.89,
+    "text": "判断メカニズムに基づくとされる。",
+    "type": "summary"
+  }
+]

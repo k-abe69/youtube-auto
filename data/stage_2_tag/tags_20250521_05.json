@@ -1,0 +1,122 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.64,
+      "text": "イケメンの親切\n＝信じられる\n“キモい男の親切”\n＝？",
+      "type": "main_title",
+      "tags": [
+        "イケメン",
+        "親切",
+        "キモい男"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.64,
+      "duration": 2.33,
+      "text": "見た目で判断\nされるのは\n0.1秒以内",
+      "type": "title",
+      "tags": [
+        "見た目",
+        "判断",
+        "0.1秒"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.96,
+      "duration": 1.5,
+      "text": "人間は他人の顔を見て、",
+      "type": "summary",
+      "tags": [
+        "顔認識",
+        "表情分析",
+        "他人の顔"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 7.47,
+      "duration": 1.5,
+      "text": "わずか0.1秒以内に",
+      "type": "summary",
+      "tags": [
+        "高速",
+        "瞬間",
+        "速さ"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 8.97,
+      "duration": 1.67,
+      "text": "「信頼できる／できない」",
+      "type": "summary",
+      "tags": [
+        "信頼",
+        "信用",
+        "疑念"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 10.65,
+      "duration": 0.85,
+      "text": "を判断している。",
+      "type": "summary",
+      "tags": [
+        "判断",
+        "評価",
+        "分析"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 11.5,
+      "duration": 1.67,
+      "text": "これは意識的な評価ではなく、",
+      "type": "summary",
+      "tags": [
+        "意識的",
+        "評価",
+        "判断"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 13.17,
+      "duration": 1.99,
+      "text": "脳の潜在的な判断メカニズムに",
+      "type": "summary",
+      "tags": [
+        "脳",
+        "潜在意識",
+        "判断メカニズム"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 15.17,
+      "duration": 0.93,
+      "text": "基づくとされる。",
+      "type": "summary",
+      "tags": [
+        "データ",
+        "根拠",
+        "資料"
+      ],
+      "parent_scene_id": "004"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "global_image_tag": "日常",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.18,
+      "text": "「週5で働いても、貧しいままって…おかしくない？」",
+      "tags": [
+        "週5",
+        "労働",
+        "貧困"
+      ],
+      "parent_scene_id": "000"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.18,
+      "duration": 1.7,
+      "text": "毎朝満員電車で出勤して、",
+      "tags": [
+        "満員電車",
+        "通勤ラッシュ",
+        "朝の通勤"
+      ],
+      "parent_scene_id": "000"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.87,
+      "duration": 1.35,
+      "text": "クタクタになるまで働いて、",
+      "tags": [
+        "仕事",
+        "疲労",
+        "オフィス"
+      ],
+      "parent_scene_id": "000"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 6.23,
+      "duration": 1.38,
+      "text": "手取りは20万ちょい。",
+      "tags": [
+        "手取り",
+        "給与明細",
+        "20万円"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 7.61,
+      "duration": 1.7,
+      "text": "家賃で消える、貯金ゼロ。",
+      "tags": [
+        "家賃",
+        "貯金ゼロ",
+        "生活費"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 9.3,
+      "duration": 2.29,
+      "text": "それで「努力が足りない」って、",
+      "tags": [
+        "努力",
+        "不足",
+        "頑張り"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 11.59,
+      "duration": 1.17,
+      "text": "お前は言えるか？",
+      "tags": [
+        "言える",
+        "お前",
+        "挑戦"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 12.77,
+      "duration": 1.32,
+      "text": "厚労省の調査では、",
+      "tags": [
+        "厚労省",
+        "調査結果",
+        "統計データ"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 14.09,
+      "duration": 2.56,
+      "text": "正社員でも“生活が苦しい”と",
+      "tags": [
+        "正社員",
+        "生活苦しい",
+        "経済的困難"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 16.65,
+      "duration": 1.61,
+      "text": "答えた人が4割を超えてる。",
+      "tags": [
+        "アンケート結果",
+        "統計データ",
+        "グラフ"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 18.26,
+      "duration": 1.71,
+      "text": "年収200万台でフルタイム。",
+      "tags": [
+        "低所得",
+        "フルタイム",
+        "年収200万"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 19.97,
+      "duration": 3.16,
+      "text": "これ、努力不足じゃなくて、\\n構造がおかしいんだよ。",
+      "tags": [
+        "構造問題",
+        "システムエラー",
+        "努力不足"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 23.13,
+      "duration": 1.97,
+      "text": "でも日本社会はこう刷り込んでくる。",
+      "tags": [
+        "日本社会",
+        "刷り込み",
+        "社会風潮"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 25.1,
+      "duration": 1.43,
+      "text": "「貧しいのは自業自得」",
+      "tags": [
+        "貧困",
+        "自業自得",
+        "格差"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 26.53,
+      "duration": 1.49,
+      "text": "「文句を言うやつは甘えてる」",
+      "tags": [
+        "文句",
+        "甘え",
+        "批判"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 28.02,
+      "duration": 3.22,
+      "text": "そんな声に、\\nいつの間にか自分で自分を殴り始める。",
+      "tags": [
+        "自傷行為",
+        "自己嫌悪",
+        "心の葛藤"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 31.24,
+      "duration": 1.7,
+      "text": "WVSの調査によれば、",
+      "tags": [
+        "WVS",
+        "調査",
+        "世界価値観調査"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 32.94,
+      "duration": 2.35,
+      "text": "日本は「貧困＝自己責任」",
+      "tags": [
+        "貧困",
+        "自己責任",
+        "日本"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 35.29,
+      "duration": 2.76,
+      "text": "だと考える人の割合が、世界トップクラス。",
+      "tags": [
+        "世界トップクラス",
+        "割合",
+        "統計"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 38.05,
+      "duration": 3.68,
+      "text": "つまり“失敗したやつは黙ってろ”\\nって文化が染みついてる。",
+      "tags": [
+        "失敗",
+        "文化",
+        "黙る"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 41.73,
+      "duration": 2.88,
+      "text": "だけど、OECDの報告ではもうとっくに",
+      "tags": [
+        "OECD",
+        "報告書",
+        "経済協力開発機構"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 44.61,
+      "duration": 2.53,
+      "text": "「中間層は沈没中」って言われてる。",
+      "tags": [
+        "中間層",
+        "経済格差",
+        "沈没"
+      ],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 47.14,
+      "duration": 3.14,
+      "text": "真面目に働いても、家も持てない、老後も詰む。",
+      "tags": [
+        "家",
+        "老後",
+        "真面目に働く"
+      ],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 50.27,
+      "duration": 2.04,
+      "text": "それが“普通”になってる。",
+      "tags": [
+        "普通",
+        "日常",
+        "当たり前"
+      ],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 52.31,
+      "duration": 3.09,
+      "text": "だから最近は、ベーシックインカムの議論が再燃してる。",
+      "tags": [
+        "ベーシックインカム",
+        "議論",
+        "再燃"
+      ],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 55.4,
+      "duration": 3.2,
+      "text": "だって、「努力＝安定」って前提が、",
+      "tags": [
+        "努力",
+        "安定",
+        "前提"
+      ],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 58.6,
+      "duration": 1.13,
+      "text": "もう崩壊してるから。",
+      "tags": [
+        "崩壊",
+        "倒壊",
+        "破壊"
+      ],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_28",
+      "start_sec": 59.73,
+      "duration": 1.54,
+      "text": "それでもお前は言うのか？",
+      "tags": [
+        "反論",
+        "対話",
+        "葛藤"
+      ],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_29",
+      "start_sec": 61.27,
+      "duration": 3.68,
+      "text": "「努力が足りないだけだ」って。\nそれ、お前の言葉か？",
+      "tags": [
+        "努力",
+        "言葉",
+        "自己反省"
+      ],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_30",
+      "start_sec": 64.95,
+      "duration": 2.53,
+      "text": "それとも、仕組みに洗脳された結果か？",
+      "tags": [
+        "洗脳",
+        "仕組み",
+        "結果"
+      ],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_31",
+      "start_sec": 67.48,
+      "duration": 1.09,
+      "text": "さあコメントしてくれ。",
+      "tags": [
+        "コメント",
+        "メッセージ",
+        "フィードバック"
+      ],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_32",
+      "start_sec": 68.57,
+      "duration": 3.18,
+      "text": "“貧困は自己責任”って、ほんとにそう思う？",
+      "tags": [
+        "貧困",
+        "自己責任",
+        "社会問題"
+      ],
+      "parent_scene_id": "010"
+    }
+  ]
+}

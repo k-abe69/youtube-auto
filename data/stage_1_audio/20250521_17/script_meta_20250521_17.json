@@ -1,0 +1,86 @@
+[
+  {
+    "scene_id": "scene_01",
+    "type": "main_title",
+    "text": "イケメンの親切は信じられるのに、\n“キモい男の親切”は\n警戒されるのはなぜ？",
+    "start_sec": 0.0,
+    "duration": 5.19
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "title",
+    "text": "見た目で判断されるのは\n0.1秒以内",
+    "start_sec": 5.19,
+    "duration": 2.33
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "source",
+    "text": "Princeton大学「First Impressions」研究（Willis & Todorov, 2006）",
+    "start_sec": 5.19,
+    "duration": 2.33
+  },
+  {
+    "scene_id": "scene_03",
+    "type": "summary",
+    "text": "人間は他人の顔を見て、",
+    "start_sec": 7.52,
+    "duration": 1.5
+  },
+  {
+    "scene_id": "scene_04",
+    "type": "summary",
+    "text": "わずか0.1秒以内に",
+    "start_sec": 9.02,
+    "duration": 1.5
+  },
+  {
+    "scene_id": "scene_05",
+    "type": "summary",
+    "text": "「信頼できる／できない」",
+    "start_sec": 10.53,
+    "duration": 1.67
+  },
+  {
+    "scene_id": "scene_06",
+    "type": "summary",
+    "text": "を判断している。",
+    "start_sec": 12.2,
+    "duration": 0.85
+  },
+  {
+    "scene_id": "scene_07",
+    "type": "title",
+    "text": "“見た目が良い人”は\n無条件に好意的に見られる",
+    "start_sec": 13.06,
+    "duration": 2.93
+  },
+  {
+    "scene_id": "scene_07",
+    "type": "source",
+    "text": "Eagly & Ashmore (1991), \"What is beautiful is good\" 仮説",
+    "start_sec": 13.06,
+    "duration": 2.93
+  },
+  {
+    "scene_id": "scene_08",
+    "type": "summary",
+    "text": "外見が魅力的な人は、",
+    "start_sec": 15.99,
+    "duration": 1.46
+  },
+  {
+    "scene_id": "scene_09",
+    "type": "summary",
+    "text": "性格や知能までも高く評価されやすいという",
+    "start_sec": 17.45,
+    "duration": 2.47
+  },
+  {
+    "scene_id": "scene_10",
+    "type": "summary",
+    "text": "「ハロー効果」の影響を受けやすい。",
+    "start_sec": 19.93,
+    "duration": 2.07
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "scene_id": "scene_01",
+    "start_sec": 0.0,
+    "end_sec": 3.84,
+    "text": "イケメンの親切\\N＝信じられる\\N“キモい男の親切”\\N＝？",
+    "type": "main_title"
+  },
+  {
+    "scene_id": "scene_02",
+    "start_sec": 3.84,
+    "end_sec": 6.36,
+    "text": "見た目で判断\\Nされるのは\\N0.1秒以内",
+    "type": "title"
+  },
+  {
+    "scene_id": "scene_03",
+    "start_sec": 6.36,
+    "end_sec": 8.07,
+    "text": "人間は他人の顔を見て、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_04",
+    "start_sec": 8.07,
+    "end_sec": 9.77,
+    "text": "わずか0.1秒以内に\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_05",
+    "start_sec": 9.77,
+    "end_sec": 11.64,
+    "text": "「信頼で\\Nきる／できない」",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_06",
+    "start_sec": 11.64,
+    "end_sec": 12.7,
+    "text": "を判断している。\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_07",
+    "start_sec": 12.7,
+    "end_sec": 14.57,
+    "text": "これは意識的な評価ではなく、\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_08",
+    "start_sec": 14.57,
+    "end_sec": 16.77,
+    "text": "脳の潜在的な判断メカニズムに\\N",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_09",
+    "start_sec": 16.77,
+    "end_sec": 17.89,
+    "text": "基づくとされる。\\N",
+    "type": "summary"
+  }
+]

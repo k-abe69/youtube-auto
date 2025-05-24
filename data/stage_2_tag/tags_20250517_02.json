@@ -1,0 +1,293 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.83,
+      "text": "「“努力できる人”は、それ自体が才能です。」",
+      "tags": [
+        "努力",
+        "才能",
+        "名言"
+      ],
+      "parent_scene_id": "000"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.83,
+      "duration": 2.57,
+      "text": "努力って、誰にでもできると思ってる人。",
+      "tags": [
+        "努力",
+        "誰にでもできる",
+        "挑戦"
+      ],
+      "parent_scene_id": "000"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.4,
+      "duration": 1.27,
+      "text": "それ、甘えです。",
+      "tags": [
+        "甘え",
+        "甘えん坊",
+        "自己中心的"
+      ],
+      "parent_scene_id": "000"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 6.67,
+      "duration": 1.92,
+      "text": "実際、やる気の出やすさって",
+      "tags": [
+        "やる気",
+        "モチベーション",
+        "心理学"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 8.59,
+      "duration": 1.86,
+      "text": "“脳の配線”で決まってる。",
+      "tags": [
+        "脳",
+        "配線",
+        "神経回路"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 10.44,
+      "duration": 1.38,
+      "text": "スタンフォードの研究では、",
+      "tags": [
+        "スタンフォード大学",
+        "研究結果",
+        "科学研究"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 11.82,
+      "duration": 2.84,
+      "text": "やる気を司るドーパミン回路に\\n生まれつき差があるって。",
+      "tags": [
+        "ドーパミン",
+        "やる気回路",
+        "脳科学"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 14.66,
+      "duration": 3.83,
+      "text": "つまり“頑張れる人”は、運が良かっただけかもしれない。",
+      "tags": [
+        "頑張れる人",
+        "運が良かった",
+        "運と努力"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 18.49,
+      "duration": 2.18,
+      "text": "努力できない人は、怠け者じゃない。",
+      "tags": [
+        "努力",
+        "怠け者",
+        "自己改善"
+      ],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 20.66,
+      "duration": 1.64,
+      "text": "ミネソタ大の双子研究では、",
+      "tags": [
+        "双子研究",
+        "ミネソタ大学",
+        "遺伝子研究"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 22.3,
+      "duration": 2.2,
+      "text": "意志力の半分は遺伝って結果が出てる。",
+      "tags": [
+        "意志力",
+        "遺伝",
+        "研究結果"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 24.5,
+      "duration": 1.15,
+      "text": "さらに驚きなのは、",
+      "tags": [
+        "驚き",
+        "サプライズ",
+        "感嘆"
+      ],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 25.65,
+      "duration": 2.42,
+      "text": "訓練しても意志力には限界があるってこと。",
+      "tags": [
+        "意志力",
+        "限界",
+        "訓練"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 28.07,
+      "duration": 2.24,
+      "text": "全員がコツコツできるように\\nなるわけじゃない。",
+      "tags": [
+        "コツコツ",
+        "努力",
+        "継続"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 30.31,
+      "duration": 2.38,
+      "text": "それでも、努力できる人は上から言う。",
+      "tags": [
+        "努力",
+        "上から目線",
+        "自己啓発"
+      ],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 32.69,
+      "duration": 1.58,
+      "text": "“努力が足りない”って。",
+      "tags": [
+        "努力",
+        "足りない",
+        "頑張る"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 34.27,
+      "duration": 0.71,
+      "text": "「じゃあ聞くけど――",
+      "tags": [
+        "会話",
+        "質問",
+        "対話"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 34.99,
+      "duration": 3.27,
+      "text": "“努力できる自分”を、ちゃんと疑ったことある？」",
+      "tags": [
+        "努力",
+        "自分探し",
+        "自己疑問"
+      ],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 38.26,
+      "duration": 2.89,
+      "text": "“努力ができるかどうか”って、実は才能。",
+      "tags": [
+        "努力",
+        "才能",
+        "自己啓発"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 41.15,
+      "duration": 1.83,
+      "text": "しかも、かなり残酷な種類の。",
+      "tags": [
+        "残酷",
+        "恐ろしい",
+        "生々しい"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 42.99,
+      "duration": 2.01,
+      "text": "だから今日だけは、こう言わせて。",
+      "tags": [
+        "今日だけ",
+        "特別な日",
+        "お願い"
+      ],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 44.99,
+      "duration": 2.25,
+      "text": "“努力できる人、おめでとうございます”",
+      "tags": [
+        "努力",
+        "成功",
+        "お祝い"
+      ],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 47.24,
+      "duration": 1.16,
+      "text": "努力できないあなたへ――",
+      "tags": [
+        "努力",
+        "モチベーション",
+        "自己改善"
+      ],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 48.41,
+      "duration": 1.89,
+      "text": "それ、才能がないだけかも。",
+      "tags": [
+        "才能",
+        "失敗",
+        "努力"
+      ],
+      "parent_scene_id": "007"
+    }
+  ]
+}

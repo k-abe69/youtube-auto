@@ -6,7 +6,6 @@ __pycache__/
 output/
 audio/
 images/
-data/
 scripts_ok/
 config/versions/
 backup/

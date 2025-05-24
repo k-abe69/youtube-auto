@@ -1,0 +1,52 @@
+[
+  {
+    "scene_id": "scene_01",
+    "type": "main_title",
+    "text": "イケメンの親切\n＝信じられる\n“キモい男の親切”\n＝？"
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "title",
+    "text": "見た目で判断\nされるのは\n0.1秒以内"
+  },
+  {
+    "scene_id": "scene_02",
+    "type": "source",
+    "text": "Princeton大学\n「First Impressions」研究\n（Willis & Todorov, 2006）"
+  },
+  {
+    "scene_id": "scene_03",
+    "type": "summary",
+    "text": "人間は他人の顔を見て、"
+  },
+  {
+    "scene_id": "scene_04",
+    "type": "summary",
+    "text": "わずか0.1秒以内に"
+  },
+  {
+    "scene_id": "scene_05",
+    "type": "summary",
+    "text": "「信頼できる／できない」"
+  },
+  {
+    "scene_id": "scene_06",
+    "type": "summary",
+    "text": "を判断している。"
+  },
+  {
+    "scene_id": "scene_07",
+    "type": "summary",
+    "text": "これは意識的な評価ではなく、"
+  },
+  {
+    "scene_id": "scene_08",
+    "type": "summary",
+    "text": "脳の潜在的な判断メカニズムに"
+  },
+  {
+    "scene_id": "scene_09",
+    "type": "summary",
+    "text": "基づくとされる。"
+  }
+]

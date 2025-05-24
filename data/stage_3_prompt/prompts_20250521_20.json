@@ -1,0 +1,238 @@
+{
+  "001": {
+    "prompt": "boy and girl dancing together, elegant posture, stage spotlight, tight shot of side profile, viewed through window, partial frame, waving hand, playful mood, rule of thirds composition, blurred foreground, focus behind, handsome man helping, suspicious looking man offering help",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "イケメンの親切は\n信じられるのに\n“キモい男の親切”は\n警戒されるのはなぜ？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "1girl, modern casual clothes, hoodie and denim shorts, natural hairstyle, playful and relaxed expression, shot from knees up, natural posture, viewed from above, bird's-eye view, holding a camera, selfie style, backlit with strong shadow contrast, creative use of shadow and light, two people facing each other, quick glance",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "見た目で判断されるのは\n0.1秒以内"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間は他人の顔を見て、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "わずか0.1秒以内に"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "brother and sister, casual clothing, walking side by side, family bond, bust-up shot, shoulders and above, pure side view, profile centered, stretching arms upward, subject near edge of frame, focused on feet, soft surroundings, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "「信頼できる／できない」"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "を判断している。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これは"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "1girl, in athletic sportswear with a headband, toned and muscular build, energetic, smiling with enthusiasm, extreme close-up of face, emotional expression, slightly tilted camera angle, mid-jump, dynamic movement, symmetrical composition, centered, tunnel framing, drawn inward, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "意識的な評価ではなく、"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "脳の潜在的な"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "判断メカニズムに基づくとされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "brother and sister, casual clothing, walking side by side, family bond, full body, centered composition, viewed from behind at 3/4 angle, stretching arms upward, subject near edge of frame, foggy or misty atmosphere, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "“見た目が良い人”は\n無条件に\n好意的に見られる"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "外見が魅力的な人は、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "性格や知能までも"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "1girl, in athletic sportswear with a headband, toned and muscular build, energetic, smiling with enthusiasm, tight shot of side profile, subject turning away from camera, running toward camera, motion blur, subject near edge of frame, sharp subject, bokeh background, girl under spotlight, visual influence",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "高く評価されやすいという"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "「ハロー効果」の影響を受けやすい。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "これは見た目だけで"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "dragon beastman, humanoid body, reptilian skin, horns and wings, powerful presence, shot from knees up, natural posture, slightly tilted camera angle, running toward camera, motion blur, looking to the side, distant gaze, vignette around corners, two people discussing, nodding in agreement",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "“総合的に良さそう”と"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "判断される心理的バイアス。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "avian humanoid, feathered arms, majestic wingspan, floating mid-air, eagle-like face, tight shot of side profile, reflected in a mirror, standing on one leg, balancing, backlit with strong shadow contrast, blurred foreground, focus behind, symmetrical face, trust perception",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "顔の対称性が\n“信頼”\nと結びついている"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "顔の左右対称性が高いほど、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "被験者はその人物を「信頼できる」と"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "young couple sitting at a cafe, drinks in hand, smiling softly, shot from knees up, natural posture, subject turning away from camera, kneeling on one knee, looking to the side, distant gaze, lens flare with backlight, girl making a decision, social context, scientific experiment",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "判断する傾向がある。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "美的評価が社会的信用に"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "影響することが実験で示されている。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "snow-covered forest, white trees, silent and cold atmosphere, winter light, full body, centered composition, pure side view, profile centered, kneeling on one knee, symmetrical composition, centered, partially reflected in glass, animal gaze, subtle expressions, sense of caution",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "表情と眼差しだけで\n「好意」か「警戒」かを\n判定"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "被験者はわずかな表情や目の動きから、"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "相手が敵意を持っているかどうかを"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "anthro bear creature, bulky build, wearing armor, fantasy setting, silhouette in the distance, backlight, viewed from behind at 3/4 angle, lying on the floor, relaxed posture, looking downward gently, creative use of shadow and light, animal on alert, defensive posture",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_28",
+        "text": "即座に察知する。"
+      },
+      {
+        "scene_id": "scene_29",
+        "text": "これは進化的に獲得された"
+      },
+      {
+        "scene_id": "scene_30",
+        "text": "“危険回避”の能力とされている。"
+      }
+    ]
+  },
+  "012": {
+    "prompt": "mountain landscape, distant peaks, crisp air, panoramic view, low angle, focus on feet, eye-level POV, natural perspective, stretching arms upward, looking to the side, distant gaze, partially reflected in glass, statistics charts, economic symbols",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_31",
+        "text": "外見が良い人ほど\n“得をする”のは\n経済的にも証明済み"
+      },
+      {
+        "scene_id": "scene_32",
+        "text": "容姿が平均より良い人は、"
+      },
+      {
+        "scene_id": "scene_33",
+        "text": "そうでない人に比べて"
+      }
+    ]
+  },
+  "013": {
+    "prompt": "boy and girl studying together, notebooks open, light academic setting, bust-up shot, shoulders and above, eye-level POV, natural perspective, waving hand, playful mood, direct eye contact with viewer, lens flare with backlight, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_34",
+        "text": "平均で5〜10%年収が高い"
+      },
+      {
+        "scene_id": "scene_35",
+        "text": "傾向があると判明。"
+      },
+      {
+        "scene_id": "scene_36",
+        "text": "これは単に印象が良い"
+      }
+    ]
+  },
+  "014": {
+    "prompt": "1girl, black pointed witch hat and cape, curvy figure, confident pose, seductive smirk, mysterious charm, bust-up shot, shoulders and above, viewed from above, bird's-eye view, waving hand, playful mood, rule of thirds composition, blurred foreground, focus behind, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_37",
+        "text": "という理由だけで"
+      },
+      {
+        "scene_id": "scene_38",
+        "text": "“待遇差”が発生している証拠である。"
+      }
+    ]
+  }
+}

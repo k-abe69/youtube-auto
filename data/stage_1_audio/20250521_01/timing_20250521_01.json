@@ -1,0 +1,16 @@
+[
+  {
+    "scene_id": "scene_01",
+    "start_sec": 0.0,
+    "duration": 5.19,
+    "text": "イケメンの親切は\n信じられるのに、\n“キモい男の親切”は\n警戒されるのはなぜ？",
+    "type": "main_title"
+  },
+  {
+    "scene_id": "scene_02",
+    "start_sec": 5.19,
+    "duration": 2.33,
+    "text": "見た目で判断\nされるのは\n0.1秒以内",
+    "type": "title"
+  }
+]
