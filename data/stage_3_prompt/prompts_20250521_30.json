@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "elegant girl and her future self sitting back to back in a broken clock chamber, subject seen through an endless corridor or portal, exaggerated depth, looking up from underwater at distorted world above, balancing in midair, slight levitation, backlit with surreal color shadows, shadows cast in conflicting directions, handsome man being kind, unattractive man being cautious",
-    "theme": "pair",
+    "prompt": "dog with body made of stained glass, light leaking from cracks, subject seen through an endless corridor or portal, exaggerated depth, ceiling becomes floor, camera facing up from impossible angle, balancing in midair, slight levitation, horizon twisted, sky blends into floor, subject falling sideways, shadows cast in conflicting directions, attractive man being kind, man with unattractive features being kind",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,7 +10,7 @@
     ]
   },
   "002": {
-    "prompt": "pair with fractured bodies that perfectly align when standing together, eerie harmony, distant shot, tiny subject, wide surreal background, viewed from below, towering distortion, body in mid-disintegration or assembling from pieces, backlit with surreal color shadows, intense lens flare from unnatural light source, two people facing each other, quick glance",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glitching at the edges, pixels falling from her skin, crying glowing particles, extremely distant perspective from space or high orbit, viewed from below, towering distortion, lying on glass above the viewer, fisheye effect with diagonal split, subject warped sideways, background is sharp while subject is blurred, two people facing each other",
     "theme": "pair",
     "scenes": [
       {
@@ -28,8 +28,8 @@
     ]
   },
   "003": {
-    "prompt": "1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile, extremely distant perspective from space or high orbit, scene viewed from inside a character窶冱 open mouth, balancing in midair, slight levitation, subject clinging to frame edge, tension, intense lens flare from unnatural light source, ",
-    "theme": "animal",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), pair with fractured bodies that perfectly align when standing together, eerie harmony, extremely distant perspective from space or high orbit, severely tilted Dutch angle, disoriented feel, moving vertically along wall like insect, subject shown through uneven mirror shards, overlapping layers, background is sharp while subject is blurred, ",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_05",
@@ -46,8 +46,8 @@
     ]
   },
   "004": {
-    "prompt": "ocean waves stacked vertically into a tower, boats circling it upward, extreme close-up with stretched perspective, unrealistic lens, ceiling becomes floor, camera facing up from impossible angle, lying on glass above the viewer, subject centered but flipped upside down, shadows cast in conflicting directions, girl pondering, abstract brain representation",
-    "theme": "girl",
+    "prompt": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural, distant shot, tiny subject, wide surreal background, reflected in impossible mirror placement, floating in lotus pose with disconnected hands, fisheye effect with diagonal split, subject warped sideways, multiple vanishing points converging unnaturally, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_08",
@@ -64,8 +64,8 @@
     ]
   },
   "005": {
-    "prompt": "angelic girl and her devilish twin sitting on a giant scale floating above ruins, extremely distant perspective from space or high orbit, first-person view from inside someone窶冱 eye, moving vertically along wall like insect, composition framed through natural or broken hole, subject leaving motion trail like time echo, ",
-    "theme": "scenery",
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, distant shot, tiny subject, wide surreal background, reflected in impossible mirror placement, mid-air frozen in impossible posture, horizon twisted, sky blends into floor, subject falling sideways, tunnel view into a mirror world, attractive girl, positive aura",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_11",
@@ -82,8 +82,8 @@
     ]
   },
   "006": {
-    "prompt": "girl holding another upside down in midair, dresses swirling like spirals, scene viewed through a small hole or tunnel, warped edges, scene viewed from inside a character窶冱 open mouth, body in mid-disintegration or assembling from pieces, hyper-symmetrical with recursive elements, intense lens flare from unnatural light source, ",
-    "theme": "animal",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), two girls bound by beams of solid light stretching between them, floating in void, distant shot, tiny subject, wide surreal background, ceiling becomes floor, camera facing up from impossible angle, lying on glass above the viewer, fisheye effect with diagonal split, subject warped sideways, lighting from two contradictory directions, girl, halo effect, influence",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_14",
@@ -100,7 +100,7 @@
     ]
   },
   "007": {
-    "prompt": "1girl, beautiful face split into fragments like a kaleidoscope, reflections scattered, glowing shards, distant shot, tiny subject, wide surreal background, scene viewed from inside a character窶冱 open mouth, floating in lotus pose with disconnected hands, half of subject fading into noise or fog, tunnel view into a mirror world, ",
+    "prompt": "wolf with part-human eyes and elegant features, glowing fur, silent power, scene viewed through a small hole or tunnel, warped edges, seen through broken or floating window, floating in lotus pose with disconnected hands, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
     "theme": "scenery",
     "scenes": [
       {
@@ -114,8 +114,8 @@
     ]
   },
   "008": {
-    "prompt": "two girls endlessly chasing each other in a Mﾃｶbius strip path, each unaware of the loop, scene viewed through a small hole or tunnel, warped edges, looking up from underwater at distorted world above, lying on glass above the viewer, centered around a glowing or dimensional portal, intense lens flare from unnatural light source, symmetrical face, pair of people",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile, silhouette in unnatural lighting, distorted horizon, looking up from underwater at distorted world above, mid-air frozen in impossible posture, horizon twisted, sky blends into floor, subject falling sideways, tunnel view into a mirror world, symmetrical face, observing person",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_19",
@@ -132,8 +132,8 @@
     ]
   },
   "009": {
-    "prompt": "serpent composed of cloud segments and lightning veins, drifting through the air, extremely distant perspective from space or high orbit, viewed from below, towering distortion, twisted, hyper-flexible pose, physically improbable, backlit with surreal color shadows, background is sharp while subject is blurred, girl making decision, social setting, experimental environment",
-    "theme": "girl",
+    "prompt": "wolf with part-human eyes and elegant features, glowing fur, silent power, scene viewed through a small hole or tunnel, warped edges, ceiling becomes floor, camera facing up from impossible angle, twisted, hyper-flexible pose, physically improbable, viewed from a crack in the ground, subject half-cropped above, lighting from two contradictory directions, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_22",
@@ -150,8 +150,8 @@
     ]
   },
   "010": {
-    "prompt": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur, subject seen through an endless corridor or portal, exaggerated depth, reflected in impossible mirror placement, moving vertically along wall like insect, hyper-symmetrical with recursive elements, intense lens flare from unnatural light source, animal eyes, alert expression, subtle movements",
-    "theme": "animal",
+    "prompt": "owl folded from shimmering paper, unfolding mid-flight, trails of ink in the air, extremely distant perspective from space or high orbit, looking up from underwater at distorted world above, moving vertically along wall like insect, horizon twisted, sky blends into floor, subject falling sideways, intense lens flare from unnatural light source, person's face, shifting eyes",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_25",
@@ -168,8 +168,8 @@
     ]
   },
   "011": {
-    "prompt": "ethereal deer glowing faintly, walking through solid objects without resistance, scene viewed through a small hole or tunnel, warped edges, severely tilted Dutch angle, disoriented feel, body in mid-disintegration or assembling from pieces, scene split diagonally into two realities, blurred view as if seen through shattered glass, pair sensing danger, alert posture",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, suspended midair, entire body wrapped in glowing ribbons, serene look, subject seen through an endless corridor or portal, exaggerated depth, severely tilted Dutch angle, disoriented feel, floating in lotus pose with disconnected hands, viewed from a crack in the ground, subject half-cropped above, intense lens flare from unnatural light source, girl sensing danger, alert expression",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_28",
@@ -186,8 +186,8 @@
     ]
   },
   "012": {
-    "prompt": "girl facing her own shadow clone in a dramatic pose, both glowing differently, extreme close-up with stretched perspective, unrealistic lens, ceiling becomes floor, camera facing up from impossible angle, lying on glass above the viewer, centered around a glowing or dimensional portal, subject leaving motion trail like time echo, beautiful girl, economic benefit",
-    "theme": "girl",
+    "prompt": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural, scene viewed through a small hole or tunnel, warped edges, looking up from underwater at distorted world above, twisted, hyper-flexible pose, physically improbable, only part of body visible, most is cropped out in motion, multiple vanishing points converging unnaturally, economic graphs, comparison charts",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_31",
@@ -204,8 +204,8 @@
     ]
   },
   "013": {
-    "prompt": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, running in zero-gravity arc, scene split diagonally into two realities, subject leaving motion trail like time echo, Error parsing GPT output: Expecting value: line 1 column 1 (char 0)",
-    "theme": "animal",
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, distant shot, tiny subject, wide surreal background, ceiling becomes floor, camera facing up from impossible angle, running in zero-gravity arc, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_34",
@@ -222,8 +222,8 @@
     ]
   },
   "014": {
-    "prompt": "tiger with perfect bilateral symmetry, one side organic, one side glass, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, moving vertically along wall like insect, centered around a glowing or dimensional portal, lighting from two contradictory directions, ",
-    "theme": "scenery",
+    "prompt": "tiger with perfect bilateral symmetry, one side organic, one side glass, distant shot, tiny subject, wide surreal background, severely tilted Dutch angle, disoriented feel, body rotating or twisting like a vortex, subject shown through uneven mirror shards, overlapping layers, intense lens flare from unnatural light source, two people, clear difference, evidence",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_37",
@@ -236,8 +236,8 @@
     ]
   },
   "015": {
-    "prompt": "mountain range entirely transparent, light bending across its jagged edges, distant shot, tiny subject, wide surreal background, reflected in impossible mirror placement, taking selfie while falling upward, scene split diagonally into two realities, shadows cast in conflicting directions, animal being unthreatened, peaceful environment",
-    "theme": "animal",
+    "prompt": "wolf with part-human eyes and elegant features, glowing fur, silent power, extremely distant perspective from space or high orbit, looking up from underwater at distorted world above, floating in lotus pose with disconnected hands, viewed from a crack in the ground, subject half-cropped above, lighting from two contradictory directions, beautiful woman, lack of hostility, low vigilance",
+    "theme": "pair",
     "scenes": [
       {
         "scene_id": "scene_39",
@@ -254,8 +254,8 @@
     ]
   },
   "016": {
-    "prompt": "1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities, silhouette in unnatural lighting, distorted horizon, reflected in impossible mirror placement, body in mid-disintegration or assembling from pieces, subject clinging to frame edge, tension, intense lens flare from unnatural light source, group of animals, working together",
-    "theme": "animal",
+    "prompt": "mountain range entirely transparent, light bending across its jagged edges, extreme close-up with stretched perspective, unrealistic lens, viewed from below, towering distortion, lying on glass above the viewer, scene cut across diagonally with light or shadow, subject floats across, tunnel view into a mirror world, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_42",
@@ -264,8 +264,8 @@
     ]
   },
   "017": {
-    "prompt": "girl holding another upside down in midair, dresses swirling like spirals, extreme close-up with stretched perspective, unrealistic lens, severely tilted Dutch angle, disoriented feel, running in zero-gravity arc, half of subject fading into noise or fog, lighting from two contradictory directions, two people, various experiences, positive vibes",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glitching at the edges, pixels falling from her skin, crying glowing particles, extremely distant perspective from space or high orbit, ceiling becomes floor, camera facing up from impossible angle, taking selfie while falling upward, only part of body visible, most is cropped out in motion, lighting from two contradictory directions, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_43",
@@ -282,8 +282,8 @@
     ]
   },
   "018": {
-    "prompt": "desert where sand is made of singing crystals, sunlight refracted like rainbows, scene viewed through a small hole or tunnel, warped edges, bird's-eye with warped gravity, mid-air frozen in impossible posture, centered around a glowing or dimensional portal, shadows cast in conflicting directions, two people talking, relaxed atmosphere, open gestures",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), girl kissing her own reflection in a cracked floating mirror, emotional tension, extremely distant perspective from space or high orbit, bird's-eye with warped gravity, moving vertically along wall like insect, composition with no symmetry, elements scattered unevenly, blurred view as if seen through shattered glass, girl smiling, open arms, relaxed posture",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_46",
@@ -292,8 +292,8 @@
     ]
   },
   "019": {
-    "prompt": "two beautiful girls sharing one mirrored face, opposite expressions, lighting clash, scene viewed through a small hole or tunnel, warped edges, seen through broken or floating window, twisted, hyper-flexible pose, physically improbable, foreground dominates 80%, distorted background, dense fog with colored lights and silhouette, two people, expressive faces, understanding emotions",
-    "theme": "pair",
+    "prompt": "city made of soft fog and light, buildings flicker in and out of view, distant shot, tiny subject, wide surreal background, viewed from below, towering distortion, balancing in midair, slight levitation, subject running across bottom frame edge, blurred, subject leaving motion trail like time echo, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_47",
@@ -310,8 +310,8 @@
     ]
   },
   "020": {
-    "prompt": "girl facing her own shadow clone in a dramatic pose, both glowing differently, silhouette in unnatural lighting, distorted horizon, severely tilted Dutch angle, disoriented feel, mid-air frozen in impossible posture, composition framed through natural or broken hole, blurred view as if seen through shattered glass, girl studying data, high score",
-    "theme": "girl",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, elegant but her skin fades into pure void, eyes like galaxies, calm expression, silhouette in unnatural lighting, distorted horizon, seen through broken or floating window, taking selfie while falling upward, horizon twisted, sky blends into floor, subject falling sideways, blurred view as if seen through shattered glass, charts showing data, high scores",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_50",
@@ -324,8 +324,8 @@
     ]
   },
   "021": {
-    "prompt": "ethereal deer glowing faintly, walking through solid objects without resistance, silhouette in unnatural lighting, distorted horizon, scene viewed from inside a character窶冱 open mouth, lying on glass above the viewer, half of subject fading into noise or fog, tunnel view into a mirror world, attractive couple, showing kindness",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), angelic girl and her devilish twin sitting on a giant scale floating above ruins, silhouette in unnatural lighting, distorted horizon, seen through broken or floating window, moving vertically along wall like insect, subject pushed to the extreme edge of the frame, strong negative space, intense lens flare from unnatural light source, beautiful animal, kind expression",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_52",
@@ -342,7 +342,7 @@
     ]
   },
   "022": {
-    "prompt": "horse mid-gallop, body melting into paint streams as it runs, extremely distant perspective from space or high orbit, severely tilted Dutch angle, disoriented feel, twisted, hyper-flexible pose, physically improbable, backlit with surreal color shadows, lighting from two contradictory directions, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, perfectly dressed, elegant pose, her head floating nearby with a gentle smile, silhouette in unnatural lighting, distorted horizon, looking up from underwater at distorted world above, taking selfie while falling upward, only part of body visible, most is cropped out in motion, background is sharp while subject is blurred, ",
     "theme": "girl",
     "scenes": [
       {
@@ -356,7 +356,7 @@
     ]
   },
   "023": {
-    "prompt": "elegant girl and her future self sitting back to back in a broken clock chamber, silhouette in unnatural lighting, distorted horizon, scene viewed from inside a character窶冱 open mouth, body rotating or twisting like a vortex, subject clinging to frame edge, tension, multiple vanishing points converging unnaturally, beautiful woman, less stress",
+    "prompt": "ocean waves stacked vertically into a tower, boats circling it upward, extreme close-up with stretched perspective, unrealistic lens, seen through broken or floating window, mid-air frozen in impossible posture, scene cut across diagonally with light or shadow, subject floats across, blurred view as if seen through shattered glass, beautiful woman, reduced stress",
     "theme": "girl",
     "scenes": [
       {
@@ -374,8 +374,8 @@
     ]
   },
   "024": {
-    "prompt": "1girl, back exposed to reveal a spine made of mirrors reflecting alternate realities, distant shot, tiny subject, wide surreal background, looking up from underwater at distorted world above, taking selfie while falling upward, hyper-symmetrical with recursive elements, multi-surface reflection in fractured space, ",
-    "theme": "pair",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), two dancers窶俳ne engulfed in flame, one in snowflakes窶敗pinning midair together, scene viewed through a small hole or tunnel, warped edges, severely tilted Dutch angle, disoriented feel, moving vertically along wall like insect, viewed from a crack in the ground, subject half-cropped above, subject leaving motion trail like time echo, girl struggling, harsh environment",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_60",
