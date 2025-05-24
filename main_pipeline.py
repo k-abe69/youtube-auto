@@ -27,4 +27,8 @@ if __name__ == "__main__":
     run_step(["python", "generator/generate_subtitles.py"], "字幕生成")
     run_step(["python", "generator/compose_video.py"], "動画合成")
 
+    run_step(["python", "generator/generate_thumbnail.py", script_id], "サムネイル生成")
+    run_step(["python", "generator/generate_ed.py", script_id], "ED生成")
+    run_step(["python", "generator/merge_final_video.py", script_id], "最終結合")
+
     print("\n✅ パイプライン処理が完了しました！ output/{}/final_compatible.mp4 を確認してください".format(script_id))

@@ -15,8 +15,10 @@ videos/
 scripts_done/
 ed_done/
 ed_ok/
+stock_video/
 
 # 個人環境
 .env
 .vscode/
 .DS_Store
+

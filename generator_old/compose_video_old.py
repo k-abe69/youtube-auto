@@ -30,14 +30,8 @@ load_dotenv()
 VIDEO_WIDTH = 720
 VIDEO_HEIGHT = 1280
 
-# def add_overlay_bars_to_final(video_clip, top_height=100, color=(0, 0, 0)):
-#     duration = video_clip.duration
 
-#     top_bar = ColorClip(size=(VIDEO_WIDTH, top_height), color=color, duration=duration)
 
-#     top_bar = top_bar.set_position(("center", 0))
-
-#     return CompositeVideoClip([video_clip, top_bar]).set_audio(video_clip.audio)
 
 def parse_srt_time(t: str) -> float:
     dt = datetime.strptime(t.strip(), "%H:%M:%S,%f")
@@ -94,16 +88,9 @@ def compose_video(script_id: str):
 
     for parent_id, group in parent_scene_map.items():
         img_path = image_base_dir / f"{parent_id}.jpg"
-        video_path = image_base_dir / f"{parent_id}.mp4"
 
-        if img_path.exists():
-            asset_path = img_path
-            asset_type = "image"
-        elif video_path.exists():
-            asset_path = video_path
-            asset_type = "video"
-        else:
-            print(f"⚠️ 素材が見つからないためスキップ: {parent_id}")
+        if not img_path.exists():
+            print(f"⚠️ スキップ: parent_scene_id={parent_id}（画像が見つからない）")
             continue
 
         # ✅ そのグループに含まれる各 scene_id.wav の再生時間（＋SILENCE）を積算
@@ -121,29 +108,18 @@ def compose_video(script_id: str):
         end_time = start_time + duration
         timeline_pointer = end_time  # 次の親sceneの画像表示開始時間に更新
 
-        if asset_type == "image":
-            clip = (
-                ImageClip(str(asset_path))
-                .resize((VIDEO_WIDTH, VIDEO_HEIGHT))
-                .set_start(start_time)
-                .set_duration(duration)
-                .set_fps(30)
-            )
-        elif asset_type == "video":
-            clip = (
-                VideoFileClip(str(asset_path))
-                .without_audio()
-                .resize((VIDEO_WIDTH, VIDEO_HEIGHT))
-                .set_start(start_time)
-                .set_duration(duration)
-                .set_fps(30)
-            )
-
-        clips.append(clip)
+        # ✅ 背景画像を設定（全画面、センター、durationぶん表示）
+        image_clip = (
+            ImageClip(str(img_path))
+            .resize((VIDEO_WIDTH, VIDEO_HEIGHT))
+            .set_position("center")
+            .set_duration(duration)
+            .set_start(start_time)
+        )
 
         # ✅ 冒頭シーンだけフェードイン演出を適用
         if parent_id == "000":
-            lip = clip.fx(fadein, 0.3)
+            image_clip = image_clip.fx(fadein, 0.3)
 
         if clips:
             # 前の clip の end_time を取得
@@ -152,12 +128,12 @@ def compose_video(script_id: str):
 
             # 前のclipにクロスフェード適用
             prev_clip = prev_clip.crossfadeout(crossfade_duration)
-            clip = clip.crossfadein(crossfade_duration)
+            image_clip = image_clip.crossfadein(crossfade_duration)
 
             # 差し替え
             clips[-1] = prev_clip
 
-        clips.append(clip)
+        clips.append(image_clip)
 
 
     for i, scene in enumerate(scenes):
@@ -192,110 +168,36 @@ def compose_video(script_id: str):
 
     final_audio = concatenate_audioclips(audio_clips)
 
-    # ======== 🎵 BGM・効果音の挿入 ========
-
-    project_root = Path(__file__).parent.parent
-    fixed_assets_dir = project_root / "fixed_assets"
-
-    bgm_path = fixed_assets_dir / "bgm.mp3"
-    se_main_path = fixed_assets_dir / "se_main_title.mp3"
-    se_center_path = fixed_assets_dir / "se_title_center.mp3"
-
-    print(f"🔍 BGMパス：{bgm_path}")
-    print(f"存在するか？ {bgm_path.exists()}")
-
-    # BGM（全体にループ）
-    if not bgm_path.exists():
-        print("⚠️ BGMファイルが見つかりません。スキップします。")
-        bgm_clip = None
-    else:
-        bgm_clip = AudioFileClip(str(bgm_path))
-        bgm_duration = final_audio.duration
-        bgm_loop = afx.audio_loop(bgm_clip, duration=bgm_duration).volumex(0.02)  # 音量調整（0.0〜1.0）
-
-    subtitle_json_path = Path(f"data/stage_4_subtitles/subtitles_{script_id}.json")
-    with open(subtitle_json_path, "r", encoding="utf-8") as f:
-        subtitle_scenes = json.load(f)
-
-
-    # 効果音の挿入（main_title: ドドン, title_top: ドン）
-    se_clips = []
-
-    for scene in subtitle_scenes:
-        scene_type = scene.get("type", "")
-        scene_start = scene.get("start_sec", None)
-        if scene_start is None:
-            continue
-
-        if scene_type == "main_title" and se_main_path.exists():
-            se_clip = AudioFileClip(str(se_main_path)).set_start(scene_start).volumex(0.5)
-            se_clips.append(se_clip)
-        elif scene_type == "title_center" and se_center_path.exists():
-            se_clip = AudioFileClip(str(se_center_path)).set_start(scene_start).volumex(0.4)
-            se_clips.append(se_clip)
-
-    # ======== 🎧 音声合成 ========
-    audio_layers = [final_audio]  # ナレーション主体
-    if bgm_clip:
-        audio_layers.append(bgm_loop)
-    audio_layers.extend(se_clips)
-
-    composite_audio = CompositeAudioClip(audio_layers)
-
-    # ✅ base_video をこのタイミングで定義
-    base_video = CompositeVideoClip(clips, size=(VIDEO_WIDTH, VIDEO_HEIGHT))
-
-    # ✅ 音声を合成
-    final = base_video.set_audio(composite_audio)
+    # チラつき対策
+    final = CompositeVideoClip(clips, size=(VIDEO_WIDTH, VIDEO_HEIGHT)).set_audio(final_audio)
 
     temp_path = output_dir / "no_subtitles.mp4"
     export_video_high_quality(final, str(temp_path))
 
-        # .ass字幕を使って no_subtitles.mp4 → final.mp4 を生成
-    ass_path = Path(f"data/stage_4_subtitles/subtitles_{script_id}.ass")
     final_path = output_dir / "final.mp4"
 
-    if not ass_path.exists():
-        raise FileNotFoundError(f"❌ .ass 字幕ファイルが見つかりません: {ass_path}")
+    if subtitle_path.exists():
+        check_srt_overlaps(subtitle_path)
 
-    ffmpeg_ass_cmd = (
-        f'ffmpeg -y -hwaccel cuda -i "{temp_path}" '
-        f'-vf "ass={ass_path.as_posix()}" '
-        f'-c:v h264_nvenc -preset slow -b:v 4000k -maxrate 4000k -bufsize 8000k '
-        f'-pix_fmt yuv420p -profile:v baseline -level 4.0 '
-        f'-c:a aac -b:a 128k -ar 44100 -ac 2 '
-        f'"{final_path}"'
-    )
+        ffmpeg_command = (
+            f'ffmpeg -y -hwaccel cuda -i "{temp_path}" '
+            f'-vf "subtitles=\'{subtitle_path.as_posix()}\':force_style='
+            f'\'Fontname=Noto Sans CJK JP, Alignment=2,Fontsize=18,Outline=2,MarginV=80,Shadow=1, '
+            f'PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,ShadowColour=&H80000000,BorderStyle=1, LineSpacing=0\'" '
+            f'-c:v h264_nvenc -preset slow -b:v 4000k -maxrate 4000k -bufsize 8000k '
+            f'-pix_fmt yuv420p -profile:v baseline -level 4.0 '
+            f'-c:a aac -b:a 128k -ar 44100 -ac 2 '
+            f'"{final_path}"'
+        )
+        print(f"[GPU字幕焼き込み] {ffmpeg_command}")
+        ret = os.system(ffmpeg_command)
+        if ret != 0:
+            raise RuntimeError(f"❌ 字幕焼き込みffmpeg処理に失敗しました（code={ret}）")
+        print(f"✅ 字幕付き動画をGPUで保存しました: {final_path}")
 
-    print(f"[ASS字幕焼き込み] {ffmpeg_ass_cmd}")
-    ret = os.system(ffmpeg_ass_cmd)
-    if ret != 0:
-        raise RuntimeError(f"❌ .ass字幕焼き込み処理に失敗しました（code={ret}）")
-    print(f"✅ .ass字幕付き動画を保存しました: {final_path}")
-
-
-    # if subtitle_path.exists():
-    #     check_srt_overlaps(subtitle_path)
-
-    #     ffmpeg_command = (
-    #         f'ffmpeg -y -hwaccel cuda -i "{temp_path}" '
-    #         f'-vf "subtitles=\'{subtitle_path.as_posix()}\':force_style='
-    #         f'\'Fontname=Noto Sans CJK JP, Alignment=2,Fontsize=18,Outline=2,MarginV=80,Shadow=1, '
-    #         f'PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,ShadowColour=&H80000000,BorderStyle=1, LineSpacing=0\'" '
-    #         f'-c:v h264_nvenc -preset slow -b:v 4000k -maxrate 4000k -bufsize 8000k '
-    #         f'-pix_fmt yuv420p -profile:v baseline -level 4.0 '
-    #         f'-c:a aac -b:a 128k -ar 44100 -ac 2 '
-    #         f'"{final_path}"'
-    #     )
-    #     print(f"[GPU字幕焼き込み] {ffmpeg_command}")
-    #     ret = os.system(ffmpeg_command)
-    #     if ret != 0:
-    #         raise RuntimeError(f"❌ 字幕焼き込みffmpeg処理に失敗しました（code={ret}）")
-    #     print(f"✅ 字幕付き動画をGPUで保存しました: {final_path}")
-
-    # else:
-    #     print(f"⚠️ 字幕が見つかりません。字幕なしで保存: {temp_path}")
-    #     temp_path.rename(final_path)
+    else:
+        print(f"⚠️ 字幕が見つかりません。字幕なしで保存: {temp_path}")
+        temp_path.rename(final_path)
 
     compatible_path = output_dir / "final_compatible.mp4"
     ffmpeg_compat_cmd = (

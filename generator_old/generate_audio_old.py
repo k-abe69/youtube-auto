@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from common.misread_dict import apply_misread_corrections
 from fugashi import Tagger
 import shutil
-from common.script_utils import extract_script_id, find_oldest_script_file, resolve_script_id, parse_and_generate_voicevox_script   # ← 修正ポイント
+from common.script_utils import extract_script_id, find_oldest_script_file, resolve_script_id   # ← 修正ポイント
 
 # 環境変数の読み込み
 load_dotenv()
@@ -128,36 +128,22 @@ def main():
     done_base_dir.mkdir(exist_ok=True)
     output_base_dir.mkdir(parents=True, exist_ok=True)
 
+    # 台本ファイル単位で最も若いものを取得
     script_txt = find_oldest_script_file(input_base_dir)
     if not script_txt:
         print("未処理の台本が見つかりません。")
         return
 
     script_id = extract_script_id(script_txt.name)
+    script_dir = script_txt.parent
     output_dir = output_base_dir / script_id
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    tmp_script_path = output_dir / f"script_for_voicevox_{script_id}.txt"
-    tmp_meta_path = output_dir / f"script_meta_{script_id}.json"
-
-    # 🎯 ここで (0:00) 付きスクリプトを生成
-    parse_and_generate_voicevox_script(script_txt, tmp_script_path, tmp_meta_path)
-
-    print(f"🎯 台本読み込み: {tmp_script_path}")
-    with open(tmp_script_path, encoding="utf-8") as f:
+    print(f"🎯 台本読み込み: {script_txt}")
+    with open(script_txt, encoding="utf-8") as f:
         script = f.read()
 
     scenes = split_script_to_scenes(script)
-
-    # 🔽 ここでメタ情報から type を読み込む（id基準）
-    with open(tmp_meta_path, encoding="utf-8") as f:
-        meta_data = json.load(f)
-    scene_id_to_type = {}
-    for entry in meta_data:
-        if entry["type"] != "source":
-            scene_id_to_type[entry["scene_id"]] = entry["type"]
-
-
     scene_timings = []
     elapsed = 0.0
 
@@ -176,9 +162,7 @@ def main():
                 "scene_id": scene_id,
                 "start_sec": round(elapsed, 2),
                 "duration": round(duration, 2),
-                "text": scene["text"],
-                "type": scene_id_to_type.get(scene_id, "unknown")  # ← これで完全一致
-
+                "text": scene["text"]
             })
             elapsed += duration
         except Exception as e:
@@ -189,28 +173,6 @@ def main():
     with open(timing_path, "w", encoding="utf-8") as f:
         json.dump(scene_timings, f, ensure_ascii=False, indent=2)
     print(f"✅ タイミング情報保存完了: {timing_path}")
-
-    # 🔽 scene_idに基づいてmetaに時間情報を埋める
-    scene_id_to_timing = {
-        s["scene_id"]: {
-            "start_sec": s["start_sec"],
-            "duration": s["duration"]
-        }
-        for s in scene_timings
-    }
-
-    for entry in meta_data:
-        timing = scene_id_to_timing.get(entry["scene_id"])
-        if timing:
-            entry["start_sec"] = timing["start_sec"]
-            entry["duration"] = timing["duration"]
-
-    # 🔽 タイミング付きのmetaを再保存（字幕用に使える）
-    meta_path_with_timing = output_dir / f"script_meta_{script_id}.json"
-    with open(meta_path_with_timing, "w", encoding="utf-8") as f:
-        json.dump(meta_data, f, ensure_ascii=False, indent=2)
-    print(f"✅ メタ情報（タイミング付き）保存完了: {meta_path_with_timing}")
-
 
     # 台本ファイルを処理済みへ移動
     shutil.move(str(script_txt), done_base_dir / script_txt.name)
