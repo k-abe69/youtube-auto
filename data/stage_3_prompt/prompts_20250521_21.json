@@ -1,0 +1,66 @@
+{
+  "001": {
+    "prompt": "shiba inu, simple cute dog, small size, fluffy, standing, medium shot, full body, front view, viewed from upper right, handsome man being kind, unattractive man being kind, woman on guard",
+    "theme": "pair",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "イケメンの親切は\n信じられるのに\n“キモい男の親切”は\n警戒されるのはなぜ？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "bamboo forest, dim lighting, natural shadows, serene, green tones, long shot, small subject, wide background, viewed from lower right, girl looking at someone's face, quick judgement",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "見た目で判断されるのは\n0.1秒以内"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間は他人の顔を見て、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "わずか0.1秒以内に"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "1boy, 1girl, casual clothes, standing close, looking at each other, natural interaction, long shot, small subject, wide background, viewed from upper right, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "「信頼できる／できない」"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "を判断している。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これは"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "1boy, 1girl, casual clothes, standing close, looking at each other, natural interaction, long shot, small subject, wide background, viewed from upper left, brain, mechanism",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "意識的な評価ではなく、"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "脳の潜在的な"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "判断メカニズムに基づくとされる。"
+      }
+    ]
+  }
+}

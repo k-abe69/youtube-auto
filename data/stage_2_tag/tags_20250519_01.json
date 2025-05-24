@@ -1,0 +1,31 @@
+{
+  "global_image_tag": "その他",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 5.19,
+      "text": "イケメンの親切は信じられるのに、“キモい男の親切”は警戒されるのはなぜ？",
+      "type": "main_title",
+      "tags": [
+        "イケメン",
+        "親切",
+        "警戒"
+      ],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 5.19,
+      "duration": 2.33,
+      "text": "見た目で判断されるのは0.1秒以内",
+      "type": "title",
+      "tags": [
+        "見た目",
+        "判断",
+        "瞬間"
+      ],
+      "parent_scene_id": "002"
+    }
+  ]
+}
