@@ -5,6 +5,10 @@ MISREAD_REPLACEMENTS = {
     "大人しい": "おとなしい",
     "重なる": "かさなる",
     "実は": "じつわ",
+    "威圧的": "いあつてき",
+    "不細工": "ぶさいく",
+    "活発": "かっぱつ",
+    "本当は": "ほんとうは"
 }
 
 def apply_misread_corrections(text: str) -> str:

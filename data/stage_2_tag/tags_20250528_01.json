@@ -1,0 +1,257 @@
+{
+  "global_image_tag": "ホラー",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.84,
+      "text": "“眠らなくても\n平気な人間”\nが実在する理由",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.84,
+      "duration": 2.01,
+      "text": "ショートスリーパー\n遺伝子\nは存在する",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.84,
+      "duration": 2.33,
+      "text": "DEC2遺伝子の突然変異を持つ人は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 7.17,
+      "duration": 2.26,
+      "text": "1日4〜6時間の睡眠でも",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 9.43,
+      "duration": 1.77,
+      "text": "健康を維持できると発表された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 11.2,
+      "duration": 3.22,
+      "text": "本物の\nショートスリーパーは\n全人口の1%未満",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 14.42,
+      "duration": 1.41,
+      "text": "ショートスリーパー遺伝子を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 15.83,
+      "duration": 1.46,
+      "text": "持つ人は非常に稀で、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 17.29,
+      "duration": 1.91,
+      "text": "一般的な不眠症とは異なる",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 19.2,
+      "duration": 1.31,
+      "text": "生理的特性を持つ。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 20.51,
+      "duration": 1.75,
+      "text": "脳の老廃物排出が早い",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 22.26,
+      "duration": 2.34,
+      "text": "睡眠中に脳が老廃物を排出する",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 24.6,
+      "duration": 1.31,
+      "text": "「グリンパティック系」の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 25.91,
+      "duration": 1.28,
+      "text": "効率に個人差があり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 27.19,
+      "duration": 1.42,
+      "text": "これが短時間睡眠でも",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 28.61,
+      "duration": 1.49,
+      "text": "脳疲労がたまらない理由の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 30.1,
+      "duration": 0.95,
+      "text": "一因とされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 31.05,
+      "duration": 2.4,
+      "text": "過眠より短眠の方が健康リスクは低い",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 33.45,
+      "duration": 2.55,
+      "text": "過剰な睡眠（9時間以上）は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 36.0,
+      "duration": 2.21,
+      "text": "短眠（5時間程度）よりも",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 38.21,
+      "duration": 2.1,
+      "text": "糖尿病・心血管疾患の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 40.31,
+      "duration": 1.55,
+      "text": "リスクが高いと報告された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 41.86,
+      "duration": 2.29,
+      "text": "覚醒中も脳は局所的に眠っている",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 44.15,
+      "duration": 1.92,
+      "text": "一部の脳細胞が覚醒中でも",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 46.07,
+      "duration": 2.17,
+      "text": "“マイクロスリープ”状態に入り、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 48.23,
+      "duration": 1.27,
+      "text": "これにより全体として",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "012"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 49.5,
+      "duration": 1.92,
+      "text": "睡眠不足の影響を軽減する",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "012"
+    },
+    {
+      "scene_id": "scene_28",
+      "start_sec": 51.42,
+      "duration": 1.47,
+      "text": "可能性があると示された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "012"
+    }
+  ]
+}

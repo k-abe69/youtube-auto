@@ -18,6 +18,7 @@ from common.save_config import save_config_snapshot
 from common.global_image_tag_dict import TONE_KEYWORDS
 from fugashi import Tagger  # ✅ 追加：日本語分かち書き用
 from common.script_utils import extract_script_id, find_oldest_script_id, resolve_script_id 
+from collections import defaultdict
 
 
 backup_script(__file__)
@@ -172,9 +173,9 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
                 current_parent = parent_counter
                 group_counter = 1  # このsummaryを新グループの1件目としてカウント
 
-        # sourceなどはgroup_counterに影響しない
-
-        tags = generate_tags(text)
+        # GPT回避のため
+        # tags = generate_tags(text)
+        tags = []
 
         tagged_data.append({
             "scene_id": scene_id,
@@ -195,6 +196,21 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
         "global_image_tag": global_image_tag,
         "scenes": tagged_data
     }
+
+    # ❶ 親IDごとの合計duration計算
+    duration_by_parent = defaultdict(float)
+    for scene in tagged_data:
+        duration_by_parent[scene["parent_scene_id"]] += scene["duration"]
+
+    # ❷ 5.0秒以上の親IDに対し _mv.txt をマークファイルとして出力
+    mv_flag_dir = Path("data/stage_2_tag/mark_mv") / script_id
+    mv_flag_dir.mkdir(parents=True, exist_ok=True)
+
+    for parent_id, total_duration in duration_by_parent.items():
+        if total_duration >= 5.0:
+            mark_path = mv_flag_dir / f"{parent_id}_mv.txt"
+            mark_path.write_text("MARKED")
+
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)

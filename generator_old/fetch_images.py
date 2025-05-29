@@ -77,6 +77,7 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
     keys = sorted(list(data.keys()))
     total = len(keys)
     batch = keys[start_index - 1:start_index - 1 + batch_size]
+    processed_any = False
 
     negative_prompt = "nipple, areola, bare chest, exposed breasts, nsfw, ugly, deformed, lowres, blurry, text, watermark, centered composition, circular framing, tight clothes, bikini, confident pose, looking back, soft lighting, wet shirt, sideboob, elegant cleavage, seductive gaze, thigh-highs, skirt fluttering, bad anatomy, extra limbs, fused fingers, bad eyes, bad hands"
 
@@ -87,7 +88,15 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
             print(f"❌ promptが存在しない: {parent_id}")
             continue
 
-        out_path = output_dir / f"{parent_id}.png"
+        
+        # 追加：mvマークファイルが存在すればファイル名を変更
+        mark_mv_path = Path(f"data/stage_2_tag/mark_mv/{script_id}/{parent_id}_mv.txt")
+        if mark_mv_path.exists():
+            out_path = output_dir / f"{parent_id}_mv.png"
+        else:
+            out_path = output_dir / f"{parent_id}.png"
+
+
         if out_path.exists():
             print(f"✅ 既に生成済み: {out_path}")
             continue
@@ -99,11 +108,12 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
             image = generate_sd_image(prompt, negative_prompt, port=7861)
 
             image.save(out_path)
+            processed_any = True
             duration = time.time() - start_time
             print(f"🧠 SD画像保存完了: {out_path}（{duration:.2f}秒）")
         except Exception as e:
             print(f"❌ SD画像生成失敗: {parent_id} → {type(e).__name__}: {e}")
-    return start_index + batch_size < total
+    return processed_any
 
             
 
