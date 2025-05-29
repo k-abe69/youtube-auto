@@ -1,0 +1,186 @@
+{
+  "001": {
+    "prompt": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze, headshot with forehead cropped, cinematic intensity, top-down angle with subject placed off-center, avoids symmetry, climbing diagonally across a wall, angle from below-left, horizon twisted, sky blends into floor, subject falling diagonally, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“眠らなくても\n平気な人間”\nが実在する理由"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "ショートスリーパー\n遺伝子\nは存在する"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "DEC2遺伝子の突然変異を持つ人は、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "1日4〜6時間の睡眠でも"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, adjusting earring in front of mirror, soft backlight, elegant neck line, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, resting chin on hand, calm expression, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "健康を維持できると発表された。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "本物の\nショートスリーパーは\n全人口の1%未満"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "ショートスリーパー遺伝子を"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "持つ人は非常に稀で、"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with traditional hairstyle, crimson kimono blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, upper body leaning toward viewer, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "一般的な不眠症とは異なる"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "生理的特性を持つ。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, leaning sideways, hair cascading, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "脳の老廃物排出が早い"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "睡眠中に脳が老廃物を排出する"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "「グリンパティック系」の"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, eyes softly closed, calm or dreamlike atmosphere, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "効率に個人差があり、"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "これが短時間睡眠でも"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "脳疲労がたまらない理由の"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, taking selfie from tilted camera, not facing directly, subject emerging partially from frame corner, majority off-frame, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "一因とされる。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, silhouette in unnatural lighting, distorted horizon, ceiling becomes floor, subject positioned diagonally, lying on transparent surface, face to the side, half-framed, subject pushed to the extreme edge of the frame, strong negative space, background is sharp while subject is blurred, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "過眠より短眠の方が健康リスクは低い"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "過剰な睡眠（9時間以上）は、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "短眠（5時間程度）よりも"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, hands clasped in front, formal yet soft pose, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "糖尿病・心血管疾患の"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "リスクが高いと報告された。"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, hands clasped in front, formal yet soft pose, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "覚醒中も脳は局所的に眠っている"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "一部の脳細胞が覚醒中でも"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "“マイクロスリープ”状態に入り、"
+      }
+    ]
+  },
+  "012": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, hand reaching toward the camera softly, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "これにより全体として"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "睡眠不足の影響を軽減する"
+      },
+      {
+        "scene_id": "scene_28",
+        "text": "可能性があると示された。"
+      }
+    ]
+  }
+}

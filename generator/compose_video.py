@@ -1,10 +1,13 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+import random
 
 import json
 import numpy as np
 import re
+import math
+
 
 from moviepy.editor import *
 from moviepy.video.fx.all import fadein
@@ -66,6 +69,42 @@ def check_srt_overlaps(srt_path: Path):
 
     print("✅ 字幕オーバーラップチェック完了\n")
 
+def make_offset_func(direction, offset, duration):
+    if direction == "up":
+        return lambda t: 0, lambda t: offset * (1 - 2 * t / duration)
+    elif direction == "down":
+        return lambda t: 0, lambda t: -offset * (1 - 2 * t / duration)
+    elif direction == "left":
+        return lambda t: offset * (1 - 2 * t / duration), lambda t: 0
+    elif direction == "right":
+        return lambda t: -offset * (1 - 2 * t / duration), lambda t: 0
+    elif direction == "diag":
+        return (
+            lambda t: -offset * (1 - 2 * t / duration),
+            lambda t: -offset * (1 - 2 * t / duration),
+        )
+    else:
+        return lambda t: 0, lambda t: 0
+
+
+def make_cropper(x_offset_func, y_offset_func, scale_func=None, duration=1.0):
+    def fl(gf, t):
+        t = min(t, duration)
+        frame = gf(t)
+        zoom = scale_func(t) if scale_func else 1.0
+        crop_half = int(360 / zoom)
+
+        x_center = 512 + int(x_offset_func(t))
+        y_center = 512 + int(y_offset_func(t))
+
+        return frame[
+            y_center - crop_half:y_center + crop_half,
+            x_center - crop_half:x_center + crop_half
+        ]
+    return fl
+
+
+
 def compose_video(script_id: str):
     timing_path = Path(f"data/stage_2_tag/tags_{script_id}.json")
     subtitle_path = Path(f"data/stage_4_subtitles/subtitles_{script_id}.srt")
@@ -93,7 +132,7 @@ def compose_video(script_id: str):
     timeline_pointer = 0.0  # 画像表示の累積開始時間。音声と同じく前から順に積み上げていく
 
     for parent_id, group in parent_scene_map.items():
-        img_path = image_base_dir / f"{parent_id}.jpg"
+        img_path = image_base_dir / f"{parent_id}_mv.png"
         video_path = image_base_dir / f"{parent_id}.mp4"
 
         if img_path.exists():
@@ -122,43 +161,61 @@ def compose_video(script_id: str):
         timeline_pointer = end_time  # 次の親sceneの画像表示開始時間に更新
 
         if asset_type == "image":
-            clip = (
-                ImageClip(str(asset_path))
-                .resize((VIDEO_WIDTH, VIDEO_HEIGHT))
-                .set_start(start_time)
-                .set_duration(duration)
-                .set_fps(30)
-            )
+            pil_image = Image.open(asset_path).convert("RGB")
+            np_frame = np.array(pil_image)
+            img_clip = ImageClip(np_frame)
+
+            offset = 50
+            x_offset_func = lambda t: 0
+            y_offset_func = lambda t: 0
+            scale_func = None
+
+            if asset_path.name.endswith("_mv.png"):
+                effect = random.choice([
+                    "pan_up", "pan_down", "pan_left", "pan_right", "pan_diag",
+                    "zoom_in", "zoom_out"
+                ])
+                print(f"✨ effect applied to {parent_id}: {effect}")
+
+                if effect == "pan_up":
+                    x_offset_func, y_offset_func = make_offset_func("up", offset, duration)
+                elif effect == "pan_down":
+                    x_offset_func, y_offset_func = make_offset_func("down", offset, duration)
+                elif effect == "pan_left":
+                    x_offset_func, y_offset_func = make_offset_func("left", offset, duration)
+                elif effect == "pan_right":
+                    x_offset_func, y_offset_func = make_offset_func("right", offset, duration)
+                elif effect == "pan_diag":
+                    x_offset_func, y_offset_func = make_offset_func("diag", offset, duration)
+                elif effect == "zoom_in":
+                    scale_func = lambda t: 1.0 + 0.1 * (t / duration)
+                elif effect == "zoom_out":
+                    scale_func = lambda t: 1.1 - 0.1 * (t / duration)
+
+                img_clip = img_clip.fl(
+                    make_cropper(x_offset_func, y_offset_func, scale_func, duration),
+                    apply_to=["mask"]
+                )
+
+            img_clip = img_clip.set_position(("center", "center")).resize((720, 720))
+            clip = img_clip.set_start(start_time).set_duration(duration).set_fps(30)
+
+            print(f"🖼️ 画像clip: parent_id={parent_id}, start={start_time:.2f}s, duration={duration:.2f}s, file={asset_path.name}")
+
         elif asset_type == "video":
             clip = (
                 VideoFileClip(str(asset_path))
                 .without_audio()
-                .resize((VIDEO_WIDTH, VIDEO_HEIGHT))
                 .set_start(start_time)
                 .set_duration(duration)
                 .set_fps(30)
             )
 
-        clips.append(clip)
+            # ✅ 中央正方形720×720でcropするだけ（パン・ズームなし）
+            clip = clip.crop(x_center=clip.w // 2, y_center=clip.h // 2, width=720, height=720)
+            clip = clip.set_position(("center", "center"))
 
-        # ✅ 冒頭シーンだけフェードイン演出を適用
-        if parent_id == "000":
-            lip = clip.fx(fadein, 0.3)
-
-        if clips:
-            # 前の clip の end_time を取得
-            prev_clip = clips[-1]
-            crossfade_duration = 0.1  # 秒数（自然なフェード推奨）
-
-            # 前のclipにクロスフェード適用
-            prev_clip = prev_clip.crossfadeout(crossfade_duration)
-            clip = clip.crossfadein(crossfade_duration)
-
-            # 差し替え
-            clips[-1] = prev_clip
-
-        clips.append(clip)
-
+        clips.append(clip)  # ← ここ
 
     for i, scene in enumerate(scenes):
         scene_id = scene["scene_id"]
