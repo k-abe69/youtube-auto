@@ -1,0 +1,32 @@
+{
+  "global_image_tag": "恋愛",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.85,
+      "text": "なぜ\n“いい人止まり”\nで終わるのか？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.85,
+      "duration": 2.68,
+      "text": "優しさは恋愛の“決定打”にならない",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.53,
+      "duration": 2.81,
+      "text": "人間関係には「交換的関係」と",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    }
+  ]
+}

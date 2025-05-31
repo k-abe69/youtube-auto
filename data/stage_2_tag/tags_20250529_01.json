@@ -1,0 +1,248 @@
+{
+  "global_image_tag": "ホラー",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 4.6,
+      "text": "不眠症は\n甘え？才能？\n“寝なくても平気な人”\nの正体",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 4.6,
+      "duration": 3.06,
+      "text": "脳の“ゴミ掃除”は寝てる間にしかできない",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 7.66,
+      "duration": 3.33,
+      "text": "脳内にたまる老廃物（アミロイドβなど）は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 10.99,
+      "duration": 2.03,
+      "text": "睡眠中にグリンパティック系を通じて",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 13.01,
+      "duration": 1.93,
+      "text": "排出されることが確認されており、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 14.94,
+      "duration": 2.21,
+      "text": "覚醒中はこの機能がほぼ停止している。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 17.15,
+      "duration": 2.07,
+      "text": "短眠体質は遺伝子レベルで例外",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 19.22,
+      "duration": 2.5,
+      "text": "平均より短い睡眠でも健康を維持できる",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 21.72,
+      "duration": 1.44,
+      "text": "“ショートスリーパー”は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 23.16,
+      "duration": 2.82,
+      "text": "DEC2などの特定遺伝子変異によって生じるが、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 25.97,
+      "duration": 2.51,
+      "text": "全人口の1%未満しか存在しない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 28.48,
+      "duration": 2.37,
+      "text": "不眠状態が糖尿病リスクを爆増させる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 30.85,
+      "duration": 2.38,
+      "text": "睡眠時間が1日5時間以下の成人では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 33.23,
+      "duration": 1.75,
+      "text": "耐糖能が著しく低下し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 34.98,
+      "duration": 2.93,
+      "text": "2型糖尿病発症リスクが顕著に上昇することが",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 37.91,
+      "duration": 1.62,
+      "text": "臨床研究で報告された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 39.53,
+      "duration": 3.17,
+      "text": "“寝ずに働く”はIQを一時的に15下げる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 42.7,
+      "duration": 1.99,
+      "text": "24時間以上の睡眠不足は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 44.69,
+      "duration": 2.36,
+      "text": "認知機能と集中力を大幅に低下させ、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 47.05,
+      "duration": 2.65,
+      "text": "実際には血中アルコール0.1%と",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 49.7,
+      "duration": 1.54,
+      "text": "同等の脳機能低下が起きる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 51.23,
+      "duration": 3.14,
+      "text": "6時間睡眠でも“劣化”は蓄積される",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 54.37,
+      "duration": 2.4,
+      "text": "6時間睡眠を2週間続けたグループでも、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 56.77,
+      "duration": 2.12,
+      "text": "日中のパフォーマンスは連続徹夜と",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 58.89,
+      "duration": 1.16,
+      "text": "同レベルまで低下し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 60.05,
+      "duration": 1.58,
+      "text": "被験者はその自覚がないまま",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 61.63,
+      "duration": 1.39,
+      "text": "認知機能を失っていた。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    }
+  ]
+}

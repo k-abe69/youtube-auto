@@ -17,7 +17,7 @@ from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
 from common.global_image_tag_dict import TONE_KEYWORDS
 from fugashi import Tagger  # ✅ 追加：日本語分かち書き用
-from common.script_utils import extract_script_id, find_oldest_script_id, resolve_script_id 
+from common.script_utils import parse_args_script_id, get_next_script_id, mark_script_completed
 from collections import defaultdict
 
 
@@ -53,72 +53,6 @@ def generate_tags(text: str) -> list:
     except Exception as e:
         print(f"[タグ生成エラー] {text} → {e}")
         return ["キーワード1", "キーワード2"]
-
-# Stable Diffusion用プロンプトをGPTで生成する
-def generate_sd_prompt(scene_text: str) -> dict:
-    import openai
-    import json
-
-    system_prompt = """
-あなたはStable Diffusion用のプロンプト設計の専門家です。
-
-以下の日本語のテキストは、YouTubeショート動画の「親シーン」に該当する短い台本です。
-この内容の意味や雰囲気を反映した「抽象的で比喩的な背景画像」を1枚生成するために、Stable Diffusion向けのプロンプトを設計してください。
-
-【出力フォーマット】
-JSON形式で次の2項目を必ず出力してください：
-
-{
-  "prompt": "ここにSD用の英語プロンプト",
-  "negative_prompt": "ここに除外する要素（英語）"
-}
-
-【制約】
-- 人物や顔は原則含めずにください（抽象表現を優先）
-- 映像の背景として成立するよう、過度に細かい描写やゴチャゴチャ感は避けてください
-- 抽象的な感情や出来事を象徴するような構図・雰囲気を含めてください（例：孤独＝霧の街角、記憶＝崩れかけた写真、など）
-- 色調は統一感を持たせ、落ち着いた雰囲気を重視してください（青・グレー・パステルなど）
-- ネガティブプロンプトには必ず "realistic, human face, text, watermark, logo" を含めてください
-"""
-
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": f"【入力】\n{scene_text}"}
-            ],
-            temperature=0.8
-        )
-        reply = response.choices[0].message.content.strip()
-        return json.loads(reply)
-    except Exception as e:
-        print(f"[SDプロンプト生成エラー] → {e}")
-        return {
-            "prompt": "A symbolic background image",
-            "negative_prompt": "realistic, human face, text, watermark, logo"
-        }
-
-# SDプロンプトを親scene単位で生成・保存する
-def save_sd_prompts(scenes: list, script_id: str, output_dir: Path):
-    from collections import defaultdict
-
-    parent_map = defaultdict(list)
-    for scene in scenes:
-        parent_map[scene["parent_scene_id"]].append(scene)
-
-    sd_prompts = {}
-    for parent_id, group in parent_map.items():
-        text = "。".join(scene["text"] for scene in group)
-        sd_prompts[parent_id] = generate_sd_prompt(text)
-
-    # 保存先
-    output_path = Path("data/stage_2_tag") / f"sd_{script_id}.json"
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(sd_prompts, f, ensure_ascii=False, indent=2)
-    print(f"✅ SDプロンプト出力完了: {output_path}")
-
 
 # 共通トーン判定関数（定義は変更なし）
 def detect_global_image_tag(script_text: str) -> str:
@@ -225,9 +159,13 @@ if __name__ == "__main__":
     input_dir = Path("data/stage_1_audio")
     output_dir = Path("data/stage_2_tag")
 
-    # ✅ script_idを引数から取得、なければ自動取得
-    script_id = resolve_script_id()
-
+    # ✅ script_status.jsonを見て未処理のscript_idを取得
+        # ✅ task_name を指定
+    task_name = "tag"
+    script_id = parse_args_script_id() or get_next_script_id(task_name)
+    if script_id is None:
+        print("✅ 全てのスクリプトが処理済みです。")
+        exit()
 
     timing_json = input_dir / script_id / f"timing_{script_id}.json"
     if not timing_json.exists():
@@ -242,5 +180,6 @@ if __name__ == "__main__":
 
     try:
         tag_from_timing(timing_json_path=timing_json, output_base_dir=output_dir)
+        mark_script_completed(script_id, task_name)  # ✅ 同じtask_nameを使う
     except Exception as e:
         print(f"[ERROR] 処理失敗: {timing_json} → {e}")

@@ -1,0 +1,26 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, leaning sideways, hair cascading, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "なぜ\n“いい人止まり”\nで終わるのか？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), woman in futuristic battle armor, silver-plated face mask partially removed, eyes glowing, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, hands clasped in front, formal yet soft pose, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "優しさは恋愛の“決定打”にならない"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間関係には「交換的関係」と"
+      }
+    ]
+  }
+}

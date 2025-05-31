@@ -1,79 +1,94 @@
-import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-import os
-import requests
-import base64
-import json
-import time
-from pathlib import Path
-from common.script_utils import resolve_script_id
-
+from runwayml import RunwayML
 from dotenv import load_dotenv
+import json
+from typing import List
+import time
+
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from common.script_utils import parse_args_script_id, get_next_script_id, mark_script_completed
+
+
 load_dotenv()
 
-# === ユーザー設定 ===
+# 環境変数からAPIキーを取得
 RUNWAY_API_KEY = os.getenv("RUNWAY_API_KEY")
+
 if not RUNWAY_API_KEY:
-    raise ValueError(".envにRUNWAY_API_KEYが設定されていません")
+    print("エラー: RUNWAY_API_KEY 環境変数が設定されていません")
+    exit()
 
-VIDEO_MODEL_URL = "https://api.runwayml.com/v2/models/gen-4-turbo/infer"
+# RunwayMLクライアントを初期化
+client = RunwayML(api_key=RUNWAY_API_KEY)
 
-# === 動画生成関数 ===
-def generate_video_from_image(image_path: Path, output_path: Path, prompt: str):
-    with open(image_path, "rb") as f:
-        files = {"image": f}
-        data = {
-            "prompt": prompt,
-            "width": 768,
-            "height": 1280,
-            "duration": 5,
-            "fps": 24
-        }
-        headers = {
-            "Authorization": f"Bearer {RUNWAY_API_KEY}"
-        }
+def request_runway(image_url: str):
+    image_to_video = client.image_to_video.create(
+        model="gen4_turbo",
+        prompt_image=image_url,
+        ratio="960:960",
+        prompt_text="A scenic view of the forest",
+        duration=5
+    )
 
-        response = requests.post(VIDEO_MODEL_URL, headers=headers, data=data, files=files)
-
-    if response.status_code != 200:
-        raise RuntimeError(f"❌ Runway APIエラー: {response.status_code} / {response.text}")
-
-    result = response.json()
-    video_url = result.get("video_url")
-    if not video_url:
-        raise ValueError("❌ 動画URLがAPIレスポンスに含まれていません")
-
-    video_data = requests.get(video_url)
-    with open(output_path, "wb") as f:
-        f.write(video_data.content)
-    print(f"✅ 動画保存: {output_path}")
+    # タスクIDを取得
+    task_id = image_to_video.id
+    print("生成タスクID:", task_id)
 
 
-# === メイン処理 ===
-def generate_all_videos(script_id: str, prompt: str):
-    image_dir = Path(f"data/stage_3_images/{script_id}")
-    output_dir = image_dir  # 保存先は同じディレクトリにする
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    for image_path in sorted(image_dir.glob("*.jpg")):
-        video_path = output_dir / f"{image_path.stem}.mp4"
-        if video_path.exists():
-            print(f"✅ 既に生成済み: {video_path}")
-            continue
-
-        try:
-            print(f"🎥 生成中: {image_path.name} → {video_path.name}")
-            generate_video_from_image(image_path, video_path, prompt)
-            time.sleep(1.5)  # API連続呼び出しの間隔を空ける
-
-        except Exception as e:
-            print(f"❌ 動画生成失敗: {image_path.name} → {e}")
+    # 最初のステータス取得まで少し待つ
+    print("⏳ 動画生成タスクの初期化を待機中...")
+    time.sleep(10)  # 最初のポーリングまで10秒待機
 
 
-if __name__ == "__main__":
-    script_id = resolve_script_id()
-    with open("prompts/image/runway_prompt.txt", "r", encoding="utf-8") as f:
-        prompt = f.read().strip()
-    generate_all_videos(script_id, prompt)
+    # タスクの状態を取得
+    task = client.tasks.retrieve(task_id)
+
+    # タスクの完了をポーリングで待機
+    while task.status not in ['SUCCEEDED', 'FAILED']:
+        print(f"⌛ 現在のステータス: {task.status} ... 次の確認まで10秒待機")
+        time.sleep(10)
+        task = client.tasks.retrieve(task_id)
+
+    if task.status == 'SUCCEEDED':
+        print("✅ 動画生成完了！動画URL:")
+
+        output = task.output
+
+        if isinstance(output, list) and len(output) > 0 and isinstance(output[0], str):
+            print(output[0])
+        else:
+            print("⚠ 想定外の出力形式でした。内容:", output)
+
+    else:
+        print("❌ 動画生成に失敗しました。")
+
+
+
+# これは仮の構造。実際には Google Drive API を使って画像URLを取得する処理に置き換える
+def get_image_urls_for_script(script_id: str) -> List[str]:
+    # Google Drive上の特定フォルダから画像URLを取得する想定
+    # ここではダミーのURLを順に返す
+    base_url = f"https://drive.google.com/uc?id={{image_id}}"
+    dummy_image_ids = ["img001", "img002", "img003"]
+    return [base_url.format(image_id=img_id) for img_id in dummy_image_ids]
+
+
+# メイン処理
+
+# 引数として script_id を受け取る
+task_name = "video"
+script_id = parse_args_script_id() or get_next_script_id(task_name)
+if script_id is None:
+    exit()
+
+print(f"🎬 処理対象のscript_id: {script_id}")
+image_urls = get_image_urls_for_script(script_id)
+
+for url in image_urls:
+    print(f"🖼️ 使用画像: {url}")
+    request_runway(url)
+
+# 全画像処理後に完了マーク
+mark_script_completed(script_id)
+print(f"✅ script_id {script_id} を完了としてマークしました")

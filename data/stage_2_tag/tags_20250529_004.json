@@ -1,0 +1,257 @@
+{
+  "global_image_tag": "皮肉",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.46,
+      "text": "“貧乏は自己責任”？\n努力では\n抜け出せない\n社会構造",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.46,
+      "duration": 2.19,
+      "text": "生まれた瞬間に年収は8割決まる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.64,
+      "duration": 2.33,
+      "text": "先進国では親の社会経済的地位が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 7.97,
+      "duration": 1.93,
+      "text": "子の将来年収に強く影響し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 9.9,
+      "duration": 2.73,
+      "text": "平均で“貧困層から中流層に上がるには",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 12.63,
+      "duration": 2.35,
+      "text": "5世代以上かかる”と報告されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 14.98,
+      "duration": 2.07,
+      "text": "教育格差は3歳で始まっている",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 17.05,
+      "duration": 1.73,
+      "text": "3歳時点で高所得家庭と",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 18.77,
+      "duration": 1.94,
+      "text": "低所得家庭の子どもの語彙数には",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 20.71,
+      "duration": 1.54,
+      "text": "すでに3倍以上の差があり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 22.25,
+      "duration": 1.57,
+      "text": "その差は学校教育では",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 23.82,
+      "duration": 0.75,
+      "text": "埋まりにくい。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 24.57,
+      "duration": 2.88,
+      "text": "努力しても“見えないコスト”が邪魔をする",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 27.45,
+      "duration": 2.37,
+      "text": "貧困層の子どもは進学や受験にかかる",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 29.81,
+      "duration": 3.04,
+      "text": "交通費・制服代・家庭内労働など、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 32.85,
+      "duration": 3.29,
+      "text": "統計には出にくい“非金銭的コスト”によって",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 36.14,
+      "duration": 1.8,
+      "text": "機会を失っていることが示された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 37.94,
+      "duration": 2.79,
+      "text": "「奨学金」は借金であって救済ではない",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 40.74,
+      "duration": 3.74,
+      "text": "日本の奨学金利用者のうち約60%は有利子貸与で、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 44.48,
+      "duration": 2.4,
+      "text": "卒業時には数百万円の債務を背負う。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 46.88,
+      "duration": 3.32,
+      "text": "これは救済ではなく“教育ローン”であり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 50.2,
+      "duration": 1.59,
+      "text": "再貧困化の原因にもなる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 51.79,
+      "duration": 3.05,
+      "text": "“自己責任論”の刷り込みは政策の一部だった",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 54.84,
+      "duration": 3.72,
+      "text": "90年代以降、新自由主義的政策が各国で進行し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 58.56,
+      "duration": 1.9,
+      "text": "自己責任を強調する言説が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 60.46,
+      "duration": 2.88,
+      "text": "教育・報道・政策に組み込まれた。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 63.34,
+      "duration": 2.17,
+      "text": "これは格差問題の政治的正当化に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    },
+    {
+      "scene_id": "scene_28",
+      "start_sec": 65.5,
+      "duration": 1.26,
+      "text": "利用された側面がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011"
+    }
+  ]
+}

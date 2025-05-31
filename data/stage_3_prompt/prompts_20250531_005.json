@@ -1,0 +1,26 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, arms gently behind back, posture upright, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "なぜ\n“いい人止まり”\nで終わるのか？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, slight smile while looking back over shoulder, symmetrical composition with mirrored elements, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "優しさは恋愛の“決定打”にならない"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間関係には「交換的関係」と"
+      }
+    ]
+  }
+}

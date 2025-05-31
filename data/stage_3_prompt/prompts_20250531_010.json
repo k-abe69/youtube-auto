@@ -1,0 +1,26 @@
+{
+  "001": {
+    "prompt": "a valley where lightning is frozen in midair, illuminating the terrain eternally, silhouette in unnatural lighting, distorted horizon, angled underwater perspective, camera tilted, subject half-in frame, taking selfie from tilted camera, not facing directly, subject shown through uneven mirror shards, overlapping layers, scattered, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "なぜ\n“いい人止まり”\nで終わるのか？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "ethereal deer glowing faintly, walking through solid objects without resistance, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, running motion along slanted ground, angled frame, off-center, horizon twisted, sky blends into floor, subject falling diagonally, lighting from two contradictory directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "優しさは恋愛の“決定打”にならない"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間関係には「交換的関係」と"
+      }
+    ]
+  }
+}
