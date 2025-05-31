@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "desert where sand is made of singing crystals, sunlight refracted like rainbows, scene viewed through a small hole or tunnel, warped edges, viewed from below with strong tilt, subject placed near frame edge, stretching motion mid-action, not facing front, cropped, composition with no symmetry, elements scattered unevenly, avoids centering, shadows cast in conflicting directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "人間の体内には\n“第2の心臓”\nがある"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing sparkling gold dress, large bust, elegant smile, nightclub lighting, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, body turned, head looking over shoulder, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "ふくらはぎは\n「第二の心臓」だった"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "ふくらはぎの筋肉は、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "歩行や収縮運動によって"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "a valley where lightning is frozen in midair, illuminating the terrain eternally, extreme close-up with stretched perspective, unrealistic lens, reflections in shattered mirror, subject asymmetric and offset, twisting body diagonally, motion trail along frame edge, composition with no symmetry, elements scattered unevenly, avoids centering, shadows cast in conflicting directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "静脈の血液を心臓に押し戻す"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "「ミルキングアクション」を担う。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これは血液循環に不可欠であり、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with traditional hairstyle, crimson kimono blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, arms gently behind back, posture upright, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "機能が低下すると静脈瘤や"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "むくみを引き起こすことが"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "知られている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, gaze lowered, reflective mood, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "歩くだけで血管が若返る"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "1日30分の歩行で、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "ふくらはぎの筋ポンプ機能が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, arms gently behind back, posture upright, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "強化され、"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "下肢からの血流が改善される。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "これにより高齢者の循環不良・"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, adjusting earring in front of mirror, soft backlight, elegant neck line, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, slight smile while looking back over shoulder, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "転倒リスクの低下にも"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "つながる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, holding a delicate flower near face, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "「ふくらはぎ刺激」\nで脳にも効果"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "ふくらはぎへの圧刺激により"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "脳血流が増加することが"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, slight smile while looking back over shoulder, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "fMRIによって確認された。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "下肢刺激が脳活性に影響する"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "という発見は、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, silhouette in unnatural lighting, distorted horizon, reflections in shattered mirror, subject asymmetric and offset, floating pose, hands extending off one side of frame, subject pushed to the extreme edge of the frame, strong negative space, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "認知症予防の観点でも"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "注目されている。"
+      }
+    ]
+  }
+}

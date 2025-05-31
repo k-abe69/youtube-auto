@@ -1,0 +1,150 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), woman in futuristic battle armor, silver-plated face mask partially removed, eyes glowing, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, fingers near lips or cheek, subtle flirtation, symmetrical composition with mirrored elements, soft glow around subject with light bloom, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“女性は話が長い”\nは本当か？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "moth with feathers instead of wings, patterns shifting as it flutters, extremely distant perspective from space or high orbit, ceiling becomes floor, subject positioned diagonally, taking selfie from tilted camera, not facing directly, frame split vertically with two worlds, subject compressed to one side, background is sharp while subject is blurred, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "男性より女性は\n言葉数が3倍？"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "女性は1日に平均2万語を"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "話すのに対し、男性は約7千語"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, arms crossed lightly, relaxed and confident, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "というデータがある。これは女性の"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "脳内にある言語関連のニューロン"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "密度や、感情処理と関連した"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, adjusting earring in front of mirror, soft backlight, elegant neck line, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, arms gently behind back, posture upright, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "脳領域の活性度が高いためとされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, fingers near lips or cheek, subtle flirtation, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "職場での発言時間は\n男の方が長い"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "会議などの公的場面では、"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "男性の発言時間の方が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, covering mouth slightly in surprise or playfulness, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "女性より長い傾向がある。"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "特に上位職ではこの傾向が顕著であり、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "実際の発言量と社会認識が"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "乖離していることを示す。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "男女の脳は\n“違う”より\n“似ている”"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "脳の構造・機能の大部分において"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "性別差はほとんど見られず、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, shoulders and head visible, soft lighting, viewed through mirror reflection, frame visible, resting chin on hand, calm expression, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "「男脳・女脳」説は"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "科学的根拠に乏しいと結論付けられている。"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "この見解は、性別による行動差の"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "固定観念に再考を促す。"
+      }
+    ]
+  }
+}

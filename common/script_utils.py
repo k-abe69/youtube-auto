@@ -188,7 +188,7 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         "subtitle": ["prompt"],
         "image": ["subtitle"],
         "video": ["audio", "image", "subtitle"],
-        "compose": ["image"]
+        "compose": ["subtitle"]
     }
 
     status_path = Path(ROOT_DIR) / status_path  # ← ここで Path に変換
@@ -216,8 +216,8 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         return explicit_script_id
 
     for script_id, status in status_data.items():
-        print(f"[DEBUG] status_path = {status_path}")
-        print(f"[DEBUG] checking: {script_id}, task={task_name}, status={status}")
+        # print(f"[DEBUG] status_path = {status_path}")
+        # print(f"[DEBUG] checking: {script_id}, task={task_name}, status={status}")
 
         # すでに完了していたらスキップ
         if status.get(task_name) == True:
@@ -227,7 +227,7 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         # 依存タスクが未完了ならスキップ
         unmet = [dep for dep in DEPENDENCIES[task_name] if status.get(dep) != True]
         if unmet:
-            print(f"[⛔] 依存未達: {script_id}（未完了: {unmet}）")
+            # print(f"[⛔] 依存未達: {script_id}（未完了: {unmet}）")
             unmet_dependencies.append(script_id)
             continue  # OK: スキップして次の script_id を探す
         print(f"[INFO] 処理対象: {script_id}（task: {task_name}）")
