@@ -207,10 +207,10 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         status = status_data.get(explicit_script_id, {})
         unmet = [dep for dep in DEPENDENCIES[task_name] if status.get(dep) != True]
         if unmet:
-            print(f"[⛔] 依存未達: {explicit_script_id}（未完了: {unmet}）")
+            # print(f"[⛔] 依存未達: {explicit_script_id}（未完了: {unmet}）")
             return None
         if status.get(task_name) == True:
-            print(f"[✓] すでに完了: {explicit_script_id} → {task_name}")
+            # print(f"[✓] すでに完了: {explicit_script_id} → {task_name}")
             return None
         print(f"[INFO] 明示された処理対象: {explicit_script_id}（task: {task_name}）")
         return explicit_script_id
