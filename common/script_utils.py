@@ -186,9 +186,9 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         "tag": ["audio"],
         "prompt": ["tag"],
         "subtitle": ["prompt"],
-        "image": ["prompt"],
+        "image": ["subtitle"],
         "video": ["audio", "image", "subtitle"],
-        "compose": ["video"]
+        "compose": ["image"]
     }
 
     status_path = Path(ROOT_DIR) / status_path  # ← ここで Path に変換
