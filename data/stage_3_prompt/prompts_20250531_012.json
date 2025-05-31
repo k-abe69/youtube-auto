@@ -1,0 +1,150 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, hand reaching toward the camera softly, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“女性は話が長い”\nは本当か？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "sunset shattered across geometric planes in the air, shoulder-back view, subject turning face toward camera, severe Dutch angle with asymmetric framing, tension emphasis, climbing diagonally across a wall, angle from below-left, composition with no symmetry, elements scattered unevenly, avoids centering, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "男性より女性は\n言葉数が3倍？"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "女性は1日に平均2万語を"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "話すのに対し、男性は約7千語"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "mountain range made of prisms bending sunlight into wild colors, extreme close-up with stretched perspective, unrealistic lens, severe Dutch angle with asymmetric framing, tension emphasis, lying on transparent surface, face to the side, half-framed, subject emerging partially from frame corner, majority off-frame, background is sharp while subject is blurred, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "というデータがある。これは女性の"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "脳内にある言語関連のニューロン"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "密度や、感情処理と関連した"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, curvy body, standing before mirror, side pose, red lips, confident stare, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, hand reaching toward the camera softly, symmetrical composition with mirrored elements, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "脳領域の活性度が高いためとされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, touching her hair gently, slightly dreamy pose, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "職場での発言時間は\n男の方が長い"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "会議などの公的場面では、"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "男性の発言時間の方が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, covering mouth slightly in surprise or playfulness, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "女性より長い傾向がある。"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "特に上位職ではこの傾向が顕著であり、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "実際の発言量と社会認識が"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, upper body leaning toward viewer, symmetrical composition with mirrored elements, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "乖離していることを示す。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, silhouette in unnatural lighting, distorted horizon, ceiling becomes floor, subject positioned diagonally, taking selfie from tilted camera, not facing directly, subject emerging partially from frame corner, majority off-frame, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "男女の脳は\n“違う”より\n“似ている”"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "脳の構造・機能の大部分において"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "性別差はほとんど見られず、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "「男脳・女脳」説は"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "科学的根拠に乏しいと結論付けられている。"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "この見解は、性別による行動差の"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, holding an umbrella, waiting at a quiet intersection, soft drizzle, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, touching her hair gently, slightly dreamy pose, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "固定観念に再考を促す。"
+      }
+    ]
+  }
+}
