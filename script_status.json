@@ -48,7 +48,7 @@
     "audio": true,
     "tag": true,
     "prompt": true,
-    "subtitle": true,
+    "subtitle": "pending",
     "image": "pending",
     "video": "pending",
     "compose": "pending"
@@ -57,7 +57,7 @@
     "audio": true,
     "tag": true,
     "prompt": true,
-    "subtitle": true,
+    "subtitle": "pending",
     "image": "pending",
     "video": "pending",
     "compose": "pending"
