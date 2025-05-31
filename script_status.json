@@ -4,7 +4,7 @@
     "tag": true,
     "prompt": true,
     "subtitle": true,
-    "image": "pending",
+    "image": true,
     "video": "pending",
     "compose": "pending"
   },
