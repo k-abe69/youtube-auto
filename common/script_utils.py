@@ -216,6 +216,8 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         return explicit_script_id
 
     for script_id, status in status_data.items():
+        print(f"[DEBUG] checking: {script_id}, task={task_name}, status={status}")
+
         # すでに完了していたらスキップ
         if status.get(task_name) == True:
             all_completed.append(script_id)
