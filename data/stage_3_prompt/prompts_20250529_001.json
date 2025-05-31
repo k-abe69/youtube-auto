@@ -1,0 +1,176 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, looking slightly upward, hopeful expression, face positioned off-center with balanced lighting, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "不眠症は\n甘え？才能？\n“寝なくても平気な人”\nの正体"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, arms gently behind back, posture upright, tight head-and-shoulders crop, minimal background, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "脳の“ゴミ掃除”は寝てる間にしかできない"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "脳内にたまる老廃物（アミロイドβなど）は、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "睡眠中にグリンパティック系を通じて"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), mysterious beauty in ornate opera mask, golden embroidery, dark velvet curtain backdrop, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, face positioned off-center with balanced lighting, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "排出されることが確認されており、"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "覚醒中はこの機能がほぼ停止している。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_07",
+        "text": "短眠体質は遺伝子レベルで例外"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "平均より短い睡眠でも健康を維持できる"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "“ショートスリーパー”は、"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "rabbit with roots instead of legs, growing moss as it hops, extreme close-up with stretched perspective, unrealistic lens, reflections in shattered mirror, subject asymmetric and offset, climbing diagonally across a wall, angle from below-left, composition with no symmetry, elements scattered unevenly, avoids centering, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "DEC2などの特定遺伝子変異によって生じるが、"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "全人口の1%未満しか存在しない。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "wolf with part-human eyes and elegant features, glowing fur, silent power, silhouette in unnatural lighting, distorted horizon, reflections in shattered mirror, subject asymmetric and offset, running motion along slanted ground, angled frame, off-center, frame split vertically with two worlds, subject compressed to one side, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "不眠状態が糖尿病リスクを爆増させる"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "睡眠時間が1日5時間以下の成人では、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "耐糖能が著しく低下し、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, gaze lowered, reflective mood, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "2型糖尿病発症リスクが顕著に上昇することが"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "臨床研究で報告された。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, viewed through mirror reflection, frame visible, resting chin on hand, calm expression, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "“寝ずに働く”はIQを一時的に15下げる"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "24時間以上の睡眠不足は、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "認知機能と集中力を大幅に低下させ、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "実際には血中アルコール0.1%と"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "同等の脳機能低下が起きる。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, touching her hair gently, slightly dreamy pose, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "6時間睡眠でも“劣化”は蓄積される"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "6時間睡眠を2週間続けたグループでも、"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "日中のパフォーマンスは連続徹夜と"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "sunset shattered across geometric planes in the air, distant shot, tiny subject, wide surreal background, angled underwater perspective, camera tilted, subject half-in frame, body fragmenting toward left or right frame, non-radial, frame split vertically with two worlds, subject compressed to one side, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "同レベルまで低下し、"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "被験者はその自覚がないまま"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "認知機能を失っていた。"
+      }
+    ]
+  }
+}

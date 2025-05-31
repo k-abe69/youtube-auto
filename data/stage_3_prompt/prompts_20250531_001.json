@@ -1,0 +1,192 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "なぜ\n“いい人止まり”\nで終わるのか？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, leaning sideways, hair cascading, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "優しさは恋愛の“決定打”にならない"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間関係には「交換的関係」と"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「親密な関係」があり、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "moth with feathers instead of wings, patterns shifting as it flutters, side angle close-up with focus on cheek and ear, cropped frame, reflections in shattered mirror, subject asymmetric and offset, running motion along slanted ground, angled frame, off-center, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "親切や思いやりは後者で評価されやすいが、"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "恋愛初期では「交換的関係」が優位で、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "魅力や刺激が優先される傾向がある。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, symmetrical composition with mirrored elements, soft glow around subject with light bloom, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "「いい人」は記憶されにくい"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "人の記憶に残るのは、"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "ポジティブ感情よりも"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "“感情の変動が大きい存在”であり、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "常に安定した「いい人」はインパクトが薄れ、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "恋愛対象として意識されにくいとされる。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "顔が良くても“自己主張”がないと選ばれない"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "見た目が良い男性でも、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "自信や自己主張が低いと"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "landscape composed of floating photograph fragments, memories fading midair, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, viewed from corner with sharp perspective line, subject in lower third, twisting body diagonally, motion trail along frame edge, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "恋愛対象から外れやすい傾向があり、"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "他者からの“価値の再確認”が"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "恋愛の成否を左右するという結果が出ている。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, leaning sideways, hair cascading, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "“誠実さ”は恋愛の初期段階では逆にマイナス評価されることがある"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "誠実で共感的な人間は、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "信頼関係構築には適しているが、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, hands clasped in front, formal yet soft pose, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "恋愛初期においては「緊張感がない」"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "「ドキドキしない」と判断され、"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "友人枠に分類されやすい。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, fingers near lips or cheek, subtle flirtation, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "“いい人止まり”の男は自己開示が少ない傾向にある"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "自分の考えや感情を深く開示する人間ほど、"
+      },
+      {
+        "scene_id": "scene_28",
+        "text": "相手からの心理的魅力を獲得しやすいという"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, resting chin on hand, calm expression, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_29",
+        "text": "傾向があり、"
+      },
+      {
+        "scene_id": "scene_30",
+        "text": "自己開示が浅い男性は「良い人」で"
+      },
+      {
+        "scene_id": "scene_31",
+        "text": "終わりやすい。"
+      }
+    ]
+  }
+}
