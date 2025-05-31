@@ -225,8 +225,8 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         unmet = [dep for dep in DEPENDENCIES[task_name] if status.get(dep) != True]
         if unmet:
             print(f"[⛔] 依存未達: {script_id}（未完了: {unmet}）")
-            return None  # ★ここで処理を止める★
-
+            unmet_dependencies.append(script_id)
+            continue  # OK: スキップして次の script_id を探す
         print(f"[INFO] 処理対象: {script_id}（task: {task_name}）")
         return script_id
 
