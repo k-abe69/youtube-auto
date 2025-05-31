@@ -9,7 +9,7 @@ from librosa import load, get_duration  # 音声の実長を取得するため
 
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
-from common.script_utils import extract_script_id, find_oldest_script_id, resolve_script_id 
+from common.script_utils import parse_args_script_id, get_next_script_id, mark_script_completed
 from common.constants import SILENCE_DURATION
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -66,7 +66,7 @@ def apply_ai_line_break(text: str) -> str:
         }
 
         response = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": json.dumps(user_input, ensure_ascii=False)}
@@ -295,7 +295,10 @@ if __name__ == "__main__":
     input_dir = Path("data/stage_1_audio")
     output_dir = Path("data/stage_4_subtitles")
 
-    script_id = resolve_script_id()
+    task_name = "subtitle"
+    script_id = parse_args_script_id() or get_next_script_id(task_name)
+    if script_id is None:
+        exit()
 
     input_path = input_dir / script_id / f"script_meta_{script_id}.json"
     if not input_path.exists():
@@ -311,3 +314,5 @@ if __name__ == "__main__":
         json_path=json_path,  # 生成済みsubtitle_jsonへのパス
         output_path=output_dir / f"subtitles_{script_id}.ass"
     )
+    mark_script_completed(script_id, task_name)
+

@@ -1,0 +1,180 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, shiny thick lips, seductive smile, full chest, soft skin texture, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, holding a delicate flower near face, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“貧乏は自己責任”？\n努力では\n抜け出せない\n社会構造"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, eyes softly closed, calm or dreamlike atmosphere, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "生まれた瞬間に年収は8割決まる"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "先進国では親の社会経済的地位が"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "子の将来年収に強く影響し、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, fingers near lips or cheek, subtle flirtation, symmetrical composition with mirrored elements, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "平均で“貧困層から中流層に上がるには"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "5世代以上かかる”と報告されている。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "serpent composed of cloud segments and lightning veins, drifting through the air, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, ceiling becomes floor, subject positioned diagonally, taking selfie from tilted camera, not facing directly, main subject located in top left or right corner, sky dominant, asymmetric, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_07",
+        "text": "教育格差は3歳で始まっている"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "3歳時点で高所得家庭と"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "低所得家庭の子どもの語彙数には"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "dog with body made of stained glass, light leaking from cracks, scene viewed through a small hole or tunnel, warped edges, viewed from corner with sharp perspective line, subject in lower third, floating pose, hands extending off one side of frame, frame split vertically with two worlds, subject compressed to one side, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "すでに3倍以上の差があり、"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "その差は学校教育では"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "埋まりにくい。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, gaze lowered, reflective mood, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "努力しても“見えないコスト”が邪魔をする"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "貧困層の子どもは進学や受験にかかる"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "交通費・制服代・家庭内労働など、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with traditional hairstyle, crimson kimono blowing in wind, katana resting on shoulder, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, upper body leaning toward viewer, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "統計には出にくい“非金銭的コスト”によって"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "機会を失っていることが示された。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "「奨学金」は借金であって救済ではない"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "日本の奨学金利用者のうち約60%は有利子貸与で、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "卒業時には数百万円の債務を背負う。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, touching her hair gently, slightly dreamy pose, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "これは救済ではなく“教育ローン”であり、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "再貧困化の原因にもなる。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, fingers near lips or cheek, subtle flirtation, symmetrical composition with mirrored elements, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "“自己責任論”の刷り込みは政策の一部だった"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "90年代以降、新自由主義的政策が各国で進行し、"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "自己責任を強調する言説が"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, hourglass silhouette in backlight, curvy hips, soft lips, sunset glow, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, arms gently behind back, posture upright, symmetrical composition with mirrored elements, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "教育・報道・政策に組み込まれた。"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "これは格差問題の政治的正当化に"
+      },
+      {
+        "scene_id": "scene_28",
+        "text": "利用された側面がある。"
+      }
+    ]
+  }
+}

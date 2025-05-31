@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from common.misread_dict import apply_misread_corrections
 from fugashi import Tagger
 import shutil
-from common.script_utils import extract_script_id, find_oldest_script_file, resolve_script_id, parse_and_generate_voicevox_script   # ← 修正ポイント
+from common.script_utils import parse_args_script_id, mark_script_completed, get_next_script_id, parse_and_generate_voicevox_script
 
 # 環境変数の読み込み
 load_dotenv()
@@ -121,19 +121,19 @@ def split_script_to_scenes(script_text: str) -> list[dict]:
 
 # メイン処理
 def main():
-    input_base_dir = Path("scripts_ok")
-    done_base_dir = Path("scripts_done")
-    output_base_dir = Path("data/stage_1_audio")
-
-    done_base_dir.mkdir(exist_ok=True)
-    output_base_dir.mkdir(parents=True, exist_ok=True)
-
-    script_txt = find_oldest_script_file(input_base_dir)
-    if not script_txt:
-        print("未処理の台本が見つかりません。")
+    task_name = "audio"
+    script_id = parse_args_script_id() or get_next_script_id(task_name)
+    if script_id is None:
         return
 
-    script_id = extract_script_id(script_txt.name)
+    input_base_dir = Path("scripts")
+    output_base_dir = Path("data/stage_1_audio")
+
+    output_base_dir.mkdir(parents=True, exist_ok=True)
+
+    script_txt_path = input_base_dir / f"script_{script_id}.txt"
+
+
     output_dir = output_base_dir / script_id
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -141,7 +141,7 @@ def main():
     tmp_meta_path = output_dir / f"script_meta_{script_id}.json"
 
     # 🎯 ここで (0:00) 付きスクリプトを生成
-    parse_and_generate_voicevox_script(script_txt, tmp_script_path, tmp_meta_path)
+    parse_and_generate_voicevox_script(script_txt_path, tmp_script_path, tmp_meta_path)
 
     print(f"🎯 台本読み込み: {tmp_script_path}")
     with open(tmp_script_path, encoding="utf-8") as f:
@@ -210,11 +210,8 @@ def main():
     with open(meta_path_with_timing, "w", encoding="utf-8") as f:
         json.dump(meta_data, f, ensure_ascii=False, indent=2)
     print(f"✅ メタ情報（タイミング付き）保存完了: {meta_path_with_timing}")
-
-
-    # 台本ファイルを処理済みへ移動
-    shutil.move(str(script_txt), done_base_dir / script_txt.name)
-    print(f"📁 処理済み台本を移動: {done_base_dir / script_txt.name}")
+    mark_script_completed(script_id, task_name)
+    print(f"✅ ステータス更新完了: {script_id} の {task_name} 完了")
 
 if __name__ == "__main__":
     main()

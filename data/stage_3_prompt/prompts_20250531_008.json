@@ -1,0 +1,26 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, resting chin on hand, calm expression, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "なぜ\n“いい人止まり”\nで終わるのか？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, distant shot, tiny subject, wide surreal background, viewed from corner with sharp perspective line, subject in lower third, jumping midair at diagonal angle, limbs offset, subject cropped, subject running across bottom frame edge, blurred, anti-center, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "優しさは恋愛の“決定打”にならない"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "人間関係には「交換的関係」と"
+      }
+    ]
+  }
+}
