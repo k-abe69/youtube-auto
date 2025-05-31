@@ -169,5 +169,32 @@
     "image": "pending",
     "video": "pending",
     "compose": "pending"
+  },
+  "20250531_012": {
+    "audio": true,
+    "tag": true,
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": "pending"
+  },
+  "20250531_013": {
+    "audio": true,
+    "tag": true,
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": "pending"
+  },
+  "20250531_014": {
+    "audio": true,
+    "tag": true,
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": "pending"
   }
 }
