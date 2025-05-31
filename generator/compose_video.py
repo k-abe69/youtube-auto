@@ -8,7 +8,6 @@ import numpy as np
 import re
 import math
 
-
 from moviepy.editor import *
 from moviepy.video.fx.all import fadein
 from common.constants import SILENCE_DURATION
@@ -16,7 +15,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from common.backup_script import backup_script
 from common.save_config import save_config_snapshot
-from common.script_utils import find_oldest_script_id, resolve_script_id 
+from script_utils import get_next_script_id, mark_script_completed
 from PIL import Image
 from common.video_export import export_video_high_quality
 
@@ -109,8 +108,8 @@ def compose_video(script_id: str):
     timing_path = Path(f"data/stage_2_tag/tags_{script_id}.json")
     subtitle_path = Path(f"data/stage_4_subtitles/subtitles_{script_id}.srt")
     audio_base_dir = Path(f"data/stage_1_audio/{script_id}")
-    image_base_dir = Path(f"data/stage_3_images/{script_id}")
-    output_dir = Path(f"data/stage_5_output/{script_id}")
+    image_base_dir = Path(f"data/stage_5_images/{script_id}")
+    output_dir = Path(f"data/stage_6_output/{script_id}")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     with open(timing_path, "r", encoding="utf-8") as f:
@@ -132,7 +131,7 @@ def compose_video(script_id: str):
     timeline_pointer = 0.0  # 画像表示の累積開始時間。音声と同じく前から順に積み上げていく
 
     for parent_id, group in parent_scene_map.items():
-        img_path = image_base_dir / f"{parent_id}_mv.png"
+        img_path = next((p for p in [(image_base_dir / f"{parent_id}_mv.png"), (image_base_dir / f"{parent_id}.png")] if p.exists()), None)
         video_path = image_base_dir / f"{parent_id}.mp4"
 
         if img_path.exists():
@@ -371,5 +370,12 @@ def compose_video(script_id: str):
 
 
 if __name__ == "__main__":
-    script_id = resolve_script_id()
+    task_name = "compose"
+    script_id = get_next_script_id(task_name)
+    if not script_id:
+        print("✅ 全ての script_id に対して compose が完了しています。")
+        exit(0)
     compose_video(script_id)
+    mark_script_completed(script_id, task_name)
+    print(f"✅ compose_video 完了: {script_id}")
+
