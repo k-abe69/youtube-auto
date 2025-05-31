@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "flock of flying fish glowing with inner light, orbiting together in patterns, headshot with forehead cropped, cinematic intensity, viewed from below with strong tilt, subject placed near frame edge, jumping midair at diagonal angle, limbs offset, subject cropped, viewed from a crack in the ground, subject half-cropped above, asymmetrical, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "人間の体内には\n“第2の心臓”\nがある"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), woman in futuristic battle armor, silver-plated face mask partially removed, eyes glowing, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, upper body leaning toward viewer, intentional asymmetric crop for tension, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "ふくらはぎは\n「第二の心臓」だった"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "ふくらはぎの筋肉は、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "歩行や収縮運動によって"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, looking slightly upward, hopeful expression, symmetrical composition with mirrored elements, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "静脈の血液を心臓に押し戻す"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "「ミルキングアクション」を担う。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これは血液循環に不可欠であり、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, eyes softly closed, calm or dreamlike atmosphere, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "機能が低下すると静脈瘤や"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "むくみを引き起こすことが"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "知られている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "a lake curving inward like a vortex, boats caught in circular drift, headshot with forehead cropped, cinematic intensity, severe Dutch angle with asymmetric framing, tension emphasis, taking selfie from tilted camera, not facing directly, composition with no symmetry, elements scattered unevenly, avoids centering, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "歩くだけで血管が若返る"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "1日30分の歩行で、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "ふくらはぎの筋ポンプ機能が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, holding a delicate flower near face, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "強化され、"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "下肢からの血流が改善される。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "これにより高齢者の循環不良・"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, hand reaching toward the camera softly, blurred object partially in foreground, framing face, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "転倒リスクの低下にも"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "つながる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, background blurred to focus sharply on eyes, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "「ふくらはぎ刺激」で脳にも効果"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "ふくらはぎへの圧刺激により"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "脳血流が増加することが"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, eyes softly closed, calm or dreamlike atmosphere, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "fMRIによって確認された。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "下肢刺激が脳活性に影響する"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "という発見は、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "clouds forming walls like a labyrinth, paths lit by starlight, extremely distant perspective from space or high orbit, reflections in shattered mirror, subject asymmetric and offset, taking selfie from tilted camera, not facing directly, frame split vertically with two worlds, subject compressed to one side, background is sharp while subject is blurred, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "認知症予防の観点でも"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "注目されている。"
+      }
+    ]
+  }
+}

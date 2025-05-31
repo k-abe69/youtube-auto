@@ -1,0 +1,140 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with traditional hairstyle, crimson kimono blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, arms gently behind back, posture upright, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "緊急事態！\n“見て見ぬふり”\nはなぜ起きるのか？\n傍観者効果とは"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "an upside-down submerged city floating in the sky, buildings distorted in water, scene viewed through a small hole or tunnel, warped edges, ceiling becomes floor, subject positioned diagonally, standing on one leg, viewed from side angle, slight off-balance, subject emerging partially from frame corner, majority off-frame, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "助けが遅れる\n「傍観者効果」"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "ニューヨークで起きた"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "キティ・ジェノヴィーズ事件を"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "open grass field filled with standing bookshelves under cloudy sky, waist-up composition, hands partially visible, balanced framing, severe Dutch angle with asymmetric framing, tension emphasis, taking selfie from tilted camera, not facing directly, subject shown through uneven mirror shards, overlapping layers, scattered, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "契機に提唱された。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "周囲に他者が多いと、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "「誰かがやるだろう」という"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), mysterious beauty in ornate opera mask, golden embroidery, dark velvet curtain backdrop, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "心理が働き、助け行動が遅れたり"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "起こらなかったりすることを実験で証明。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, headshot with forehead cropped, cinematic intensity, angled view through a broken side window, subject offset and cropped, taking selfie from tilted camera, not facing directly, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "匿名性が共感を奪う"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "人は匿名になると責任感や共感性が"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "著しく低下する。傍観者効果は、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, touching her hair gently, slightly dreamy pose, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "群衆・匿名・不明確な緊急性という"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "3要素の重なりで加速される。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "forest frozen in multiple seasons simultaneously, color distortion everywhere, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, viewed from corner with sharp perspective line, subject in lower third, jumping midair at diagonal angle, limbs offset, subject cropped, motion blur in horizontal pan, subject near far edge of image, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "一人でいる時、\n人は「英雄」になる"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "最新のメタ分析によると、"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "一人で目撃した場合、助け行動を"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, upper body leaning toward viewer, symmetrical composition with mirrored elements, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "とる確率は60%以上に上昇する。"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "社会的比較が起こらず、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "「自分がやらねば」という心理が"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "前面に出るためとされる。"
+      }
+    ]
+  }
+}
