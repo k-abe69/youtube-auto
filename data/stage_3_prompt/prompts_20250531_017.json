@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), mysterious beauty in ornate opera mask, golden embroidery, dark velvet curtain backdrop, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, touching her hair gently, slightly dreamy pose, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, leaning sideways, hair cascading, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,7 +10,7 @@
     ]
   },
   "002": {
-    "prompt": "rabbit with roots instead of legs, growing moss as it hops, distant shot, tiny subject, wide surreal background, angled view through a broken side window, subject offset and cropped, climbing diagonally across a wall, angle from below-left, motion blur in horizontal pan, subject near far edge of image, subject leaving motion trail like time echo, ",
+    "prompt": "rabbit with roots instead of legs, growing moss as it hops, waist-up composition, hands partially visible, balanced framing, ceiling becomes floor, subject positioned diagonally, twisting body diagonally, motion trail along frame edge, motion blur in horizontal pan, subject near far edge of image, intense lens flare from unnatural light source, ",
     "theme": "animal",
     "scenes": [
       {
@@ -28,8 +28,8 @@
     ]
   },
   "003": {
-    "prompt": "tiger with perfect bilateral symmetry, one side organic, one side glass, extremely distant perspective from space or high orbit, ceiling becomes floor, subject positioned diagonally, climbing diagonally across a wall, angle from below-left, horizon twisted, sky blends into floor, subject falling diagonally, tunnel view into a mirror world, ",
-    "theme": "animal",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_05",
@@ -46,8 +46,8 @@
     ]
   },
   "004": {
-    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, waist-up composition, hands partially visible, balanced framing, angled underwater perspective, camera tilted, subject half-in frame, lying on transparent surface, face to the side, half-framed, subject shown through uneven mirror shards, overlapping layers, scattered, shadows cast in conflicting directions, ",
-    "theme": "animal",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms crossed lightly, relaxed and confident, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_08",
@@ -60,7 +60,7 @@
     ]
   },
   "005": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, holding an umbrella, waiting at a quiet intersection, soft drizzle, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, arms crossed lightly, relaxed and confident, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, holding a delicate flower near face, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -78,8 +78,8 @@
     ]
   },
   "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing sparkling gold dress, large bust, elegant smile, nightclub lighting, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, fingers near lips or cheek, subtle flirtation, symmetrical composition with mirrored elements, emphasis on skin texture like silk, gentle lighting, ",
-    "theme": "girl",
+    "prompt": "city made of soft fog and light, buildings flicker in and out of view, waist-up composition, hands partially visible, balanced framing, angled underwater perspective, camera tilted, subject half-in frame, body fragmenting toward left or right frame, non-radial, subject running across bottom frame edge, blurred, anti-center, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_13",
@@ -92,7 +92,7 @@
     ]
   },
   "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, face positioned off-center with balanced lighting, emphasis on skin texture like silk, gentle lighting, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, leaning sideways, hair cascading, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -110,8 +110,8 @@
     ]
   },
   "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with traditional hairstyle, crimson kimono blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, viewed through mirror reflection, frame visible, eyes softly closed, calm or dreamlike atmosphere, intentional asymmetric crop for tension, sparkle and sharp detail in eyes, ",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, hourglass silhouette in backlight, curvy hips, soft lips, sunset glow, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, covering mouth slightly in surprise or playfulness, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_18",
@@ -128,7 +128,7 @@
     ]
   },
   "009": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, upper body leaning toward viewer, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
     "theme": "normal_beauty",
     "scenes": [
       {

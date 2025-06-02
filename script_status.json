@@ -199,16 +199,7 @@
   },
   "20250531_015": {
     "audio": true,
-    "tag": true,
-    "prompt": true,
-    "subtitle": true,
-    "image": "pending",
-    "video": true,
-    "compose": true
-  },
-  "20250531_016": {
-    "audio": true,
-    "tag": true,
+    "tag": "pending",
     "prompt": true,
     "subtitle": true,
     "image": "pending",
@@ -216,6 +207,15 @@
     "compose": true
   },
   "20250531_017": {
+    "audio": true,
+    "tag": "pending",
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": true
+  },
+  "20250531_016": {
     "audio": true,
     "tag": "pending",
     "prompt": true,

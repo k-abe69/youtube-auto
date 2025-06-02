@@ -2,6 +2,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+import re
 import json
 from pathlib import Path
 from datetime import timedelta
@@ -162,6 +163,40 @@ def generate_subtitles(timing_json_path: Path, output_dir: Path, script_id: str)
             current_start += duration
             continue
 
+        if scene["type"] == "main_title":
+            scene_id = scene["scene_id"]
+            raw_text = scene["text"]
+            start_sec = current_start
+            end_sec = current_start + duration
+
+            # 改行で上下分割（最初の \n または \\n）
+            split_text = re.split(r"(?:\\n|\n)", raw_text, maxsplit=1)
+            top_text = split_text[0].strip()
+            center_text = split_text[1].strip() if len(split_text) > 1 else ""
+
+            # 上部テロップ（title_top）
+            subtitle_json.append({
+                "scene_id": scene_id + "_top",
+                "start_sec": round(start_sec, 2),
+                "end_sec": round(end_sec, 2),
+                "text": top_text,
+                "type": "main_title_top"
+            })
+
+            # 中央テロップ（title_center）
+            if center_text:
+                subtitle_json.append({
+                    "scene_id": scene_id + "_center",
+                    "start_sec": round(start_sec, 2),
+                    "end_sec": round(end_sec, 2),
+                    "text": center_text,
+                    "type": "main_title_center"
+                })
+
+            current_start = end_sec
+            continue
+
+
 
         if scene["type"] == "source":
             start_sec = current_start - duration
@@ -223,6 +258,8 @@ def generate_ass_from_json(json_path: Path, output_path: Path):
             continue  # TitleTop をスキップ
         style = {
             "main_title": "MainTitle",
+            "main_title_top": "MainTitleTop",        # ← 追加
+            "main_title_center": "MainTitleCenter",  # ← 追加
             "title_center": "TitleCenter",
             "title_top": "TitleTop",
             "source": "Source",
@@ -263,6 +300,9 @@ Timer: 100.0000
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: MainTitle,Noto Sans CJK JP,26,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,1,5,10,10,30,1
+
+Style: MainTitleCenter,Noto Sans CJK JP,26,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,2,10,10,70,1
+Style: MainTitleTop,Noto Sans CJK JP,26,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,8,10,10,30,1
 
 Style: TitleCenter,Noto Sans CJK JP,20,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,5,10,10,30,1
 Style: TitleTop,Noto Sans CJK JP,0,&H00CCCCCC,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,8,10,10,30,1

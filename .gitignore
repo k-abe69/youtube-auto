@@ -20,7 +20,7 @@ ed_ok/
 stock_video/
 
 # 個人環境
-.env
+.env*
 .vscode/
 .DS_Store
 

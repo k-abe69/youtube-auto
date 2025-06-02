@@ -288,7 +288,7 @@ def compose_video(script_id: str):
         if scene_start is None:
             continue
 
-        if scene_type == "main_title" and se_main_path.exists():
+        if scene_type == "main_title_top" and se_main_path.exists():
             se_clip = AudioFileClip(str(se_main_path)).set_start(scene_start).volumex(0.5)
             se_clips.append(se_clip)
         elif scene_type == "title_center" and se_center_path.exists():
