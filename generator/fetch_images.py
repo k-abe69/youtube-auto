@@ -94,6 +94,9 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
     batch = keys[start_index - 1:start_index - 1 + batch_size]
     processed_any = False
 
+    processed_count = 0
+    failed_count = 0
+
     negative_prompt = "nipple, areola, bare chest, exposed breasts, nsfw, ugly, deformed, lowres, blurry, text, watermark, centered composition, circular framing, tight clothes, bikini, confident pose, looking back, soft lighting, wet shirt, sideboob, elegant cleavage, seductive gaze, thigh-highs, skirt fluttering, bad anatomy, extra limbs, fused fingers, bad eyes, bad hands"
 
     for i, parent_id in enumerate(batch):
@@ -132,9 +135,12 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
             processed_any = True
             duration = time.time() - start_time
             print(f"🧠 SD画像保存完了: {out_path}（{duration:.2f}秒）")
+            processed_count += 1
         except Exception as e:
+            failed_count += 1
             print(f"❌ SD画像生成失敗: {parent_id} → {type(e).__name__}: {e}")
-    return processed_any
+    print(f"🟢 成功: {processed_count}件 / 🔴 失敗: {failed_count}件")
+    return failed_count == 0 and processed_count > 0
 
             
 
