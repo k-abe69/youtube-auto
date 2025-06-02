@@ -223,5 +223,32 @@
     "image": "pending",
     "video": true,
     "compose": true
+  },
+  "20250531_018": {
+    "audio": true,
+    "tag": true,
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": "pending"
+  },
+  "20250531_019": {
+    "audio": true,
+    "tag": true,
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": "pending"
+  },
+  "20250601_001": {
+    "audio": true,
+    "tag": true,
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": "pending"
   }
 }

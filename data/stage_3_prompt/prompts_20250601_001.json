@@ -1,0 +1,140 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, curvy body, standing before mirror, side pose, red lips, confident stare, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "緊急事態！\n“見て見ぬふり”\nはなぜ起きるのか？\n傍観者効果とは"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "mountain range entirely transparent, light bending across its jagged edges, side angle close-up with focus on cheek and ear, cropped frame, viewed from below with strong tilt, subject placed near frame edge, climbing diagonally across a wall, angle from below-left, subject shown through uneven mirror shards, overlapping layers, scattered, background is sharp while subject is blurred, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "助けが遅れる\n「傍観者効果」"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "ニューヨークで起きた"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "キティ・ジェノヴィーズ事件を"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "契機に提唱された。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "周囲に他者が多いと、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "「誰かがやるだろう」という"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, adjusting earring in front of mirror, soft backlight, elegant neck line, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "心理が働き、助け行動が遅れたり"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "起こらなかったりすることを実験で証明。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, shiny thick lips, seductive smile, full chest, soft skin texture, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, upper body leaning toward viewer, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "匿名性が共感を奪う"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "人は匿名になると責任感や共感性が"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "著しく低下する。傍観者効果は、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, body turned, head looking over shoulder, blurred object partially in foreground, framing face, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "群衆・匿名・不明確な緊急性という"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "3要素の重なりで加速される。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, arms gently behind back, posture upright, blurred object partially in foreground, framing face, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "一人でいる時、\n人は「英雄」になる"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "最新のメタ分析によると、"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "一人で目撃した場合、助け行動を"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, leaning sideways, hair cascading, symmetrical composition with mirrored elements, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "とる確率は60%以上に上昇する。"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "社会的比較が起こらず、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "「自分がやらねば」という心理が"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, stretching motion mid-action, not facing front, cropped, subject emerging partially from frame corner, majority off-frame, lighting from two contradictory directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "前面に出るためとされる。"
+      }
+    ]
+  }
+}

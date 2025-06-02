@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, resting chin on hand, calm expression, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "人間の体内には\n“第2の心臓”\nがある"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "fox with a ticking clock as a face, tail spinning like hands, shoulder-back view, subject turning face toward camera, reflections in shattered mirror, subject asymmetric and offset, running motion along slanted ground, angled frame, off-center, subject running across bottom frame edge, blurred, anti-center, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "ふくらはぎは\n「第二の心臓」だった"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "ふくらはぎの筋肉は、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "歩行や収縮運動によって"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, leaning sideways, hair cascading, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "静脈の血液を心臓に押し戻す"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "「ミルキングアクション」を担う。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これは血液循環に不可欠であり、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, touching her hair gently, slightly dreamy pose, blurred object partially in foreground, framing face, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "機能が低下すると静脈瘤や"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "むくみを引き起こすことが"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "知られている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "歩くだけで血管が若返る"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "1日30分の歩行で、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "ふくらはぎの筋ポンプ機能が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "強化され、"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "下肢からの血流が改善される。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "これにより高齢者の循環不良・"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, viewed through mirror reflection, frame visible, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "転倒リスクの低下にも"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "つながる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, resting chin on hand, calm expression, symmetrical composition with mirrored elements, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "「ふくらはぎ刺激」\nで脳にも効果"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "ふくらはぎへの圧刺激により"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "脳血流が増加することが"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, hand reaching toward the camera softly, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "fMRIによって確認された。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "下肢刺激が脳活性に影響する"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "という発見は、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "認知症予防の観点でも"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "注目されている。"
+      }
+    ]
+  }
+}
