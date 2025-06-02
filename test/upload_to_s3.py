@@ -12,7 +12,7 @@ bucket_name = "youtube-auto-bk"
 
 # --- ファイルパスの構成 ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
-local_file_path = os.path.join(script_dir, "test", "test copy.png")
+local_file_path = os.path.join(script_dir, "test copy.png")
 s3_key = "test/test copy.png"  # S3内でのパス
 
 # --- S3クライアント作成 ---
