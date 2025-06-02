@@ -7,7 +7,8 @@ output/
 stage_1_audio/
 stage_3_images/
 stage_4_subtitles/
-stage_5_output/
+stage_5_image/
+stage_6_output/
 images/
 scripts_ok/
 config/versions/
