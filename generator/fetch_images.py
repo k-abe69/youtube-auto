@@ -26,6 +26,19 @@ from PIL import Image
 import imagehash
 from io import BytesIO
 
+import boto3
+
+bucket_name = "youtube-auto-bk"  # ← バケット名に置き換え
+
+
+def upload_to_s3(local_path: Path, s3_path: str, bucket_name: str):
+    s3 = boto3.client("s3")
+    try:
+        s3.upload_file(str(local_path), bucket_name, s3_path)
+        print(f"✅ アップロード成功: {s3_path}")
+    except Exception as e:
+        print(f"❌ アップロード失敗: {s3_path} → {e}")
+
 
 # 修正済み generate_sd_image
 def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
@@ -109,7 +122,13 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
             start_time = time.time()
             image = generate_sd_image(prompt, negative_prompt, port=7861)
 
+            # 生成した画像を保存し、S3にアップロード
             image.save(out_path)
+
+            # 保存後にアップロード
+            s3_path = f"stage_5_image/sd_images/{script_id}/{out_path.name}"
+            upload_to_s3(out_path, s3_path, bucket_name)  # ← バケット名に置き換え
+
             processed_any = True
             duration = time.time() - start_time
             print(f"🧠 SD画像保存完了: {out_path}（{duration:.2f}秒）")
