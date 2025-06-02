@@ -222,6 +222,6 @@
     "subtitle": true,
     "image": "pending",
     "video": true,
-    "compose": true
+    "compose": true 
   }
 }
