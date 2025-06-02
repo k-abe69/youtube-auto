@@ -1,30 +1,12 @@
 import os
 import boto3
 from pathlib import Path
-from dotenv import load_dotenv
 
 
 def download_images_from_s3(script_id: str):
-    # --- .env.s3 を読み込み ---
-    if Path(".env.s3").exists():
-        from dotenv import load_dotenv
-        load_dotenv(dotenv_path=".env.s3")
-
-    # --- AWSキーを環境変数から取得 ---
-    aws_access_key = os.getenv("AWS_ACCESS_KEY_ID")
-    aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
-    aws_region = os.getenv("AWS_DEFAULT_REGION")
 
     # --- S3クライアント初期化 ---
-    if aws_access_key and aws_secret_key and aws_region:
-        s3 = boto3.client(
-            "s3",
-            aws_access_key_id=aws_access_key,
-            aws_secret_access_key=aws_secret_key,
-            region_name=aws_region
-        )
-    else:
-        s3 = boto3.client("s3")  # RunPod向け
+    s3 = boto3.client("s3")  # RunPod向け
 
     bucket_name = "youtube-auto-bk"
     s3_prefix = f"stage_5_image/sd_images/{script_id}/"

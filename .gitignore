@@ -4,11 +4,11 @@ __pycache__/
 
 # 出力成果物
 output/
-stage_1_audio/
-stage_3_images/
-stage_4_subtitles/
-stage_5_image/
-stage_6_output/
+data/stage_1_audio/
+data/stage_3_images/
+data/stage_4_subtitles/
+data/stage_5_image/
+data/stage_6_output/
 images/
 scripts_ok/
 config/versions/
