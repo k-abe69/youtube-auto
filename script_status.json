@@ -31,7 +31,7 @@
     "tag": true,
     "prompt": true,
     "subtitle": true,
-    "image": "pending",
+    "image": true,
     "video": true,
     "compose": true
   },
@@ -40,8 +40,8 @@
     "tag": true,
     "prompt": true,
     "subtitle": true,
-    "image": "pending",
-    "video": true,
+    "image": true,
+    "video": "pending",
     "compose": "pending"
   },
   "20250603_006": {
@@ -49,8 +49,8 @@
     "tag": true,
     "prompt": true,
     "subtitle": true,
-    "image": "pending",
-    "video": true,
+    "image": true,
+    "video": "pending",
     "compose": "pending"
   }
 }

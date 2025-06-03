@@ -131,23 +131,28 @@ def compose_video(script_id: str):
     timeline_pointer = 0.0  # 画像表示の累積開始時間。音声と同じく前から順に積み上げていく
 
     for parent_id, group in parent_scene_map.items():
+        video_path_mv = image_base_dir / f"{parent_id}_mv.mp4"
+        video_path = image_base_dir / f"{parent_id}.mp4"
         img_path_mv = image_base_dir / f"{parent_id}_mv.png"
         img_path_default = image_base_dir / f"{parent_id}.png"
-        video_path = image_base_dir / f"{parent_id}.mp4"
 
-        # 画像ファイルの存在確認
-        if img_path_mv.exists():
+        # 優先順位: _mv.mp4 → .mp4 → _mv.png → .png
+        if video_path_mv.exists():
+            asset_path = video_path_mv
+            asset_type = "video"
+        elif video_path.exists():
+            asset_path = video_path
+            asset_type = "video"
+        elif img_path_mv.exists():
             asset_path = img_path_mv
             asset_type = "image"
         elif img_path_default.exists():
             asset_path = img_path_default
             asset_type = "image"
-        elif video_path.exists():
-            asset_path = video_path
-            asset_type = "video"
         else:
             print(f"⚠️ 素材が見つからないためスキップ: {parent_id}")
             continue
+
 
         # ✅ そのグループに含まれる各 scene_id.wav の再生時間（＋SILENCE）を積算
         group_duration = 0.0

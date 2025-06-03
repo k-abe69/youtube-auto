@@ -8,7 +8,8 @@
       "text": "“メンタルが強い人”\n感情を殺してるだけ？",
       "type": "main_title",
       "tags": [],
-      "parent_scene_id": "001"
+      "parent_scene_id": "001",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_02",
@@ -17,7 +18,8 @@
       "text": "“メンタルが強い”は\n“感情を感じにくい”\nとは別物",
       "type": "title",
       "tags": [],
-      "parent_scene_id": "002"
+      "parent_scene_id": "002",
+      "emotion": "emotion: 落ち着き (calm)"
     },
     {
       "scene_id": "scene_03",
@@ -26,7 +28,8 @@
       "text": "本当にレジリエンスが高い人は、",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "002"
+      "parent_scene_id": "002",
+      "emotion": "emotion: 落ち着き (calm)"
     },
     {
       "scene_id": "scene_04",
@@ -35,7 +38,8 @@
       "text": "感情を抑えるのではなく、",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "002"
+      "parent_scene_id": "002",
+      "emotion": "emotion: 落ち着き (calm)"
     },
     {
       "scene_id": "scene_05",
@@ -44,7 +48,8 @@
       "text": "適切に感じて、処理している。",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "003"
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_06",
@@ -53,7 +58,8 @@
       "text": "感情を押し殺すだけの対応は、",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "003"
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_07",
@@ -62,7 +68,8 @@
       "text": "むしろトラウマや",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "003"
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_08",
@@ -71,7 +78,8 @@
       "text": "心理的ダメージのリスクを",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "004"
+      "parent_scene_id": "004",
+      "emotion": "emotion: 恐れ (fear)"
     },
     {
       "scene_id": "scene_09",
@@ -80,7 +88,8 @@
       "text": "高めることが報告されている。",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "004"
+      "parent_scene_id": "004",
+      "emotion": "emotion: 恐れ (fear)"
     },
     {
       "scene_id": "scene_10",
@@ -89,7 +98,8 @@
       "text": "感情を“感じない癖”が\n自律神経を狂わせる",
       "type": "title",
       "tags": [],
-      "parent_scene_id": "005"
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
     },
     {
       "scene_id": "scene_11",
@@ -98,7 +108,8 @@
       "text": "怒りや悲しみを無視し続けると、",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "005"
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
     },
     {
       "scene_id": "scene_12",
@@ -107,7 +118,8 @@
       "text": "交感神経と副交感神経の",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "005"
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
     },
     {
       "scene_id": "scene_13",
@@ -116,7 +128,8 @@
       "text": "バランスが崩れやすくなる。",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "006"
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_14",
@@ -125,7 +138,8 @@
       "text": "その結果、睡眠障害・慢性疲労・",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "006"
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_15",
@@ -134,7 +148,8 @@
       "text": "集中力の低下など、",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "006"
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_16",
@@ -143,7 +158,8 @@
       "text": "身体症状として現れることがある。",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "007"
+      "parent_scene_id": "007",
+      "emotion": "emotion: 無感情・中立 (neutral)"
     },
     {
       "scene_id": "scene_17",
@@ -152,7 +168,8 @@
       "text": "“強くあらねば”\nという信念が\n心を壊すことがある",
       "type": "title",
       "tags": [],
-      "parent_scene_id": "008"
+      "parent_scene_id": "008",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_18",
@@ -161,7 +178,8 @@
       "text": "「泣いてはいけない」",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "008"
+      "parent_scene_id": "008",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_19",
@@ -170,7 +188,8 @@
       "text": "「弱音を吐くのは甘え」",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "008"
+      "parent_scene_id": "008",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_20",
@@ -179,7 +198,8 @@
       "text": "という信念を内面化している人は、",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "009"
+      "parent_scene_id": "009",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_21",
@@ -188,7 +208,8 @@
       "text": "自己否定感が慢性化しやすい。",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "009"
+      "parent_scene_id": "009",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_22",
@@ -197,7 +218,8 @@
       "text": "このような認知は",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "009"
+      "parent_scene_id": "009",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_23",
@@ -206,7 +228,8 @@
       "text": "自己価値の低下や孤立感を強め、",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "010"
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
     },
     {
       "scene_id": "scene_24",
@@ -215,7 +238,8 @@
       "text": "長期的に心を脆くしていく。",
       "type": "summary",
       "tags": [],
-      "parent_scene_id": "010"
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
     }
   ]
 }

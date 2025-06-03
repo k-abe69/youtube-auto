@@ -6,76 +6,10 @@ from typing import List, Dict, Union
 import json
 import os
 import argparse
-
-
-
-
-def extract_script_id(filename: str) -> str:
-    """
-    任意のファイル名から script_id（形式: YYYYMMDD_XX） を抽出
-    例:
-      '20250514_01.json' → '20250514_01'
-      'script_20250514_01.json' → '20250514_01'
-      'audio_20250514_01.json' → '20250514_01'
-    """
-    match = re.search(r"(\d{8}_\d{2})", filename)
-    return match.group(1) if match else None
-
-
-def find_oldest_script_file(base_dir: Path) -> Path:
-    """
-    指定ディレクトリ内にある任意のファイル名のうち、
-    script_id（形式: YYYYMMDD_XX）を含むものを抽出し、
-    最も若いscript_idを持つファイルを1つ返す。
-    該当しない場合は None を返す。
-    """
-    candidates = [
-        f for f in base_dir.iterdir()
-        if f.is_file() and extract_script_id(f.name) is not None
-    ]
-    candidates.sort(key=lambda p: extract_script_id(p.name))
-    return candidates[0] if candidates else None
-
-
-def find_oldest_script_id(scripts_dir: Path = Path("scripts_ok")) -> str:
-    """
-    scripts_okディレクトリから最も古い台本ファイルを探し、
-    そのファイル名から script_id（YYYYMMDD_XX）を抽出して返す。
-    """
-    file = find_oldest_script_file(scripts_dir)
-    if file is None:
-        raise FileNotFoundError(f"📭 台本ファイルが見つかりません: {scripts_dir}")
-    script_id = extract_script_id(file.name)
-    if not script_id:
-        raise ValueError(f"❌ script_idの抽出に失敗: {file.name}")
-    return script_id
-
-def find_newest_script_file(base_dir: Path) -> Path:
-    """
-    指定ディレクトリ内にある任意のファイル名のうち、
-    script_id（形式: YYYYMMDD_XX）を含むものを抽出し、
-    最も新しいscript_idを持つファイルを1つ返す。
-    該当しない場合は None を返す。
-    """
-    candidates = [
-        f for f in base_dir.iterdir()
-        if f.is_file() and extract_script_id(f.name) is not None
-    ]
-    candidates.sort(key=lambda p: extract_script_id(p.name), reverse=True)
-    return candidates[0] if candidates else None
-
-
-def resolve_script_id():
-    if len(sys.argv) > 1:
-        return sys.argv[1]
-    else:
-        file = find_newest_script_file(Path("scripts_done"))
-        if file is None:
-            raise FileNotFoundError("📭 最新の台本ファイルが見つかりません")
-        script_id = extract_script_id(file.name)
-        if not script_id:
-            raise ValueError(f"❌ script_idの抽出に失敗: {file.name}")
-        return script_id
+import boto3
+from io import BytesIO
+from dotenv import load_dotenv
+load_dotenv(dotenv_path=".env.s3")
 
 
 def parse_and_generate_voicevox_script(
@@ -187,20 +121,35 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         "prompt": ["tag"],
         "subtitle": ["prompt"],
         "image": ["subtitle"],
-        "video": ["audio", "image", "subtitle"],
-        "compose": ["subtitle"]
+        "video": ["image"],
+        "compose": ["video"]
     }
 
-    status_path = Path(ROOT_DIR) / status_path  # ← ここで Path に変換
+    # S3設定
+    s3_bucket = "youtube-auto-bk"
+    s3_key = status_path
 
+    s3 = boto3.client(
+        "s3",
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        region_name=os.getenv("AWS_DEFAULT_REGION"),
+    )
+
+    # ステータスJSONの読み込み
+    try:
+        response = s3.get_object(Bucket=s3_bucket, Key=s3_key)
+        content = response["Body"].read().decode("utf-8")
+        status_data = json.loads(content)
+    except s3.exceptions.NoSuchKey:
+        print(f"⚠️ S3にstatusファイルが存在しません: {s3_key}")
+        return None
+    except Exception as e:
+        print(f"❌ S3からのstatus取得失敗: {e}")
+        return None
     all_completed = []
     unmet_dependencies = []
-    if not status_path.exists():
-        print("⚠️ statusファイルが存在しません")
-        return None
 
-    with open(status_path, encoding="utf-8") as f:
-        status_data = json.load(f)
 
     # 明示的にscript_idが指定されている場合、そのstatusを検証して即返す
     if explicit_script_id:
@@ -247,23 +196,43 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
 
 
 def mark_script_completed(script_id: str, task_name: str, status_path="script_status.json"):
-    status_path = Path(ROOT_DIR) / status_path  # 最初に Path 化＋ルート指定
-    status_data = load_status_data(status_path)
+    # S3設定
+    s3_bucket = os.getenv("AWS_S3_BUCKET_NAME", "youtube-auto-bk")
+    s3_key = status_path  # 例: "script_status.json"
+    
+    s3 = boto3.client(
+        "s3",
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        region_name=os.getenv("AWS_DEFAULT_REGION"),
+    )
 
-    if not status_path.exists():
-        print("⚠️ statusファイルが存在しません")
+    # S3からステータスJSONを取得
+    try:
+        response = s3.get_object(Bucket=s3_bucket, Key=s3_key)
+        content = response["Body"].read().decode("utf-8")
+        status_data = json.loads(content)
+    except s3.exceptions.NoSuchKey:
+        print(f"⚠️ S3にstatusファイルが存在しません: {s3_key}")
+        status_data = {}
+    except Exception as e:
+        print(f"❌ S3からのstatus取得失敗: {e}")
         return
 
-    with open(status_path, encoding="utf-8") as f:
-        status_data = json.load(f)
-
+    # ステータス更新
     status_data.setdefault(script_id, {})[task_name] = True
 
-    with open(status_path, "w", encoding="utf-8") as f:
-        json.dump(status_data, f, ensure_ascii=False, indent=2)
-
-    print(f"[INFO] 完了フラグ更新: {script_id} → {task_name}=True")
-
+    # JSONにしてS3に再アップロード
+    try:
+        s3.put_object(
+            Bucket=s3_bucket,
+            Key=s3_key,
+            Body=json.dumps(status_data, ensure_ascii=False, indent=2).encode("utf-8"),
+            ContentType="application/json"
+        )
+        print(f"[INFO] 完了フラグ更新（S3）: {script_id} → {task_name}=True")
+    except Exception as e:
+        print(f"❌ ステータスのS3保存失敗: {e}")
 
 def load_status_data(path: Union[str, Path] = STATUS_PATH):
     path = Path(path)
@@ -279,3 +248,70 @@ def parse_args_script_id():
     parser.add_argument("--script_id", type=str, required=False)
     args, _ = parser.parse_known_args()
     return args.script_id
+
+def extract_script_id(filename: str) -> str:
+    """
+    任意のファイル名から script_id（形式: YYYYMMDD_XX） を抽出
+    例:
+      '20250514_01.json' → '20250514_01'
+      'script_20250514_01.json' → '20250514_01'
+      'audio_20250514_01.json' → '20250514_01'
+    """
+    match = re.search(r"(\d{8}_\d{2})", filename)
+    return match.group(1) if match else None
+
+
+def find_oldest_script_file(base_dir: Path) -> Path:
+    """
+    指定ディレクトリ内にある任意のファイル名のうち、
+    script_id（形式: YYYYMMDD_XX）を含むものを抽出し、
+    最も若いscript_idを持つファイルを1つ返す。
+    該当しない場合は None を返す。
+    """
+    candidates = [
+        f for f in base_dir.iterdir()
+        if f.is_file() and extract_script_id(f.name) is not None
+    ]
+    candidates.sort(key=lambda p: extract_script_id(p.name))
+    return candidates[0] if candidates else None
+
+
+def find_oldest_script_id(scripts_dir: Path = Path("scripts_ok")) -> str:
+    """
+    scripts_okディレクトリから最も古い台本ファイルを探し、
+    そのファイル名から script_id（YYYYMMDD_XX）を抽出して返す。
+    """
+    file = find_oldest_script_file(scripts_dir)
+    if file is None:
+        raise FileNotFoundError(f"📭 台本ファイルが見つかりません: {scripts_dir}")
+    script_id = extract_script_id(file.name)
+    if not script_id:
+        raise ValueError(f"❌ script_idの抽出に失敗: {file.name}")
+    return script_id
+
+def find_newest_script_file(base_dir: Path) -> Path:
+    """
+    指定ディレクトリ内にある任意のファイル名のうち、
+    script_id（形式: YYYYMMDD_XX）を含むものを抽出し、
+    最も新しいscript_idを持つファイルを1つ返す。
+    該当しない場合は None を返す。
+    """
+    candidates = [
+        f for f in base_dir.iterdir()
+        if f.is_file() and extract_script_id(f.name) is not None
+    ]
+    candidates.sort(key=lambda p: extract_script_id(p.name), reverse=True)
+    return candidates[0] if candidates else None
+
+
+def resolve_script_id():
+    if len(sys.argv) > 1:
+        return sys.argv[1]
+    else:
+        file = find_newest_script_file(Path("scripts_done"))
+        if file is None:
+            raise FileNotFoundError("📭 最新の台本ファイルが見つかりません")
+        script_id = extract_script_id(file.name)
+        if not script_id:
+            raise ValueError(f"❌ script_idの抽出に失敗: {file.name}")
+        return script_id

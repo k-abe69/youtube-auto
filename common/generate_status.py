@@ -2,11 +2,25 @@ import os
 import re
 import json
 from datetime import datetime
+import boto3
+from io import BytesIO
+from dotenv import load_dotenv
+
+load_dotenv(dotenv_path=".env.s3")
 
 SCRIPTS_DIR = "scripts"
 STATUS_FILE = "script_status.json"
 FILENAME_PATTERN = r"script_(\d{8})_(\d{3})\.txt"
 
+# S3 設定
+s3_bucket = "youtube-auto-bk"
+s3_key = STATUS_FILE
+s3 = boto3.client(
+    "s3",
+    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+    region_name=os.getenv("AWS_DEFAULT_REGION")
+)
 # ステータスの初期構造
 INITIAL_STATUS = {
     "audio": "pending",
@@ -14,7 +28,7 @@ INITIAL_STATUS = {
     "prompt": "pending",
     "subtitle": "pending",
     "image": "pending",
-    "video": True,
+    "video": "pending",
     "compose": "pending"
 }
 
@@ -54,29 +68,30 @@ for fname in unnamed_scripts:
     renamed_files.append(new_name)
     existing_ids.add(f"{date_str}_{count:03d}")
 
-# JSONファイルの読み込み
-if os.path.exists(STATUS_FILE):
-    with open(STATUS_FILE, "r") as f:
-        try:
-            status_data = json.load(f)
-        except json.JSONDecodeError:
-            print("⚠️ script_status.json が空または壊れています。新しく初期化します。")
-            status_data = {}
-else:
+# S3からステータスJSON読み込み
+try:
+    response = s3.get_object(Bucket=s3_bucket, Key=s3_key)
+    content = response["Body"].read().decode("utf-8")
+    status_data = json.loads(content)
+except s3.exceptions.NoSuchKey:
+    print(f"⚠️ S3に status ファイルが存在しません: {s3_key} → 新規作成します")
     status_data = {}
+except json.JSONDecodeError:
+    print(f"⚠️ S3の status ファイルのJSON形式が壊れています → 空で再初期化します")
+    status_data = {}
+except Exception as e:
+    print(f"❌ S3からの status ファイル取得失敗: {e}")
+    exit(1)
+
 
 # 👇 ここで空の既存IDを警告
 for script_id, info in status_data.items():
     if not info:
         print(f"⚠️ script_id '{script_id}' は存在しますが中身が空です。手動確認してください。")
 
-
-
     
 new_ids = []  # ← ここで定義すればOK
 completed_ids = {}   # 補完が発生した script_id → 補完されたフィールドのリスト
-
-
 
 # 全 script_XXXX_YY.txt に対してステータス追加（既存はスキップ）
 for script_file in os.listdir(SCRIPTS_DIR):
@@ -99,9 +114,17 @@ for script_file in os.listdir(SCRIPTS_DIR):
             if completed_fields:
                 completed_ids[script_id] = completed_fields
 
-# 保存
-with open(STATUS_FILE, "w") as f:
-    json.dump(status_data, f, indent=2)
+# ステータスをS3に保存
+try:
+    s3.put_object(
+        Bucket=s3_bucket,
+        Key=s3_key,
+        Body=json.dumps(status_data, indent=2, ensure_ascii=False).encode("utf-8"),
+        ContentType="application/json"
+    )
+except Exception as e:
+    print(f"❌ ステータス更新失敗: {e}")
+    exit(1)
 
 # ログ出力
 if new_ids:
@@ -111,9 +134,7 @@ if new_ids:
 else:
     print("✅ 追加された script_id はありません（全て既に存在）")
 
-# ログ出力：補完されたフィールド
 if completed_ids:
     print("\n🛠 ステータスを補完した script_id と項目:")
     for sid, fields in completed_ids.items():
-        field_list = ", ".join(fields)
-        print(f"- {sid}: {field_list}")
+        print(f"- {sid}: {', '.join(fields)}")
