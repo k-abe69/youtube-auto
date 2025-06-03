@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, eyes softly closed, calm or dreamlike atmosphere, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
-    "theme": "normal_beauty",
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, extremely distant perspective from space or high orbit, top-down angle with subject placed off-center, avoids symmetry, running motion along slanted ground, angled frame, off-center, horizon twisted, sky blends into floor, subject falling diagonally, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze, scene viewed through a small hole or tunnel, warped edges, reflections in shattered mirror, subject asymmetric and offset, twisting body diagonally, motion trail along frame edge, subject shown through uneven mirror shards, overlapping layers, scattered, intense lens flare from unnatural light source, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, hands clasped in front, formal yet soft pose, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,7 +28,7 @@
     ]
   },
   "003": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, adjusting earring in front of mirror, soft backlight, elegant neck line, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, symmetrical composition with mirrored elements, colorful light gradient across background, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "004": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, symmetrical composition with mirrored elements, gentle bokeh in background, soft tones, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, body turned, head looking over shoulder, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -56,7 +56,7 @@
     ]
   },
   "005": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, body turned, head looking over shoulder, light shapes framing the face from side or back, colorful light gradient across background, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, body turned, head looking over shoulder, light shapes framing the face from side or back, light source behind creating glow around hair, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -74,8 +74,8 @@
     ]
   },
   "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, slight smile while looking back over shoulder, blurred object partially in foreground, framing face, emphasis on skin texture like silk, gentle lighting, ",
-    "theme": "girl",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, hand reaching toward the camera softly, light shapes framing the face from side or back, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_12",
@@ -92,8 +92,8 @@
     ]
   },
   "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, body turned, head looking over shoulder, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
-    "theme": "normal_beauty",
+    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, distant shot, tiny subject, wide surreal background, viewed from corner with sharp perspective line, subject in lower third, taking selfie from tilted camera, not facing directly, motion blur in horizontal pan, subject near far edge of image, multi-surface reflection in fractured space, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_15",
@@ -102,48 +102,38 @@
     ]
   },
   "008": {
-    "prompt": "mountain range made of prisms bending sunlight into wild colors, distant shot, tiny subject, wide surreal background, angled view through a broken side window, subject offset and cropped, floating pose, hands extending off one side of frame, subject emerging partially from frame corner, majority off-frame, shadows cast in conflicting directions, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
     "scenes": [
       {
         "scene_id": "scene_16",
-        "text": "男女の脳は\n“違う”より\n“似ている”"
+        "text": "女性は「共感」\n男性は「情報」"
       },
       {
         "scene_id": "scene_17",
-        "text": "脳の構造・機能の大部分において"
+        "text": "女性の会話は共感を目的とし、"
       },
       {
         "scene_id": "scene_18",
-        "text": "性別差はほとんど見られず、"
+        "text": "男性の会話は情報伝達を重視する傾向がある。"
       }
     ]
   },
   "009": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, slight smile while looking back over shoulder, light shapes framing the face from side or back, gentle bokeh in background, soft tones, ",
-    "theme": "normal_beauty",
+    "prompt": "majestic stag with branching antlers made of crystal, catching rainbow light, silhouette in unnatural lighting, distorted horizon, viewed from below with strong tilt, subject placed near frame edge, twisting body diagonally, motion trail along frame edge, composition with no symmetry, elements scattered unevenly, avoids centering, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_19",
-        "text": "「男脳・女脳」説は"
+        "text": "この違いにより"
       },
       {
         "scene_id": "scene_20",
-        "text": "科学的根拠に乏しいと結論付けられている。"
+        "text": "「女性は話が長い」"
       },
       {
         "scene_id": "scene_21",
-        "text": "この見解は、性別による行動差の"
-      }
-    ]
-  },
-  "010": {
-    "prompt": "flower meadow rotating like a carousel, petals flying, extreme close-up with stretched perspective, unrealistic lens, reflections in shattered mirror, subject asymmetric and offset, twisting body diagonally, motion trail along frame edge, horizon twisted, sky blends into floor, subject falling diagonally, lighting from two contradictory directions, ",
-    "theme": "scenery",
-    "scenes": [
-      {
-        "scene_id": "scene_22",
-        "text": "固定観念に再考を促す。"
+        "text": "と男性が感じる構造的要因が生じやすい。"
       }
     ]
   }

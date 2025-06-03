@@ -1,0 +1,158 @@
+{
+  "001": {
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, extreme close-up with stretched perspective, unrealistic lens, angled view through a broken side window, subject offset and cropped, climbing diagonally across a wall, angle from below-left, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“メンタルが強い人”\n感情を殺してるだけ？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, shiny thick lips, seductive smile, full chest, soft skin texture, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, hands clasped in front, formal yet soft pose, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "“メンタルが強い”は\n“感情を感じにくい”\nとは別物"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "本当にレジリエンスが高い人は、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "感情を抑えるのではなく、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, slight smile while looking back over shoulder, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "適切に感じて、処理している。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "感情を押し殺すだけの対応は、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "むしろトラウマや"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "flock of flying fish glowing with inner light, orbiting together in patterns, silhouette in unnatural lighting, distorted horizon, ceiling becomes floor, subject positioned diagonally, running motion along slanted ground, angled frame, off-center, composition with no symmetry, elements scattered unevenly, avoids centering, tunnel view into a mirror world, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "心理的ダメージのリスクを"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "高めることが報告されている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, body turned, head looking over shoulder, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "感情を“感じない癖”が\n自律神経を狂わせる"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "怒りや悲しみを無視し続けると、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "交感神経と副交感神経の"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, holding a delicate flower near face, blurred object partially in foreground, framing face, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "バランスが崩れやすくなる。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "その結果、睡眠障害・慢性疲労・"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "集中力の低下など、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, looking slightly upward, hopeful expression, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "身体症状として現れることがある。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, resting chin on hand, calm expression, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "“強くあらねば”\nという信念が\n心を壊すことがある"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "「泣いてはいけない」"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "「弱音を吐くのは甘え」"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, scene viewed through a small hole or tunnel, warped edges, top-down angle with subject placed off-center, avoids symmetry, standing on one leg, viewed from side angle, slight off-balance, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "という信念を内面化している人は、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "自己否定感が慢性化しやすい。"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "このような認知は"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, slight smile while looking back over shoulder, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "自己価値の低下や孤立感を強め、"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "長期的に心を脆くしていく。"
+      }
+    ]
+  }
+}

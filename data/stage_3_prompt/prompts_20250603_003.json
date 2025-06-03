@@ -1,0 +1,162 @@
+{
+  "001": {
+    "prompt": "spiraling staircases stretching infinitely upward into clouds, shoulder-back view, subject turning face toward camera, severe Dutch angle with asymmetric framing, tension emphasis, taking selfie from tilted camera, not facing directly, horizon twisted, sky blends into floor, subject falling diagonally, shadows cast in conflicting directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“老害”って何歳から？\n20代で老害になる場合も"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "「老害」\nは年齢ではなく\n“思考停止”の問題"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "「老害的態度」は年齢に関係なく、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "柔軟性の欠如・他者否定・過去志向"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, arms crossed lightly, relaxed and confident, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "という3つの傾向で定義されるとされる。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "若年層であってもこの3要素が揃えば"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "“老害”と見なされる可能性がある。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, body turned, head looking over shoulder, symmetrical composition with mirrored elements, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "つまり老化とは"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "肉体ではなく思考の問題でもある。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "他者を否定しがちな人ほど\n“主観バイアス”が強い"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "他人の新しい意見や行動を"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "「非常識」だとすぐに否定する人は、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "glowing plants and misty lights, swamp reflecting alien colors, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, top-down angle with subject placed off-center, avoids symmetry, jumping midair at diagonal angle, limbs offset, subject cropped, frame split vertically with two worlds, subject compressed to one side, lighting from two contradictory directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "自分の過去の経験だけを基準に"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "判断しやすい傾向がある。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "このような認知バイアスは、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, face positioned off-center with balanced lighting, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "年齢にかかわらず"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "思考の老化を促進する要因とされる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "bird that leaves ink drops behind mid-flight, tail trailing into calligraphy, side angle close-up with focus on cheek and ear, cropped frame, viewed from corner with sharp perspective line, subject in lower third, taking selfie from tilted camera, not facing directly, subject running across bottom frame edge, blurred, anti-center, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "SNS世代にも\n“上から目線”\n傾向が顕在化"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "SNS上でも若年層の中に"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "“老害的態度”が見られると報告されている。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), mysterious beauty in ornate opera mask, golden embroidery, dark velvet curtain backdrop, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, arms gently behind back, posture upright, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "特に「にわか批判」や"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "同世代への“説教コメント”など、"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "思考の柔軟性を欠いた言動が"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, adjusting earring in front of mirror, soft backlight, elegant neck line, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "社会現象として"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "可視化されている事例が多い。"
+      }
+    ]
+  }
+}

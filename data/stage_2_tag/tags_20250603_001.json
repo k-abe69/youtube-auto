@@ -1,0 +1,221 @@
+{
+  "global_image_tag": "恋愛",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.02,
+      "text": "『女は奢ってもらって当然』\nって誰が決めたの？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.02,
+      "duration": 2.82,
+      "text": "「奢る=男の義務」\nは昭和の遺産",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.83,
+      "duration": 2.39,
+      "text": "日本の高度経済成長期に形成された",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 8.22,
+      "duration": 3.06,
+      "text": "「男が稼ぎ、女は家庭」という構図が、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 11.29,
+      "duration": 1.92,
+      "text": "奢り文化を支える背景となった。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 13.21,
+      "duration": 2.13,
+      "text": "この構造は現在の若年層には",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 15.34,
+      "duration": 1.27,
+      "text": "馴染まない価値観とされ、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 16.61,
+      "duration": 1.94,
+      "text": "時代とともに変化の兆しが見られる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 18.55,
+      "duration": 2.14,
+      "text": "奢り文化は\n日本だけの話ではない",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 20.69,
+      "duration": 1.5,
+      "text": "世界的にも初デートでは",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 22.2,
+      "duration": 1.75,
+      "text": "男性が支払う傾向が強く、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 23.95,
+      "duration": 2.78,
+      "text": "米国調査では約64%の男性が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 26.73,
+      "duration": 1.45,
+      "text": "「女性の期待に応えるため」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 28.18,
+      "duration": 1.19,
+      "text": "奢ると回答している。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 29.38,
+      "duration": 1.97,
+      "text": "この行動は文化的背景よりも",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 31.35,
+      "duration": 1.76,
+      "text": "社会的圧力が大きいとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 33.11,
+      "duration": 2.42,
+      "text": "経済的自立が\n恋愛観に影響を与える",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 35.53,
+      "duration": 1.49,
+      "text": "女性の収入が高いほど、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 37.02,
+      "duration": 1.27,
+      "text": "奢られることに対して",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 38.29,
+      "duration": 1.8,
+      "text": "支配構造を感じる傾向がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 40.1,
+      "duration": 2.25,
+      "text": "「自立したい」という意思が強くなると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 42.35,
+      "duration": 1.77,
+      "text": "相手に依存しない関係を求め、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 44.12,
+      "duration": 1.14,
+      "text": "奢られる状況に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 45.26,
+      "duration": 1.37,
+      "text": "不快感を抱く場合がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    }
+  ]
+}

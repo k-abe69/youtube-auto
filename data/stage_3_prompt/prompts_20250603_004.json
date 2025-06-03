@@ -1,0 +1,162 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, leaning sideways, hair cascading, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“親ガチャ”って甘え？\n統計的証明とは"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, body turned, head looking over shoulder, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "親の年収が\n子供の学力と強い相関"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "世帯年収が高い家庭の子どもほど、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "国語や数学の正答率が"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "sunset shattered across geometric planes in the air, scene viewed through a small hole or tunnel, warped edges, viewed from corner with sharp perspective line, subject in lower third, lying on transparent surface, face to the side, half-framed, motion blur in horizontal pan, subject near far edge of image, shadows cast in conflicting directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "有意に高い傾向が確認されている。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "塾通いや参考書などの教材投資が"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "学力差に直結しており、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "serpent composed of cloud segments and lightning veins, drifting through the air, subject seen through an endless corridor or portal, exaggerated depth, angled view through a broken side window, subject offset and cropped, stretching motion mid-action, not facing front, cropped, subject emerging partially from frame corner, majority off-frame, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "経済格差が"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "学力格差に転化している実態がある。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "貧困層出身者の\n“這い上がり率”\nはわずか13%"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "日本では貧困層出身の子どもが"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "中間層以上に到達する割合は"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "open grass field filled with standing bookshelves under cloudy sky, scene viewed through a small hole or tunnel, warped edges, top-down angle with subject placed off-center, avoids symmetry, lying on transparent surface, face to the side, half-framed, only part of body visible, most is cropped out in motion, avoids central framing, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "わずか13%にとどまる。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "これは先進国の中でも"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "社会的流動性が低い水準であり、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glamorous woman lounging on a velvet couch, body slightly arched, heavy bust, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, touching her hair gently, slightly dreamy pose, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "努力だけでは"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "格差を超えにくい構造が存在している。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, shoulder-back view, subject turning face toward camera, angled view through a broken side window, subject offset and cropped, running motion along slanted ground, angled frame, off-center, motion blur in horizontal pan, subject near far edge of image, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "“努力できるか”\nも家庭で決まる"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "自制心や自己効力感といった"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "「努力する力」自体も、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, arms gently behind back, posture upright, face positioned off-center with balanced lighting, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "幼少期の家庭内対話や"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "親の反応パターンに強く影響される。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "本人の意思の問題に見えても、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, viewed through mirror reflection, frame visible, touching her hair gently, slightly dreamy pose, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "環境要因が"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "その土台を大きく左右している。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "001": {
+    "prompt": "mountain range made of prisms bending sunlight into wild colors, waist-up composition, hands partially visible, balanced framing, viewed from below with strong tilt, subject placed near frame edge, jumping midair at diagonal angle, limbs offset, subject cropped, only part of body visible, most is cropped out in motion, avoids central framing, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "人の顔が覚えられない\n失礼じゃなくて\n“脳の仕様”だった？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, eyes softly closed, calm or dreamlike atmosphere, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "顔を覚える力には個人差がある"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "同じ顔を見せた場合でも、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "人によって記憶に残る精度は"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, hand reaching toward the camera softly, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "2倍以上異なることが確認された。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "これは先天的な脳構造差が"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "関与している可能性が高く、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, low-cut evening dress, glossy hair, busty and elegant, soft indoor shadows, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, arms gently behind back, posture upright, blurred object partially in foreground, framing face, light source behind creating glow around hair, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "努力や気合では"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "補えない面があるとされている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "tiger with perfect bilateral symmetry, one side organic, one side glass, scene viewed through a small hole or tunnel, warped edges, top-down angle with subject placed off-center, avoids symmetry, standing on one leg, viewed from side angle, slight off-balance, only part of body visible, most is cropped out in motion, avoids central framing, tunnel view into a mirror world, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "“相貌失認”は\n人口の2〜3％に存在"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "顔を認識できない「相貌失認」は、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "重度だけでなく軽度のケースも含めると"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, slight smile while looking back over shoulder, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "人口の2〜3％が該当すると報告されている。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "自覚がないまま日常生活に"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "困難を抱える人も多く、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "単なる「覚えが悪い」とは異なる"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "神経学的特性として認識されている。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, touching her hair gently, slightly dreamy pose, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "“覚えよう”\nとすると逆に失敗する"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "「名前や顔を覚えなきゃ」"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "と強く意識すると、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, slight smile while looking back over shoulder, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "かえってプレッシャーになり、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "記憶の定着が阻害される傾向がある。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "無意識で接する方が"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, holding an umbrella, waiting at a quiet intersection, soft drizzle, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, covering mouth slightly in surprise or playfulness, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "自然に記憶されやすい"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "という結果が出ており、"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "“気合で覚える”戦略は"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "gecko with gemstone scales, light shimmering with each movement, shoulder-back view, subject turning face toward camera, top-down angle with subject placed off-center, avoids symmetry, running motion along slanted ground, angled frame, off-center, frame split vertically with two worlds, subject compressed to one side, tunnel view into a mirror world, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_27",
+        "text": "非効率である可能性が示唆されている。"
+      }
+    ]
+  }
+}

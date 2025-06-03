@@ -1,0 +1,158 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, arms crossed lightly, relaxed and confident, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "『女は奢ってもらって当然』\nって誰が決めたの？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, fingers near lips or cheek, subtle flirtation, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "「奢る=男の義務」\nは昭和の遺産"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "日本の高度経済成長期に形成された"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「男が稼ぎ、女は家庭」という構図が、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, arms gently behind back, posture upright, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "奢り文化を支える背景となった。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "この構造は現在の若年層には"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "馴染まない価値観とされ、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, gaze lowered, reflective mood, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "時代とともに変化の兆しが見られる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "owl folded from shimmering paper, unfolding mid-flight, trails of ink in the air, extreme close-up with stretched perspective, unrealistic lens, top-down angle with subject placed off-center, avoids symmetry, running motion along slanted ground, angled frame, off-center, scene cut across diagonally with light or shadow, subject floats across at edge, lighting from two contradictory directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "奢り文化は\n日本だけの話ではない"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "世界的にも初デートでは"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "男性が支払う傾向が強く、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "米国調査では約64%の男性が"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "「女性の期待に応えるため」"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "奢ると回答している。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, hands clasped in front, formal yet soft pose, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "この行動は文化的背景よりも"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "社会的圧力が大きいとされる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), woman in futuristic battle armor, silver-plated face mask partially removed, eyes glowing, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, holding a delicate flower near face, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "経済的自立が\n恋愛観に影響を与える"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "女性の収入が高いほど、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "奢られることに対して"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, resting chin on hand, calm expression, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "支配構造を感じる傾向がある。"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "「自立したい」という意思が強くなると、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "相手に依存しない関係を求め、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "奢られる状況に"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "不快感を抱く場合がある。"
+      }
+    ]
+  }
+}

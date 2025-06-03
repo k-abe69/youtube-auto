@@ -1,0 +1,230 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.58,
+      "text": "“老害”って何歳から？\n20代で老害になる場合も",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.58,
+      "duration": 3.78,
+      "text": "「老害」\nは年齢ではなく\n“思考停止”の問題",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 7.36,
+      "duration": 2.43,
+      "text": "「老害的態度」は年齢に関係なく、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 9.79,
+      "duration": 3.14,
+      "text": "柔軟性の欠如・他者否定・過去志向",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 12.93,
+      "duration": 2.12,
+      "text": "という3つの傾向で定義されるとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 15.05,
+      "duration": 2.28,
+      "text": "若年層であってもこの3要素が揃えば",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 17.33,
+      "duration": 2.17,
+      "text": "“老害”と見なされる可能性がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 19.5,
+      "duration": 0.95,
+      "text": "つまり老化とは",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 20.45,
+      "duration": 1.93,
+      "text": "肉体ではなく思考の問題でもある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 22.38,
+      "duration": 3.49,
+      "text": "他者を否定しがちな人ほど\n“主観バイアス”が強い",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 25.87,
+      "duration": 1.77,
+      "text": "他人の新しい意見や行動を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 27.64,
+      "duration": 2.31,
+      "text": "「非常識」だとすぐに否定する人は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 29.95,
+      "duration": 1.77,
+      "text": "自分の過去の経験だけを基準に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 31.72,
+      "duration": 1.44,
+      "text": "判断しやすい傾向がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 33.16,
+      "duration": 1.32,
+      "text": "このような認知バイアスは、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 34.49,
+      "duration": 1.12,
+      "text": "年齢にかかわらず",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 35.61,
+      "duration": 2.13,
+      "text": "思考の老化を促進する要因とされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 37.74,
+      "duration": 3.63,
+      "text": "SNS世代にも\n“上から目線”\n傾向が顕在化",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 41.37,
+      "duration": 1.97,
+      "text": "SNS上でも若年層の中に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 43.34,
+      "duration": 2.68,
+      "text": "“老害的態度”が見られると報告されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 46.02,
+      "duration": 2.15,
+      "text": "特に「にわか批判」や",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 48.17,
+      "duration": 2.5,
+      "text": "同世代への“説教コメント”など、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 50.67,
+      "duration": 1.87,
+      "text": "思考の柔軟性を欠いた言動が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 52.53,
+      "duration": 1.12,
+      "text": "社会現象として",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 53.65,
+      "duration": 1.49,
+      "text": "可視化されている事例が多い。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010"
+    }
+  ]
+}
