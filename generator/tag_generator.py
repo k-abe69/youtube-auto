@@ -167,12 +167,12 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
     for scene in tagged_data:
         duration_by_parent[scene["parent_scene_id"]] += scene["duration"]
 
-    # ❷ 4.9秒以上もしくは1.5秒以下の親IDに対し _mv.txt をマークファイルとして出力
+    # ❷ 4.9秒以上の親IDに対し _mv.txt をマークファイルとして出力
     mv_flag_dir = Path("data/stage_2_tag/mark_mv") / script_id
     mv_flag_dir.mkdir(parents=True, exist_ok=True)
 
     for parent_id, total_duration in duration_by_parent.items():
-        if total_duration >= 4.9 or total_duration <= 1.5:
+        if total_duration >= 4.9:
             mark_path = mv_flag_dir / f"{parent_id}_mv.txt"
             mark_path.write_text("MARKED")
 

@@ -8,9 +8,14 @@ import os
 import argparse
 import boto3
 from io import BytesIO
-from dotenv import load_dotenv
-load_dotenv(dotenv_path=".env.s3")
 
+# .env.s3の読み込み（dotenvがあれば）
+if not os.getenv("AWS_ACCESS_KEY_ID") or not os.getenv("AWS_SECRET_ACCESS_KEY"):
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(dotenv_path=".env.s3")
+    except ImportError:
+        pass  # RunPod環境などでdotenvがなければ何もしない
 
 def parse_and_generate_voicevox_script(
     input_path: Path,
@@ -113,6 +118,26 @@ def parse_and_generate_voicevox_script(
 ROOT_DIR = Path(__file__).resolve().parents[1]
 STATUS_PATH = ROOT_DIR / "script_status.json"
 
+def get_s3_client():
+    """
+    ローカル開発では環境変数または .env.s3 を使用、
+    RunPodなどのクラウド環境では自動認証（IAMロール）を使用する。
+    """
+    aws_access_key = os.getenv("AWS_ACCESS_KEY_ID")
+    aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+    aws_region = os.getenv("AWS_DEFAULT_REGION")  # デフォルトを東京に
+
+    if aws_access_key and aws_secret_key:
+        return boto3.client(
+            "s3",
+            aws_access_key_id=aws_access_key,
+            aws_secret_access_key=aws_secret_key,
+            region_name=aws_region,
+        )
+    else:
+        return boto3.client("s3")  # IAMロールなど自動認証に任せる
+
+
 def get_next_script_id(task_name: str, status_path="script_status.json", explicit_script_id: str = None):
 
     DEPENDENCIES = {
@@ -129,12 +154,9 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
     s3_bucket = "youtube-auto-bk"
     s3_key = status_path
 
-    s3 = boto3.client(
-        "s3",
-        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-        region_name=os.getenv("AWS_DEFAULT_REGION"),
-    )
+    s3 = get_s3_client()
+    s3_object = s3.get_object(Bucket=s3_bucket, Key=s3_key)
+
 
     # ステータスJSONの読み込み
     try:
@@ -200,12 +222,8 @@ def mark_script_completed(script_id: str, task_name: str, status_path="script_st
     s3_bucket = os.getenv("AWS_S3_BUCKET_NAME", "youtube-auto-bk")
     s3_key = status_path  # 例: "script_status.json"
     
-    s3 = boto3.client(
-        "s3",
-        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-        region_name=os.getenv("AWS_DEFAULT_REGION"),
-    )
+    s3 = get_s3_client()
+    s3_object = s3.get_object(Bucket=s3_bucket, Key=s3_key)
 
     # S3からステータスJSONを取得
     try:

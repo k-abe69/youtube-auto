@@ -39,12 +39,14 @@ if not RUNWAY_API_KEY:
 client = RunwayML(api_key=RUNWAY_API_KEY)
 
 def request_runway(image_url: str, image_filename: str, save_dir: Path):
+    # durationをファイル名に応じて分岐
+    duration = 10 if "_mv" in image_filename else 5
     image_to_video = client.image_to_video.create(
         model="gen4_turbo",
         prompt_image=image_url,
         ratio="960:960",
         prompt_text="camera slowly panning from right to left, cinematic lighting, mysterious, a person subtly shifting posture, a person glancing sideways",
-        duration=5
+        duration=duration
     )
 
     # タスクIDを取得
