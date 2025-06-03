@@ -1,0 +1,10 @@
+{
+  "joy": "cheerful expression, open smile, bright atmosphere",
+  "anger": "furrowed brows, intense gaze, tense posture",
+  "sadness": "downcast eyes, slouched posture, dim light",
+  "surprise": "wide eyes, open mouth, sudden movement",
+  "fear": "trembling, wide-eyed, recoiling posture",
+  "calm": "gentle smile, relaxed body, soft light",
+  "tension": "rigid pose, focused eyes, dark background",
+  "neutral": ""
+}

@@ -27,6 +27,9 @@ with open("prompts/image/sd_add_prompt.txt", "r", encoding="utf-8") as f:
 with open("prompts/image/human_composition_prompts.json", "r") as f:
     human_comp_data = json.load(f)
 
+with open("prompts/image/emotion_suffix.json", "r", encoding="utf-8") as f:
+    emotion_suffix_data = json.load(f)
+
 
 # def call_gpt_suffix_generator(theme, scenes):
 #     """
@@ -116,8 +119,20 @@ if __name__ == "__main__":
         # テーマを確率に基づいて選択
         theme = random.choice(weighted_theme_choices)
 
+        # 感情のタグを取得（なければ None）
+        emotion_tag = None
+        for scene in scenes:
+            if "emotion" in scene:
+                emotion_tag = scene["emotion"]
+                break
+
+        # テーマが人間系なら感情テンプレを付加
         gpt_suffix = ""
+        if theme in ["girl", "beauty", "normal_beauty"] and emotion_tag in emotion_suffix_data:
+            gpt_suffix = emotion_suffix_data[emotion_tag]
+
         prompt = generate_sd_prompt(theme, default_data, comp_data, human_comp_data, gpt_suffix)
+
         output[parent_id] = {
             "prompt": prompt,
             "theme": theme,

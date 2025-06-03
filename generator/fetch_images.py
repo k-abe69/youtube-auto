@@ -43,7 +43,7 @@ def upload_to_s3(local_path: Path, s3_path: str, bucket_name: str):
 # 修正済み generate_sd_image
 def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
     payload = {
-        "prompt": f"{prompt}, angry",
+        "prompt": prompt,
         "negative_prompt": negative_prompt,
         "model": "RealisticVisionXL_v57 [49E4F2939A]",
         "width": 1024,
@@ -97,7 +97,7 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
     processed_count = 0
     failed_count = 0
 
-    negative_prompt = "nipple, areola, bare chest, exposed breasts, nsfw, ugly, deformed, lowres, blurry, text, watermark, centered composition, circular framing, tight clothes, bikini, confident pose, looking back, soft lighting, wet shirt, sideboob, elegant cleavage, seductive gaze, thigh-highs, skirt fluttering, bad anatomy, extra limbs, fused fingers, bad eyes, bad hands"
+    negative_prompt = "nipple, areola, bare chest, exposed breasts, nsfw, nude, underboob, sideboob, see-through, wet shirt, lowres, blurry, text, watermark, bad anatomy, extra limbs, fused fingers, bad hands, bad eyes"
 
     for i, parent_id in enumerate(batch):
         prompt_data = data[parent_id]  # ← これが必要！

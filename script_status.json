@@ -6,7 +6,7 @@
     "subtitle": true,
     "image": "pending",
     "video": true,
-    "compose": "pending"
+    "compose": true
   },
   "20250603_002": {
     "audio": true,
@@ -15,7 +15,7 @@
     "subtitle": true,
     "image": "pending",
     "video": true,
-    "compose": "pending"
+    "compose": true
   },
   "20250603_003": {
     "audio": true,
@@ -24,7 +24,7 @@
     "subtitle": true,
     "image": "pending",
     "video": true,
-    "compose": "pending"
+    "compose": true
   },
   "20250603_004": {
     "audio": true,
@@ -33,9 +33,18 @@
     "subtitle": true,
     "image": "pending",
     "video": true,
-    "compose": "pending"
+    "compose": true
   },
   "20250603_005": {
+    "audio": true,
+    "tag": true,
+    "prompt": true,
+    "subtitle": true,
+    "image": "pending",
+    "video": true,
+    "compose": "pending"
+  },
+  "20250603_006": {
     "audio": true,
     "tag": true,
     "prompt": true,

@@ -50,7 +50,6 @@ def run_batches_for(script_id):
 
 if script_id:
     run_batches_for(script_id)
-    download_images_from_s3(script_id)
 else:
     while True:
         script_id = get_next_script_id(task_name)

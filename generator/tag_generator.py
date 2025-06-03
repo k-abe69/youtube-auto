@@ -37,6 +37,22 @@ def load_prompt(template_path: str, variables: dict) -> str:
         prompt = prompt.replace(f"{{{{{key}}}}}", value)
     return prompt
 
+
+# GPTに感情タグを問い合わせ
+def detect_emotion_from_text(text: str) -> str:
+    prompt_path = Path(__file__).parent / ".." / "prompts" / "image" / "emotion_prompt.txt"
+    prompt = load_prompt(str(prompt_path.resolve()), {"TEXT": text})
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.5,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"[感情判定エラー] {text} → {e}")
+        return "neutral"
+
 # GPTにタグを問い合わせ
 def generate_tags(text: str) -> list:
     prompt_path = Path(__file__).parent / ".." / "prompts" / "image" / "tags_prompt.txt"
@@ -120,6 +136,21 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
             "tags": tags,
             "parent_scene_id": f"{current_parent:03}"
         })
+    # ✅ 親IDごとのtextをまとめる
+    parent_texts = defaultdict(str)
+    for scene in tagged_data:
+        parent_id = scene["parent_scene_id"]
+        parent_texts[parent_id] += scene["text"] + "。"
+
+    # ✅ 各親IDごとに感情を推定
+    emotion_by_parent = {}
+    for parent_id, combined_text in parent_texts.items():
+        emotion_by_parent[parent_id] = detect_emotion_from_text(combined_text)
+
+    # ✅ tagged_dataに感情タグを追加
+    for scene in tagged_data:
+        scene["emotion"] = emotion_by_parent.get(scene["parent_scene_id"], "neutral")
+
 
 
     # 台本全体から共通トーン推定
