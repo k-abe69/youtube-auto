@@ -6,7 +6,6 @@ import subprocess
 import time
 from pathlib import Path
 from common.script_utils import parse_args_script_id, get_next_script_id, mark_script_completed
-from download_from_s3 import download_images_from_s3
 
 # 未処理の台本IDを取得
 task_name = "image"
