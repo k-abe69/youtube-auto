@@ -43,7 +43,7 @@ def upload_to_s3(local_path: Path, s3_path: str, bucket_name: str):
 # 修正済み generate_sd_image
 def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
     payload = {
-        "prompt": prompt,
+        "prompt": f"{prompt}, angry"
         "negative_prompt": negative_prompt,
         "model": "RealisticVisionXL_v57 [49E4F2939A]",
         "width": 1024,
