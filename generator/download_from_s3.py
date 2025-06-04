@@ -25,7 +25,7 @@ def download_images_from_s3(script_id: str):
     )
     bucket_name = "youtube-auto-bk"
     s3_prefix = f"stage_5_image/sd_images/{script_id}/"
-    local_dir = Path(f"data/stage_5_image/{script_id}")
+    local_dir = Path(f"data/stage_5_image/{script_id}/images")
     local_dir.mkdir(parents=True, exist_ok=True)
 
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=s3_prefix)
@@ -48,6 +48,6 @@ def download_images_from_s3(script_id: str):
         except Exception as e:
             print(f"❌ ダウンロード失敗: {filename} → {e}")
 
-if __name__ == "__main__":
-    # テスト用script_idを指定
-    download_images_from_s3("20250603_006")
+# if __name__ == "__main__":
+#     # テスト用script_idを指定
+#     download_images_from_s3(script_id)

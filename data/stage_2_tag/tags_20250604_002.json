@@ -1,0 +1,255 @@
+{
+  "global_image_tag": "恋愛",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 1.95,
+      "text": "“気が利く人”が\n嫌われる？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 1.95,
+      "duration": 3.24,
+      "text": "「ありがとう」\nが減ると、\n関係は破綻しやすい",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.19,
+      "duration": 1.61,
+      "text": "気配り行動を繰り返しても、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 6.81,
+      "duration": 2.57,
+      "text": "相手からの「感謝の言葉」がなければ",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 9.38,
+      "duration": 2.08,
+      "text": "関係満足度は急速に低下する。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 11.46,
+      "duration": 2.19,
+      "text": "特に恋人間・家族間では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 13.64,
+      "duration": 1.7,
+      "text": "当然のように受け取られることで",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 15.34,
+      "duration": 2.42,
+      "text": "「私は利用されているのでは」という",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 17.76,
+      "duration": 2.52,
+      "text": "不信感が芽生え、疲れて離脱しやすくなる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 20.28,
+      "duration": 3.23,
+      "text": "“気が利く人”の裏にある、承認欲求の罠",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 23.51,
+      "duration": 1.34,
+      "text": "気が利く行動の多くは、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 24.85,
+      "duration": 1.61,
+      "text": "他者からの好評価を期待する",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 26.46,
+      "duration": 2.6,
+      "text": "“報酬型利他行動”として分類される。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 29.07,
+      "duration": 2.54,
+      "text": "この傾向が強い人は、相手の反応が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 31.61,
+      "duration": 1.4,
+      "text": "期待より低いと落胆し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 33.0,
+      "duration": 2.03,
+      "text": "逆に自己否定に陥るリスクが高い。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 35.03,
+      "duration": 2.49,
+      "text": "「気が利く＝モテる」は幻想？",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 37.51,
+      "duration": 1.34,
+      "text": "恋愛の初期段階では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 38.86,
+      "duration": 2.46,
+      "text": "「気が利く」よりも「堂々としている」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 41.32,
+      "duration": 1.83,
+      "text": "「自分の軸がある」人の方が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 43.16,
+      "duration": 1.54,
+      "text": "魅力的に映る傾向がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 44.69,
+      "duration": 1.22,
+      "text": "特に男性の場合、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 45.91,
+      "duration": 2.62,
+      "text": "「気が利きすぎる＝頼りなさ」へと",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 48.53,
+      "duration": 2.33,
+      "text": "評価がズレることが多く、これによる",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 50.86,
+      "duration": 2.47,
+      "text": "“いい人止まり現象”が報告されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
+    }
+  ]
+}

@@ -110,10 +110,10 @@ if __name__ == "__main__":
         # 出現比率の設定
         weighted_theme_choices = (
             ["girl"] * 1 +               # 10%
-            ["beauty"] * 2 +             # 20%
+            ["beauty"] * 1 +             # 10%
             ["animal"] * 1 +             # 10%
             ["scenery"] * 1 +            # 10%
-            ["normal_beauty"] * 5        # 50%
+            ["normal_beauty"] * 6        # 60%
         )
 
         # テーマを確率に基づいて選択

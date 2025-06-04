@@ -299,10 +299,10 @@ Timer: 100.0000
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: MainTitle,Noto Sans CJK JP,26,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,1,5,10,10,30,1
+Style: MainTitle,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,1,5,10,10,30,1
 
-Style: MainTitleCenter,Noto Sans CJK JP,26,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,2,10,10,70,1
-Style: MainTitleTop,Noto Sans CJK JP,26,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,8,10,10,30,1
+Style: MainTitleCenter,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,2,10,10,70,1
+Style: MainTitleTop,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,8,10,10,30,1
 
 Style: TitleCenter,Noto Sans CJK JP,20,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,5,10,10,30,1
 Style: TitleTop,Noto Sans CJK JP,0,&H00CCCCCC,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,8,10,10,30,1

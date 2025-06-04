@@ -29,7 +29,8 @@ INITIAL_STATUS = {
     "subtitle": "pending",
     "image": "pending",
     "video": "pending",
-    "compose": "pending"
+    "compose": "pending",
+    "upload": "pending"
 }
 
 # ファイル一覧取得

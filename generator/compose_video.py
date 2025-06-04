@@ -381,11 +381,19 @@ def compose_video(script_id: str):
 
 if __name__ == "__main__":
     task_name = "compose"
-    script_id = get_next_script_id(task_name)
-    if not script_id:
-        print("✅ 全ての script_id に対して compose が完了しています。")
-        exit(0)
-    compose_video(script_id)
-    mark_script_completed(script_id, task_name)
-    print(f"✅ compose_video 完了: {script_id}")
+
+    while True:
+        script_id = get_next_script_id(task_name)
+        if not script_id:
+            print("✅ 全ての script_id に対して compose が完了しています。")
+            break
+
+        print(f"🎬 処理対象のscript_id: {script_id}")
+        try:
+            compose_video(script_id)
+            mark_script_completed(script_id, task_name)
+            print(f"✅ 完了: {script_id}")
+        except Exception as e:
+            print(f"❌ エラー: {script_id} で例外発生: {e}")
+
 

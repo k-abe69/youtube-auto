@@ -4,7 +4,6 @@
     "slightly_above": "camera angled slightly from above, flattering light",
     "slightly_below": "viewed subtly from below, strong presence",
     "tilted_head": "head slightly tilted toward camera, intimate framing",
-    "mirror_reflection": "viewed through mirror reflection, frame visible",
     "cheek_angle": "angled from one cheek, soft perspective",
     "through_object": "seen through glass or fabric, light distortion",
     "off_axis_gaze": "looking past the camera, not directly at viewer"
@@ -34,8 +33,7 @@
     "framed_with_light": "light shapes framing the face from side or back",
     "soft_depth": "background blurred to focus sharply on eyes",
     "asymmetric_crop": "intentional asymmetric crop for tension",
-    "foreground_blur": "blurred object partially in foreground, framing face",
-    "reflected_balance": "symmetrical composition with mirrored elements"
+    "foreground_blur": "blurred object partially in foreground, framing face"
   },
   "focus": {
     "eye_highlight": "sparkle and sharp detail in eyes",

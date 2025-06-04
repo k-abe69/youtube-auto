@@ -1,0 +1,162 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“気が利く人”が\n嫌われる？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, hand reaching toward the camera softly, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "「ありがとう」\nが減ると、\n関係は破綻しやすい"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "気配り行動を繰り返しても、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "相手からの「感謝の言葉」がなければ"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, fingers near lips or cheek, subtle flirtation, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "関係満足度は急速に低下する。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "特に恋人間・家族間では、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "当然のように受け取られることで"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, upper body leaning toward viewer, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "「私は利用されているのでは」という"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "不信感が芽生え、疲れて離脱しやすくなる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, fingers near lips or cheek, subtle flirtation, background blurred to focus sharply on eyes, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "“気が利く人”の裏にある、承認欲求の罠"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "気が利く行動の多くは、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "他者からの好評価を期待する"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, face positioned off-center with balanced lighting, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "“報酬型利他行動”として分類される。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "この傾向が強い人は、相手の反応が"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "期待より低いと落胆し、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "flock of flying fish glowing with inner light, orbiting together in patterns, extreme close-up with stretched perspective, unrealistic lens, top-down angle with subject placed off-center, avoids symmetry, body fragmenting toward left or right frame, non-radial, composition with no symmetry, elements scattered unevenly, avoids centering, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "逆に自己否定に陥るリスクが高い。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, eyes softly closed, calm or dreamlike atmosphere, tight head-and-shoulders crop, minimal background, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "「気が利く＝モテる」は幻想？"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "恋愛の初期段階では、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "「気が利く」よりも「堂々としている」"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, body turned, head looking over shoulder, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "「自分の軸がある」人の方が"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "魅力的に映る傾向がある。"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "特に男性の場合、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, looking slightly upward, hopeful expression, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "「気が利きすぎる＝頼りなさ」へと"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "評価がズレることが多く、これによる"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "“いい人止まり現象”が報告されている。"
+      }
+    ]
+  }
+}

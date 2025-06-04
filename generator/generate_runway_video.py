@@ -15,6 +15,8 @@ import boto3
 from pathlib import Path
 
 from dotenv import load_dotenv
+from download_from_s3 import download_images_from_s3
+
 
 # .env.s3 ファイルの読み込み
 dotenv_path = Path(__file__).parent.parent / ".env.s3"
@@ -139,25 +141,25 @@ def get_image_urls_for_script(script_id: str) -> List[str]:
 
 # 引数として script_id を受け取る
 task_name = "video"
-script_id = parse_args_script_id() or get_next_script_id(task_name)
-if script_id is None:
-    exit()
+while True:
+    script_id = get_next_script_id(task_name)
+    if not script_id:
+        print("✅ 全ての script_id を処理済みです。")
+        break
 
-print(f"🎬 処理対象のscript_id: {script_id}")
-image_urls = get_image_urls_for_script(script_id)
+    print(f"🎬 処理対象のscript_id: {script_id}")
+    # 対象の画像をS3からダウンロード
+    download_images_from_s3(script_id)
+    image_urls = get_image_urls_for_script(script_id)
 
+    save_dir = Path(f"data/stage_5_image/{script_id}")
+    save_dir.mkdir(parents=True, exist_ok=True)
 
-save_dir = Path(f"data/stage_5_image/{script_id}")
-save_dir.mkdir(parents=True, exist_ok=True)
+    for url in image_urls:
+        parsed = urlparse(url)
+        image_filename = Path(unquote(parsed.path)).name
+        print(f"🖼️ 使用画像: {url}")
+        request_runway(url, image_filename, save_dir)
 
-for url in image_urls:
-    # URLからファイル名を抽出
-    parsed = urlparse(url)
-    image_filename = Path(unquote(parsed.path)).name
-    print(f"🖼️ 使用画像: {url}")
-    request_runway(url, image_filename, save_dir)
-
-
-# 全画像処理後に完了マーク
-mark_script_completed(script_id)
-print(f"✅ script_id {script_id} を完了としてマークしました")
+    mark_script_completed(script_id, task_name)
+    print(f"✅ script_id {script_id} を完了としてマークしました")

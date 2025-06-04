@@ -1,0 +1,225 @@
+{
+  "global_image_tag": "恋愛",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.06,
+      "text": "男は“普通の女”\nにすら\n相手にされない時代",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.06,
+      "duration": 2.62,
+      "text": "恋愛市場の\n「勝者総取り」構造",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.69,
+      "duration": 2.4,
+      "text": "Tinderの実データ分析によると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 8.09,
+      "duration": 2.5,
+      "text": "上位20%の男性が全女性からの",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 10.58,
+      "duration": 2.76,
+      "text": "「いいね」の80%以上を独占していた。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 13.34,
+      "duration": 1.86,
+      "text": "これは恋愛市場がごく少数の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 15.2,
+      "duration": 2.34,
+      "text": "「超人気層」によって寡占されている",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 17.54,
+      "duration": 1.49,
+      "text": "状態であることを示している。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 19.03,
+      "duration": 2.41,
+      "text": "“普通の男性”\nが最も苦しい",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 21.44,
+      "duration": 2.84,
+      "text": "多くの女性は「自分より上」の男性を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 24.28,
+      "duration": 2.02,
+      "text": "“普通”と認識する傾向がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 26.29,
+      "duration": 1.46,
+      "text": "そのため中央値に位置する",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 27.75,
+      "duration": 2.02,
+      "text": "男性たちは相対的に不利となり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 29.77,
+      "duration": 1.8,
+      "text": "実質的に選ばれない状況に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 31.57,
+      "duration": 1.42,
+      "text": "陥ってしまう構造がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 32.99,
+      "duration": 2.08,
+      "text": "未経験率、\n過去最悪に",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 35.07,
+      "duration": 2.76,
+      "text": "20代後半男性のうち約40%が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 37.83,
+      "duration": 2.44,
+      "text": "「異性との交際経験なし」と回答。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 40.28,
+      "duration": 1.57,
+      "text": "この数値は過去最高であり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 41.85,
+      "duration": 1.8,
+      "text": "日本社会全体における恋愛の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 43.65,
+      "duration": 1.6,
+      "text": "機会格差と心理的な壁の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 45.25,
+      "duration": 1.43,
+      "text": "深刻さを物語っている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
+    }
+  ]
+}
