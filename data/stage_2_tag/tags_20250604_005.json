@@ -1,0 +1,205 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.34,
+      "text": "“努力は報われる”\nは、ウソ？？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.34,
+      "duration": 3.18,
+      "text": "成功者は\n“努力の影響”を\n過大評価している",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.51,
+      "duration": 2.52,
+      "text": "成功者は自身の努力によって結果を得たと",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 8.03,
+      "duration": 2.67,
+      "text": "考えやすいが、実際には運やタイミング、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 10.7,
+      "duration": 2.29,
+      "text": "社会的背景が大きな影響を与えている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 12.99,
+      "duration": 2.11,
+      "text": "「努力がすべて」と信じてしまうのは、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 15.1,
+      "duration": 2.08,
+      "text": "結果が出た後に過去の行動を美化する",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 17.18,
+      "duration": 2.42,
+      "text": "心理作用によるものであることが指摘されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 19.61,
+      "duration": 3.13,
+      "text": "努力を続けても、\n環境が悪ければ\n成果は出にくい",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 22.73,
+      "duration": 2.33,
+      "text": "家庭の経済状況や教育機会の差は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 25.06,
+      "duration": 3.22,
+      "text": "個人の努力とは無関係に人生の成果に強く影響する。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 28.28,
+      "duration": 1.99,
+      "text": "努力しても成果が出ない背景には、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 30.27,
+      "duration": 1.4,
+      "text": "個人ではどうにもならない",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 31.67,
+      "duration": 1.81,
+      "text": "構造的な格差があるとされている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 33.48,
+      "duration": 3.99,
+      "text": "「成功＝努力の証」\nと思うほど、\n他人に冷たくなる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 37.47,
+      "duration": 2.41,
+      "text": "「努力すれば報われる」という価値観を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 39.88,
+      "duration": 2.77,
+      "text": "強く持つ人ほど、失敗している人に対して",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 42.66,
+      "duration": 2.33,
+      "text": "「努力不足」と決めつける傾向がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 44.98,
+      "duration": 2.76,
+      "text": "これは社会的弱者への共感や支援意欲を下げ、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 47.74,
+      "duration": 2.57,
+      "text": "格差拡大を容認する心理につながるとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    }
+  ]
+}

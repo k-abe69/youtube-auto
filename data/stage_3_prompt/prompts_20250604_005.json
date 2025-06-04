@@ -1,0 +1,130 @@
+{
+  "001": {
+    "prompt": "wolf with part-human eyes and elegant features, glowing fur, silent power, distant shot, tiny subject, wide surreal background, top-down angle with subject placed off-center, avoids symmetry, standing on one leg, viewed from side angle, slight off-balance, composition with no symmetry, elements scattered unevenly, avoids centering, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“努力は報われる”\nは、ウソ？？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "lion formed from darkness itself, almost intangible, only seen through motion, subject seen through an endless corridor or portal, exaggerated depth, viewed from corner with sharp perspective line, subject in lower third, jumping midair at diagonal angle, limbs offset, subject cropped, main subject located in top left or right corner, sky dominant, asymmetric, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "成功者は\n“努力の影響”を\n過大評価している"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "成功者は自身の努力によって結果を得たと"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "考えやすいが、実際には運やタイミング、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, slight smile while looking back over shoulder, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "社会的背景が大きな影響を与えている。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "「努力がすべて」と信じてしまうのは、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "結果が出た後に過去の行動を美化する"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, blurred object partially in foreground, framing face, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "心理作用によるものであることが指摘されている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, holding an umbrella, waiting at a quiet intersection, soft drizzle, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms crossed lightly, relaxed and confident, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "努力を続けても、\n環境が悪ければ\n成果は出にくい"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "家庭の経済状況や教育機会の差は、"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "個人の努力とは無関係に人生の成果に強く影響する。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, slight smile while looking back over shoulder, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "努力しても成果が出ない背景には、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "個人ではどうにもならない"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "構造的な格差があるとされている。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, shoulders perfectly centered, symmetric framing, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "「成功＝努力の証」\nと思うほど、\n他人に冷たくなる"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "「努力すれば報われる」という価値観を"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "強く持つ人ほど、失敗している人に対して"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "spiraling staircases stretching infinitely upward into clouds, waist-up composition, hands partially visible, balanced framing, viewed from below with strong tilt, subject placed near frame edge, climbing diagonally across a wall, angle from below-left, scene cut across diagonally with light or shadow, subject floats across at edge, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "「努力不足」と決めつける傾向がある。"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "これは社会的弱者への共感や支援意欲を下げ、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "格差拡大を容認する心理につながるとされる。"
+      }
+    ]
+  }
+}
