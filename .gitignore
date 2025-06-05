@@ -26,4 +26,5 @@ stock_video/
 .vscode/
 .DS_Store
 client_secret.json
+client_secret_jueee.json
 token.json
