@@ -16,7 +16,7 @@
 ---
 
 【メッセージ】
-{input_text}
+{{input_text}}
 
 【構図候補】
 {ranked_candidates}  ← Rank 1〜3の出力そのまま
