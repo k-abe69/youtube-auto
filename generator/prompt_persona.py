@@ -2,12 +2,10 @@ import os
 import json
 import re
 from openai import OpenAI
-from dotenv import load_dotenv
 from generator.generate_sd_image import generate_sd_image
 from generator.fetch_images import upload_to_s3
 
-load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 PROMPT_DIR = "prompts/image/prompt_generator/"
 
