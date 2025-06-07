@@ -186,37 +186,38 @@ def persona_pipeline(text: str):
 
     print("③ 初期画像生成 開始")
     images = generate_image(prompt, num_images=1)
+    return images[0]  # ← ここだけ修正
 
-    # ④ 評価
-    feedbacks = [run_image_critic(composition, "N/A") for _ in images]
-    print("📝 初期画像に対する評価:", feedbacks)
+    # # ④ 評価
+    # feedbacks = [run_image_critic(composition, "N/A") for _ in images]
+    # print("📝 初期画像に対する評価:", feedbacks)
 
-    # ⑤ 改善プロンプト作成
-    improved_prompt = run_image_improver(prompt, composition, feedbacks[0])
-    print("🔧 改善プロンプト:", improved_prompt)  # ←★追加
+    # # ⑤ 改善プロンプト作成
+    # improved_prompt = run_image_improver(prompt, composition, feedbacks[0])
+    # print("🔧 改善プロンプト:", improved_prompt)  # ←★追加
 
-    # ⑥ 再生成
-    improved = generate_image(improved_prompt, num_images=1)
-    images += improved
-    feedbacks = [run_image_critic(composition, "N/A") for _ in images]
+    # # ⑥ 再生成
+    # improved = generate_image(improved_prompt, num_images=1)
+    # images += improved
+    # feedbacks = [run_image_critic(composition, "N/A") for _ in images]
 
-    # ⑦ 最終選定
-    final_choice = run_finalizer(composition, [f"Image {i+1}" for i in range(len(images))], feedbacks)
+    # # ⑦ 最終選定
+    # final_choice = run_finalizer(composition, [f"Image {i+1}" for i in range(len(images))], feedbacks)
 
-    print(f"🔍 Final choice raw output: {final_choice}")
+    # print(f"🔍 Final choice raw output: {final_choice}")
 
-    match = re.search(r'\d+', final_choice)
-    if match:
-        index = int(match.group())
-        print(f"✅ Final image index selected: {index}")
-        if 1 <= index <= len(images):
-            selected = images[index - 1]
-            if isinstance(selected, Image.Image):
-                return selected
-            else:
-                raise TypeError(f"Selected item is not an image: {type(selected)}")
-        else:
-            raise ValueError(f"Image index out of bounds: {index} (images={len(images)})")
-    else:
-        print("⚠️ No valid image number found in final_choice. Returning fallback image.")
-        return images[0] if images else generate_blank_image()
+    # match = re.search(r'\d+', final_choice)
+    # if match:
+    #     index = int(match.group())
+    #     print(f"✅ Final image index selected: {index}")
+    #     if 1 <= index <= len(images):
+    #         selected = images[index - 1]
+    #         if isinstance(selected, Image.Image):
+    #             return selected
+    #         else:
+    #             raise TypeError(f"Selected item is not an image: {type(selected)}")
+    #     else:
+    #         raise ValueError(f"Image index out of bounds: {index} (images={len(images)})")
+    # else:
+    #     print("⚠️ No valid image number found in final_choice. Returning fallback image.")
+    #     return images[0] if images else generate_blank_image()
