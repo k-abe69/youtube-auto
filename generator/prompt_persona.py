@@ -108,7 +108,16 @@ def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Im
     url = f"http://127.0.0.1:{port}/sdapi/v1/txt2img"  # ✅ ここに port を反映
 
     response = requests.post(url, json=payload, timeout=1500)
-    r = response.json()
+
+    try:
+        r = response.json()
+    except Exception:
+        print("非JSONレスポンス:", response.text)
+        raise
+
+    if not isinstance(r, dict):
+        raise TypeError(f"想定外の型: {type(r)}\n内容: {r}")
+
     images = r.get("images", [])
 
     if not images or not images[0].strip():
