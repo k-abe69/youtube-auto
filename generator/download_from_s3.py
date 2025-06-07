@@ -48,6 +48,6 @@ def download_images_from_s3(script_id: str):
         except Exception as e:
             print(f"❌ ダウンロード失敗: {filename} → {e}")
 
-# if __name__ == "__main__":
-#     # テスト用script_idを指定
-#     download_images_from_s3("20250604_005")
+if __name__ == "__main__":
+    # テスト用script_idを指定
+    download_images_from_s3("20250603_001")

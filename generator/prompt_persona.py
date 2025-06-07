@@ -186,14 +186,14 @@ def persona_pipeline(text: str):
 
     print("③ 初期画像生成 開始")
     images = generate_image(prompt, num_images=1)
-    print("✅ 画像生成後の型:", [type(img) for img in images])
 
     # ④ 評価
     feedbacks = [run_image_critic(composition, "N/A") for _ in images]
-    print("✅ 画像生成後の型:", [type(img) for img in images])
+    print("📝 初期画像に対する評価:", feedbacks)
 
     # ⑤ 改善プロンプト作成
     improved_prompt = run_image_improver(prompt, composition, feedbacks[0])
+    print("🔧 改善プロンプト:", improved_prompt)  # ←★追加
 
     # ⑥ 再生成
     improved = generate_image(improved_prompt, num_images=1)
