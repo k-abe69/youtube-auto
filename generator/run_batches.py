@@ -35,6 +35,9 @@ def run_batches_for(script_id):
                 print(f"✅ {script_id} の全バッチ処理が完了しました。")
                 mark_script_completed(script_id, task_name)
                 break
+            elif result.returncode != 0:
+                print(f"❌ {script_id} の処理で異常終了（コード {result.returncode}）しました。")
+                break
 
             start_index += batch_size
             print("💤 2秒休憩中...\n")
