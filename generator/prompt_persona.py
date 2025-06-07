@@ -93,11 +93,19 @@ def run_finalizer(composition: str, image_list: list[str], feedbacks: list[str])
     return call_gpt(user_prompt)
 
 def generate_image(prompt: str, num_images: int = 1) -> list[Image.Image]:
-    return [generate_sd_image(prompt, negative_prompt="") for _ in range(num_images)]
-
+    results = []
+    for i in range(num_images):
+        try:
+            img = generate_sd_image(prompt, negative_prompt="")
+            results.append(img)
+        except Exception as e:
+            print(f"❌ 画像生成に失敗（{i+1}/{num_images}）: {e}")
+            raise  # ← ここで必ず止める
+    return results
 # 修正済み generate_sd_image
 def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
     
+
     print("✅ generate_sd_image に入った")
 
     payload = {
@@ -155,9 +163,11 @@ def persona_pipeline(text: str):
 
     # ③ 初期画像生成
     images = generate_image(prompt, num_images=2)
+    print("✅ 画像生成後の型:", [type(img) for img in images])
 
     # ④ 評価
     feedbacks = [run_image_critic(composition, "N/A") for _ in images]
+    print("✅ 画像生成後の型:", [type(img) for img in images])
 
     # ⑤ 改善プロンプト作成
     improved_prompt = run_image_improver(prompt, composition, feedbacks[0])
