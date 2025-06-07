@@ -97,6 +97,9 @@ def generate_image(prompt: str, num_images: int = 1) -> list[Image.Image]:
 
 # 修正済み generate_sd_image
 def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
+    
+    print("✅ generate_sd_image に入った")
+
     payload = {
         "prompt": prompt,
         "negative_prompt": negative_prompt,
