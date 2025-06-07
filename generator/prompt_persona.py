@@ -155,7 +155,10 @@ def get_image_for_scene(script_id: str, parent_id: str) -> Image.Image:
         text = collect_text_for_scene(script_id, parent_id)
         print(f"📝 collected text: {text[:50]}...")  # 長い場合用に省略
         image = persona_pipeline(text)
-        print("✅ persona_pipeline completed")
+        print("✅ persona_pipeline completed:", type(image))
+        if not isinstance(image, Image.Image):
+            raise TypeError(f"persona_pipeline did not return an Image: got {type(image)}")
+
         return image
     except Exception as e:
         print(f"💥 get_image_for_scene exception: {type(e).__name__}: {e}")
@@ -195,8 +198,9 @@ def persona_pipeline(text: str):
     if match:
         index = int(match.group())
         if 1 <= index <= len(images):
-            return images[index - 1]
-
-    raise RuntimeError(f"Failed to parse final image selection: '{final_choice}'")
-
-
+            if isinstance(images[index - 1], Image.Image):
+                return images[index - 1]
+            else:
+                raise TypeError(f"Final selection is not an image: {type(images[index - 1])}")
+        else:
+            raise RuntimeError(f"Failed to parse final image selection: '{final_choice}'")
