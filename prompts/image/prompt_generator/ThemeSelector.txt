@@ -16,14 +16,14 @@
 ---
 
 【メッセージ】
-{{input_text}}
+「{input_text}」
 
 【構図候補】
-{ranked_candidates}  ← Rank 1〜3の出力そのまま
+「{candidates_text}」  ← Rank 1〜3の出力そのまま
 
 ---
 
 【出力形式】
 選ぶ構図だけをそのまま1件だけ以下に出力してください。
 
-{composition}
+「{composition}」
