@@ -29,7 +29,7 @@ def call_gpt(user_prompt: str) -> str:
         messages=[
             {"role": "user", "content": user_prompt}
         ],
-        temperature=0.3
+        temperature=0.7
     )
     return response.choices[0].message.content.strip()
 
