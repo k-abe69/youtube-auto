@@ -203,10 +203,12 @@ def persona_pipeline(text: str):
     # ⑦ 最終選定
     final_choice = run_finalizer(composition, [f"Image {i+1}" for i in range(len(images))], feedbacks)
 
-    # 選定された画像を返す
+    print(f"🔍 Final choice raw output: {final_choice}")
+
     match = re.search(r'\d+', final_choice)
     if match:
         index = int(match.group())
+        print(f"✅ Final image index selected: {index}")
         if 1 <= index <= len(images):
             selected = images[index - 1]
             if isinstance(selected, Image.Image):
@@ -214,4 +216,7 @@ def persona_pipeline(text: str):
             else:
                 raise TypeError(f"Selected item is not an image: {type(selected)}")
         else:
-            raise RuntimeError(f"Image selection index {index} out of bounds (1 ~ {len(images)})")
+            raise ValueError(f"Image index out of bounds: {index} (images={len(images)})")
+    else:
+        print("⚠️ No valid image number found in final_choice. Returning fallback image.")
+        return images[0] if images else generate_blank_image()
