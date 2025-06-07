@@ -110,18 +110,20 @@ def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Im
 
     url = f"http://127.0.0.1:{port}/sdapi/v1/txt2img"  # ✅ ここに port を反映
 
-    response = requests.post(url, json=payload, timeout=1500)
-
     try:
+        response = requests.post(url, json=payload, timeout=1500)
+        print("🔵 レスポンスステータス:", response.status_code)
+        print("🔵 レスポンステキスト:", response.text[:500])  # 長すぎる場合の対策
+
         r = response.json()
-    except Exception:
-        print("非JSONレスポンス:", response.text)
-        raise
+        print("🔵 JSON型:", type(r))
 
-    if not isinstance(r, dict):
-        raise TypeError(f"想定外の型: {type(r)}\n内容: {r}")
+        if not isinstance(r, dict):
+            raise TypeError(f"JSON expected dict but got: {type(r)}\n内容: {r}")
 
-    images = r.get("images", [])
+        images = r.get("images", [])
+    except Exception as e:
+        raise RuntimeError(f"🚨 SD API呼び出し or JSON解析に失敗 → {e}")
 
     if not images or not images[0].strip():
         raise RuntimeError(f"No usable image returned. SD API response: {r}")
@@ -135,8 +137,6 @@ def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Im
         return image
     except Exception as e:
         raise RuntimeError(f"Base64 decode or Image.open failed → {e}")
-
-
 
 def get_image_for_scene(script_id: str, parent_id: str) -> Image.Image:
     text = collect_text_for_scene(script_id, parent_id)
