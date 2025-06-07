@@ -51,7 +51,7 @@ def collect_text_for_scene(script_id, parent_id):
 
     texts = [
         item["text"] for item in scenes
-        if item.get("scene_id") == parent_id
+        if item.get("parent_scene_id") == parent_id
     ]
     print(f"📝 抽出されたテキスト数: {len(texts)}")
     return "\n".join(texts)
@@ -208,9 +208,10 @@ def persona_pipeline(text: str):
     if match:
         index = int(match.group())
         if 1 <= index <= len(images):
-            if isinstance(images[index - 1], Image.Image):
-                return images[index - 1]
+            selected = images[index - 1]
+            if isinstance(selected, Image.Image):
+                return selected
             else:
-                raise TypeError(f"Final selection is not an image: {type(images[index - 1])}")
+                raise TypeError(f"Selected item is not an image: {type(selected)}")
         else:
-            raise RuntimeError(f"Failed to parse final image selection: '{final_choice}'")
+            raise RuntimeError(f"Image selection index {index} out of bounds (1 ~ {len(images)})")
