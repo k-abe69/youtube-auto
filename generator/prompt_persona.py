@@ -41,18 +41,18 @@ def collect_text_for_scene(script_id, parent_id):
         raise FileNotFoundError(f"{tag_path} not found")
 
     with open(tag_path, "r", encoding="utf-8") as f:
-        tags = json.load(f)
-        print(f"📦 読み込み型: {type(tags)}")
-        if isinstance(tags, list):
-            print(f"📄 件数: {len(tags)}")
-        else:
-            print(f"⚠️ 想定外のデータ: {str(tags)[:100]}")
+        data = json.load(f)
+        print(f"📦 読み込み型: {type(data)}")
+        if not isinstance(data, dict) or "scenes" not in data:
+            raise ValueError(f"不正なフォーマット: scenesが見つかりません")
+
+        scenes = data["scenes"]
+        print(f"📄 scenesの数: {len(scenes)}")
 
     texts = [
-        item["text"] for item in tags
-        if isinstance(item, dict) and item.get("parent_scene_id") == parent_id
+        item["text"] for item in scenes
+        if item.get("scene_id") == parent_id
     ]
-
     print(f"📝 抽出されたテキスト数: {len(texts)}")
     return "\n".join(texts)
 
