@@ -83,7 +83,7 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
             start_time = time.time()
 
             # 統括された画像生成関数を呼び出し（プロンプト処理含む）
-            image = get_image_for_scene(parent_id, script_id)
+            image = get_image_for_scene(script_id, parent_id)
 
             # 画像を保存＆アップロード
             image.save(out_path)
