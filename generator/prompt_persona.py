@@ -155,13 +155,15 @@ def get_image_for_scene(script_id: str, parent_id: str) -> Image.Image:
 
 
 def persona_pipeline(text: str):
-    # ① 構図抽出
+    print("① 構図抽出 開始")
     composition = run_theme_reader(text)
-    
-    # ② プロンプト生成
-    prompt = run_prompt_crafter(composition)
+    print("① 構図抽出 完了:", composition)
 
-    # ③ 初期画像生成
+    print("② プロンプト生成 開始")
+    prompt = run_prompt_crafter(composition)
+    print("② プロンプト生成 完了:", prompt)
+
+    print("③ 初期画像生成 開始")
     images = generate_image(prompt, num_images=2)
     print("✅ 画像生成後の型:", [type(img) for img in images])
 
