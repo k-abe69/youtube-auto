@@ -35,16 +35,26 @@ def call_gpt(user_prompt: str) -> str:
 
 def collect_text_for_scene(script_id, parent_id):
     tag_path = Path(f"data/stage_2_tag/tags_{script_id}.json")
+    print(f"📂 読み込み対象: {tag_path}")
+
     if not tag_path.exists():
         raise FileNotFoundError(f"{tag_path} not found")
+
     with open(tag_path, "r", encoding="utf-8") as f:
         tags = json.load(f)
+        print(f"📦 読み込み型: {type(tags)}")
+        if isinstance(tags, list):
+            print(f"📄 件数: {len(tags)}")
+        else:
+            print(f"⚠️ 想定外のデータ: {str(tags)[:100]}")
+
     texts = [
         item["text"] for item in tags
-        if item.get("parent_scene_id") == parent_id
+        if isinstance(item, dict) and item.get("parent_scene_id") == parent_id
     ]
-    return "\n".join(texts)
 
+    print(f"📝 抽出されたテキスト数: {len(texts)}")
+    return "\n".join(texts)
 
 def run_theme_reader(input_text: str) -> str:
     template = load_prompt_template("ThemeRader.txt")
