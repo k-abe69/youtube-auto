@@ -56,11 +56,21 @@ def collect_text_for_scene(script_id, parent_id):
     print(f"📝 抽出されたテキスト数: {len(texts)}")
     return "\n".join(texts)
 
-def run_theme_reader(input_text: str) -> str:
-    template = load_prompt_template("ThemeRader.txt")
+def run_theme_reader_multi(input_text: str) -> str:
+    """複数の構図案を抽出する"""
+    template = load_prompt_template("ThemeReaderMulti.txt")
     user_prompt = template.replace("「{input_text}」", input_text)
     return call_gpt(user_prompt)
 
+def run_theme_selector(input_text: str, candidates_text: str) -> str:
+    """候補の中からベスト構図を選ぶ"""
+    template = load_prompt_template("ThemeSelector.txt")
+    user_prompt = (
+        template
+        .replace("「{input_text}」", input_text)
+        .replace("「{candidates_text}」", candidates_text)
+    )
+    return call_gpt(user_prompt)
 
 def run_prompt_crafter(composition: str) -> str:
     template = load_prompt_template("PromptCrafter.txt")
@@ -176,9 +186,13 @@ def get_image_for_scene(script_id: str, parent_id: str) -> Image.Image:
 
 
 def persona_pipeline(text: str):
-    print("① 構図抽出 開始")
-    composition = run_theme_reader(text)
-    print("① 構図抽出 完了:", composition)
+    print("① 構図抽出 開始（複数案）")
+    candidates_text = run_theme_reader_multi(text)
+    print("①-1 構図候補 抽出完了:\n", candidates_text)
+
+    print("①-2 ベスト構図選定 開始")
+    composition = run_theme_selector(text, candidates_text)
+    print("①-2 ベスト構図選定 完了:", composition)
 
     print("② プロンプト生成 開始")
     prompt = run_prompt_crafter(composition)
