@@ -81,25 +81,26 @@ def get_next_available_slot(schedule_file: str = "youtube_upload/schedule.json",
     jst = timezone(timedelta(hours=9))
     now = datetime.now(jst)
 
-    # ファイルが存在しない場合は空で作成
-    if not os.path.exists(schedule_file):
+    # ファイルがなければ初期化 ★修正
+    if not os.path.exists(schedule_file) or os.path.getsize(schedule_file) == 0:
         with open(schedule_file, "w", encoding="utf-8") as f:
             json.dump([], f)
 
-    # 読み込み
+    # 読み込み（空ファイル対応） ★修正
     try:
         with open(schedule_file, "r", encoding="utf-8") as f:
-            reserved = set(json.load(f))
-    except FileNotFoundError:
+            content = f.read().strip()
+            reserved = set(json.loads(content)) if content else set()
+    except Exception:
         reserved = set()
 
-    # 探索：今日からmax_days日分の18時・21時
+    # スロット探索
     for day in range(max_days):
         base = (now + timedelta(days=day)).replace(hour=0, minute=0, second=0, microsecond=0)
         for hour in [18, 21]:
             slot = base.replace(hour=hour)
             if slot <= now:
-                continue  # もう過ぎているスロットは除外
+                continue
             slot_iso = slot.astimezone(timezone.utc).isoformat()
             if slot_iso not in reserved:
                 return slot_iso
@@ -107,6 +108,12 @@ def get_next_available_slot(schedule_file: str = "youtube_upload/schedule.json",
     raise RuntimeError("⚠️ 空きスロットが max_days 先まで見つかりません")
 
 def mark_slot_reserved(slot_iso: str, schedule_file: str = "youtube_upload/schedule.json"):
+    
+    # 初期化 ★修正
+    if not os.path.exists(schedule_file):
+        with open(schedule_file, "w", encoding="utf-8") as f:
+            json.dump([], f)
+
     try:
         with open(schedule_file, "r", encoding="utf-8") as f:
             reserved = json.load(f)
@@ -143,39 +150,50 @@ def set_thumbnail_with_retry(youtube, video_id: str, thumbnail_path: str, retrie
 
 def main():
     task_name = "upload"
-    script_id = get_next_script_id(task_name)
-    if not script_id:
-        print("✅ アップロード対象がありません。")
-        return
-
-    base_dir = Path(f"data/stage_6_output/{script_id}")
-    video_path = base_dir / "final.mp4"
-    meta_path = Path(f"data/stage_1_audio/{script_id}/script_meta_{script_id}.json")
-
-
     youtube = authenticate_youtube()
-    title = extract_main_title(meta_path)
-    # 予約投稿のスロット決定
-    publish_at = get_next_available_slot()  # UTC ISO文字列を取得
+    while True:
+
+        script_id = get_next_script_id(task_name)
+        if not script_id:
+            print("✅ アップロード対象がありません。")
+            return
+
+        base_dir = Path(f"data/stage_6_output/{script_id}")
+        video_path = base_dir / "final.mp4"
+        meta_path = Path(f"data/stage_1_audio/{script_id}/script_meta_{script_id}.json")
 
 
-    video_id = upload_video(
-        youtube,
-        str(video_path),
-        title=title,
-        tags=["雑学", "知識", "教育", "科学", "社会", "ショート動画", "shorts", "Trivia"],  # ← 好きなタグを指定
-        publish_at=publish_at,
-    )
+        if not video_path.exists():
+            print(f"❌ 動画ファイルが存在しません: {video_path}")  # ★修正
+            return
 
-    extract_thumbnail(base_dir / "final.mp4", base_dir / "thumbnail.jpg")
-    # サムネイル設定
-    set_thumbnail_with_retry(youtube, video_id, str(base_dir / "thumbnail.jpg"))
+        title = extract_main_title(meta_path)
+        # 予約投稿のスロット決定
+        publish_at = get_next_available_slot()  # UTC ISO文字列を取得
 
-    # スケジュールに記録
-    mark_slot_reserved(publish_at)
+        success = False  # ← 追加
+        try:
+            video_id = upload_video(
+                youtube,
+                str(video_path),
+                title=title,
+                tags=["雑学", "知識", "教育", "科学", "社会", "ショート動画", "shorts", "Trivia"],
+                publish_at=publish_at,
+            )
+            success = True
+        except Exception as e:
+            print(f"❌ アップロード失敗: {e}")
+            return
 
-    print(f"✅ アップロード完了: https://youtu.be/{video_id}")
-    mark_script_completed(script_id, task_name)  # 完了フラグ更新
+        extract_thumbnail(base_dir / "final.mp4", base_dir / "thumbnail.jpg")
+        # サムネイル設定
+        set_thumbnail_with_retry(youtube, video_id, str(base_dir / "thumbnail.jpg"))
+
+        if success:
+            mark_slot_reserved(publish_at)  # ★修正
+
+        print(f"✅ アップロード完了: https://youtu.be/{video_id}")
+        mark_script_completed(script_id, task_name)  # 完了フラグ更新
 
 if __name__ == "__main__":
     main()

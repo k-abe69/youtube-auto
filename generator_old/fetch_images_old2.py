@@ -21,7 +21,6 @@ from common.script_utils import parse_args_script_id, mark_script_completed, get
 
 backup_script(__file__)
 save_config_snapshot()
-from generator.prompt_persona import get_image_for_scene  # 画像生成を統括する関数
 
 from PIL import Image
 import imagehash
@@ -98,13 +97,23 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
     processed_count = 0
     failed_count = 0
 
+    negative_prompt = "nipple, areola, bare chest, exposed breasts, nsfw, nude, underboob, sideboob, see-through, wet shirt, lowres, blurry, text, watermark, bad anatomy, extra limbs, fused fingers, bad hands, bad eyes"
+
     for i, parent_id in enumerate(batch):
-        # ファイル名決定
+        prompt_data = data[parent_id]  # ← これが必要！
+        prompt = prompt_data.get("prompt")
+        if not prompt:
+            print(f"❌ promptが存在しない: {parent_id}")
+            continue
+
+        
+        # 追加：mvマークファイルが存在すればファイル名を変更
         mark_mv_path = Path(f"data/stage_2_tag/mark_mv/{script_id}/{parent_id}_mv.txt")
         if mark_mv_path.exists():
             out_path = output_dir / f"{parent_id}_mv.png"
         else:
             out_path = output_dir / f"{parent_id}.png"
+
 
         if out_path.exists():
             print(f"✅ 既に生成済み: {out_path}")
@@ -112,15 +121,16 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
 
         try:
             print(f"[{i+1}/{len(batch)}] Generating image for parent_id={parent_id}")
+            
             start_time = time.time()
+            image = generate_sd_image(prompt, negative_prompt, port=7860)
 
-            # 統括された画像生成関数を呼び出し（プロンプト処理含む）
-            image = get_image_for_scene(parent_id, script_id)
-
-            # 画像を保存＆アップロード
+            # 生成した画像を保存し、S3にアップロード
             image.save(out_path)
+
+            # 保存後にアップロード
             s3_path = f"stage_5_image/sd_images/{script_id}/{out_path.name}"
-            upload_to_s3(out_path, s3_path, bucket_name)
+            upload_to_s3(out_path, s3_path, bucket_name)  # ← バケット名に置き換え
 
             processed_any = True
             duration = time.time() - start_time
@@ -129,10 +139,10 @@ def fetch_all_images(scene_json_path: Path, script_id: str, start_index: int, ba
         except Exception as e:
             failed_count += 1
             print(f"❌ SD画像生成失敗: {parent_id} → {type(e).__name__}: {e}")
-
     print(f"🟢 成功: {processed_count}件 / 🔴 失敗: {failed_count}件")
     return failed_count == 0 and processed_count > 0
 
+            
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

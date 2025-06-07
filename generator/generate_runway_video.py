@@ -6,6 +6,7 @@ from typing import List
 import time
 import requests  # ファイルDL用
 from urllib.parse import urlparse, unquote
+import random  # ←追加
 
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -42,14 +43,20 @@ if not RUNWAY_API_KEY:
 # RunwayMLクライアントを初期化
 client = RunwayML(api_key=RUNWAY_API_KEY)
 
+# 汎用モーションプロンプトの読み込み
+with open("prompts/video/motion_prompts.json", "r", encoding="utf-8") as f:
+    motion_prompts = json.load(f)
+
 def request_runway(image_url: str, image_filename: str, save_dir: Path):
     # durationをファイル名に応じて分岐
     duration = 10 if "_mv" in image_filename else 5
+    prompt_text = random.choice(motion_prompts)  # ←ここを変更
+
     image_to_video = client.image_to_video.create(
         model="gen4_turbo",
         prompt_image=image_url,
         ratio="960:960",
-        prompt_text="camera slowly panning from right to left, cinematic lighting, mysterious, a person subtly shifting posture, a person glancing sideways",
+        prompt_text=prompt_text,
         duration=duration
     )
 

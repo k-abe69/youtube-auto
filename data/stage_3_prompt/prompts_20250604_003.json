@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, hourglass silhouette in backlight, curvy hips, soft lips, sunset glow, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, hands clasped in front, formal yet soft pose, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
-    "theme": "girl",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, gaze lowered, reflective mood, background blurred to focus sharply on eyes, soft glow around subject with light bloom, ",
+    "theme": "beauty",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, covering mouth slightly in surprise or playfulness, background blurred to focus sharply on eyes, gentle bokeh in background, soft tones, ",
-    "theme": "normal_beauty",
+    "prompt": "fox with a ticking clock as a face, tail spinning like hands, shoulder-back view, subject turning face toward camera, angled view through a broken side window, subject offset and cropped, twisting body diagonally, motion trail along frame edge, subject emerging partially from frame corner, majority off-frame, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,8 +28,8 @@
     ]
   },
   "003": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, arms crossed lightly, relaxed and confident, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, shiny thick lips, seductive smile, full chest, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_05",
@@ -46,8 +46,8 @@
     ]
   },
   "004": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
-    "theme": "normal_beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, low-cut evening dress, glossy hair, busty and elegant, soft indoor shadows, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, hands clasped in front, formal yet soft pose, tight head-and-shoulders crop, minimal background, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_08",
@@ -56,8 +56,8 @@
     ]
   },
   "005": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with no make up,  blowing in wind, katana resting on shoulder, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, arms crossed lightly, relaxed and confident, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, body turned, head looking over shoulder, background blurred to focus sharply on eyes, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_09",
@@ -74,8 +74,8 @@
     ]
   },
   "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, shiny thick lips, seductive smile, full chest, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, holding a delicate flower near face, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
-    "theme": "girl",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, hands clasped in front, formal yet soft pose, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_12",
@@ -92,7 +92,7 @@
     ]
   },
   "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, arms gently behind back, posture upright, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -110,8 +110,8 @@
     ]
   },
   "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, body turned, head looking over shoulder, face positioned off-center with balanced lighting, emphasis on skin texture like silk, gentle lighting, ",
-    "theme": "normal_beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_18",
