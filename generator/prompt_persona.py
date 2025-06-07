@@ -6,7 +6,6 @@ from openai import OpenAI
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from generator.generate_sd_image import generate_sd_image
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
@@ -88,6 +87,38 @@ def run_finalizer(composition: str, image_list: list[str], feedbacks: list[str])
 
 def generate_image(prompt: str, num_images: int = 1) -> list[Image.Image]:
     return [generate_sd_image(prompt, negative_prompt="") for _ in range(num_images)]
+
+# 修正済み generate_sd_image
+def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
+    payload = {
+        "prompt": prompt,
+        "negative_prompt": negative_prompt,
+        "model": "RealisticVisionXL_v57 [49E4F2939A]",
+        "width": 1024,
+        "height": 1024,
+        "steps": 45,
+        "cfg_scale": 8.0,
+        "sampler_index": "DPM++ 2M Karras",
+    }
+
+    url = f"http://127.0.0.1:{port}/sdapi/v1/txt2img"  # ✅ ここに port を反映
+
+    response = requests.post(url, json=payload, timeout=1500)
+    r = response.json()
+    images = r.get("images", [])
+
+    if not images or not images[0].strip():
+        raise RuntimeError(f"No usable image returned. SD API response: {r}")
+
+    try:
+        raw_image = images[0].strip()
+        base64_data = raw_image.split(",", 1)[-1] if "," in raw_image else raw_image
+        decoded = base64.b64decode(base64_data)
+        image = Image.open(io.BytesIO(decoded))
+        image.load()
+        return image
+    except Exception as e:
+        raise RuntimeError(f"Base64 decode or Image.open failed → {e}")
 
 
 

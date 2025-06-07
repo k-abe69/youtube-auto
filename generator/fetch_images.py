@@ -41,38 +41,6 @@ def upload_to_s3(local_path: Path, s3_path: str, bucket_name: str):
         print(f"❌ アップロード失敗: {s3_path} → {e}")
 
 
-# 修正済み generate_sd_image
-def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Image.Image:
-    payload = {
-        "prompt": prompt,
-        "negative_prompt": negative_prompt,
-        "model": "RealisticVisionXL_v57 [49E4F2939A]",
-        "width": 1024,
-        "height": 1024,
-        "steps": 45,
-        "cfg_scale": 8.0,
-        "sampler_index": "DPM++ 2M Karras",
-    }
-
-    url = f"http://127.0.0.1:{port}/sdapi/v1/txt2img"  # ✅ ここに port を反映
-
-    response = requests.post(url, json=payload, timeout=1500)
-    r = response.json()
-    images = r.get("images", [])
-
-    if not images or not images[0].strip():
-        raise RuntimeError(f"No usable image returned. SD API response: {r}")
-
-    try:
-        raw_image = images[0].strip()
-        base64_data = raw_image.split(",", 1)[-1] if "," in raw_image else raw_image
-        decoded = base64.b64decode(base64_data)
-        image = Image.open(io.BytesIO(decoded))
-        image.load()
-        return image
-    except Exception as e:
-        raise RuntimeError(f"Base64 decode or Image.open failed → {e}")
-
 
 def download_image(url: str, save_path: Path):
     try:
