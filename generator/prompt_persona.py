@@ -185,7 +185,7 @@ def persona_pipeline(text: str):
     print("② プロンプト生成 完了:", prompt)
 
     print("③ 初期画像生成 開始")
-    images = generate_image(prompt, num_images=2)
+    images = generate_image(prompt, num_images=1)
     print("✅ 画像生成後の型:", [type(img) for img in images])
 
     # ④ 評価
