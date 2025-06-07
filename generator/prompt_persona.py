@@ -150,8 +150,16 @@ def generate_sd_image(prompt: str, negative_prompt: str, port: int = 7860) -> Im
         raise RuntimeError(f"Base64 decode or Image.open failed → {e}")
 
 def get_image_for_scene(script_id: str, parent_id: str) -> Image.Image:
-    text = collect_text_for_scene(script_id, parent_id)
-    return persona_pipeline(text)
+    print(f"🚩 get_image_for_scene CALLED with script_id={script_id}, parent_id={parent_id}")
+    try:
+        text = collect_text_for_scene(script_id, parent_id)
+        print(f"📝 collected text: {text[:50]}...")  # 長い場合用に省略
+        image = persona_pipeline(text)
+        print("✅ persona_pipeline completed")
+        return image
+    except Exception as e:
+        print(f"💥 get_image_for_scene exception: {type(e).__name__}: {e}")
+        raise  # 上位の try に渡す
 
 
 def persona_pipeline(text: str):
