@@ -8,6 +8,8 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from PIL import Image
+from pathlib import Path
+
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
