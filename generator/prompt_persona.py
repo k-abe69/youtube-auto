@@ -213,8 +213,6 @@ def persona_pipeline(script_id: str, parent_id: str) -> Image.Image:
     candidates_text = run_theme_reader_multi(current_text, before_text, after_text)
     print("①-1 構図候補 抽出完了:\n", candidates_text)
 
-    print("①-1 構図候補 抽出完了:\n", candidates_text)
-
     print("①-2 ベスト構図選定 開始")
     composition = run_theme_selector(current_text, candidates_text)
     print("①-2 ベスト構図選定 完了:", composition)
