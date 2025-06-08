@@ -116,7 +116,7 @@ def generate_image(prompt: str, num_images: int = 1) -> list[Image.Image]:
     results = []
     for i in range(num_images):
         try:
-            img = generate_sd_image(prompt, negative_prompt="")
+            img = generate_sd_image(prompt, negative_prompt="(worst quality, low quality:1.3), poorly drawn face, poorly drawn hands, poorly drawn fingers, missing fingers, fused fingers, extra fingers, deformed fingers, bad hands, bad anatomy, lowres, text, error, extra limbs, missing arms, missing legs, mutation, mutated hands, bad proportions, cloned face, blurry, watermark, signature, censored, nsfw, nipples, cleavage, anime, cartoon, 3d, disfigured, jpeg artifacts, gross proportions, out of frame")
             results.append(img)
         except Exception as e:
             print(f"❌ 画像生成に失敗（{i+1}/{num_images}）: {e}")
