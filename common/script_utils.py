@@ -147,7 +147,7 @@ def get_next_script_id(task_name: str, status_path="script_status.json", explici
         "subtitle": ["prompt"],
         "image": ["subtitle"],
         "video": ["image"],
-        "compose": ["video"],
+        "compose": ["image"],
         "upload": ["compose"]
     }
 
