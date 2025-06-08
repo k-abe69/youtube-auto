@@ -56,10 +56,15 @@ def collect_text_for_scene(script_id, parent_id):
     print(f"📝 抽出されたテキスト数: {len(texts)}")
     return "\n".join(texts)
 
-def run_theme_reader_multi(input_text: str) -> str:
+def run_theme_reader_multi(input_text: str, input_before: str, input_after: str) -> str:
     """複数の構図案を抽出する"""
     template = load_prompt_template("ThemeReaderMulti.txt")
-    user_prompt = template.replace("「{input_text}」", input_text)
+    user_prompt = (
+        template
+        .replace("「{input_text}」", input_text)
+        .replace("「{input_before}」", input_before)
+        .replace("「{input_after}」", input_after)
+    )
     return call_gpt(user_prompt)
 
 def run_theme_selector(input_text: str, candidates_text: str) -> str:
@@ -174,7 +179,7 @@ def get_image_for_scene(script_id: str, parent_id: str) -> Image.Image:
     try:
         text = collect_text_for_scene(script_id, parent_id)
         print(f"📝 collected text: {text[:50]}...")  # 長い場合用に省略
-        image = persona_pipeline(text)
+        image = persona_pipeline(script_id, parent_id)
         print("✅ persona_pipeline completed:", type(image))
         if not isinstance(image, Image.Image):
             raise TypeError(f"persona_pipeline did not return an Image: got {type(image)}")
@@ -184,14 +189,34 @@ def get_image_for_scene(script_id: str, parent_id: str) -> Image.Image:
         print(f"💥 get_image_for_scene exception: {type(e).__name__}: {e}")
         raise  # 上位の try に渡す
 
+def get_all_parent_ids(script_id: str) -> list[str]:
+    tag_path = Path(f"data/stage_2_tag/tags_{script_id}.json")
+    if not tag_path.exists():
+        raise FileNotFoundError(f"{tag_path} not found")
+    with open(tag_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        return [scene["parent_scene_id"] for scene in data["scenes"] if "parent_scene_id" in scene]
 
-def persona_pipeline(text: str):
+
+def persona_pipeline(script_id: str, parent_id: str) -> Image.Image:
+    all_ids = get_all_parent_ids(script_id)
+    center_index = all_ids.index(parent_id)
+
+    before_id = all_ids[center_index - 1] if center_index > 0 else None
+    after_id  = all_ids[center_index + 1] if center_index < len(all_ids) - 1 else None
+
+    current_text = collect_text_for_scene(script_id, parent_id)
+    before_text = collect_text_for_scene(script_id, before_id) if before_id else ""
+    after_text  = collect_text_for_scene(script_id, after_id) if after_id else ""
+
     print("① 構図抽出 開始（複数案）")
-    candidates_text = run_theme_reader_multi(text)
+    candidates_text = run_theme_reader_multi(current_text, before_text, after_text)
+    print("①-1 構図候補 抽出完了:\n", candidates_text)
+
     print("①-1 構図候補 抽出完了:\n", candidates_text)
 
     print("①-2 ベスト構図選定 開始")
-    composition = run_theme_selector(text, candidates_text)
+    composition = run_theme_selector(current_text, candidates_text)
     print("①-2 ベスト構図選定 完了:", composition)
 
     print("② プロンプト生成 開始")
