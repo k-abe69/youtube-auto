@@ -1,0 +1,162 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, upper body leaning toward viewer, tight head-and-shoulders crop, minimal background, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "おとなしい人ほど、\nある日突然\nブチ切れる！"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "rabbit with roots instead of legs, growing moss as it hops, shoulder-back view, subject turning face toward camera, viewed from below with strong tilt, subject placed near frame edge, stretching motion mid-action, not facing front, cropped, composition with no symmetry, elements scattered unevenly, avoids centering, background is sharp while subject is blurred, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "“沈黙キャラ”は、\n敵意を可視化\nされにくい"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "周囲に自己主張を控える人ほど、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "敵意や不満が可視化されにくく、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "fox with a ticking clock as a face, tail spinning like hands, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, ceiling becomes floor, subject positioned diagonally, twisting body diagonally, motion trail along frame edge, subject shown through uneven mirror shards, overlapping layers, scattered, intense lens flare from unnatural light source, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "結果として他者に軽視されやすい。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "これが“キレたときの衝撃”を"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "より強く印象づける原因になる。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, hourglass silhouette in backlight, curvy hips, soft lips, sunset glow, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "怒って当然の状況でも、"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "「なんで急に？」と誤解されやすい。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, hand reaching toward the camera softly, tight head-and-shoulders crop, minimal background, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "感情の抑圧が\n脳に与える影響"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "感情を抑え続けると、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "脳の前頭前野の制御が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, hand reaching toward the camera softly, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "徐々に効かなくなり、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "衝動的な行動が増える。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "我慢を重ねるほど、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, slight smile while looking back over shoulder, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "理性より感情が暴走しやすくなる"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "というメカニズムが示されている。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "怒らない人は\n“悪人に狙われやすい”"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "怒りや拒絶の表出が少ない人間は、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "犯罪傾向のある加害者からの"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, slight smile while looking back over shoulder, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "DV・いじめ・詐欺被害の"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "標的になる共通傾向として"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "統計的に確認されている。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "“怒らない＝安全”ではないことが"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "逆説的に示されている。"
+      }
+    ]
+  }
+}

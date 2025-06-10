@@ -108,7 +108,7 @@ def compose_video(script_id: str):
     timing_path = Path(f"data/stage_2_tag/tags_{script_id}.json")
     subtitle_path = Path(f"data/stage_4_subtitles/subtitles_{script_id}.srt")
     audio_base_dir = Path(f"data/stage_1_audio/{script_id}")
-    image_base_dir = Path(f"data/stage_5_image/{script_id}/images")
+    image_base_dir = Path(f"data/stage_5_image/{script_id}")
     output_dir = Path(f"data/stage_6_output/{script_id}")
     output_dir.mkdir(parents=True, exist_ok=True)
 

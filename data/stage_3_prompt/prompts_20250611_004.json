@@ -1,0 +1,148 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "寝不足3日で\n性格が別人に？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, gaze lowered, reflective mood, blurred object partially in foreground, framing face, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "たった3日で人格が変化する"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "3日間の軽度な睡眠不足でも、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "前頭前野の活動が低下し、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, gaze lowered, reflective mood, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "感情の制御がうまくできなくなる。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "怒りやすくなる、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "自分勝手な言動が増えるなど、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, hands clasped in front, formal yet soft pose, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "“性格が変わったように見える”"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "行動はただの寝不足が原因かもしれない。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "慢性寝不足は“脳の一部を失う”"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "慢性的な睡眠不足では、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "グリア細胞がシナプスを除去し始め、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, eyes softly closed, calm or dreamlike atmosphere, tight head-and-shoulders crop, minimal background, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "神経回路の一部が"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "“自己分解”される現象が確認された。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "これは単なる疲労ではなく、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, headshot with forehead cropped, cinematic intensity, viewed from corner with sharp perspective line, subject in lower third, taking selfie from tilted camera, not facing directly, subject pushed to the extreme edge of the frame, strong negative space, background is sharp while subject is blurred, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "脳の不可逆的なダメージの"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "可能性があると報告されている。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural, distant shot, tiny subject, wide surreal background, viewed from below with strong tilt, subject placed near frame edge, body fragmenting toward left or right frame, non-radial, main subject located in top left or right corner, sky dominant, asymmetric, lighting from two contradictory directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "“睡眠負債”の蓄積\n鬱病発症率が倍増"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "日々1〜2時間の睡眠不足が続く"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "「睡眠負債」が蓄積されると、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "3週間後にはうつ症状のリスクが"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "通常の約2倍になることが確認された。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "寝不足はメンタルの“静かな引き金”となる。"
+      }
+    ]
+  }
+}

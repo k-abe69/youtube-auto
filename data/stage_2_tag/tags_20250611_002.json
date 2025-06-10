@@ -1,0 +1,235 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.78,
+      "text": "“男らしさ”\n演じることを\n強いられる男達",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.78,
+      "duration": 2.43,
+      "text": "「男は泣くな」が\n抑うつリスクを高める",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.22,
+      "duration": 1.43,
+      "text": "伝統的な男らしさに",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 6.65,
+      "duration": 1.48,
+      "text": "強く適応する男性ほど、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 8.13,
+      "duration": 1.67,
+      "text": "うつや不安障害を発症する",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 9.8,
+      "duration": 1.19,
+      "text": "リスクが高いとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 11.0,
+      "duration": 2.6,
+      "text": "感情を抑え、自己犠牲を重んじる文化が、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 13.6,
+      "duration": 2.25,
+      "text": "心理的孤立を深めると報告されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 15.85,
+      "duration": 3.18,
+      "text": "男性の\n「聞いてもらえなさ」\nが脳に与える影響",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 19.03,
+      "duration": 1.08,
+      "text": "感情や悩みを",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 20.11,
+      "duration": 1.77,
+      "text": "他人に話せない状態が続くと、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 21.88,
+      "duration": 1.73,
+      "text": "脳の報酬系に変調が起き、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 23.61,
+      "duration": 1.33,
+      "text": "意欲や関心が大きく",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 24.94,
+      "duration": 1.01,
+      "text": "低下することがある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 25.95,
+      "duration": 2.63,
+      "text": "これは男性に特有の傾向として観測された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 28.59,
+      "duration": 3.02,
+      "text": "“男らしさ教育”\nが暴力性を強化する",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 31.61,
+      "duration": 2.26,
+      "text": "世界各国の青少年に対する調査で、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 33.87,
+      "duration": 2.81,
+      "text": "「男は強くあれ」「泣くな」などの価値観を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 36.67,
+      "duration": 1.59,
+      "text": "幼少期に刷り込まれた男子は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 38.26,
+      "duration": 2.9,
+      "text": "将来的に怒りの衝動や対人暴力の傾向が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 41.16,
+      "duration": 1.92,
+      "text": "強まるリスクが高いことが示された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 43.08,
+      "duration": 2.28,
+      "text": "“男らしさ”は内向きだけでなく",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 45.37,
+      "duration": 2.46,
+      "text": "外向きの攻撃性にも転化する可能性がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 怒り (anger)"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "001": {
+    "prompt": "moth with feathers instead of wings, patterns shifting as it flutters, extremely distant perspective from space or high orbit, viewed from below with strong tilt, subject placed near frame edge, body fragmenting toward left or right frame, non-radial, subject shown through uneven mirror shards, overlapping layers, scattered, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“男らしさ”\n演じることを\n強いられる男達"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, hands clasped in front, formal yet soft pose, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "「男は泣くな」が\n抑うつリスクを高める"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "伝統的な男らしさに"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "強く適応する男性ほど、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, eyes softly closed, calm or dreamlike atmosphere, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "うつや不安障害を発症する"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "リスクが高いとされる。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "感情を抑え、自己犠牲を重んじる文化が、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, gaze lowered, reflective mood, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "心理的孤立を深めると報告されている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, light shapes framing the face from side or back, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "男性の\n「聞いてもらえなさ」\nが脳に与える影響"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "感情や悩みを"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "他人に話せない状態が続くと、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "gecko with gemstone scales, light shimmering with each movement, headshot with forehead cropped, cinematic intensity, angled view through a broken side window, subject offset and cropped, taking selfie from tilted camera, not facing directly, subject running across bottom frame edge, blurred, anti-center, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "脳の報酬系に変調が起き、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "意欲や関心が大きく"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "低下することがある。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, hourglass silhouette in backlight, curvy hips, soft lips, sunset glow, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, gaze lowered, reflective mood, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "これは男性に特有の傾向として観測された。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, leaning sideways, hair cascading, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "“男らしさ教育”\nが暴力性を強化する"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "世界各国の青少年に対する調査で、"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "「男は強くあれ」「泣くな」などの価値観を"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, hands clasped in front, formal yet soft pose, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "幼少期に刷り込まれた男子は、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "将来的に怒りの衝動や対人暴力の傾向が"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "強まるリスクが高いことが示された。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, gaze lowered, reflective mood, blurred object partially in foreground, framing face, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "“男らしさ”は内向きだけでなく"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "外向きの攻撃性にも転化する可能性がある。"
+      }
+    ]
+  }
+}

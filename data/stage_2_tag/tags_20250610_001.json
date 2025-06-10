@@ -1,0 +1,255 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.26,
+      "text": "増加する20代\"老害\"\nあなたは大丈夫？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.26,
+      "duration": 3.62,
+      "text": "「老害」とは\n年齢に関わらず\n“思考が停止している”",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 6.88,
+      "duration": 2.29,
+      "text": "「老害」とは年齢に関係なく、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 9.17,
+      "duration": 3.14,
+      "text": "柔軟性の欠如・他者否定・過去志向",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 12.31,
+      "duration": 2.12,
+      "text": "という3つの傾向で定義されるとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 14.43,
+      "duration": 2.28,
+      "text": "若年層であってもこの3要素が揃えば",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 16.71,
+      "duration": 1.51,
+      "text": "“老害”と見なされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 18.23,
+      "duration": 0.95,
+      "text": "つまり老化とは",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 19.18,
+      "duration": 1.93,
+      "text": "肉体ではなく思考の問題でもある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 21.11,
+      "duration": 3.49,
+      "text": "他者を否定しがちな人ほど\n“主観バイアス”が強い",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 24.6,
+      "duration": 1.77,
+      "text": "他人の新しい意見や行動を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 26.37,
+      "duration": 2.31,
+      "text": "「非常識」だとすぐに否定する人は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 28.68,
+      "duration": 1.77,
+      "text": "自分の過去の経験だけを基準に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 30.45,
+      "duration": 1.27,
+      "text": "判断する傾向がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 31.72,
+      "duration": 1.13,
+      "text": "この強いバイアスは、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 32.85,
+      "duration": 1.12,
+      "text": "年齢にかかわらず",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 33.97,
+      "duration": 1.79,
+      "text": "思考の老化を一気に加速させる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 35.77,
+      "duration": 3.63,
+      "text": "SNS世代にも\n“上から目線”\n傾向が顕在化",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 39.39,
+      "duration": 1.97,
+      "text": "SNS上でも若年層の中に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 41.37,
+      "duration": 2.68,
+      "text": "“老害的態度”が見られると報告されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 44.04,
+      "duration": 2.15,
+      "text": "特に「にわか批判」や",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 46.2,
+      "duration": 2.5,
+      "text": "同世代への“説教コメント”など、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 48.69,
+      "duration": 1.87,
+      "text": "思考の柔軟性を欠いた言動が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 50.56,
+      "duration": 1.12,
+      "text": "社会現象として",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 51.68,
+      "duration": 1.49,
+      "text": "可視化されている事例が多い。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, body turned, head looking over shoulder, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "増加する20代\"老害\"\nあなたは大丈夫？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze, shoulder-back view, subject turning face toward camera, viewed from corner with sharp perspective line, subject in lower third, floating pose, hands extending off one side of frame, subject pushed to the extreme edge of the frame, strong negative space, shadows cast in conflicting directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "「老害」とは\n年齢に関わらず\n“思考が停止している”"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "「老害」とは年齢に関係なく、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "柔軟性の欠如・他者否定・過去志向"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "という3つの傾向で定義されるとされる。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "若年層であってもこの3要素が揃えば"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "“老害”と見なされる。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, upper body leaning toward viewer, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "つまり老化とは"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "肉体ではなく思考の問題でもある。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, looking slightly upward, hopeful expression, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "他者を否定しがちな人ほど\n“主観バイアス”が強い"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "他人の新しい意見や行動を"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "「非常識」だとすぐに否定する人は、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "自分の過去の経験だけを基準に"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "判断する傾向がある。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "この強いバイアスは、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "年齢にかかわらず"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "思考の老化を一気に加速させる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, gaze lowered, reflective mood, blurred object partially in foreground, framing face, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "SNS世代にも\n“上から目線”\n傾向が顕在化"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "SNS上でも若年層の中に"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "“老害的態度”が見られると報告されている。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "特に「にわか批判」や"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "同世代への“説教コメント”など、"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "思考の柔軟性を欠いた言動が"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, shiny thick lips, seductive smile, full chest, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, fingers near lips or cheek, subtle flirtation, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "社会現象として"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "可視化されている事例が多い。"
+      }
+    ]
+  }
+}

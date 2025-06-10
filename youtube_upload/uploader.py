@@ -61,11 +61,12 @@ def upload_video(youtube, video_path, title, tags=None, privacy_status="unlisted
                 "ぜひチャンネル登録・高評価お願いします！\n"
                 "#雑学 #ショート動画 #shorts"
             ),
-            "categoryId": "22",  # People & Blogs
+            "categoryId": "28",  # People & Blogs
             "tags": tags or []
         },
         "status": {
             "privacyStatus": "private" if publish_at else privacy_status,
+            "madeForKids": False  # 👈 ここを追加
         }
     }
 

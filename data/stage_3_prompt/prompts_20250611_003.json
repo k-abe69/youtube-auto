@@ -1,0 +1,154 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“気にしすぎる人”\n実は一番優秀？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, arms gently behind back, posture upright, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "不安が強い人は観察力が高い"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "不安傾向の強い人は、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "脳の前頭前野と扁桃体の活動が"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, arms gently behind back, posture upright, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "活発であることがわかっている。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "その結果、周囲の小さな変化に"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "敏感に気づきやすく、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "desert where sand is made of singing crystals, sunlight refracted like rainbows, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, angled view through a broken side window, subject offset and cropped, running motion along slanted ground, angled frame, off-center, subject emerging partially from frame corner, majority off-frame, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "環境への適応力が高いという"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "利点が確認された。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms crossed lightly, relaxed and confident, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "“他人の目を気にする脳”\nが社会性を支えている"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "他者の視線や評価を"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "気にする傾向のある人は、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glamorous woman lounging on a velvet couch, body slightly arched, heavy bust, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, leaning sideways, hair cascading, light shapes framing the face from side or back, light source behind creating glow around hair, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "側頭頭頂接合部（TPJ）の働きが活発である。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "これは空気を読む力や"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "対人関係の調整能力に"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "強く関連しているとされる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, slight smile while looking back over shoulder, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "「自己否定傾向」が\n学習効率を高める？"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "自分の評価を気にする学生は、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "自然と学習の反復や修正行動が多く、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, slight smile while looking back over shoulder, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "結果的に成績が向上しやすい。"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "「気にしすぎる人」は、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "自身のエラーに敏感であるため、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, hand reaching toward the camera softly, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "成長のスピードが速くなる。"
+      }
+    ]
+  }
+}
