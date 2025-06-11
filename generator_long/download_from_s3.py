@@ -25,7 +25,7 @@ def download_images_from_s3(script_id: str):
     )
     bucket_name = "youtube-auto-bk"
     s3_prefix = f"stage_5_image/sd_images/{script_id}/"
-    local_dir = Path(f"data/stage_5_image/{script_id}/images")
+    local_dir = Path(f"data_long/stage_5_image/{script_id}/images")
     local_dir.mkdir(parents=True, exist_ok=True)
 
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=s3_prefix)
