@@ -1,0 +1,154 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, slight smile while looking back over shoulder, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“モテる人”が\n無意識に使っている\n“違和感”の正体"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, gaze lowered, reflective mood, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "視線を合わせすぎない\n人ほど魅力的に見える"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "実験によれば、視線を常に合わせてくる人より、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "時々そらす人のほうが、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, upper body leaning toward viewer, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "「気になる存在」として記憶に残りやすい。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "視線の“間”が謎や奥行きを感じさせ、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "脳の報酬系が無意識に刺激される。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, resting chin on hand, calm expression, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "つまり目を逸らす“違和感”が"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "逆に惹かれる原因になる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, body turned, head looking over shoulder, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "脳は「手が動く人」に\n惹かれる"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "手を使った自然なジェスチャーは、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "脳に“生きた信号”として記録されやすい。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, touching her hair gently, slightly dreamy pose, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "とくに手のひらを見せる仕草は、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "安心や開放感を印象づける。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "つまり言葉よりも先に、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, holding a delicate flower near face, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "“手”が信頼を生み出している。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, hands clasped in front, formal yet soft pose, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "“軽く否定する人”\nがモテる理由"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "軽いツッコミや否定の言葉には、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "会話の主導権を握る力がある。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "clouds forming walls like a labyrinth, paths lit by starlight, extreme close-up with stretched perspective, unrealistic lens, viewed from corner with sharp perspective line, subject in lower third, lying on transparent surface, face to the side, half-framed, subject running across bottom frame edge, blurred, anti-center, background is sharp while subject is blurred, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "相手をからかうような冗談は、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "恋愛的な緊張を生む効果がある。"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "“素直に肯定するだけ”の会話よりも、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "微妙な緊張感が魅力に繋がるという。"
+      }
+    ]
+  }
+}
