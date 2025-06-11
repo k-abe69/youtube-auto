@@ -1,0 +1,245 @@
+{
+  "global_image_tag": "皮肉",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.37,
+      "text": "“努力アピールする人”\nがウザい理由",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.37,
+      "duration": 2.66,
+      "text": "“努力を評価されたい人”\nほど他人を評価しない",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.02,
+      "duration": 3.05,
+      "text": "「自分の努力を認めてほしい」と強く願う人ほど、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 8.07,
+      "duration": 3.08,
+      "text": "他人の努力や成果を認めにくい傾向があることが示された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 11.16,
+      "duration": 1.65,
+      "text": "承認欲求が強すぎると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 12.81,
+      "duration": 2.02,
+      "text": "他者との比較や競争に意識が向き、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 14.83,
+      "duration": 1.82,
+      "text": "協調や共感が失われていく。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 16.65,
+      "duration": 2.45,
+      "text": "その結果、周囲からの信頼や評価が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 19.1,
+      "duration": 2.39,
+      "text": "逆に得られなくなるというジレンマが生じやすい。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 21.49,
+      "duration": 2.23,
+      "text": "“努力の見せすぎ”は逆効果",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 23.72,
+      "duration": 3.52,
+      "text": "人は「自分は努力している」とアピールする相手に対し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 27.24,
+      "duration": 3.69,
+      "text": "共感ではなく“自己中心的”という印象を抱きやすい。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 30.93,
+      "duration": 1.48,
+      "text": "特に第三者がいる場では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 32.42,
+      "duration": 2.68,
+      "text": "「他人より優れている」と感じさせる発言が、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 35.09,
+      "duration": 1.99,
+      "text": "評価ではなく拒否反応を引き起こす。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 37.09,
+      "duration": 4.07,
+      "text": "謙虚な言動の方が、信頼・好感度ともに高くなる傾向がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 41.16,
+      "duration": 2.83,
+      "text": "人は“頑張ってる人”\nを本能的に避ける",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 43.99,
+      "duration": 2.69,
+      "text": "人間は、自分より努力している人を見ると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 46.68,
+      "duration": 4.16,
+      "text": "無意識に「脅威」や「比較負け」を感じるようにできている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 50.84,
+      "duration": 2.57,
+      "text": "これは進化的に、群れの中での順位づけを",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 53.41,
+      "duration": 1.44,
+      "text": "避けるための防衛反応。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 54.85,
+      "duration": 1.9,
+      "text": "そのため、努力のアピールは",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 56.75,
+      "duration": 2.15,
+      "text": "“マウンティング”として受け取られやすく、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 58.9,
+      "duration": 1.8,
+      "text": "好感よりも距離を取られやすくなる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 緊張 (tension)"
+    }
+  ]
+}
