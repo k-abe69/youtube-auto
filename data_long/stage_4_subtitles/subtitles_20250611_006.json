@@ -1,0 +1,380 @@
+[
+  {
+    "scene_id": "scene_01_top",
+    "start_sec": 0.0,
+    "end_sec": 2.6,
+    "text": "あの人、なんか無理…の正体",
+    "type": "main_title_top"
+  },
+  {
+    "scene_id": "scene_02_center",
+    "start_sec": 2.6,
+    "end_sec": 6.19,
+    "text": "初対面で「嫌悪」が生まれる脳のスキャン反応",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_02_top",
+    "start_sec": 6.19,
+    "end_sec": 32.76,
+    "text": "初対面で「嫌悪」が生まれる脳のスキャン反応",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_02",
+    "start_sec": 2.6,
+    "end_sec": 6.19,
+    "text": "コロンビア大学\\N医学部（2017）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_03",
+    "start_sec": 6.19,
+    "end_sec": 13.0,
+    "text": "私たちの脳は、\\N誰かと出会った瞬間、\\Nわずか0.2秒で「この人は\\N安全かどうか」を判断しています。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_04",
+    "start_sec": 13.0,
+    "end_sec": 19.58,
+    "text": "この判断は\\N扁桃体という脳の部位が\\N担っており、表情や声色、\\N目の動きなど非常に些細な情報をもとに、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_05",
+    "start_sec": 19.58,
+    "end_sec": 26.4,
+    "text": "本能的に「危険」と判断した場合には、\\N本人の意識とは無関係に\\N嫌悪感や不快感が湧き上がります。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_06",
+    "start_sec": 26.4,
+    "end_sec": 33.96,
+    "text": "このプロセスは\\N論理的な理解や\\N経験よりも早く起こるため、\\N「なんとなく無理」と感じる相手に\\N理由が見つからないのは\\N自然なことなのです。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_07_center",
+    "start_sec": 33.96,
+    "end_sec": 37.4,
+    "text": "“あの人ムリ”の正体は「ミラーニューロン拒絶」",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_07_top",
+    "start_sec": 37.4,
+    "end_sec": 60.66,
+    "text": "“あの人ムリ”の正体は「ミラーニューロン拒絶」",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_07",
+    "start_sec": 33.96,
+    "end_sec": 37.4,
+    "text": "パリ第六大学\\N脳神経研究所（2014）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_08",
+    "start_sec": 37.4,
+    "end_sec": 41.99,
+    "text": "私たちは普段、無意識に\\N相手の表情や動作をまねて\\N共感を深めています。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_09",
+    "start_sec": 41.99,
+    "end_sec": 46.64,
+    "text": "これは「ミラーニューロン」と\\N呼ばれる神経細胞の\\N働きによるものです。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_10",
+    "start_sec": 46.64,
+    "end_sec": 53.91,
+    "text": "しかし、ある種の人に対して\\Nこの共感回路が作動せず、「同調できない」「なぜか理解できない」と\\N感じることがあります。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_11",
+    "start_sec": 53.91,
+    "end_sec": 62.86,
+    "text": "この拒否反応が\\N生じると、相手の言動が\\Nすべて“異質”に映り、\\N結果として「生理的に無理」という\\N感覚に結びつくのです。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_12_center",
+    "start_sec": 62.86,
+    "end_sec": 66.48,
+    "text": "“無理な人”は実は「自分の影」を映している",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_12_top",
+    "start_sec": 66.48,
+    "end_sec": 89.1,
+    "text": "“無理な人”は実は「自分の影」を映している",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_12",
+    "start_sec": 62.86,
+    "end_sec": 66.48,
+    "text": "ユング心理学研究所\\N（スイス／1965論文再分析）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_13",
+    "start_sec": 66.48,
+    "end_sec": 69.99,
+    "text": "心理学者ユングは、\\N人が他者に強い嫌悪を\\N感じるとき、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_14",
+    "start_sec": 69.99,
+    "end_sec": 75.24,
+    "text": "それは自分自身の中にある\\N“見たくない部分”を\\N投影している可能性が高いと\\N述べました。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_15",
+    "start_sec": 75.24,
+    "end_sec": 78.77,
+    "text": "この理論は\\N「シャドウ・プロジェクション」と\\N呼ばれ、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_16",
+    "start_sec": 78.77,
+    "end_sec": 81.78,
+    "text": "例えば「ずるい人が\\N嫌い」と感じるとき、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_17",
+    "start_sec": 81.78,
+    "end_sec": 87.41,
+    "text": "実は自分の中にも\\Nその要素があると\\N無意識に気づいているからこそ、\\N反発が強くなるというものです。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_18",
+    "start_sec": 87.41,
+    "end_sec": 92.7,
+    "text": "つまり、「なんか無理な人」の中には、\\Nあなた自身の影が\\N潜んでいるかもしれません。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_19_center",
+    "start_sec": 92.7,
+    "end_sec": 95.35,
+    "text": "“匂い”で判断されている場合もある",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_19_top",
+    "start_sec": 95.35,
+    "end_sec": 115.29,
+    "text": "“匂い”で判断されている場合もある",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_19",
+    "start_sec": 92.7,
+    "end_sec": 95.35,
+    "text": "モナシュ大学\\N神経科学研究センター（2018）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_20",
+    "start_sec": 95.35,
+    "end_sec": 101.69,
+    "text": "人間は無意識のうちに、\\N相手の匂いから「好きか嫌いか」を\\N判断していることが\\N研究で明らかになっています。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_21",
+    "start_sec": 101.69,
+    "end_sec": 106.94,
+    "text": "特にHLAと呼ばれる\\N免疫遺伝子の違いが、\\N体臭に含まれる化学物質に現れ、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_22",
+    "start_sec": 106.94,
+    "end_sec": 112.38,
+    "text": "その相性によって\\N「この人は不快」「この人は安心」と\\Nいった感覚が\\N生まれるのです。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_23",
+    "start_sec": 112.38,
+    "end_sec": 119.88,
+    "text": "見た目や性格では\\N説明できない嫌悪感の原因が、\\N実は嗅覚レベルの“相性”に\\Nあったというケースは\\N少なくありません。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_24_center",
+    "start_sec": 119.88,
+    "end_sec": 123.73,
+    "text": "「無理な人」は“共通ルールの逸脱者”だった",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_24_top",
+    "start_sec": 123.73,
+    "end_sec": 148.28,
+    "text": "「無理な人」は“共通ルールの逸脱者”だった",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_24",
+    "start_sec": 119.88,
+    "end_sec": 123.73,
+    "text": "ハーバード大学\\N社会心理学部（2020）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_25",
+    "start_sec": 123.73,
+    "end_sec": 130.44,
+    "text": "私たちは無意識のうちに、\\N職場や友人関係などの\\N集団の中で「暗黙のルール」を\\N共有しています。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_26",
+    "start_sec": 130.44,
+    "end_sec": 137.09,
+    "text": "たとえば「笑うタイミング」「話すスピード」\\N「距離感」など、言葉にしない\\N約束事が存在します。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_27",
+    "start_sec": 137.09,
+    "end_sec": 140.23,
+    "text": "これを守れない、\\Nあるいは大きく外れる人に対して、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_28",
+    "start_sec": 140.23,
+    "end_sec": 147.24,
+    "text": "私たちは「異常」や\\N「違和感」を覚え、「なんか無理」という\\N感情を抱きやすくなります。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_29",
+    "start_sec": 147.24,
+    "end_sec": 154.07,
+    "text": "つまり、“無理な人”とは、\\Nその集団における“共通リズムを\\N壊す存在”であることが\\N多いのです。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_30_center",
+    "start_sec": 154.07,
+    "end_sec": 157.0,
+    "text": "精神的“境界”を踏み越えてくる人",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_30_top",
+    "start_sec": 157.0,
+    "end_sec": 172.26,
+    "text": "精神的“境界”を踏み越えてくる人",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_30",
+    "start_sec": 154.07,
+    "end_sec": 157.0,
+    "text": "スタンフォード大学\\N心理学部（2021）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_31",
+    "start_sec": 157.0,
+    "end_sec": 163.2,
+    "text": "心理的な“バウンダリー\\N（境界線）”とは、自分の内面を\\N守るための無意識の領域です。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_32",
+    "start_sec": 163.2,
+    "end_sec": 167.11,
+    "text": "この境界を\\N無自覚に踏み越えてくる相手――\\N例えば距離感が近すぎる、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_33",
+    "start_sec": 167.11,
+    "end_sec": 170.89,
+    "text": "プライベートな領域に\\N土足で入ってくるような\\N言動を取る人に対して、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_34",
+    "start_sec": 170.89,
+    "end_sec": 173.63,
+    "text": "私たちは強いストレスや\\N不快感を覚えます。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_35",
+    "start_sec": 173.63,
+    "end_sec": 179.25,
+    "text": "その結果、「この人と\\N一緒にいると疲れる」「なんとなく\\N避けたい」といった\\N反応に繋がります。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_36_center",
+    "start_sec": 179.25,
+    "end_sec": 182.24,
+    "text": "過去の“記憶パターン”が無理と言ってる",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_36_top",
+    "start_sec": 182.24,
+    "end_sec": 199.09,
+    "text": "過去の“記憶パターン”が無理と言ってる",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_36",
+    "start_sec": 179.25,
+    "end_sec": 182.24,
+    "text": "UCLA 行動科学研究所\\N（2016）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_37",
+    "start_sec": 182.24,
+    "end_sec": 189.53,
+    "text": "人は過去の人間関係の中で\\N体験した“不快な相手の特徴”を、\\N脳内に無意識のパターンとして\\N保存しています。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_38",
+    "start_sec": 189.53,
+    "end_sec": 194.84,
+    "text": "そして、その記憶と\\N似た声質、話し方、表情、\\N雰囲気を持つ人に\\N出会うと、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_39",
+    "start_sec": 194.84,
+    "end_sec": 200.83,
+    "text": "脳は反射的に\\N「危険」「また嫌な思いをするかも」と判断し、\\N嫌悪感を生み出します。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_40",
+    "start_sec": 200.83,
+    "end_sec": 207.09,
+    "text": "このプロセスは\\N論理的な理由では\\N説明できず、「なぜか無理」としか\\N言えない感覚として\\N現れるのです。",
+    "type": "summary"
+  }
+]

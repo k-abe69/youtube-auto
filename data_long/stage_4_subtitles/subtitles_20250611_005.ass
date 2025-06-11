@@ -1,0 +1,49 @@
+[Script Info]
+Title: Generated
+ScriptType: v4.00+
+Collisions: Normal
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: MainTitle,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,1,5,10,10,30,1
+
+Style: MainTitleCenter,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,2,10,10,40,1
+Style: MainTitleTop,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,8,10,10,30,1
+
+Style: TitleCenter,Noto Sans CJK JP,20,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,5,10,10,30,1
+Style: TitleTop,Noto Sans CJK JP,0,&H00CCCCCC,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,8,10,10,30,1
+
+Style: Source,Noto Sans CJK JP,10,&H00CCCCCC,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,5,0,2,0,0,80,1
+
+Style: Summary,Noto Sans CJK JP,16,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,5,0,2,0,0,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.16,MainTitleTop,,0,0,0,,{\1c&H0000FF&}寝不足{\r}3日で
+Dialogue: 0,0:00:00.00,0:00:02.16,MainTitleCenter,,0,0,0,,{\1c&H0000FF&}性格{\r}が別人に？
+Dialogue: 0,0:00:02.16,0:00:04.09,TitleCenter,,0,0,0,,たった3日で{\1c&H0000FF&}人格{\r}が変化する
+Dialogue: 1,0:00:02.16,0:00:04.09,Source,,0,0,0,,カリフォルニア大学\Nバークレー校\N{\1c&H0000FF&}睡眠{\r}研究所（2017年）
+Dialogue: 0,0:00:04.09,0:00:06.12,Summary,,0,0,0,,3日間の軽度な\N{\1c&H0000FF&}{\1c&H0000FF&}睡眠{\r}不足{\r}でも、
+Dialogue: 0,0:00:06.12,0:00:08.07,Summary,,0,0,0,,{\1c&H33FFFF&}前頭前野{\r}の{\1c&H33FFFF&}活動{\r}が\N低下し、
+Dialogue: 0,0:00:08.07,0:00:10.07,Summary,,0,0,0,,{\1c&H33FFFF&}感情{\r}の制御が\Nうまくできなくなる。
+Dialogue: 0,0:00:10.07,0:00:11.16,Summary,,0,0,0,,{\1c&H33FFFF&}怒り{\r}やすくなる、
+Dialogue: 0,0:00:11.16,0:00:13.07,Summary,,0,0,0,,自分勝手な言動が\N増えるなど、
+Dialogue: 0,0:00:13.07,0:00:14.83,Summary,,0,0,0,,“{\1c&H0000FF&}性格{\r}が変わった\Nように見える”
+Dialogue: 0,0:00:14.83,0:00:17.26,Summary,,0,0,0,,行動はただの\N{\1c&H0000FF&}寝不足{\r}が原因かもしれない。
+Dialogue: 0,0:00:17.26,0:00:19.82,TitleCenter,,0,0,0,,慢性{\1c&H0000FF&}寝不足{\r}は\N“{\1c&H33FFFF&}{\1c&H33FFFF&}脳{\r}{\r}の一部を失う”
+Dialogue: 1,0:00:17.26,0:00:19.82,Source,,0,0,0,,イタリア・マルケ\N工科大学（2016年）
+Dialogue: 0,0:00:19.82,0:00:21.67,Summary,,0,0,0,,慢性的な\N{\1c&H0000FF&}{\1c&H0000FF&}睡眠{\r}不足{\r}では、
+Dialogue: 0,0:00:21.67,0:00:23.89,Summary,,0,0,0,,グリア細胞が\N{\1c&H0000FF&}シナプス{\r}を除去し始め、
+Dialogue: 0,0:00:23.89,0:00:25.48,Summary,,0,0,0,,{\1c&H0000FF&}神経{\r}回路の一部が
+Dialogue: 0,0:00:25.48,0:00:28.23,Summary,,0,0,0,,“{\1c&H0000FF&}自己分解{\r}”される現象が\N確認された。
+Dialogue: 0,0:00:28.23,0:00:30.03,Summary,,0,0,0,,これは単なる\N{\1c&H33FFFF&}疲労{\r}ではなく、
+Dialogue: 0,0:00:30.03,0:00:31.69,Summary,,0,0,0,,{\1c&H33FFFF&}{\1c&H33FFFF&}脳{\r}{\r}の{\1c&H0000FF&}不可逆{\r}的な\Nダメージの
+Dialogue: 0,0:00:31.69,0:00:33.60,Summary,,0,0,0,,{\1c&H0000FF&}可能性{\r}があると\N報告されている。
+Dialogue: 0,0:00:33.60,0:00:37.22,TitleCenter,,0,0,0,,“{\1c&H33FFFF&}{\1c&H0000FF&}睡眠{\r}負債{\r}”の蓄積、\N{\1c&H0000FF&}鬱病{\r}発症率が倍増
+Dialogue: 1,0:00:33.60,0:00:37.22,Source,,0,0,0,,東京大学\N精神医学研究室（2022年）
+Dialogue: 0,0:00:37.22,0:00:39.99,Summary,,0,0,0,,日々1〜2{\1c&H33FFFF&}時間{\r}の\N{\1c&H0000FF&}{\1c&H0000FF&}睡眠{\r}不足{\r}が続く
+Dialogue: 0,0:00:39.99,0:00:42.36,Summary,,0,0,0,,「{\1c&H33FFFF&}{\1c&H0000FF&}睡眠{\r}負債{\r}」が\N蓄積されると、
+Dialogue: 0,0:00:42.36,0:00:44.68,Summary,,0,0,0,,3週間後には\Nうつ症状の{\1c&H33FFFF&}リスク{\r}が
+Dialogue: 0,0:00:44.68,0:00:47.17,Summary,,0,0,0,,通常の約2倍に\Nなることが確認された。
+Dialogue: 0,0:00:47.17,0:00:50.42,Summary,,0,0,0,,{\1c&H0000FF&}寝不足{\r}は{\1c&H0000FF&}メンタル{\r}の\N“静かな{\1c&H33FFFF&}引き金{\r}”となる。

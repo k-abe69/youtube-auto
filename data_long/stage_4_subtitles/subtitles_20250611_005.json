@@ -1,0 +1,212 @@
+[
+  {
+    "scene_id": "scene_01_top",
+    "start_sec": 0.0,
+    "end_sec": 2.17,
+    "text": "寝不足3日で",
+    "type": "main_title_top"
+  },
+  {
+    "scene_id": "scene_01_center",
+    "start_sec": 0.0,
+    "end_sec": 2.17,
+    "text": "性格が別人に？",
+    "type": "main_title_center"
+  },
+  {
+    "scene_id": "scene_02_center",
+    "start_sec": 2.17,
+    "end_sec": 4.1,
+    "text": "たった3日で人格が変化する",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_02_top",
+    "start_sec": 4.1,
+    "end_sec": 15.47,
+    "text": "たった3日で人格が変化する",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_02",
+    "start_sec": 2.17,
+    "end_sec": 4.1,
+    "text": "カリフォルニア大学\\Nバークレー校\\N睡眠研究所（2017年）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_03",
+    "start_sec": 4.1,
+    "end_sec": 6.12,
+    "text": "3日間の軽度な\\N睡眠不足でも、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_04",
+    "start_sec": 6.12,
+    "end_sec": 8.07,
+    "text": "前頭前野の活動が\\N低下し、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_05",
+    "start_sec": 8.07,
+    "end_sec": 10.07,
+    "text": "感情の制御が\\Nうまくできなくなる。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_06",
+    "start_sec": 10.07,
+    "end_sec": 11.17,
+    "text": "怒りやすくなる、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_07",
+    "start_sec": 11.17,
+    "end_sec": 13.07,
+    "text": "自分勝手な言動が\\N増えるなど、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_08",
+    "start_sec": 13.07,
+    "end_sec": 14.84,
+    "text": "“性格が変わった\\Nように見える”",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_09",
+    "start_sec": 14.84,
+    "end_sec": 17.27,
+    "text": "行動はただの\\N寝不足が原因かもしれない。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_10_center",
+    "start_sec": 17.27,
+    "end_sec": 19.82,
+    "text": "慢性寝不足は\n“脳の一部を失う”",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_10_top",
+    "start_sec": 19.82,
+    "end_sec": 30.21,
+    "text": "慢性寝不足は\n“脳の一部を失う”",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_10",
+    "start_sec": 17.27,
+    "end_sec": 19.82,
+    "text": "イタリア・マルケ\\N工科大学（2016年）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_11",
+    "start_sec": 19.82,
+    "end_sec": 21.67,
+    "text": "慢性的な\\N睡眠不足では、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_12",
+    "start_sec": 21.67,
+    "end_sec": 23.9,
+    "text": "グリア細胞が\\Nシナプスを除去し始め、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_13",
+    "start_sec": 23.9,
+    "end_sec": 25.48,
+    "text": "神経回路の一部が",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_14",
+    "start_sec": 25.48,
+    "end_sec": 28.24,
+    "text": "“自己分解”される現象が\\N確認された。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_15",
+    "start_sec": 28.24,
+    "end_sec": 30.04,
+    "text": "これは単なる\\N疲労ではなく、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_16",
+    "start_sec": 30.04,
+    "end_sec": 31.69,
+    "text": "脳の不可逆的な\\Nダメージの",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_17",
+    "start_sec": 31.69,
+    "end_sec": 33.61,
+    "text": "可能性があると\\N報告されている。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_18_center",
+    "start_sec": 33.61,
+    "end_sec": 37.23,
+    "text": "“睡眠負債”の蓄積、\n鬱病発症率が倍増",
+    "type": "title_center"
+  },
+  {
+    "scene_id": "scene_18_top",
+    "start_sec": 37.23,
+    "end_sec": 45.83,
+    "text": "“睡眠負債”の蓄積、\n鬱病発症率が倍増",
+    "type": "title_top"
+  },
+  {
+    "scene_id": "scene_18",
+    "start_sec": 33.61,
+    "end_sec": 37.23,
+    "text": "東京大学\\N精神医学研究室（2022年）",
+    "type": "source"
+  },
+  {
+    "scene_id": "scene_19",
+    "start_sec": 37.23,
+    "end_sec": 39.99,
+    "text": "日々1〜2時間の\\N睡眠不足が続く",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_20",
+    "start_sec": 39.99,
+    "end_sec": 42.37,
+    "text": "「睡眠負債」が\\N蓄積されると、",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_21",
+    "start_sec": 42.37,
+    "end_sec": 44.69,
+    "text": "3週間後には\\Nうつ症状のリスクが",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_22",
+    "start_sec": 44.69,
+    "end_sec": 47.17,
+    "text": "通常の約2倍に\\Nなることが確認された。",
+    "type": "summary"
+  },
+  {
+    "scene_id": "scene_23",
+    "start_sec": 47.17,
+    "end_sec": 50.43,
+    "text": "寝不足はメンタルの\\N“静かな引き金”となる。",
+    "type": "summary"
+  }
+]

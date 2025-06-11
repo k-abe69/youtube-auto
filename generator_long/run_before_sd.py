@@ -19,10 +19,10 @@ while True:
     print(f"▶️ 処理対象 script_id: {script_id}")
 
     # 各ステージを順番に実行
-    subprocess.run(["python", "generator/generate_audio.py", "--script_id", script_id])
-    subprocess.run(["python", "generator/tag_generator.py", "--script_id", script_id])
-    subprocess.run(["python", "generator/generate_sd_prompt.py", "--script_id", script_id])
-    subprocess.run(["python", "generator/generate_subtitles.py", "--script_id", script_id])
+    subprocess.run(["python", "generator_long/generate_audio.py", "--script_id", script_id])
+    subprocess.run(["python", "generator_long/tag_generator.py", "--script_id", script_id])
+    subprocess.run(["python", "generator_long/generate_sd_prompt.py", "--script_id", script_id])
+    subprocess.run(["python", "generator_long/generate_subtitles.py", "--script_id", script_id])
 
 
     print(f"[✓] script_id={script_id} に対する全処理が完了しました。\n")

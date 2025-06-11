@@ -1,0 +1,258 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, low-cut evening dress, glossy hair, busty and elegant, soft indoor shadows, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, resting chin on hand, calm expression, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "あの人、なんか無理…の正体"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "初対面で「嫌悪」が生まれる脳のスキャン反応"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "私たちの脳は、誰かと出会った瞬間、わずか0.2秒で「この人は安全かどうか」を判断しています。"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "この判断は扁桃体という脳の部位が担っており、表情や声色、目の動きなど非常に些細な情報をもとに、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "本能的に「危険」と判断した場合には、本人の意識とは無関係に嫌悪感や不快感が湧き上がります。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "このプロセスは論理的な理解や経験よりも早く起こるため、「なんとなく無理」と感じる相手に理由が見つからないのは自然なことなのです。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, subject seen through an endless corridor or portal, exaggerated depth, angled underwater perspective, camera tilted, subject half-in frame, body fragmenting toward left or right frame, non-radial, scene cut across diagonally with light or shadow, subject floats across at edge, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_07",
+        "text": "“あの人ムリ”の正体は「ミラーニューロン拒絶」"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "私たちは普段、無意識に相手の表情や動作をまねて共感を深めています。"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "これは「ミラーニューロン」と呼ばれる神経細胞の働きによるものです。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "ocean waves stacked vertically into a tower, boats circling it upward, distant shot, tiny subject, wide surreal background, severe Dutch angle with asymmetric framing, tension emphasis, lying on transparent surface, face to the side, half-framed, frame split vertically with two worlds, subject compressed to one side, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "しかし、ある種の人に対してこの共感回路が作動せず、「同調できない」「なぜか理解できない」と感じることがあります。"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "この拒否反応が生じると、相手の言動がすべて“異質”に映り、結果として「生理的に無理」という感覚に結びつくのです。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, hand reaching toward the camera softly, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "“無理な人”は実は「自分の影」を映している"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "心理学者ユングは、人が他者に強い嫌悪を感じるとき、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "それは自分自身の中にある“見たくない部分”を投影している可能性が高いと述べました。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "moth with feathers instead of wings, patterns shifting as it flutters, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, severe Dutch angle with asymmetric framing, tension emphasis, floating pose, hands extending off one side of frame, subject emerging partially from frame corner, majority off-frame, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "この理論は「シャドウ・プロジェクション」と呼ばれ、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "例えば「ずるい人が嫌い」と感じるとき、"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "実は自分の中にもその要素があると無意識に気づいているからこそ、反発が強くなるというものです。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, distant shot, tiny subject, wide surreal background, angled view through a broken side window, subject offset and cropped, lying on transparent surface, face to the side, half-framed, scene cut across diagonally with light or shadow, subject floats across at edge, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "つまり、「なんか無理な人」の中には、あなた自身の影が潜んでいるかもしれません。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, gaze lowered, reflective mood, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "“匂い”で判断されている場合もある"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "人間は無意識のうちに、相手の匂いから「好きか嫌いか」を判断していることが研究で明らかになっています。"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "特にHLAと呼ばれる免疫遺伝子の違いが、体臭に含まれる化学物質に現れ、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "city made of soft fog and light, buildings flicker in and out of view, subject seen through an endless corridor or portal, exaggerated depth, viewed from corner with sharp perspective line, subject in lower third, body fragmenting toward left or right frame, non-radial, subject emerging partially from frame corner, majority off-frame, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "その相性によって「この人は不快」「この人は安心」といった感覚が生まれるのです。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "見た目や性格では説明できない嫌悪感の原因が、実は嗅覚レベルの“相性”にあったというケースは少なくありません。"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, upper body leaning toward viewer, background blurred to focus sharply on eyes, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "「無理な人」は“共通ルールの逸脱者”だった"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "私たちは無意識のうちに、職場や友人関係などの集団の中で「暗黙のルール」を共有しています。"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "たとえば「笑うタイミング」「話すスピード」「距離感」など、言葉にしない約束事が存在します。"
+      }
+    ]
+  },
+  "012": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, resting chin on hand, calm expression, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_27",
+        "text": "これを守れない、あるいは大きく外れる人に対して、"
+      },
+      {
+        "scene_id": "scene_28",
+        "text": "私たちは「異常」や「違和感」を覚え、「なんか無理」という感情を抱きやすくなります。"
+      },
+      {
+        "scene_id": "scene_29",
+        "text": "つまり、“無理な人”とは、その集団における“共通リズムを壊す存在”であることが多いのです。"
+      }
+    ]
+  },
+  "013": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, body turned, head looking over shoulder, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_30",
+        "text": "精神的“境界”を踏み越えてくる人"
+      },
+      {
+        "scene_id": "scene_31",
+        "text": "心理的な“バウンダリー（境界線）”とは、自分の内面を守るための無意識の領域です。"
+      },
+      {
+        "scene_id": "scene_32",
+        "text": "この境界を無自覚に踏み越えてくる相手――例えば距離感が近すぎる、"
+      }
+    ]
+  },
+  "014": {
+    "prompt": "forest frozen in multiple seasons simultaneously, color distortion everywhere, subject seen through an endless corridor or portal, exaggerated depth, ceiling becomes floor, subject positioned diagonally, climbing diagonally across a wall, angle from below-left, motion blur in horizontal pan, subject near far edge of image, lighting from two contradictory directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_33",
+        "text": "プライベートな領域に土足で入ってくるような言動を取る人に対して、"
+      },
+      {
+        "scene_id": "scene_34",
+        "text": "私たちは強いストレスや不快感を覚えます。"
+      },
+      {
+        "scene_id": "scene_35",
+        "text": "その結果、「この人と一緒にいると疲れる」「なんとなく避けたい」といった反応に繋がります。"
+      }
+    ]
+  },
+  "015": {
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, silhouette in unnatural lighting, distorted horizon, angled underwater perspective, camera tilted, subject half-in frame, lying on transparent surface, face to the side, half-framed, subject shown through uneven mirror shards, overlapping layers, scattered, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_36",
+        "text": "過去の“記憶パターン”が無理と言ってる"
+      },
+      {
+        "scene_id": "scene_37",
+        "text": "人は過去の人間関係の中で体験した“不快な相手の特徴”を、脳内に無意識のパターンとして保存しています。"
+      },
+      {
+        "scene_id": "scene_38",
+        "text": "そして、その記憶と似た声質、話し方、表情、雰囲気を持つ人に出会うと、"
+      }
+    ]
+  },
+  "016": {
+    "prompt": "bird composed of a moving swarm of smaller glowing birds, headshot with forehead cropped, cinematic intensity, angled underwater perspective, camera tilted, subject half-in frame, body fragmenting toward left or right frame, non-radial, only part of body visible, most is cropped out in motion, avoids central framing, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_39",
+        "text": "脳は反射的に「危険」「また嫌な思いをするかも」と判断し、嫌悪感を生み出します。"
+      },
+      {
+        "scene_id": "scene_40",
+        "text": "このプロセスは論理的な理由では説明できず、「なぜか無理」としか言えない感覚として現れるのです。"
+      }
+    ]
+  }
+}
