@@ -21,7 +21,7 @@ from common.script_utils import parse_args_script_id, mark_script_completed, get
 
 backup_script(__file__)
 save_config_snapshot()
-from generator.prompt_persona import get_image_for_scene  # 画像生成を統括する関数
+from generator_long.prompt_persona import get_image_for_scene  # 画像生成を統括する関数
 
 from PIL import Image
 import imagehash

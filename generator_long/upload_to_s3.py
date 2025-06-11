@@ -22,7 +22,7 @@ def upload_images_to_s3(script_id: str):
     )
 
     bucket_name = "youtube-auto-bk"
-    local_dir = Path(f"data/stage_5_image/{script_id}/images")
+    local_dir = Path(f"data_long/stage_5_image/{script_id}/images")
     s3_prefix = f"stage_5_image/sd_images/{script_id}/"
 
     if not local_dir.exists():
