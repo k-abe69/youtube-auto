@@ -1,0 +1,265 @@
+{
+  "global_image_tag": "ホラー",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.14,
+      "text": "真面目に働くほど\n信用されなくなる？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.14,
+      "duration": 2.35,
+      "text": "地道に頑張る人ほど\n“成果がない”",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.49,
+      "duration": 1.38,
+      "text": "目立った実績を出さずに",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 5.87,
+      "duration": 1.78,
+      "text": "コツコツ努力を続けている人は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 7.65,
+      "duration": 2.07,
+      "text": "周囲から「結果を出せていない人」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 9.72,
+      "duration": 1.23,
+      "text": "と低評価を受けやすい。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 10.94,
+      "duration": 1.57,
+      "text": "特に成果主義の職場では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 12.51,
+      "duration": 1.56,
+      "text": "「やっているようで何も残らない」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 14.07,
+      "duration": 1.99,
+      "text": "と認識され、信頼や期待を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 16.06,
+      "duration": 1.31,
+      "text": "徐々に失うリスクがある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 17.38,
+      "duration": 2.63,
+      "text": "「全部やってくれる人」\nは責任感がない？",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 20.01,
+      "duration": 1.69,
+      "text": "真面目に全てを引き受ける人は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 21.7,
+      "duration": 2.68,
+      "text": "“責任を他人に分担させない人”として",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 24.37,
+      "duration": 1.43,
+      "text": "ネガティブに見られることがある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 25.8,
+      "duration": 2.73,
+      "text": "チームにおいては「適切に任せる力」も",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 28.53,
+      "duration": 1.78,
+      "text": "リーダーシップとして評価されるため、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 30.31,
+      "duration": 2.51,
+      "text": "全部自分でやる人＝任せられない人",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 32.82,
+      "duration": 1.65,
+      "text": "という構図で信用されにくい。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 34.47,
+      "duration": 3.38,
+      "text": "真面目すぎる人は\n“腹に一物ある”\nと疑われる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 37.86,
+      "duration": 2.44,
+      "text": "過度に誠実・献身的な振る舞いは、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 40.3,
+      "duration": 2.37,
+      "text": "他人から「裏に何かあるのでは」と",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 42.67,
+      "duration": 1.34,
+      "text": "疑念を抱かせることがある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 44.01,
+      "duration": 3.14,
+      "text": "“人は利己的である”という進化的前提に反すると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 47.15,
+      "duration": 2.43,
+      "text": "かえって不気味・信用できないと感じられ、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 49.58,
+      "duration": 3.06,
+      "text": "特に競争環境では「善人ぶってる」と",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 52.64,
+      "duration": 1.53,
+      "text": "敵意の対象にされやすい。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 怒り (anger)"
+    }
+  ]
+}

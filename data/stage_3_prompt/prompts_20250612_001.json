@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "a lake curving inward like a vortex, boats caught in circular drift, distant shot, tiny subject, wide surreal background, angled underwater perspective, camera tilted, subject half-in frame, running motion along slanted ground, angled frame, off-center, main subject located in top left or right corner, sky dominant, asymmetric, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "「親ガチャ」\n存在証明してみた"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "bird that leaves ink drops behind mid-flight, tail trailing into calligraphy, headshot with forehead cropped, cinematic intensity, top-down angle with subject placed off-center, avoids symmetry, body fragmenting toward left or right frame, non-radial, motion blur in horizontal pan, subject near far edge of image, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "遺伝より\n“家庭環境”が決め手"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "子どもの学業成績には"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "遺伝的な要素よりも、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, arms gently behind back, posture upright, light shapes framing the face from side or back, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "幼少期に受けた家庭内の支援や"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "学習環境の方が"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "はるかに大きな影響を与えるとされる。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "とくに読み聞かせや語彙の刺激が"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "認知能力の発達を促進するという"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "結果が得られている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "majestic stag with branching antlers made of crystal, catching rainbow light, extremely distant perspective from space or high orbit, viewed from below with strong tilt, subject placed near frame edge, running motion along slanted ground, angled frame, off-center, subject running across bottom frame edge, blurred, anti-center, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "情緒が育ちにくい\n家庭環境"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "怒鳴る・無視する・過干渉など、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "親の未熟な感情表現が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "子どもの情緒安定に深刻な影響を与える。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "とくに感情の起伏が激しい親を持つ子どもは、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "感情認知・表現・制御のスキルが"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "sky is below and ground is above, gravity reversed, clouds falling upward, colors unnatural, side angle close-up with focus on cheek and ear, cropped frame, top-down angle with subject placed off-center, avoids symmetry, running motion along slanted ground, angled frame, off-center, horizon twisted, sky blends into floor, subject falling diagonally, background is sharp while subject is blurred, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "育ちにくく、対人関係でも"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "不安定な振る舞いを示すことが多い。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glamorous woman lounging on a velvet couch, body slightly arched, heavy bust, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "貧困層の子どもは\n“自己抑制力”が低下"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "慢性的な経済的不安に晒される子どもは、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "脳の前頭前皮質の発達が"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, light shapes framing the face from side or back, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "抑制される傾向がある。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "この領域は衝動の抑制や計画性に"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "関与しており、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "長期的な目標達成や社会的規範への適応に"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "困難を抱える可能性があると示唆されている。"
+      }
+    ]
+  }
+}

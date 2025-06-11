@@ -1,0 +1,45 @@
+{
+  "global_image_tag": "その他",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.14,
+      "text": "真面目に働くほど\n信用されなくなる？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.14,
+      "duration": 2.35,
+      "text": "地道に頑張る人ほど\n“成果がない”",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.49,
+      "duration": 2.63,
+      "text": "「全部やってくれる人」\nは責任感がない？",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 7.13,
+      "duration": 3.38,
+      "text": "真面目すぎる人は\n“腹に一物ある”\nと疑われる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 緊張 (tension)"
+    }
+  ]
+}

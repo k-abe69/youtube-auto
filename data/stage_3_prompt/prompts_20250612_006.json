@@ -1,0 +1,140 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, hand reaching toward the camera softly, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "脳の90%が\n使われていない\nというのは嘘"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "a valley where lightning is frozen in midair, illuminating the terrain eternally, headshot with forehead cropped, cinematic intensity, ceiling becomes floor, subject positioned diagonally, running motion along slanted ground, angled frame, off-center, subject shown through uneven mirror shards, overlapping layers, scattered, shadows cast in conflicting directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "“脳の10%しか\n使っていない”\nは科学的に誤り"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "現代の脳画像技術（fMRIなど）では、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "脳はほぼ常に全域で活動しており、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, hands clasped in front, formal yet soft pose, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "使われていない領域など存在しない。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "安静時ですら複数の部位が"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "同時に働いており、「10%説」は"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "科学的に完全な誤情報とされている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, fingers near lips or cheek, subtle flirtation, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "“10%説”の出所は\n20世紀初頭の誤読"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "ウィリアム・ジェームズら心理学者が"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "「人間は持てる潜在能力の一部しか使っていない」"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "と語った発言が、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "“脳の10%しか使われていない”という"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "物理的誤解に変換されて広まった。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "原文には数値も科学的根拠もなかった。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, hand reaching toward the camera softly, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "NASAが“10%説”を\n支持した\nというのも嘘"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "都市伝説の中には「NASAが言っていた」とされる"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "出典不明の引用があるが、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "landscape composed of floating photograph fragments, memories fading midair, distant shot, tiny subject, wide surreal background, viewed from corner with sharp perspective line, subject in lower third, climbing diagonally across a wall, angle from below-left, subject running across bottom frame edge, blurred, anti-center, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "NASAはこれを公式に否定している。"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "実際には“10%説”に関する研究も声明も"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "NASAから出たことは一度もない。"
+      }
+    ]
+  }
+}

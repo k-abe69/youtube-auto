@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, hands clasped in front, formal yet soft pose, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
-    "theme": "beauty",
+    "prompt": "a lake curving inward like a vortex, boats caught in circular drift, scene viewed through a small hole or tunnel, warped edges, angled underwater perspective, camera tilted, subject half-in frame, floating pose, hands extending off one side of frame, motion blur in horizontal pan, subject near far edge of image, background is sharp while subject is blurred, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, extremely distant perspective from space or high orbit, viewed from below with strong tilt, subject placed near frame edge, jumping midair at diagonal angle, limbs offset, subject cropped, subject running across bottom frame edge, blurred, anti-center, intense lens flare from unnatural light source, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,7 +28,7 @@
     ]
   },
   "003": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -41,117 +41,99 @@
       },
       {
         "scene_id": "scene_07",
-        "text": "組織内で埋もれるケースは少なくない。"
-      }
-    ]
-  },
-  "004": {
-    "prompt": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, stretching motion mid-action, not facing front, cropped, horizon twisted, sky blends into floor, subject falling diagonally, blurred view as if seen through shattered glass, ",
-    "theme": "scenery",
-    "scenes": [
-      {
-        "scene_id": "scene_08",
         "text": "出世や昇給とも必ずしも直結していない実態がある。"
       }
     ]
   },
-  "005": {
-    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, extremely distant perspective from space or high orbit, viewed from below with strong tilt, subject placed near frame edge, running motion along slanted ground, angled frame, off-center, subject pushed to the extreme edge of the frame, strong negative space, dense fog with colored lights and silhouette, ",
-    "theme": "scenery",
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, tight head-and-shoulders crop, minimal background, soft glow around subject with light bloom, ",
+    "theme": "girl",
     "scenes": [
       {
-        "scene_id": "scene_09",
+        "scene_id": "scene_08",
         "text": "高学歴ほど\nメンタルを病みやすい"
       },
       {
-        "scene_id": "scene_10",
+        "scene_id": "scene_09",
         "text": "大学院卒・難関大学卒の社会人は、"
       },
       {
-        "scene_id": "scene_11",
+        "scene_id": "scene_10",
         "text": "中卒・高卒に比べて約1.7倍のうつ傾向を示した。"
       }
     ]
   },
-  "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, body turned, head looking over shoulder, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
-    "theme": "normal_beauty",
+  "005": {
+    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, extremely distant perspective from space or high orbit, angled underwater perspective, camera tilted, subject half-in frame, jumping midair at diagonal angle, limbs offset, subject cropped, composition with no symmetry, elements scattered unevenly, avoids centering, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
     "scenes": [
       {
-        "scene_id": "scene_12",
+        "scene_id": "scene_11",
         "text": "高学歴層ほど「期待に応えなければ」という"
       },
       {
-        "scene_id": "scene_13",
+        "scene_id": "scene_12",
         "text": "プレッシャーが強く、"
       },
       {
-        "scene_id": "scene_14",
-        "text": "業務負荷や成果評価とのギャップに苦しむ傾向がある。"
+        "scene_id": "scene_13",
+        "text": "自己効力感の低下が続くと、"
       }
     ]
   },
-  "007": {
-    "prompt": "horse mid-gallop, body melting into paint streams as it runs, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, jumping midair at diagonal angle, limbs offset, subject cropped, viewed from a crack in the ground, subject half-cropped above, asymmetrical, multiple vanishing points converging unnaturally, ",
-    "theme": "animal",
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, gaze lowered, reflective mood, blurred object partially in foreground, framing face, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_15",
-        "text": "自己効力感の低下が続くと、"
-      },
-      {
-        "scene_id": "scene_16",
+        "scene_id": "scene_14",
         "text": "早期離職や引きこもりにも繋がる。"
       }
     ]
   },
-  "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glamorous woman lounging on a velvet couch, body slightly arched, heavy bust, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, eyes softly closed, calm or dreamlike atmosphere, blurred object partially in foreground, framing face, emphasis on skin texture like silk, gentle lighting, ",
-    "theme": "girl",
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_17",
+        "scene_id": "scene_15",
         "text": "学歴は年収に直結しない時代へ"
       },
       {
-        "scene_id": "scene_18",
+        "scene_id": "scene_16",
         "text": "1990年代までは「学歴＝年収」という"
       },
       {
-        "scene_id": "scene_19",
+        "scene_id": "scene_17",
         "text": "相関が明確だったが、"
       }
     ]
   },
-  "009": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
-    "theme": "normal_beauty",
+  "008": {
+    "prompt": "sunset shattered across geometric planes in the air, shoulder-back view, subject turning face toward camera, viewed from corner with sharp perspective line, subject in lower third, taking selfie from tilted camera, not facing directly, subject emerging partially from frame corner, majority off-frame, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
     "scenes": [
       {
-        "scene_id": "scene_20",
+        "scene_id": "scene_18",
         "text": "2010年代以降は急速に相関が薄れてきた。"
       },
       {
-        "scene_id": "scene_21",
+        "scene_id": "scene_19",
         "text": "特にホワイトカラー職では、"
       },
       {
-        "scene_id": "scene_22",
+        "scene_id": "scene_20",
         "text": "スキルや営業実績など「実績主義」が強まり、"
       }
     ]
   },
-  "010": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, hands clasped in front, formal yet soft pose, blurred object partially in foreground, framing face, soft glow around subject with light bloom, ",
-    "theme": "girl",
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, looking slightly upward, hopeful expression, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_23",
+        "scene_id": "scene_21",
         "text": "高学歴だけでは高収入に到達しにくい傾向が強まっている。"
-      },
-      {
-        "scene_id": "scene_24",
-        "text": "“地頭よりも実績”の時代が進行中。"
       }
     ]
   }

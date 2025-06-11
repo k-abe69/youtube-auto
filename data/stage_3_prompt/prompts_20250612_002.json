@@ -1,0 +1,42 @@
+{
+  "001": {
+    "prompt": "bird composed of a moving swarm of smaller glowing birds, scene viewed through a small hole or tunnel, warped edges, severe Dutch angle with asymmetric framing, tension emphasis, running motion along slanted ground, angled frame, off-center, horizon twisted, sky blends into floor, subject falling diagonally, tunnel view into a mirror world, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "真面目に働くほど\n信用されなくなる？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "地道に頑張る人ほど\n“成果がない”"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, arms crossed lightly, relaxed and confident, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "「全部やってくれる人」\nは責任感がない？"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, arms crossed lightly, relaxed and confident, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_04",
+        "text": "真面目すぎる人は\n“腹に一物ある”\nと疑われる"
+      }
+    ]
+  }
+}

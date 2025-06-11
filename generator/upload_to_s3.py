@@ -39,7 +39,7 @@ def upload_images_to_s3(script_id: str):
 
 if __name__ == "__main__":
     # テスト用script_idを指定
-    upload_images_to_s3("20250611_001")
-    upload_images_to_s3("20250611_002")
-    upload_images_to_s3("20250611_003")
-    upload_images_to_s3("20250611_004")
+    upload_images_to_s3("20250611_016")
+    # upload_images_to_s3("20250611_014")
+    # upload_images_to_s3("20250611_015")
+    # upload_images_to_s3("20250611_004")

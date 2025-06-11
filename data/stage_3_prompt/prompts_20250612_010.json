@@ -1,0 +1,130 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "幽霊の気配は\n脳のバグだった"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, resting chin on hand, calm expression, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "“背後に誰かいる感覚”\nは脳の誤作動だった"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "パーキンソン病や幻覚症状のある患者に多い"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「誰かが背後にいる」感覚は、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, hand reaching toward the camera softly, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "前頭頭頂ネットワークの錯調によるものと判明。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "自己と他者の境界を管理するこの回路が乱れると、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "“自分の動き”が“他者の存在”として誤認される。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "極限状態の脳は\n「他者の幻」を\n作りやすい"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "孤独・酸素欠乏・極度のストレス下では、"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "脳が“擬似的な他者”を作り出すことがある。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "これは登山家・潜水士・宇宙飛行士に共通する現象で、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "「誰かがそばにいた」「導かれている気がした」"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "という感覚が頻発。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, face positioned off-center with balanced lighting, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "脳が孤独に耐えるための緊急処理とみなされている。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "majestic stag with branching antlers made of crystal, catching rainbow light, waist-up composition, hands partially visible, balanced framing, viewed from corner with sharp perspective line, subject in lower third, running motion along slanted ground, angled frame, off-center, only part of body visible, most is cropped out in motion, avoids central framing, tunnel view into a mirror world, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "“霊の気配”とされる\nゾクッとする感覚は\n体温調整反応"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "人が突然“寒気”や“鳥肌”を感じる現象は、"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "不安や緊張時に起こる自律神経の反応であり、"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, resting chin on hand, calm expression, shoulders perfectly centered, symmetric framing, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "環境変化とは無関係に発生することがある。"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "この生理現象が「何かが通った」などの"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "“気配の正体”として解釈されることがある。"
+      }
+    ]
+  }
+}

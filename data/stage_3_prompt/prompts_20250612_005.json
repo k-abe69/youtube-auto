@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, silhouette in unnatural lighting, distorted horizon, severe Dutch angle with asymmetric framing, tension emphasis, taking selfie from tilted camera, not facing directly, motion blur in horizontal pan, subject near far edge of image, background is sharp while subject is blurred, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "真面目に働くほど\n信用されなくなる？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, arms crossed lightly, relaxed and confident, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "地道に頑張る人ほど\n“成果がない”"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "目立った実績を出さずに"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "コツコツ努力を続けている人は、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, fingers near lips or cheek, subtle flirtation, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "周囲から「結果を出せていない人」"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "と低評価を受けやすい。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "特に成果主義の職場では、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "panther reflecting its surroundings like liquid metal, shifting constantly, distant shot, tiny subject, wide surreal background, viewed from below with strong tilt, subject placed near frame edge, climbing diagonally across a wall, angle from below-left, scene cut across diagonally with light or shadow, subject floats across at edge, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "「やっているようで何も残らない」"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "と認識され、信頼や期待を"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "徐々に失うリスクがある。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "「全部やってくれる人」\nは責任感がない？"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "真面目に全てを引き受ける人は、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "“責任を他人に分担させない人”として"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "an upside-down submerged city floating in the sky, buildings distorted in water, extreme close-up with stretched perspective, unrealistic lens, ceiling becomes floor, subject positioned diagonally, twisting body diagonally, motion trail along frame edge, scene cut across diagonally with light or shadow, subject floats across at edge, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "ネガティブに見られることがある。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "チームにおいては「適切に任せる力」も"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "リーダーシップとして評価されるため、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "elephant made of colored glass panes, trunk steaming with light, scene viewed through a small hole or tunnel, warped edges, angled view through a broken side window, subject offset and cropped, running motion along slanted ground, angled frame, off-center, subject running across bottom frame edge, blurred, anti-center, intense lens flare from unnatural light source, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "全部自分でやる人＝任せられない人"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "という構図で信用されにくい。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, leaning sideways, hair cascading, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "真面目すぎる人は\n“腹に一物ある”\nと疑われる"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "過度に誠実・献身的な振る舞いは、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "他人から「裏に何かあるのでは」と"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "疑念を抱かせることがある。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "“人は利己的である”という進化的前提に反すると、"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "かえって不気味・信用できないと感じられ、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, hands clasped in front, formal yet soft pose, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "特に競争環境では「善人ぶってる」と"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "敵意の対象にされやすい。"
+      }
+    ]
+  }
+}

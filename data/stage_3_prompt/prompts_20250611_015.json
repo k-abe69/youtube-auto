@@ -1,16 +1,16 @@
 {
   "001": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, looking slightly upward, hopeful expression, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
-    "theme": "normal_beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, body turned, head looking over shoulder, background blurred to focus sharply on eyes, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_01",
-        "text": "“正しい人”は\n嫌われるんです"
+        "text": "“正しい”のに\n嫌われる理由"
       }
     ]
   },
   "002": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, looking slightly upward, hopeful expression, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, body turned, head looking over shoulder, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -19,143 +19,107 @@
       },
       {
         "scene_id": "scene_03",
-        "text": "実験によれば、人は論理的に"
+        "text": "人は論理的に正しい意見であっても、"
       },
       {
         "scene_id": "scene_04",
-        "text": "正しい意見であっても、"
+        "text": "自分の価値観を否定されたと感じると、"
       }
     ]
   },
   "003": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
-    "theme": "beauty",
+    "prompt": "sunset shattered across geometric planes in the air, silhouette in unnatural lighting, distorted horizon, ceiling becomes floor, subject positioned diagonally, running motion along slanted ground, angled frame, off-center, motion blur in horizontal pan, subject near far edge of image, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_05",
-        "text": "自分の価値観を否定されたと感じると、"
-      },
-      {
-        "scene_id": "scene_06",
         "text": "脳の扁桃体が反応し、"
       },
       {
-        "scene_id": "scene_07",
+        "scene_id": "scene_06",
         "text": "危険や拒絶と同じストレスパターンを示す。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "論理の正否よりも"
       }
     ]
   },
   "004": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, background blurred to focus sharply on eyes, gentle bokeh in background, soft tones, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
     "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_08",
-        "text": "このとき論理の正否よりも、"
-      },
-      {
-        "scene_id": "scene_09",
         "text": "「自分を否定された」ことへの反発が感情を支配する。"
-      },
-      {
-        "scene_id": "scene_10",
-        "text": "つまり、正しさは時に“脅威”として認識される。"
       }
     ]
   },
   "005": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, leaning sideways, hair cascading, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_11",
+        "scene_id": "scene_09",
         "text": "共感より正義を\n優先すると\n社会的評価が下がる"
       },
       {
-        "scene_id": "scene_12",
+        "scene_id": "scene_10",
         "text": "他人の間違いを正す行動をとる人は、"
       },
       {
-        "scene_id": "scene_13",
-        "text": "倫理的には賞賛されるものの、"
+        "scene_id": "scene_11",
+        "text": "対人評価では「冷たい」「付き合いづらい」とされる傾向がある。"
       }
     ]
   },
   "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, leaning sideways, hair cascading, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
-    "theme": "girl",
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, top-down angle with subject placed off-center, avoids symmetry, body fragmenting toward left or right frame, non-radial, viewed from a crack in the ground, subject half-cropped above, asymmetrical, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
     "scenes": [
       {
-        "scene_id": "scene_14",
-        "text": "対人評価では「冷たい」「付き合いづらい」とされる傾向がある。"
-      },
-      {
-        "scene_id": "scene_15",
+        "scene_id": "scene_12",
         "text": "特に集団内では、共感や同調のほうが"
       },
       {
-        "scene_id": "scene_16",
+        "scene_id": "scene_13",
         "text": "“好ましい人”とされる基準になりやすく、"
-      }
-    ]
-  },
-  "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, holding a delicate flower near face, blurred object partially in foreground, framing face, light source behind creating glow around hair, ",
-    "theme": "normal_beauty",
-    "scenes": [
+      },
       {
-        "scene_id": "scene_17",
+        "scene_id": "scene_14",
         "text": "正しさが空気を壊す行為として扱われる。"
       }
     ]
   },
-  "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, looking slightly upward, hopeful expression, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, fingers near lips or cheek, subtle flirtation, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
     "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_18",
+        "scene_id": "scene_15",
         "text": "「正しさ」は\n社会の空気を乱す\nノイズになる"
       },
       {
-        "scene_id": "scene_19",
+        "scene_id": "scene_16",
         "text": "職場やコミュニティでは、"
       },
       {
-        "scene_id": "scene_20",
+        "scene_id": "scene_17",
         "text": "一定の暗黙ルールや“見て見ぬふり”の均衡が保たれている。"
       }
     ]
   },
-  "009": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, arms gently behind back, posture upright, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
-    "theme": "normal_beauty",
+  "008": {
+    "prompt": "elephant made of colored glass panes, trunk steaming with light, subject seen through an endless corridor or portal, exaggerated depth, ceiling becomes floor, subject positioned diagonally, twisting body diagonally, motion trail along frame edge, subject running across bottom frame edge, blurred, anti-center, background is sharp while subject is blurred, ",
+    "theme": "animal",
     "scenes": [
       {
-        "scene_id": "scene_21",
+        "scene_id": "scene_18",
         "text": "そこに道徳的に正しい主張を持ち込むと、"
       },
       {
-        "scene_id": "scene_22",
+        "scene_id": "scene_19",
         "text": "そのバランスが崩れ、周囲に動揺や対立が生まれやすくなる。"
-      },
-      {
-        "scene_id": "scene_23",
-        "text": "結果として、正しい発言をした人に"
-      }
-    ]
-  },
-  "010": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
-    "theme": "normal_beauty",
-    "scenes": [
-      {
-        "scene_id": "scene_24",
-        "text": "「空気を読まない」というレッテルが貼られ、"
-      },
-      {
-        "scene_id": "scene_25",
-        "text": "逆に敬遠されることがある。"
       }
     ]
   }

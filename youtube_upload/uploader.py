@@ -152,49 +152,48 @@ def set_thumbnail_with_retry(youtube, video_id: str, thumbnail_path: str, retrie
 def main():
     task_name = "upload"
     youtube = authenticate_youtube()
-    while True:
 
-        script_id = get_next_script_id(task_name)
-        if not script_id:
-            print("✅ アップロード対象がありません。")
-            return
+    script_id = get_next_script_id(task_name)
+    if not script_id:
+        print("✅ アップロード対象がありません。")
+        return
 
-        base_dir = Path(f"data/stage_6_output/{script_id}")
-        video_path = base_dir / "final.mp4"
-        meta_path = Path(f"data/stage_1_audio/{script_id}/script_meta_{script_id}.json")
+    base_dir = Path(f"data/stage_6_output/{script_id}")
+    video_path = base_dir / f"final{script_id}.mp4"
+    meta_path = Path(f"data/stage_1_audio/{script_id}/script_meta_{script_id}.json")
 
 
-        if not video_path.exists():
-            print(f"❌ 動画ファイルが存在しません: {video_path}")  # ★修正
-            return
+    if not video_path.exists():
+        print(f"❌ 動画ファイルが存在しません: {video_path}")  # ★修正
+        return
 
-        title = extract_main_title(meta_path)
-        # 予約投稿のスロット決定
-        publish_at = get_next_available_slot()  # UTC ISO文字列を取得
+    title = extract_main_title(meta_path)
+    # 予約投稿のスロット決定
+    publish_at = get_next_available_slot()  # UTC ISO文字列を取得
 
-        success = False  # ← 追加
-        try:
-            video_id = upload_video(
-                youtube,
-                str(video_path),
-                title=title,
-                tags=["雑学", "知識", "教育", "科学", "社会", "ショート動画", "shorts", "Trivia"],
-                publish_at=publish_at,
-            )
-            success = True
-        except Exception as e:
-            print(f"❌ アップロード失敗: {e}")
-            return
+    success = False  # ← 追加
+    try:
+        video_id = upload_video(
+            youtube,
+            str(video_path),
+            title=title,
+            tags=["雑学", "知識", "教育", "科学", "社会", "ショート動画", "shorts", "Trivia"],
+            publish_at=publish_at,
+        )
+        success = True
+    except Exception as e:
+        print(f"❌ アップロード失敗: {e}")
+        return
 
-        extract_thumbnail(base_dir / "final.mp4", base_dir / "thumbnail.jpg")
-        # サムネイル設定
-        set_thumbnail_with_retry(youtube, video_id, str(base_dir / "thumbnail.jpg"))
+    extract_thumbnail(base_dir / "final.mp4", base_dir / "thumbnail.jpg")
+    # サムネイル設定
+    set_thumbnail_with_retry(youtube, video_id, str(base_dir / "thumbnail.jpg"))
 
-        if success:
-            mark_slot_reserved(publish_at)  # ★修正
+    if success:
+        mark_slot_reserved(publish_at)  # ★修正
 
-        print(f"✅ アップロード完了: https://youtu.be/{video_id}")
-        mark_script_completed(script_id, task_name)  # 完了フラグ更新
+    print(f"✅ アップロード完了: https://youtu.be/{video_id}")
+    mark_script_completed(script_id, task_name)  # 完了フラグ更新
 
 if __name__ == "__main__":
     main()

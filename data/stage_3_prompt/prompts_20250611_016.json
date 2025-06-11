@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, slight smile while looking back over shoulder, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
-    "theme": "normal_beauty",
+    "prompt": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur, subject seen through an endless corridor or portal, exaggerated depth, severe Dutch angle with asymmetric framing, tension emphasis, floating pose, hands extending off one side of frame, composition with no symmetry, elements scattered unevenly, avoids centering, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, gaze lowered, reflective mood, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,7 +28,7 @@
     ]
   },
   "003": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, upper body leaning toward viewer, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, fingers near lips or cheek, subtle flirtation, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -46,107 +46,93 @@
     ]
   },
   "004": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, resting chin on hand, calm expression, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
-    "theme": "beauty",
+    "prompt": "a valley where lightning is frozen in midair, illuminating the terrain eternally, extremely distant perspective from space or high orbit, severe Dutch angle with asymmetric framing, tension emphasis, body fragmenting toward left or right frame, non-radial, motion blur in horizontal pan, subject near far edge of image, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_08",
-        "text": "つまり目を逸らす“違和感”が"
-      },
-      {
-        "scene_id": "scene_09",
-        "text": "逆に惹かれる原因になる。"
-      }
-    ]
-  },
-  "005": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, body turned, head looking over shoulder, background blurred to focus sharply on eyes, colorful light gradient across background, ",
-    "theme": "normal_beauty",
-    "scenes": [
-      {
-        "scene_id": "scene_10",
         "text": "脳は「手が動く人」に\n惹かれる"
       },
       {
-        "scene_id": "scene_11",
+        "scene_id": "scene_09",
         "text": "手を使った自然なジェスチャーは、"
       },
       {
-        "scene_id": "scene_12",
+        "scene_id": "scene_10",
         "text": "脳に“生きた信号”として記録されやすい。"
       }
     ]
   },
-  "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, touching her hair gently, slightly dreamy pose, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
     "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_13",
+        "scene_id": "scene_11",
         "text": "とくに手のひらを見せる仕草は、"
       },
       {
-        "scene_id": "scene_14",
+        "scene_id": "scene_12",
         "text": "安心や開放感を印象づける。"
       },
       {
-        "scene_id": "scene_15",
+        "scene_id": "scene_13",
         "text": "つまり言葉よりも先に、"
       }
     ]
   },
-  "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, holding a delicate flower near face, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, arms gently behind back, posture upright, tight head-and-shoulders crop, minimal background, face half in soft shadow, delicate contrast, ",
     "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_16",
+        "scene_id": "scene_14",
         "text": "“手”が信頼を生み出している。"
       }
     ]
   },
-  "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, hands clasped in front, formal yet soft pose, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
-    "theme": "beauty",
+  "007": {
+    "prompt": "lion formed from darkness itself, almost intangible, only seen through motion, extremely distant perspective from space or high orbit, top-down angle with subject placed off-center, avoids symmetry, floating pose, hands extending off one side of frame, subject shown through uneven mirror shards, overlapping layers, scattered, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
     "scenes": [
       {
-        "scene_id": "scene_17",
+        "scene_id": "scene_15",
         "text": "“軽く否定する人”\nがモテる理由"
       },
       {
-        "scene_id": "scene_18",
+        "scene_id": "scene_16",
         "text": "軽いツッコミや否定の言葉には、"
       },
       {
-        "scene_id": "scene_19",
+        "scene_id": "scene_17",
         "text": "会話の主導権を握る力がある。"
       }
     ]
   },
-  "009": {
-    "prompt": "clouds forming walls like a labyrinth, paths lit by starlight, extreme close-up with stretched perspective, unrealistic lens, viewed from corner with sharp perspective line, subject in lower third, lying on transparent surface, face to the side, half-framed, subject running across bottom frame edge, blurred, anti-center, background is sharp while subject is blurred, ",
-    "theme": "scenery",
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, body turned, head looking over shoulder, blurred object partially in foreground, framing face, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_20",
+        "scene_id": "scene_18",
         "text": "相手をからかうような冗談は、"
       },
       {
-        "scene_id": "scene_21",
+        "scene_id": "scene_19",
         "text": "恋愛的な緊張を生む効果がある。"
       },
       {
-        "scene_id": "scene_22",
+        "scene_id": "scene_20",
         "text": "“素直に肯定するだけ”の会話よりも、"
       }
     ]
   },
-  "010": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, touching her hair gently, slightly dreamy pose, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
     "theme": "normal_beauty",
     "scenes": [
       {
-        "scene_id": "scene_23",
+        "scene_id": "scene_21",
         "text": "微妙な緊張感が魅力に繋がるという。"
       }
     ]

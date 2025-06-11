@@ -1,0 +1,94 @@
+{
+  "001": {
+    "prompt": "tiger with perfect bilateral symmetry, one side organic, one side glass, scene viewed through a small hole or tunnel, warped edges, viewed from corner with sharp perspective line, subject in lower third, twisting body diagonally, motion trail along frame edge, subject running across bottom frame edge, blurred, anti-center, intense lens flare from unnatural light source, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "手術中に目覚める\nことがあるって\n知ってた？\n麻酔耐性体質で\n“3回連続”\nで術中覚醒した男性"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, arms crossed lightly, relaxed and confident, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "全身麻酔でも\n意識が戻る人がいる"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "全身麻酔中に一時的な意識回復を経験する"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「術中覚醒（AWR）」は、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, covering mouth slightly in surprise or playfulness, blurred object partially in foreground, framing face, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "約1,000人に1〜2人の割合で実際に発生している。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "患者の多くは体を動かせず、声も出せず、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "「見えているのに何もできない」状態に陥る。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, arms crossed lightly, relaxed and confident, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "深刻なトラウマを引き起こすこともある。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, low-cut evening dress, glossy hair, busty and elegant, soft indoor shadows, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, body turned, head looking over shoulder, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "術後に「覚えている」\nと訴える患者の\n7割は本当"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "「手術中に声が聞こえた」「会話を覚えている」"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "と証言した患者のうち、約7割は実際に"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "術中の記録と一致していた。"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "これは夢や幻覚ではなく、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "部分的な意識保持が現実に起きていたことを示す。"
+      }
+    ]
+  }
+}

@@ -319,7 +319,7 @@ def compose_video(script_id: str):
 
         # .ass字幕を使って no_subtitles.mp4 → final.mp4 を生成
     ass_path = Path(f"data/stage_4_subtitles/subtitles_{script_id}.ass")
-    final_path = output_dir / "final.mp4"
+    final_path = output_dir / f"final{script_id}.mp4"
 
     if not ass_path.exists():
         raise FileNotFoundError(f"❌ .ass 字幕ファイルが見つかりません: {ass_path}")

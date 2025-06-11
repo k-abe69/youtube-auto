@@ -1,0 +1,215 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.74,
+      "text": "脳の90%が\n使われていない\nというのは嘘",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.74,
+      "duration": 3.33,
+      "text": "“脳の10%しか\n使っていない”\nは科学的に誤り",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 6.07,
+      "duration": 3.59,
+      "text": "現代の脳画像技術（fMRIなど）では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 9.66,
+      "duration": 2.18,
+      "text": "脳はほぼ常に全域で活動しており、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 11.84,
+      "duration": 2.04,
+      "text": "使われていない領域など存在しない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 13.88,
+      "duration": 1.69,
+      "text": "安静時ですら複数の部位が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 15.56,
+      "duration": 3.04,
+      "text": "同時に働いており、「10%説」は",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 18.6,
+      "duration": 2.09,
+      "text": "科学的に完全な誤情報とされている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 20.69,
+      "duration": 3.41,
+      "text": "“10%説”の出所は\n20世紀初頭の誤読",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 24.11,
+      "duration": 2.23,
+      "text": "ウィリアム・ジェームズら心理学者が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 26.34,
+      "duration": 2.82,
+      "text": "「人間は持てる潜在能力の一部しか使っていない」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 29.15,
+      "duration": 1.1,
+      "text": "と語った発言が、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 30.25,
+      "duration": 2.69,
+      "text": "“脳の10%しか使われていない”という",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 32.94,
+      "duration": 2.09,
+      "text": "物理的誤解に変換されて広まった。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 35.03,
+      "duration": 2.37,
+      "text": "原文には数値も科学的根拠もなかった。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 37.4,
+      "duration": 3.3,
+      "text": "NASAが“10%説”を\n支持した\nというのも嘘",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 40.69,
+      "duration": 3.03,
+      "text": "都市伝説の中には「NASAが言っていた」とされる",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 43.72,
+      "duration": 1.66,
+      "text": "出典不明の引用があるが、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 45.39,
+      "duration": 1.81,
+      "text": "NASAはこれを公式に否定している。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 47.2,
+      "duration": 3.91,
+      "text": "実際には“10%説”に関する研究も声明も",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 51.11,
+      "duration": 1.59,
+      "text": "NASAから出たことは一度もない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    }
+  ]
+}

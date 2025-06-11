@@ -1,0 +1,140 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, hands clasped in front, formal yet soft pose, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "手術中に目覚める\nことがあるって\n知ってた？"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, hands clasped in front, formal yet soft pose, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "麻酔耐性体質で\n“3回連続”\nで術中覚醒した男性"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "テキサス州の男性（50代）が、"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "脳動脈瘤手術・腰椎固定術など"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "3度の手術で連続して術中覚醒を経験。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "血液検査の結果、特定の麻酔薬（プロポフォール）への代謝酵素が"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "平均の4倍近い活性を持つ「超高速代謝型体質」と判明。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, gaze lowered, reflective mood, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "それ以降、局所麻酔中心に切り替えて対応。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, touching her hair gently, slightly dreamy pose, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "全身麻酔でも\n意識が戻る人がいる"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "全身麻酔中に一時的な意識回復を経験する"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "「術中覚醒（AWR）」は、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with no make up,  blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, resting chin on hand, calm expression, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "約1,000人に1〜2人の割合で実際に発生している。"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "患者の多くは体を動かせず、声も出せず、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "「見えているのに何もできない」状態に陥る。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "深刻なトラウマを引き起こすこともある。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, extremely distant perspective from space or high orbit, viewed from corner with sharp perspective line, subject in lower third, climbing diagonally across a wall, angle from below-left, subject pushed to the extreme edge of the frame, strong negative space, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "術後に「覚えている」\nと訴える患者の\n7割は本当"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "「手術中に声が聞こえた」「会話を覚えている」"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "と証言した患者のうち、約7割は実際に"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, holding a delicate flower near face, light shapes framing the face from side or back, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "術中の記録と一致していた。"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "これは夢や幻覚ではなく、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "部分的な意識保持が現実に起きていたことを示す。"
+      }
+    ]
+  }
+}

@@ -50,8 +50,9 @@ def download_images_from_s3(script_id: str):
 
 if __name__ == "__main__":
     # テスト用script_idを指定
-    download_images_from_s3("20250611_013")
-    download_images_from_s3("20250611_014")
-    # download_images_from_s3("20250611_003")
+
+    # download_images_from_s3("20250611_014")
+    # download_images_from_s3("20250611_015")
+    download_images_from_s3("20250611_016")
     # download_images_from_s3("20250611_004")
 

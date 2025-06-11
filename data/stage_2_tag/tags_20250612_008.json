@@ -1,0 +1,235 @@
+{
+  "global_image_tag": "感動",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 1.98,
+      "text": "なぜ人間だけが涙を流すのか？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 1.98,
+      "duration": 2.26,
+      "text": "「感情で泣く」のは人間だけ",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.25,
+      "duration": 1.49,
+      "text": "動物にも涙腺はあるが、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 5.74,
+      "duration": 2.02,
+      "text": "感情によって涙を流す行動は",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 7.75,
+      "duration": 1.87,
+      "text": "人間以外では確認されていない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 9.62,
+      "duration": 2.72,
+      "text": "悲しみ・怒り・感動などで泣くのは、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 12.34,
+      "duration": 2.88,
+      "text": "人間特有の社会的・神経的反応であり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 15.22,
+      "duration": 2.55,
+      "text": "動物の涙は物理刺激によるものに限られる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 17.77,
+      "duration": 3.18,
+      "text": "涙には「ストレスホルモン」を排出する作用がある",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 20.95,
+      "duration": 1.3,
+      "text": "感情性の涙には、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 22.25,
+      "duration": 3.25,
+      "text": "ストレスホルモン（コルチゾールやACTH）が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 25.5,
+      "duration": 1.78,
+      "text": "含まれていることが確認されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 27.29,
+      "duration": 1.7,
+      "text": "これは涙を通じてストレスを",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 28.98,
+      "duration": 3.01,
+      "text": "物理的に“排出”していることを示唆し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 31.99,
+      "duration": 1.25,
+      "text": "泣くことで脳が一種の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 33.24,
+      "duration": 1.96,
+      "text": "感情リセットをしている可能性がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 35.2,
+      "duration": 3.98,
+      "text": "涙には“におい”があり、周囲に影響を与える",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 39.18,
+      "duration": 2.65,
+      "text": "人間の涙には微量の化学物質が含まれ、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 41.82,
+      "duration": 1.48,
+      "text": "それを嗅いだ他人の行動や",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 43.31,
+      "duration": 2.14,
+      "text": "ホルモン分泌に影響を与えることがある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 45.45,
+      "duration": 2.29,
+      "text": "特に男性が女性の涙のにおいを嗅ぐと、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 47.74,
+      "duration": 1.64,
+      "text": "テストステロン分泌が低下し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 49.39,
+      "duration": 2.76,
+      "text": "性的興奮が抑制されるという研究結果がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    }
+  ]
+}
