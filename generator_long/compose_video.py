@@ -29,8 +29,9 @@ save_config_snapshot()
 load_dotenv()
 
 # 定数
-VIDEO_WIDTH = 720
-VIDEO_HEIGHT = 1280
+VIDEO_WIDTH = 1280
+VIDEO_HEIGHT = 720
+
 
 # def add_overlay_bars_to_final(video_clip, top_height=100, color=(0, 0, 0)):
 #     duration = video_clip.duration
@@ -93,8 +94,8 @@ def make_cropper(x_offset_func, y_offset_func, scale_func=None, duration=1.0):
         zoom = scale_func(t) if scale_func else 1.0
         crop_half = int(360 / zoom)
 
-        x_center = 512 + int(x_offset_func(t))
-        y_center = 512 + int(y_offset_func(t))
+        x_center = 640 + int(x_offset_func(t))
+        y_center = 360 + int(y_offset_func(t))
 
         return frame[
             y_center - crop_half:y_center + crop_half,
@@ -206,7 +207,7 @@ def compose_video(script_id: str):
                     apply_to=["mask"]
                 )
 
-            img_clip = img_clip.set_position(("center", "center")).resize((720, 720))
+            img_clip = img_clip.set_position(("center", "center"))
             clip = img_clip.set_start(start_time).set_duration(duration).set_fps(30)
 
             print(f"🖼️ 画像clip: parent_id={parent_id}, start={start_time:.2f}s, duration={duration:.2f}s, file={asset_path.name}")
@@ -221,7 +222,7 @@ def compose_video(script_id: str):
             )
 
             # ✅ 中央正方形720×720でcropするだけ（パン・ズームなし）
-            clip = clip.crop(x_center=clip.w // 2, y_center=clip.h // 2, width=720, height=720)
+            clip = clip.crop(x_center=clip.w // 2, y_center=clip.h // 2, width=1280, height=720)
             clip = clip.set_position(("center", "center"))
 
         clips.append(clip)  # ← ここ

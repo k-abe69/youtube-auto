@@ -1,0 +1,854 @@
+{
+  "001": {
+    "prompt": "landscape composed of floating photograph fragments, memories fading midair, shoulder-back view, subject turning face toward camera, severe Dutch angle with asymmetric framing, tension emphasis, stretching motion mid-action, not facing front, cropped, subject shown through uneven mirror shards, overlapping layers, scattered, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "「なんかこの人、無理…」"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "そんなふうに感じたこと、ありませんか？"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "別にひどいことをされたわけでもない。"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "見た目が極端に悪いわけでもない。"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "bird composed of a moving swarm of smaller glowing birds, headshot with forehead cropped, cinematic intensity, top-down angle with subject placed off-center, avoids symmetry, standing on one leg, viewed from side angle, slight off-balance, subject emerging partially from frame corner, majority off-frame, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "でも――なぜか、無理。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "話しているだけで疲れる。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "ちょっとした表情や声のトーンが、なぜか気に障る。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "笑うタイミングがズレてて、空気も読めない。"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "bird that leaves ink drops behind mid-flight, tail trailing into calligraphy, extreme close-up with stretched perspective, unrealistic lens, viewed from corner with sharp perspective line, subject in lower third, body fragmenting toward left or right frame, non-radial, horizon twisted, sky blends into floor, subject falling diagonally, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "うまく説明できないけど、とにかく距離を取りたくなる。"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "あなたの中に浮かぶ、あの“名前は出せないけど強烈に記憶に残る誰か”。"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "きっと誰にでもいるはずです。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "sunset shattered across geometric planes in the air, waist-up composition, hands partially visible, balanced framing, viewed from below with strong tilt, subject placed near frame edge, standing on one leg, viewed from side angle, slight off-balance, composition with no symmetry, elements scattered unevenly, avoids centering, multiple vanishing points converging unnaturally, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "でも、その“なんとなく無理”には、実はすべて――"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "脳の反応、心理の癖、記憶の罠、そして社会的なルールという、"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "私たち自身も気づいていない「見えない理由」があるのです。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "今回の動画では、心理学・脳科学・行動研究などをもとに、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "glowing plants and misty lights, swamp reflecting alien colors, extremely distant perspective from space or high orbit, angled view through a broken side window, subject offset and cropped, standing on one leg, viewed from side angle, slight off-balance, subject emerging partially from frame corner, majority off-frame, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "「なぜ、あの人を無理だと感じるのか？」"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "その正体を、7つの観点から解き明かしていきます。"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "あなたの中に眠る、“嫌悪のメカニズム”。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, touching her hair gently, slightly dreamy pose, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "その仕組みを知ることで、人間関係のストレスはぐっと軽くなるかもしれません。"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "では、はじめていきましょう。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, touching her hair gently, slightly dreamy pose, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "初対面で「嫌悪」が生まれる脳のスキャン反応"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, eyes softly closed, calm or dreamlike atmosphere, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "私たちの脳は、初対面の相手に出会ったわずか0.2秒で、「この人は安全かどうか」を直感的に判断しています。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "これは扁桃体という脳領域が、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "表情の微細な動き、声のトーン、視線の揺れといった非言語的な手がかりをもとに、瞬時に“危険信号”を感知しているためです。"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "moth with feathers instead of wings, patterns shifting as it flutters, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, angled view through a broken side window, subject offset and cropped, stretching motion mid-action, not facing front, cropped, frame split vertically with two worlds, subject compressed to one side, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "この反応は進化的に見て、私たちが生き延びるために必要な機能でした。"
+      }
+    ]
+  },
+  "012": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, touching her hair gently, slightly dreamy pose, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "敵か味方かを素早く見極める能力は、古代の社会では命に関わるものであり、いまもその仕組みが私たちの脳に残っているのです。"
+      }
+    ]
+  },
+  "013": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, arms crossed lightly, relaxed and confident, blurred object partially in foreground, framing face, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_27",
+        "text": "重要なのは、こうした「無意識の拒否反応」は、決して理屈や経験に基づく判断ではないという点です。"
+      }
+    ]
+  },
+  "014": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, touching her hair gently, slightly dreamy pose, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_28",
+        "text": "たとえば、過去に一度も嫌なことをされたことがない相手に対しても、"
+      },
+      {
+        "scene_id": "scene_29",
+        "text": "扁桃体の反応によって「なんとなく無理」と感じてしまうことがあるのです。"
+      }
+    ]
+  },
+  "015": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, holding a delicate flower near face, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_30",
+        "text": "これは合理的な思考よりも前に、身体が感じ取っている“情動のスキャン”のようなもの。"
+      }
+    ]
+  },
+  "016": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, upper body leaning toward viewer, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_31",
+        "text": "無意識の嫌悪は、私たち自身の意志でコントロールできるものではないのです。"
+      }
+    ]
+  },
+  "017": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_32",
+        "text": "“あの人ムリ”の正体は「ミラーニューロン拒絶」"
+      }
+    ]
+  },
+  "018": {
+    "prompt": "a lake curving inward like a vortex, boats caught in circular drift, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, severe Dutch angle with asymmetric framing, tension emphasis, jumping midair at diagonal angle, limbs offset, subject cropped, frame split vertically with two worlds, subject compressed to one side, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_33",
+        "text": "私たちは人と向き合うとき、知らず知らずのうちに相手の表情やしぐさを真似し、感情を“鏡写し”のように取り込んでいます。"
+      }
+    ]
+  },
+  "019": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_34",
+        "text": "この共感の回路を支えるのが、「ミラーニューロン」という神経細胞です。"
+      }
+    ]
+  },
+  "020": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, gaze lowered, reflective mood, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_35",
+        "text": "これにより、相手が笑えばこちらも笑い、相手が困っていれば自然と心配になる――といった情動の同調が起きます。"
+      }
+    ]
+  },
+  "021": {
+    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, extremely distant perspective from space or high orbit, angled underwater perspective, camera tilted, subject half-in frame, floating pose, hands extending off one side of frame, main subject located in top left or right corner, sky dominant, asymmetric, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_36",
+        "text": "ところが、特定の人物に対して、このミラーニューロンがうまく働かないことがあります。"
+      },
+      {
+        "scene_id": "scene_37",
+        "text": "相手の表情を見ても何も感じない、もしくは違和感だけが残る。"
+      }
+    ]
+  },
+  "022": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, arms crossed lightly, relaxed and confident, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_38",
+        "text": "この「同調の失敗」が続くと、私たちはその人を“異質”な存在として捉えるようになり、"
+      }
+    ]
+  },
+  "023": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_39",
+        "text": "「わかりあえない」「合わない」と感じるようになります。"
+      },
+      {
+        "scene_id": "scene_40",
+        "text": "興味深いのは、この現象が対話や相性だけでなく、文化や育ちの違いにも深く関係していることです。"
+      }
+    ]
+  },
+  "024": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, covering mouth slightly in surprise or playfulness, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_41",
+        "text": "つまり、“ムリな人”とは、ただの性格の不一致ではなく、"
+      }
+    ]
+  },
+  "025": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, gaze lowered, reflective mood, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_42",
+        "text": "脳の共感システムが相手を拒絶している――という、身体的レベルでの「非・接続」なのです。"
+      }
+    ]
+  },
+  "026": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, arms crossed lightly, relaxed and confident, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_43",
+        "text": "“無理な人”は実は「自分の影」を映している"
+      }
+    ]
+  },
+  "027": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, fingers near lips or cheek, subtle flirtation, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_44",
+        "text": "心理学者ユングは、「人間は自分の中にある“見たくない要素”を、無意識のうちに他人の中に投影する」と述べました。"
+      }
+    ]
+  },
+  "028": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, shoulder-back view, subject turning face toward camera, viewed from corner with sharp perspective line, subject in lower third, lying on transparent surface, face to the side, half-framed, horizon twisted, sky blends into floor, subject falling diagonally, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_45",
+        "text": "これを「シャドウ・プロジェクション」と呼びます。たとえば、ずるい人が嫌いだと感じるとき、"
+      }
+    ]
+  },
+  "029": {
+    "prompt": "mountain range made of prisms bending sunlight into wild colors, headshot with forehead cropped, cinematic intensity, viewed from corner with sharp perspective line, subject in lower third, lying on transparent surface, face to the side, half-framed, viewed from a crack in the ground, subject half-cropped above, asymmetrical, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_46",
+        "text": "その裏には「自分にもずるさがある」と気づきたくない心が隠れているのです。"
+      },
+      {
+        "scene_id": "scene_47",
+        "text": "このプロセスは、自尊心を守るための心理的防衛として働きます。"
+      }
+    ]
+  },
+  "030": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, hands clasped in front, formal yet soft pose, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_48",
+        "text": "つまり、“嫌いな他人”は、私たちの「否認したい自分自身」の象徴である場合があるのです。"
+      }
+    ]
+  },
+  "031": {
+    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, side angle close-up with focus on cheek and ear, cropped frame, top-down angle with subject placed off-center, avoids symmetry, twisting body diagonally, motion trail along frame edge, motion blur in horizontal pan, subject near far edge of image, lighting from two contradictory directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_49",
+        "text": "さらに興味深いのは、この投影が起きているとき、私たちはその人物に対して強い感情を抱きやすくなること。"
+      }
+    ]
+  },
+  "032": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, touching her hair gently, slightly dreamy pose, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_50",
+        "text": "冷静に距離を取ることができず、イライラしたり過剰に反応したりする場合、"
+      },
+      {
+        "scene_id": "scene_51",
+        "text": "それは「心の鏡に映った自分の影」に無意識で反応しているサインかもしれません。"
+      }
+    ]
+  },
+  "033": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, fingers near lips or cheek, subtle flirtation, light shapes framing the face from side or back, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_52",
+        "text": "“匂い”で判断されている場合もある"
+      },
+      {
+        "scene_id": "scene_53",
+        "text": "人間は思っている以上に「匂い」に影響されています。"
+      }
+    ]
+  },
+  "034": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_54",
+        "text": "たとえ自覚していなくても、他人の体臭や香りを通して「好き・嫌い」を判断しているのです。"
+      }
+    ]
+  },
+  "035": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, upper body leaning toward viewer, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_55",
+        "text": "これは本能的な生存戦略の一部で、免疫遺伝子（HLA）の違いが、匂いの好悪を決定づけるという研究結果もあります。"
+      }
+    ]
+  },
+  "036": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with no make up,  blowing in wind, katana resting on shoulder, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, arms gently behind back, posture upright, face positioned off-center with balanced lighting, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_56",
+        "text": "特に、ある相手に強い不快感を感じる場合、"
+      },
+      {
+        "scene_id": "scene_57",
+        "text": "その人の体臭に含まれる化学物質が、自分の遺伝的な“好み”と一致していない可能性が高いのです。"
+      }
+    ]
+  },
+  "037": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, upper body leaning toward viewer, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_58",
+        "text": "これはフェロモンや本能的な警戒信号に近く、言葉や態度でどう取り繕っても、"
+      },
+      {
+        "scene_id": "scene_59",
+        "text": "匂いの相性だけで「なんかムリ」と感じてしまうことがある。"
+      }
+    ]
+  },
+  "038": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, low-cut evening dress, glossy hair, busty and elegant, soft indoor shadows, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, eyes softly closed, calm or dreamlike atmosphere, light shapes framing the face from side or back, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_60",
+        "text": "興味深いのは、香水や柔軟剤ではこの根本的な“相性”は隠しきれないという点です。"
+      }
+    ]
+  },
+  "039": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_61",
+        "text": "つまり、第一印象で「どうしても好きになれない」と感じたとき、"
+      },
+      {
+        "scene_id": "scene_62",
+        "text": "その理由は視覚や会話ではなく、「鼻がNOと言っている」可能性もあるのです。"
+      }
+    ]
+  },
+  "040": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, looking slightly upward, hopeful expression, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_63",
+        "text": "「無理な人」は“共通ルールの逸脱者”だった"
+      },
+      {
+        "scene_id": "scene_64",
+        "text": "私たちは集団の中で生きる社会的な動物であり、意識せずともその集団には"
+      }
+    ]
+  },
+  "041": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, arms gently behind back, posture upright, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_65",
+        "text": "「空気」や「ノリ」といった暗黙のルールが存在します。"
+      }
+    ]
+  },
+  "042": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, holding a delicate flower near face, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_66",
+        "text": "たとえば、話すときのスピード感、視線の合わせ方、笑いのタイミングなど、細かい“共通のリズム”が形作られています。"
+      }
+    ]
+  },
+  "043": {
+    "prompt": "sunset shattered across geometric planes in the air, shoulder-back view, subject turning face toward camera, viewed from corner with sharp perspective line, subject in lower third, taking selfie from tilted camera, not facing directly, motion blur in horizontal pan, subject near far edge of image, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_67",
+        "text": "このリズムを無視したり、著しくズレた振る舞いをする人が現れると、"
+      },
+      {
+        "scene_id": "scene_68",
+        "text": "その人物は「空気が読めない」「場に合っていない」として、違和感を持たれます。"
+      }
+    ]
+  },
+  "044": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, resting chin on hand, calm expression, tight head-and-shoulders crop, minimal background, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_69",
+        "text": "しかもこの違和感は、具体的にどこが悪いと指摘できるものではなく、"
+      },
+      {
+        "scene_id": "scene_70",
+        "text": "「なんとなく嫌だ」「付き合いたくない」という形で表面化します。"
+      }
+    ]
+  },
+  "045": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, slight smile while looking back over shoulder, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_71",
+        "text": "社会心理学的には、これは「ノルム逸脱者に対する集団防衛反応」と捉えられます。"
+      }
+    ]
+  },
+  "046": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_72",
+        "text": "つまり、個人の好みや偏見ではなく、集団全体の同調圧力によって“無理な人”が生まれるという構造があるのです。"
+      }
+    ]
+  },
+  "047": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_73",
+        "text": "精神的“境界”を踏み越えてくる人"
+      },
+      {
+        "scene_id": "scene_74",
+        "text": "人にはそれぞれ、心の中に「これ以上は踏み込まれたくない」という境界線＝バウンダリーがあります。"
+      }
+    ]
+  },
+  "048": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, leaning sideways, hair cascading, tight head-and-shoulders crop, minimal background, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_75",
+        "text": "これは物理的な距離だけでなく、会話の内容、プライバシー、感情表現の仕方など、さまざまな領域に存在します。"
+      }
+    ]
+  },
+  "049": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, tight head-and-shoulders crop, minimal background, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_76",
+        "text": "このバウンダリーを他人が無意識に超えてくると、私たちは強い不快感やストレスを感じます。"
+      }
+    ]
+  },
+  "050": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, arms gently behind back, posture upright, light shapes framing the face from side or back, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_77",
+        "text": "たとえば、初対面なのに妙に馴れ馴れしい口調で話してくる人、聞かれてもいないのにプライベートな情報を掘り下げてくる人などは、その典型です。"
+      }
+    ]
+  },
+  "051": {
+    "prompt": "gecko with gemstone scales, light shimmering with each movement, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, ceiling becomes floor, subject positioned diagonally, floating pose, hands extending off one side of frame, subject pushed to the extreme edge of the frame, strong negative space, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_78",
+        "text": "こうした「距離感の暴力」とも言える行動にさらされると、たとえ悪気がなくても私たちの心は防衛反応を起こし、"
+      }
+    ]
+  },
+  "052": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, upper body leaning toward viewer, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_79",
+        "text": "「この人といると疲れる」「生理的に無理」と感じてしまうのです。"
+      },
+      {
+        "scene_id": "scene_80",
+        "text": "これは感情的なわがままではなく、精神的なセルフディフェンスなのです。"
+      }
+    ]
+  },
+  "053": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_81",
+        "text": "過去の“記憶パターン”が無理と言ってる"
+      }
+    ]
+  },
+  "054": {
+    "prompt": "owl folded from shimmering paper, unfolding mid-flight, trails of ink in the air, extreme close-up with stretched perspective, unrealistic lens, top-down angle with subject placed off-center, avoids symmetry, running motion along slanted ground, angled frame, off-center, main subject located in top left or right corner, sky dominant, asymmetric, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_82",
+        "text": "脳は経験によって学習する器官であり、過去の人間関係で感じた“嫌な記憶”を、無意識のうちにパターンとして蓄積しています。"
+      }
+    ]
+  },
+  "055": {
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, distant shot, tiny subject, wide surreal background, angled view through a broken side window, subject offset and cropped, climbing diagonally across a wall, angle from below-left, composition with no symmetry, elements scattered unevenly, avoids centering, lighting from two contradictory directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_83",
+        "text": "たとえば、過去に苦手だった上司が使っていた口癖や、元恋人の表情の癖などが、脳の深部に記憶されているのです。"
+      }
+    ]
+  },
+  "056": {
+    "prompt": "flower meadow rotating like a carousel, petals flying, extremely distant perspective from space or high orbit, ceiling becomes floor, subject positioned diagonally, running motion along slanted ground, angled frame, off-center, frame split vertically with two worlds, subject compressed to one side, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_84",
+        "text": "そして、新たに出会った相手が、無意識にその記憶と重なる要素（声の高さ、話すテンポ、目の動きなど）を持っていると、"
+      }
+    ]
+  },
+  "057": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, looking slightly upward, hopeful expression, light shapes framing the face from side or back, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_85",
+        "text": "私たちは「この人は危険だ」と反射的に警戒してしまいます。これは理性では説明できない拒否反応であり、"
+      }
+    ]
+  },
+  "058": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, touching her hair gently, slightly dreamy pose, face positioned off-center with balanced lighting, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_86",
+        "text": "本人も理由をうまく言語化できないまま「なんか無理」という感覚として表れるのです。"
+      }
+    ]
+  },
+  "059": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, arms gently behind back, posture upright, blurred object partially in foreground, framing face, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_87",
+        "text": "このメカニズムを理解することで、私たちは「相手に問題がある」と一方的に決めつける前に、"
+      }
+    ]
+  },
+  "060": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, shoulder-back view, subject turning face toward camera, angled view through a broken side window, subject offset and cropped, climbing diagonally across a wall, angle from below-left, subject pushed to the extreme edge of the frame, strong negative space, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_88",
+        "text": "「もしかすると自分の記憶が反応しているのかもしれない」と内省するきっかけを持つことができます。"
+      },
+      {
+        "scene_id": "scene_89",
+        "text": "それは、人間関係の誤解や対立を避けるための重要な視点でもあるのです。"
+      }
+    ]
+  },
+  "061": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, light shapes framing the face from side or back, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_90",
+        "text": "最後に"
+      },
+      {
+        "scene_id": "scene_91",
+        "text": "私たちが誰かを「なんとなく無理」と感じるとき、"
+      },
+      {
+        "scene_id": "scene_92",
+        "text": "そこにはただの“わがまま”でも、単なる“好き嫌い”でもない、"
+      }
+    ]
+  },
+  "062": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, shiny thick lips, seductive smile, full chest, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, upper body leaning toward viewer, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_93",
+        "text": "脳・心・社会の構造的な仕組みが関わっていることがわかってきました。"
+      }
+    ]
+  },
+  "063": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_94",
+        "text": "扁桃体の反応、ミラーニューロンの不一致、過去の記憶、嗅覚の相性――"
+      }
+    ]
+  },
+  "064": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, looking slightly upward, hopeful expression, tight head-and-shoulders crop, minimal background, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_95",
+        "text": "私たちの“感情のセンサー”は、驚くほど繊細で、そして自分の意識を超えて働いています。"
+      }
+    ]
+  },
+  "065": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, fingers near lips or cheek, subtle flirtation, tight head-and-shoulders crop, minimal background, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_96",
+        "text": "だからこそ、「無理」と感じることを無理に否定する必要はありません。"
+      },
+      {
+        "scene_id": "scene_97",
+        "text": "同時に、その感情の背後にある理由を理解しておけば、"
+      }
+    ]
+  },
+  "066": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, looking slightly upward, hopeful expression, blurred object partially in foreground, framing face, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_98",
+        "text": "必要以上に自分や相手を責めたり、苦しんだりしなくて済むかもしれません。"
+      },
+      {
+        "scene_id": "scene_99",
+        "text": "あの人が“無理”に見えるのは、"
+      },
+      {
+        "scene_id": "scene_100",
+        "text": "もしかしたら自分を守るための脳のサインかもしれないし、"
+      }
+    ]
+  },
+  "067": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, fingers near lips or cheek, subtle flirtation, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_101",
+        "text": "あるいは自分の中にある“影”が映っているだけかもしれない。"
+      },
+      {
+        "scene_id": "scene_102",
+        "text": "大事なのは、「なんでそう感じたんだろう？」と一歩立ち止まってみること。"
+      }
+    ]
+  },
+  "068": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, touching her hair gently, slightly dreamy pose, light shapes framing the face from side or back, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_103",
+        "text": "その一歩が、人間関係のノイズを減らし、少しだけ生きやすくしてくれるはずです。"
+      },
+      {
+        "scene_id": "scene_104",
+        "text": "最後までご視聴ありがとうございました。"
+      }
+    ]
+  },
+  "069": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_105",
+        "text": "この動画が、少しでもあなたの心の整理や対人ストレスのヒントになれば幸いです。"
+      },
+      {
+        "scene_id": "scene_106",
+        "text": "気になったテーマがあれば、コメントで教えてください。"
+      }
+    ]
+  },
+  "070": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, eyes softly closed, calm or dreamlike atmosphere, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_107",
+        "text": "次回のテーマにも活かしていきたいと思います。"
+      },
+      {
+        "scene_id": "scene_108",
+        "text": "それではまた、次の動画でお会いしましょう。"
+      }
+    ]
+  }
+}

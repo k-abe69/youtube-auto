@@ -95,7 +95,7 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
 
     parent_counter = 1
     current_parent = parent_counter
-    group_counter = 0  # タイトル＋要約合わせたカウント
+    parent_scene_duration = 0.0
 
     tagged_data = []
 
@@ -106,25 +106,27 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
         text = scene["text"]
         scene_type = scene.get("type", "unknown")
 
+        force_new_parent = False
+
         if scene_type == "main_title":
             parent_counter = 1
             current_parent = parent_counter
-            group_counter = 0
+            parent_scene_duration = 0.0
 
         elif scene_type == "title":
+            force_new_parent = True
+
+        elif parent_scene_duration + duration > 9.5:
+            force_new_parent = True
+
+        if force_new_parent:
             parent_counter += 1
             current_parent = parent_counter
-            group_counter = 1  # タイトル自体を1件目と数える
+            parent_scene_duration = 0.0
 
-        elif scene_type == "summary":
-            group_counter += 1
-            if group_counter > 3:
-                parent_counter += 1
-                current_parent = parent_counter
-                group_counter = 1  # このsummaryを新グループの1件目としてカウント
+        parent_scene_duration += duration
 
-        # GPT回避のため
-        # tags = generate_tags(text)
+        # GPT回避のためタグは空のまま
         tags = []
 
         tagged_data.append({
@@ -136,6 +138,7 @@ def tag_from_timing(timing_json_path: Path, output_base_dir: Path):
             "tags": tags,
             "parent_scene_id": f"{current_parent:03}"
         })
+
     # ✅ 親IDごとのtextをまとめる
     parent_texts = defaultdict(str)
     for scene in tagged_data:

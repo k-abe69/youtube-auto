@@ -1,0 +1,44 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, eyes softly closed, calm or dreamlike atmosphere, light shapes framing the face from side or back, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "あの人、なんか無理…の正体"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze, side angle close-up with focus on cheek and ear, cropped frame, top-down angle with subject placed off-center, avoids symmetry, climbing diagonally across a wall, angle from below-left, composition with no symmetry, elements scattered unevenly, avoids centering, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_02",
+        "text": "初対面で「嫌悪」が生まれる脳のスキャン反応"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "私たちの脳は、誰かと出会った瞬間、わずか0.2秒で「この人は安全かどうか」を判断しています。"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "この判断は扁桃体という脳の部位が担っており、表情や声色、目の動きなど非常に些細な情報をもとに、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, body turned, head looking over shoulder, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "本能的に「危険」と判断した場合には、本人の意識とは無関係に嫌悪感や不快感が湧き上がります。"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "このプロセスは論理的な理解や経験よりも早く起こるため、「なんとなく無理」と感じる相手に理由が見つからないのは自然なことなのです。"
+      }
+    ]
+  }
+}

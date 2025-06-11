@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, sparkle and sharp detail in eyes, ",
-    "theme": "normal_beauty",
+    "prompt": "ocean waves stacked vertically into a tower, boats circling it upward, shoulder-back view, subject turning face toward camera, angled view through a broken side window, subject offset and cropped, running motion along slanted ground, angled frame, off-center, composition with no symmetry, elements scattered unevenly, avoids centering, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, touching her hair gently, slightly dreamy pose, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
-    "theme": "normal_beauty",
+    "prompt": "clouds forming walls like a labyrinth, paths lit by starlight, silhouette in unnatural lighting, distorted horizon, angled underwater perspective, camera tilted, subject half-in frame, lying on transparent surface, face to the side, half-framed, composition with no symmetry, elements scattered unevenly, avoids centering, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,7 +28,7 @@
     ]
   },
   "003": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "004": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, covering mouth slightly in surprise or playfulness, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, holding a delicate flower near face, face positioned off-center with balanced lighting, light refracted through semi-transparent glass, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -60,8 +60,8 @@
     ]
   },
   "005": {
-    "prompt": "glowing plants and misty lights, swamp reflecting alien colors, scene viewed through a small hole or tunnel, warped edges, top-down angle with subject placed off-center, avoids symmetry, jumping midair at diagonal angle, limbs offset, subject cropped, horizon twisted, sky blends into floor, subject falling diagonally, dense fog with colored lights and silhouette, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glamorous woman lounging on a velvet couch, body slightly arched, heavy bust, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, upper body leaning toward viewer, face positioned off-center with balanced lighting, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "girl",
     "scenes": [
       {
         "scene_id": "scene_10",
@@ -78,8 +78,8 @@
     ]
   },
   "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, leaning sideways, hair cascading, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
-    "theme": "normal_beauty",
+    "prompt": "open grass field filled with standing bookshelves under cloudy sky, scene viewed through a small hole or tunnel, warped edges, severe Dutch angle with asymmetric framing, tension emphasis, jumping midair at diagonal angle, limbs offset, subject cropped, motion blur in horizontal pan, subject near far edge of image, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
     "scenes": [
       {
         "scene_id": "scene_13",
@@ -96,7 +96,7 @@
     ]
   },
   "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, slight smile while looking back over shoulder, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
     "theme": "beauty",
     "scenes": [
       {
@@ -110,8 +110,8 @@
     ]
   },
   "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, body turned, head looking over shoulder, face positioned off-center with balanced lighting, colorful light gradient across background, ",
-    "theme": "normal_beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "beauty",
     "scenes": [
       {
         "scene_id": "scene_18",
@@ -128,8 +128,8 @@
     ]
   },
   "009": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, body turned, head looking over shoulder, shoulders perfectly centered, symmetric framing, sparkle and sharp detail in eyes, ",
-    "theme": "normal_beauty",
+    "prompt": "ethereal deer glowing faintly, walking through solid objects without resistance, waist-up composition, hands partially visible, balanced framing, angled underwater perspective, camera tilted, subject half-in frame, lying on transparent surface, face to the side, half-framed, subject emerging partially from frame corner, majority off-frame, subject leaving motion trail like time echo, ",
+    "theme": "animal",
     "scenes": [
       {
         "scene_id": "scene_21",

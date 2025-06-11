@@ -1,0 +1,95 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.4,
+      "text": "あの人、なんか無理…の正体",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.4,
+      "duration": 5.65,
+      "text": "「特に何かされたわけじゃない。でも、なんか無理。話すと疲れる。目が合うと避けたくなる──」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 8.05,
+      "duration": 4.05,
+      "text": "「その“なんとなく”には、理由がないようで、実はある。」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 12.11,
+      "duration": 6.17,
+      "text": "「言葉にもできない、説明もできない。でも脳と体が拒否している。そう感じたこと、ありませんか？」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 18.27,
+      "duration": 3.39,
+      "text": "初対面で「嫌悪」が生まれる脳のスキャン反応",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 21.66,
+      "duration": 6.52,
+      "text": "私たちの脳は、誰かと出会った瞬間、わずか0.2秒で「この人は安全かどうか」を判断しています。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 28.18,
+      "duration": 6.38,
+      "text": "この判断は扁桃体という脳の部位が担っており、表情や声色、目の動きなど非常に些細な情報をもとに、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 34.56,
+      "duration": 6.61,
+      "text": "本能的に「危険」と判断した場合には、本人の意識とは無関係に嫌悪感や不快感が湧き上がります。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 41.17,
+      "duration": 7.36,
+      "text": "このプロセスは論理的な理解や経験よりも早く起こるため、「なんとなく無理」と感じる相手に理由が見つからないのは自然なことなのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    }
+  ]
+}

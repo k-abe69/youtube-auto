@@ -1,0 +1,1085 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 1.6,
+      "text": "「なんかこの人、無理…」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 1.6,
+      "duration": 2.36,
+      "text": "そんなふうに感じたこと、ありませんか？",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 3.96,
+      "duration": 1.87,
+      "text": "別にひどいことをされたわけでもない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 5.82,
+      "duration": 1.89,
+      "text": "見た目が極端に悪いわけでもない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 7.71,
+      "duration": 1.89,
+      "text": "でも――なぜか、無理。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 9.6,
+      "duration": 1.3,
+      "text": "話しているだけで疲れる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 10.9,
+      "duration": 3.01,
+      "text": "ちょっとした表情や声のトーンが、なぜか気に障る。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 13.91,
+      "duration": 2.4,
+      "text": "笑うタイミングがズレてて、空気も読めない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 16.31,
+      "duration": 2.78,
+      "text": "うまく説明できないけど、とにかく距離を取りたくなる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 19.09,
+      "duration": 4.53,
+      "text": "あなたの中に浮かぶ、あの“名前は出せないけど強烈に記憶に残る誰か”。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 23.63,
+      "duration": 1.48,
+      "text": "きっと誰にでもいるはずです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 25.11,
+      "duration": 3.9,
+      "text": "でも、その“なんとなく無理”には、実はすべて――",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 29.01,
+      "duration": 4.62,
+      "text": "脳の反応、心理の癖、記憶の罠、そして社会的なルールという、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 33.63,
+      "duration": 3.64,
+      "text": "私たち自身も気づいていない「見えない理由」があるのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 37.27,
+      "duration": 4.59,
+      "text": "今回の動画では、心理学・脳科学・行動研究などをもとに、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 41.86,
+      "duration": 2.42,
+      "text": "「なぜ、あの人を無理だと感じるのか？」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 44.28,
+      "duration": 2.91,
+      "text": "その正体を、7つの観点から解き明かしていきます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 47.19,
+      "duration": 2.33,
+      "text": "あなたの中に眠る、“嫌悪のメカニズム”。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 49.51,
+      "duration": 4.2,
+      "text": "その仕組みを知ることで、人間関係のストレスはぐっと軽くなるかもしれません。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 53.72,
+      "duration": 1.67,
+      "text": "では、はじめていきましょう。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 55.39,
+      "duration": 3.39,
+      "text": "初対面で「嫌悪」が生まれる脳のスキャン反応",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 58.78,
+      "duration": 6.93,
+      "text": "私たちの脳は、初対面の相手に出会ったわずか0.2秒で、「この人は安全かどうか」を直感的に判断しています。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 65.72,
+      "duration": 1.94,
+      "text": "これは扁桃体という脳領域が、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 67.66,
+      "duration": 8.15,
+      "text": "表情の微細な動き、声のトーン、視線の揺れといった非言語的な手がかりをもとに、瞬時に“危険信号”を感知しているためです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 75.81,
+      "duration": 4.15,
+      "text": "この反応は進化的に見て、私たちが生き延びるために必要な機能でした。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "011",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 79.96,
+      "duration": 7.38,
+      "text": "敵か味方かを素早く見極める能力は、古代の社会では命に関わるものであり、いまもその仕組みが私たちの脳に残っているのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "012",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 87.34,
+      "duration": 6.73,
+      "text": "重要なのは、こうした「無意識の拒否反応」は、決して理屈や経験に基づく判断ではないという点です。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "013",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_28",
+      "start_sec": 94.07,
+      "duration": 3.66,
+      "text": "たとえば、過去に一度も嫌なことをされたことがない相手に対しても、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "014",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_29",
+      "start_sec": 97.73,
+      "duration": 4.42,
+      "text": "扁桃体の反応によって「なんとなく無理」と感じてしまうことがあるのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "014",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_30",
+      "start_sec": 102.14,
+      "duration": 5.38,
+      "text": "これは合理的な思考よりも前に、身体が感じ取っている“情動のスキャン”のようなもの。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "015",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_31",
+      "start_sec": 107.52,
+      "duration": 4.13,
+      "text": "無意識の嫌悪は、私たち自身の意志でコントロールできるものではないのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "016",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_32",
+      "start_sec": 111.65,
+      "duration": 3.24,
+      "text": "“あの人ムリ”の正体は「ミラーニューロン拒絶」",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "017",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_33",
+      "start_sec": 114.89,
+      "duration": 7.95,
+      "text": "私たちは人と向き合うとき、知らず知らずのうちに相手の表情やしぐさを真似し、感情を“鏡写し”のように取り込んでいます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "018",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_34",
+      "start_sec": 122.84,
+      "duration": 4.52,
+      "text": "この共感の回路を支えるのが、「ミラーニューロン」という神経細胞です。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "019",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_35",
+      "start_sec": 127.36,
+      "duration": 6.89,
+      "text": "これにより、相手が笑えばこちらも笑い、相手が困っていれば自然と心配になる――といった情動の同調が起きます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "020",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_36",
+      "start_sec": 134.25,
+      "duration": 4.85,
+      "text": "ところが、特定の人物に対して、このミラーニューロンがうまく働かないことがあります。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "021",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_37",
+      "start_sec": 139.1,
+      "duration": 3.69,
+      "text": "相手の表情を見ても何も感じない、もしくは違和感だけが残る。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "021",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_38",
+      "start_sec": 142.79,
+      "duration": 6.95,
+      "text": "この「同調の失敗」が続くと、私たちはその人を“異質”な存在として捉えるようになり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "022",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_39",
+      "start_sec": 149.75,
+      "duration": 3.08,
+      "text": "「わかりあえない」「合わない」と感じるようになります。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "023",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_40",
+      "start_sec": 152.83,
+      "duration": 6.09,
+      "text": "興味深いのは、この現象が対話や相性だけでなく、文化や育ちの違いにも深く関係していることです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "023",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_41",
+      "start_sec": 158.92,
+      "duration": 4.05,
+      "text": "つまり、“ムリな人”とは、ただの性格の不一致ではなく、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "024",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_42",
+      "start_sec": 162.98,
+      "duration": 6.58,
+      "text": "脳の共感システムが相手を拒絶している――という、身体的レベルでの「非・接続」なのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "025",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_43",
+      "start_sec": 169.56,
+      "duration": 3.42,
+      "text": "“無理な人”は実は「自分の影」を映している",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "026",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_44",
+      "start_sec": 172.98,
+      "duration": 8.18,
+      "text": "心理学者ユングは、「人間は自分の中にある“見たくない要素”を、無意識のうちに他人の中に投影する」と述べました。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "027",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_45",
+      "start_sec": 181.16,
+      "duration": 6.08,
+      "text": "これを「シャドウ・プロジェクション」と呼びます。たとえば、ずるい人が嫌いだと感じるとき、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "028",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_46",
+      "start_sec": 187.24,
+      "duration": 4.44,
+      "text": "その裏には「自分にもずるさがある」と気づきたくない心が隠れているのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "029",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_47",
+      "start_sec": 191.68,
+      "duration": 3.88,
+      "text": "このプロセスは、自尊心を守るための心理的防衛として働きます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "029",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_48",
+      "start_sec": 195.56,
+      "duration": 6.27,
+      "text": "つまり、“嫌いな他人”は、私たちの「否認したい自分自身」の象徴である場合があるのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "030",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_49",
+      "start_sec": 201.83,
+      "duration": 6.56,
+      "text": "さらに興味深いのは、この投影が起きているとき、私たちはその人物に対して強い感情を抱きやすくなること。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "031",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_50",
+      "start_sec": 208.39,
+      "duration": 4.11,
+      "text": "冷静に距離を取ることができず、イライラしたり過剰に反応したりする場合、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "032",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_51",
+      "start_sec": 212.5,
+      "duration": 5.11,
+      "text": "それは「心の鏡に映った自分の影」に無意識で反応しているサインかもしれません。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "032",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_52",
+      "start_sec": 217.61,
+      "duration": 2.45,
+      "text": "“匂い”で判断されている場合もある",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "033",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_53",
+      "start_sec": 220.06,
+      "duration": 3.77,
+      "text": "人間は思っている以上に「匂い」に影響されています。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "033",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_54",
+      "start_sec": 223.83,
+      "duration": 5.73,
+      "text": "たとえ自覚していなくても、他人の体臭や香りを通して「好き・嫌い」を判断しているのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "034",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_55",
+      "start_sec": 229.56,
+      "duration": 8.22,
+      "text": "これは本能的な生存戦略の一部で、免疫遺伝子（HLA）の違いが、匂いの好悪を決定づけるという研究結果もあります。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "035",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_56",
+      "start_sec": 237.78,
+      "duration": 2.82,
+      "text": "特に、ある相手に強い不快感を感じる場合、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "036",
+      "emotion": "emotion: 不快感"
+    },
+    {
+      "scene_id": "scene_57",
+      "start_sec": 240.6,
+      "duration": 6.46,
+      "text": "その人の体臭に含まれる化学物質が、自分の遺伝的な“好み”と一致していない可能性が高いのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "036",
+      "emotion": "emotion: 不快感"
+    },
+    {
+      "scene_id": "scene_58",
+      "start_sec": 247.06,
+      "duration": 4.73,
+      "text": "これはフェロモンや本能的な警戒信号に近く、言葉や態度でどう取り繕っても、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "037",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_59",
+      "start_sec": 251.79,
+      "duration": 3.56,
+      "text": "匂いの相性だけで「なんかムリ」と感じてしまうことがある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "037",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_60",
+      "start_sec": 255.35,
+      "duration": 5.97,
+      "text": "興味深いのは、香水や柔軟剤ではこの根本的な“相性”は隠しきれないという点です。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "038",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_61",
+      "start_sec": 261.32,
+      "duration": 4.31,
+      "text": "つまり、第一印象で「どうしても好きになれない」と感じたとき、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "039",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_62",
+      "start_sec": 265.63,
+      "duration": 4.77,
+      "text": "その理由は視覚や会話ではなく、「鼻がNOと言っている」可能性もあるのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "039",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_63",
+      "start_sec": 270.4,
+      "duration": 3.65,
+      "text": "「無理な人」は“共通ルールの逸脱者”だった",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "040",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_64",
+      "start_sec": 274.05,
+      "duration": 4.64,
+      "text": "私たちは集団の中で生きる社会的な動物であり、意識せずともその集団には",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "040",
+      "emotion": "emotion: 怒り (anger)"
+    },
+    {
+      "scene_id": "scene_65",
+      "start_sec": 278.69,
+      "duration": 4.02,
+      "text": "「空気」や「ノリ」といった暗黙のルールが存在します。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "041",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_66",
+      "start_sec": 282.71,
+      "duration": 8.16,
+      "text": "たとえば、話すときのスピード感、視線の合わせ方、笑いのタイミングなど、細かい“共通のリズム”が形作られています。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "042",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_67",
+      "start_sec": 290.87,
+      "duration": 3.87,
+      "text": "このリズムを無視したり、著しくズレた振る舞いをする人が現れると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "043",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_68",
+      "start_sec": 294.74,
+      "duration": 5.06,
+      "text": "その人物は「空気が読めない」「場に合っていない」として、違和感を持たれます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "043",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_69",
+      "start_sec": 299.8,
+      "duration": 3.74,
+      "text": "しかもこの違和感は、具体的にどこが悪いと指摘できるものではなく、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "044",
+      "emotion": "emotion: 嫌悪 (aversion)"
+    },
+    {
+      "scene_id": "scene_70",
+      "start_sec": 303.54,
+      "duration": 3.7,
+      "text": "「なんとなく嫌だ」「付き合いたくない」という形で表面化します。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "044",
+      "emotion": "emotion: 嫌悪 (aversion)"
+    },
+    {
+      "scene_id": "scene_71",
+      "start_sec": 307.24,
+      "duration": 5.8,
+      "text": "社会心理学的には、これは「ノルム逸脱者に対する集団防衛反応」と捉えられます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "045",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_72",
+      "start_sec": 313.05,
+      "duration": 7.69,
+      "text": "つまり、個人の好みや偏見ではなく、集団全体の同調圧力によって“無理な人”が生まれるという構造があるのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "046",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_73",
+      "start_sec": 320.74,
+      "duration": 2.73,
+      "text": "精神的“境界”を踏み越えてくる人",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "047",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_74",
+      "start_sec": 323.47,
+      "duration": 6.47,
+      "text": "人にはそれぞれ、心の中に「これ以上は踏み込まれたくない」という境界線＝バウンダリーがあります。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "047",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_75",
+      "start_sec": 329.94,
+      "duration": 7.69,
+      "text": "これは物理的な距離だけでなく、会話の内容、プライバシー、感情表現の仕方など、さまざまな領域に存在します。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "048",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_76",
+      "start_sec": 337.63,
+      "duration": 5.0,
+      "text": "このバウンダリーを他人が無意識に超えてくると、私たちは強い不快感やストレスを感じます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "049",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_77",
+      "start_sec": 342.63,
+      "duration": 8.05,
+      "text": "たとえば、初対面なのに妙に馴れ馴れしい口調で話してくる人、聞かれてもいないのにプライベートな情報を掘り下げてくる人などは、その典型です。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "050",
+      "emotion": "emotion: 不快感"
+    },
+    {
+      "scene_id": "scene_78",
+      "start_sec": 350.69,
+      "duration": 7.37,
+      "text": "こうした「距離感の暴力」とも言える行動にさらされると、たとえ悪気がなくても私たちの心は防衛反応を起こし、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "051",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_79",
+      "start_sec": 358.06,
+      "duration": 4.02,
+      "text": "「この人といると疲れる」「生理的に無理」と感じてしまうのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "052",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_80",
+      "start_sec": 362.08,
+      "duration": 4.15,
+      "text": "これは感情的なわがままではなく、精神的なセルフディフェンスなのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "052",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_81",
+      "start_sec": 366.23,
+      "duration": 2.78,
+      "text": "過去の“記憶パターン”が無理と言ってる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "053",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_82",
+      "start_sec": 369.01,
+      "duration": 8.55,
+      "text": "脳は経験によって学習する器官であり、過去の人間関係で感じた“嫌な記憶”を、無意識のうちにパターンとして蓄積しています。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "054",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_83",
+      "start_sec": 377.57,
+      "duration": 7.03,
+      "text": "たとえば、過去に苦手だった上司が使っていた口癖や、元恋人の表情の癖などが、脳の深部に記憶されているのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "055",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_84",
+      "start_sec": 384.6,
+      "duration": 7.93,
+      "text": "そして、新たに出会った相手が、無意識にその記憶と重なる要素（声の高さ、話すテンポ、目の動きなど）を持っていると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "056",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_85",
+      "start_sec": 392.52,
+      "duration": 6.9,
+      "text": "私たちは「この人は危険だ」と反射的に警戒してしまいます。これは理性では説明できない拒否反応であり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "057",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_86",
+      "start_sec": 399.42,
+      "duration": 4.98,
+      "text": "本人も理由をうまく言語化できないまま「なんか無理」という感覚として表れるのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "058",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_87",
+      "start_sec": 404.41,
+      "duration": 5.85,
+      "text": "このメカニズムを理解することで、私たちは「相手に問題がある」と一方的に決めつける前に、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "059",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_88",
+      "start_sec": 410.25,
+      "duration": 5.06,
+      "text": "「もしかすると自分の記憶が反応しているのかもしれない」と内省するきっかけを持つことができます。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "060",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_89",
+      "start_sec": 415.31,
+      "duration": 4.41,
+      "text": "それは、人間関係の誤解や対立を避けるための重要な視点でもあるのです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "060",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_90",
+      "start_sec": 419.71,
+      "duration": 0.66,
+      "text": "最後に",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "061",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_91",
+      "start_sec": 420.37,
+      "duration": 3.23,
+      "text": "私たちが誰かを「なんとなく無理」と感じるとき、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "061",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_92",
+      "start_sec": 423.61,
+      "duration": 4.74,
+      "text": "そこにはただの“わがまま”でも、単なる“好き嫌い”でもない、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "061",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_93",
+      "start_sec": 428.34,
+      "duration": 4.62,
+      "text": "脳・心・社会の構造的な仕組みが関わっていることがわかってきました。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "062",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_94",
+      "start_sec": 432.96,
+      "duration": 5.3,
+      "text": "扁桃体の反応、ミラーニューロンの不一致、過去の記憶、嗅覚の相性――",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "063",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_95",
+      "start_sec": 438.26,
+      "duration": 5.94,
+      "text": "私たちの“感情のセンサー”は、驚くほど繊細で、そして自分の意識を超えて働いています。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "064",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_96",
+      "start_sec": 444.2,
+      "duration": 4.22,
+      "text": "だからこそ、「無理」と感じることを無理に否定する必要はありません。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "065",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_97",
+      "start_sec": 448.43,
+      "duration": 3.13,
+      "text": "同時に、その感情の背後にある理由を理解しておけば、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "065",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_98",
+      "start_sec": 451.55,
+      "duration": 4.11,
+      "text": "必要以上に自分や相手を責めたり、苦しんだりしなくて済むかもしれません。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "066",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_99",
+      "start_sec": 455.66,
+      "duration": 2.39,
+      "text": "あの人が“無理”に見えるのは、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "066",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_100",
+      "start_sec": 458.05,
+      "duration": 2.79,
+      "text": "もしかしたら自分を守るための脳のサインかもしれないし、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "066",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_101",
+      "start_sec": 460.84,
+      "duration": 3.99,
+      "text": "あるいは自分の中にある“影”が映っているだけかもしれない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "067",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_102",
+      "start_sec": 464.83,
+      "duration": 4.07,
+      "text": "大事なのは、「なんでそう感じたんだろう？」と一歩立ち止まってみること。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "067",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_103",
+      "start_sec": 468.91,
+      "duration": 4.53,
+      "text": "その一歩が、人間関係のノイズを減らし、少しだけ生きやすくしてくれるはずです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "068",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_104",
+      "start_sec": 473.44,
+      "duration": 2.08,
+      "text": "最後までご視聴ありがとうございました。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "068",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_105",
+      "start_sec": 475.52,
+      "duration": 4.67,
+      "text": "この動画が、少しでもあなたの心の整理や対人ストレスのヒントになれば幸いです。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "069",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_106",
+      "start_sec": 480.19,
+      "duration": 2.79,
+      "text": "気になったテーマがあれば、コメントで教えてください。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "069",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_107",
+      "start_sec": 482.99,
+      "duration": 2.17,
+      "text": "次回のテーマにも活かしていきたいと思います。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "070",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_108",
+      "start_sec": 485.15,
+      "duration": 2.42,
+      "text": "それではまた、次の動画でお会いしましょう。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "070",
+      "emotion": "emotion: 落ち着き (calm)"
+    }
+  ]
+}

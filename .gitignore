@@ -10,6 +10,12 @@ data/stage_5_image/
 data/stage_5_output/
 data/stage_6_output/
 data/final/
+data_long/stage_1_audio/
+data_long/stage_4_subtitles/
+data_long/stage_5_image/
+data_long/stage_5_output/
+data_long/stage_6_output/
+data_long/final/
 images/
 scripts_ok/
 config/versions/

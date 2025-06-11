@@ -1,0 +1,56 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, body turned, head looking over shoulder, light shapes framing the face from side or back, gentle bokeh in background, soft tones, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "あの人、なんか無理…の正体"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "「特に何かされたわけじゃない。でも、なんか無理。話すと疲れる。目が合うと避けたくなる──」"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "「その“なんとなく”には、理由がないようで、実はある。」"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「言葉にもできない、説明もできない。でも脳と体が拒否している。そう感じたこと、ありませんか？」"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "gecko with gemstone scales, light shimmering with each movement, waist-up composition, hands partially visible, balanced framing, viewed from below with strong tilt, subject placed near frame edge, body fragmenting toward left or right frame, non-radial, scene cut across diagonally with light or shadow, subject floats across at edge, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "初対面で「嫌悪」が生まれる脳のスキャン反応"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "私たちの脳は、誰かと出会った瞬間、わずか0.2秒で「この人は安全かどうか」を判断しています。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "この判断は扁桃体という脳の部位が担っており、表情や声色、目の動きなど非常に些細な情報をもとに、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, looking slightly upward, hopeful expression, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_08",
+        "text": "本能的に「危険」と判断した場合には、本人の意識とは無関係に嫌悪感や不快感が湧き上がります。"
+      },
+      {
+        "scene_id": "scene_09",
+        "text": "このプロセスは論理的な理解や経験よりも早く起こるため、「なんとなく無理」と感じる相手に理由が見つからないのは自然なことなのです。"
+      }
+    ]
+  }
+}
