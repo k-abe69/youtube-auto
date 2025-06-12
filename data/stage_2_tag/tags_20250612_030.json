@@ -1,0 +1,245 @@
+{
+  "global_image_tag": "ホラー",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.47,
+      "text": "人間の体には\n“使われていない器官”\nがたくさんある",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.47,
+      "duration": 1.94,
+      "text": "3つの異なる切り口で説明します",
+      "type": "fix",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.41,
+      "duration": 3.09,
+      "text": "盲腸は草食時代の\n“消化タンク”の名残",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 8.5,
+      "duration": 1.09,
+      "text": "人間の盲腸は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 9.59,
+      "duration": 2.1,
+      "text": "祖先が植物を主食としていた頃に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 11.69,
+      "duration": 2.31,
+      "text": "セルロースを分解する細菌の棲みかだった。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 14.01,
+      "duration": 2.33,
+      "text": "現在は役割がほとんど失われており、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 16.33,
+      "duration": 1.67,
+      "text": "一部の免疫補助以外には",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 18.01,
+      "duration": 1.9,
+      "text": "“機能していない器官”とされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 19.9,
+      "duration": 2.9,
+      "text": "耳の動きは\n“警戒反応”の痕跡",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 22.81,
+      "duration": 2.35,
+      "text": "人間にも、微細ながら耳を動かす",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 25.15,
+      "duration": 1.15,
+      "text": "筋肉が残っている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 26.3,
+      "duration": 1.93,
+      "text": "これはかつて周囲の音に反応して",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 28.23,
+      "duration": 1.35,
+      "text": "耳を向けていた名残であり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 29.59,
+      "duration": 1.9,
+      "text": "現代人ではほぼ使われていない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 31.49,
+      "duration": 2.76,
+      "text": "一部の人が“耳を動かせる”のは",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 34.25,
+      "duration": 1.59,
+      "text": "この進化の痕跡によるもの。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 35.84,
+      "duration": 4.42,
+      "text": "立毛筋（鳥肌）は\n“毛を逆立てる防御反応”\nだった",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 40.26,
+      "duration": 3.17,
+      "text": "寒さや恐怖を感じたときに起こる“鳥肌”は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 43.42,
+      "duration": 1.7,
+      "text": "毛を逆立てて体温を保ったり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 45.12,
+      "duration": 2.31,
+      "text": "威嚇のために体を大きく見せたりするための",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 47.43,
+      "duration": 1.46,
+      "text": "進化的な反応の名残。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 48.9,
+      "duration": 2.13,
+      "text": "現代人は毛が薄いため効果はなく、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 51.03,
+      "duration": 1.31,
+      "text": "反応だけが残っている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
+    }
+  ]
+}

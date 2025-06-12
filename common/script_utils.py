@@ -102,7 +102,7 @@ def parse_and_generate_voicevox_script(
                 # 直後に scene02 (fix) を強制挿入
                 if scene["type"] == "main_title":
                     scene_id = f"scene_{scene_counter:02}"
-                    fix_text = "3つの根拠で説明します"
+                    fix_text = "3つの異なる切り口で説明します"
                     voicevox_lines.append(f"(0:00)\n{fix_text}\n")
                     meta.append({
                         "scene_id": scene_id,
