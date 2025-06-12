@@ -56,7 +56,8 @@ if __name__ == "__main__":
 
     # download_images_from_s3("20250612_006")
     # download_images_from_s3("20250612_007")
-    # download_images_from_s3("20250612_008")
-    # download_images_from_s3("20250612_009")
-    # download_images_from_s3("20250612_010")
-    download_images_from_s3("20250612_011")
+    download_images_from_s3("20250612_024")
+    download_images_from_s3("20250612_025")
+    download_images_from_s3("20250612_026")
+    download_images_from_s3("20250612_027")
+    download_images_from_s3("20250612_028")
