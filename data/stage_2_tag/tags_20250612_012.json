@@ -1,0 +1,215 @@
+{
+  "global_image_tag": "ホラー",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.73,
+      "text": "“痛みを一切感じない”\n人が実在するのか？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.73,
+      "duration": 1.58,
+      "text": "3つの根拠で説明します",
+      "type": "fix",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.31,
+      "duration": 2.31,
+      "text": "“痛覚ゼロ”の人間\nは実在する",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 6.62,
+      "duration": 4.09,
+      "text": "「先天性無痛症（CIP）」という遺伝的疾患を持つ人は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 10.71,
+      "duration": 3.51,
+      "text": "火傷・骨折・炎症などでも一切痛みを感じない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 14.22,
+      "duration": 2.36,
+      "text": "これは痛みを伝える神経経路の欠損や、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 16.58,
+      "duration": 2.78,
+      "text": "脳内の痛覚処理が完全に働かないことで生じる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 19.36,
+      "duration": 2.04,
+      "text": "本人は無自覚に重傷を負いやすく、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 21.4,
+      "duration": 1.81,
+      "text": "治癒の遅れや事故死のリスクも高い。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 23.21,
+      "duration": 3.26,
+      "text": "“無痛症の少女”は\n骨折しても\n走り回っていた",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 26.47,
+      "duration": 1.71,
+      "text": "アメリカで報告された少女は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 28.18,
+      "duration": 1.71,
+      "text": "腕を骨折したまま遊び続け、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 29.89,
+      "duration": 1.76,
+      "text": "家族が異変に気づくのが遅れた。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 31.65,
+      "duration": 2.86,
+      "text": "診断の結果、遺伝的な痛覚欠損と判明。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 34.51,
+      "duration": 3.06,
+      "text": "このケースでは、定期的な体温・傷チェックと",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 37.57,
+      "duration": 2.46,
+      "text": "行動制限によって生活が管理されていた。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 40.03,
+      "duration": 2.62,
+      "text": "痛みを遮断する\n遺伝子は\n“鎮痛薬の鍵”",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 42.66,
+      "duration": 2.21,
+      "text": "無痛症患者の遺伝子を調査した結果、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 44.86,
+      "duration": 3.32,
+      "text": "その構造を応用して新しい鎮痛薬の開発が進んでいる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 48.18,
+      "duration": 4.48,
+      "text": "副作用の少ない“脳に届かないタイプの痛覚ブロック”が可能となり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 52.66,
+      "duration": 3.11,
+      "text": "がん性疼痛や慢性痛の治療への応用が期待されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    }
+  ]
+}

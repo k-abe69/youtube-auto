@@ -79,7 +79,7 @@
       "type": "summary",
       "tags": [],
       "parent_scene_id": "004",
-      "emotion": "emotion: 悲しみ (sadness)"
+      "emotion": "emotion: 無感情・中立 (neutral)"
     },
     {
       "scene_id": "scene_09",
@@ -134,7 +134,7 @@
     {
       "scene_id": "scene_14",
       "start_sec": 27.62,
-      "duration": 1.87,
+      "duration": 1.9,
       "text": "現代人ではほぼ使われていない。",
       "type": "summary",
       "tags": [],
@@ -143,7 +143,7 @@
     },
     {
       "scene_id": "scene_15",
-      "start_sec": 29.48,
+      "start_sec": 29.51,
       "duration": 2.76,
       "text": "一部の人が“耳を動かせる”のは",
       "type": "summary",
@@ -153,7 +153,7 @@
     },
     {
       "scene_id": "scene_16",
-      "start_sec": 32.25,
+      "start_sec": 32.28,
       "duration": 1.59,
       "text": "この進化の痕跡によるもの。",
       "type": "summary",
@@ -163,8 +163,8 @@
     },
     {
       "scene_id": "scene_17",
-      "start_sec": 33.83,
-      "duration": 4.61,
+      "start_sec": 33.87,
+      "duration": 4.42,
       "text": "立毛筋（鳥肌）は\n“毛を逆立てる防御反応”\nだった",
       "type": "title",
       "tags": [],
@@ -173,7 +173,7 @@
     },
     {
       "scene_id": "scene_18",
-      "start_sec": 38.44,
+      "start_sec": 38.28,
       "duration": 3.17,
       "text": "寒さや恐怖を感じたときに起こる“鳥肌”は、",
       "type": "summary",
@@ -183,7 +183,7 @@
     },
     {
       "scene_id": "scene_19",
-      "start_sec": 41.61,
+      "start_sec": 41.45,
       "duration": 1.7,
       "text": "毛を逆立てて体温を保ったり、",
       "type": "summary",
@@ -193,7 +193,7 @@
     },
     {
       "scene_id": "scene_20",
-      "start_sec": 43.31,
+      "start_sec": 43.15,
       "duration": 2.31,
       "text": "威嚇のために体を大きく見せたりするための",
       "type": "summary",
@@ -203,7 +203,7 @@
     },
     {
       "scene_id": "scene_21",
-      "start_sec": 45.62,
+      "start_sec": 45.46,
       "duration": 1.46,
       "text": "進化的な反応の名残。",
       "type": "summary",
@@ -213,8 +213,8 @@
     },
     {
       "scene_id": "scene_22",
-      "start_sec": 47.08,
-      "duration": 2.12,
+      "start_sec": 46.92,
+      "duration": 2.13,
       "text": "現代人は毛が薄いため効果はなく、",
       "type": "summary",
       "tags": [],
@@ -223,7 +223,7 @@
     },
     {
       "scene_id": "scene_23",
-      "start_sec": 49.21,
+      "start_sec": 49.06,
       "duration": 1.31,
       "text": "反応だけが残っている。",
       "type": "summary",

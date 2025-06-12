@@ -49,7 +49,7 @@
       "type": "summary",
       "tags": [],
       "parent_scene_id": "003",
-      "emotion": "emotion: 無感情・中立 (neutral)"
+      "emotion": "emotion: 中立 (neutral)"
     },
     {
       "scene_id": "scene_06",
@@ -59,7 +59,7 @@
       "type": "summary",
       "tags": [],
       "parent_scene_id": "003",
-      "emotion": "emotion: 無感情・中立 (neutral)"
+      "emotion": "emotion: 中立 (neutral)"
     },
     {
       "scene_id": "scene_07",
@@ -69,7 +69,7 @@
       "type": "summary",
       "tags": [],
       "parent_scene_id": "003",
-      "emotion": "emotion: 無感情・中立 (neutral)"
+      "emotion": "emotion: 中立 (neutral)"
     },
     {
       "scene_id": "scene_08",
@@ -144,8 +144,8 @@
     {
       "scene_id": "scene_15",
       "start_sec": 25.96,
-      "duration": 2.53,
-      "text": "とくに感情の起伏が激しい親を持つ子どもは、",
+      "duration": 3.1,
+      "text": "特に感情の起伏が激しい/N親を持つ子どもは、",
       "type": "summary",
       "tags": [],
       "parent_scene_id": "006",
@@ -153,7 +153,7 @@
     },
     {
       "scene_id": "scene_16",
-      "start_sec": 28.49,
+      "start_sec": 29.07,
       "duration": 3.01,
       "text": "感情認知・表現・制御のスキルが",
       "type": "summary",
@@ -163,7 +163,7 @@
     },
     {
       "scene_id": "scene_17",
-      "start_sec": 31.5,
+      "start_sec": 32.07,
       "duration": 2.23,
       "text": "育ちにくく、対人関係でも",
       "type": "summary",
@@ -173,7 +173,7 @@
     },
     {
       "scene_id": "scene_18",
-      "start_sec": 33.73,
+      "start_sec": 34.3,
       "duration": 1.93,
       "text": "不安定な振る舞いを示すことが多い。",
       "type": "summary",
@@ -183,7 +183,7 @@
     },
     {
       "scene_id": "scene_19",
-      "start_sec": 35.66,
+      "start_sec": 36.23,
       "duration": 3.29,
       "text": "貧困層の子どもは\n“自己抑制力”が低下",
       "type": "title",
@@ -193,7 +193,7 @@
     },
     {
       "scene_id": "scene_20",
-      "start_sec": 38.94,
+      "start_sec": 39.52,
       "duration": 2.5,
       "text": "慢性的な経済的不安に晒される子どもは、",
       "type": "summary",
@@ -203,7 +203,7 @@
     },
     {
       "scene_id": "scene_21",
-      "start_sec": 41.44,
+      "start_sec": 42.02,
       "duration": 1.83,
       "text": "脳の前頭前皮質の発達が",
       "type": "summary",
@@ -213,7 +213,7 @@
     },
     {
       "scene_id": "scene_22",
-      "start_sec": 43.27,
+      "start_sec": 43.85,
       "duration": 1.34,
       "text": "抑制される傾向がある。",
       "type": "summary",
@@ -223,7 +223,7 @@
     },
     {
       "scene_id": "scene_23",
-      "start_sec": 44.62,
+      "start_sec": 45.19,
       "duration": 2.41,
       "text": "この領域は衝動の抑制や計画性に",
       "type": "summary",
@@ -233,7 +233,7 @@
     },
     {
       "scene_id": "scene_24",
-      "start_sec": 47.03,
+      "start_sec": 47.61,
       "duration": 0.83,
       "text": "関与しており、",
       "type": "summary",
@@ -243,7 +243,7 @@
     },
     {
       "scene_id": "scene_25",
-      "start_sec": 47.86,
+      "start_sec": 48.44,
       "duration": 2.77,
       "text": "長期的な目標達成や社会的規範への適応に",
       "type": "summary",
@@ -253,7 +253,7 @@
     },
     {
       "scene_id": "scene_26",
-      "start_sec": 50.63,
+      "start_sec": 51.21,
       "duration": 2.38,
       "text": "困難を抱える可能性があると示唆されている。",
       "type": "summary",

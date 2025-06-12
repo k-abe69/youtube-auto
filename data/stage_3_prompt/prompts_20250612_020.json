@@ -1,0 +1,140 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“痛みを一切感じない”\n人が実在するのか？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, upper body leaning toward viewer, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "“痛覚ゼロ”の人間\nは実在する"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「先天性無痛症（CIP）」という遺伝的疾患を持つ人は、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "火傷・骨折・炎症などでも一切痛みを感じない。"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, holding a delicate flower near face, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "これは痛みを伝える神経経路の欠損や、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "脳内の痛覚処理が完全に働かないことで生じる。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "本人は無自覚に重傷を負いやすく、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "治癒の遅れや事故死のリスクも高い。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, body turned, head looking over shoulder, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "“無痛症の少女”は\n骨折しても\n走り回っていた"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "アメリカで報告された少女は、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "腕を骨折したまま遊び続け、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "flock of flying fish glowing with inner light, orbiting together in patterns, extreme close-up with stretched perspective, unrealistic lens, viewed from below with strong tilt, subject placed near frame edge, body fragmenting toward left or right frame, non-radial, main subject located in top left or right corner, sky dominant, asymmetric, intense lens flare from unnatural light source, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "家族が異変に気づくのが遅れた。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "診断の結果、遺伝的な痛覚欠損と判明。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "定期的なチェックと行動制限によって"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, body turned, head looking over shoulder, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "生活が管理されていた。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, gaze lowered, reflective mood, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "痛みを遮断する\n遺伝子は\n“鎮痛薬の鍵”"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "無痛症患者の遺伝子を調査し応用した、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "新しい鎮痛薬の開発が進んでいる。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, resting chin on hand, calm expression, tight head-and-shoulders crop, minimal background, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "副作用の少ない“脳に届かないタイプの痛覚ブロック”が可能となり、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "がん性疼痛や慢性痛の治療への応用が期待されている。"
+      }
+    ]
+  }
+}

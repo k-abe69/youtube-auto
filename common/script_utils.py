@@ -99,6 +99,19 @@ def parse_and_generate_voicevox_script(
                 })
                 last_scene_id = scene_id
                 scene_counter += 1
+                # 直後に scene02 (fix) を強制挿入
+                if scene["type"] == "main_title":
+                    scene_id = f"scene_{scene_counter:02}"
+                    fix_text = "3つの根拠で説明します"
+                    voicevox_lines.append(f"(0:00)\n{fix_text}\n")
+                    meta.append({
+                        "scene_id": scene_id,
+                        "type": "fix",
+                        "text": fix_text,
+                        "parent": last_scene_id  # scene01が親
+                    })
+                    scene_counter += 1
+
         elif scene["type"] == "source":
             text = scene["text"].strip()
             if text and last_scene_id:

@@ -1,0 +1,285 @@
+{
+  "global_image_tag": "皮肉",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.09,
+      "text": "“深呼吸”は、\n逆にストレスを\n悪化させる？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.09,
+      "duration": 1.58,
+      "text": "3つの根拠で説明します",
+      "type": "fix",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.67,
+      "duration": 2.13,
+      "text": "深呼吸＝\nリラックスは誤解",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 6.81,
+      "duration": 2.56,
+      "text": "深呼吸をすると副交感神経が優位になる",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 9.37,
+      "duration": 1.85,
+      "text": "という通説は一部で正しいが、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 11.21,
+      "duration": 3.51,
+      "text": "呼吸の“深さ”や“吸い方”によっては、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 14.72,
+      "duration": 1.67,
+      "text": "むしろ交感神経を刺激し",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 16.39,
+      "duration": 1.55,
+      "text": "不安や緊張を悪化させる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 17.94,
+      "duration": 2.88,
+      "text": "特に「吸う」行為を強調しすぎると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 20.82,
+      "duration": 1.82,
+      "text": "心拍が上がることが確認された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 22.65,
+      "duration": 1.46,
+      "text": "息を吸うより\n吐くが重要",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 24.11,
+      "duration": 1.73,
+      "text": "不安対処における呼吸法では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 25.83,
+      "duration": 1.7,
+      "text": "「吸うよりも吐く」ことに",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 27.53,
+      "duration": 1.29,
+      "text": "重点を置くべきとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 28.82,
+      "duration": 1.71,
+      "text": "呼気をゆっくり長く続けることで",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 30.53,
+      "duration": 1.47,
+      "text": "迷走神経が刺激され、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 32.0,
+      "duration": 1.61,
+      "text": "自律神経が安定しやすい。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 33.61,
+      "duration": 1.19,
+      "text": "逆に過度な吸気は",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 34.81,
+      "duration": 1.61,
+      "text": "過換気を引き起こすリスクもある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 36.42,
+      "duration": 1.65,
+      "text": "腹式呼吸の\n自己流は危険",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 38.07,
+      "duration": 1.41,
+      "text": "腹式呼吸は本来、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 39.48,
+      "duration": 2.42,
+      "text": "安静時の自律神経安定に効果があるが、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 41.9,
+      "duration": 1.06,
+      "text": "誤ったフォームや",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 42.95,
+      "duration": 1.89,
+      "text": "“無理な腹圧”で行うと、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 44.84,
+      "duration": 2.01,
+      "text": "呼吸補助筋や内臓に負担をかけ、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 46.85,
+      "duration": 1.88,
+      "text": "かえって身体を緊張させることがある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 48.73,
+      "duration": 1.41,
+      "text": "指導なしでの実践には",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_28",
+      "start_sec": 50.13,
+      "duration": 1.41,
+      "text": "注意が必要とされている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 緊張 (tension)"
+    }
+  ]
+}

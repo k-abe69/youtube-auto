@@ -1,7 +1,7 @@
 {
   "001": {
-    "prompt": "city made of soft fog and light, buildings flicker in and out of view, silhouette in unnatural lighting, distorted horizon, angled underwater perspective, camera tilted, subject half-in frame, floating pose, hands extending off one side of frame, horizon twisted, sky blends into floor, subject falling diagonally, shadows cast in conflicting directions, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, resting chin on hand, calm expression, tight head-and-shoulders crop, minimal background, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_01",
@@ -10,8 +10,8 @@
     ]
   },
   "002": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
-    "theme": "beauty",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, hands clasped in front, formal yet soft pose, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_02",
@@ -28,7 +28,7 @@
     ]
   },
   "003": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, blurred object partially in foreground, framing face, sparkle and sharp detail in eyes, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, hands clasped in front, formal yet soft pose, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "004": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with no make up,  blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), queen-like woman with half-glass face, regal gown disintegrating into particles, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, touching her hair gently, slightly dreamy pose, background blurred to focus sharply on eyes, soft glow around subject with light bloom, ",
     "theme": "beauty",
     "scenes": [
       {
@@ -56,8 +56,8 @@
     ]
   },
   "005": {
-    "prompt": "a valley where lightning is frozen in midair, illuminating the terrain eternally, subject seen through an endless corridor or portal, exaggerated depth, ceiling becomes floor, subject positioned diagonally, lying on transparent surface, face to the side, half-framed, frame split vertically with two worlds, subject compressed to one side, dense fog with colored lights and silhouette, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, looking slightly upward, hopeful expression, light shapes framing the face from side or back, colorful light gradient across background, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_09",
@@ -65,7 +65,7 @@
       },
       {
         "scene_id": "scene_10",
-        "text": "アメリカで報告された少女（7歳）は、"
+        "text": "アメリカで報告された少女は、"
       },
       {
         "scene_id": "scene_11",
@@ -74,12 +74,12 @@
     ]
   },
   "006": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, face positioned off-center with balanced lighting, light source behind creating glow around hair, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
     "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_12",
-        "text": "家族が異変に気づくまで放置されていた。"
+        "text": "家族が異変に気づくのが遅れた。"
       },
       {
         "scene_id": "scene_13",
@@ -92,7 +92,7 @@
     ]
   },
   "007": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, upper body leaning toward viewer, blurred object partially in foreground, framing face, light source behind creating glow around hair, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
     "theme": "girl",
     "scenes": [
       {
@@ -102,7 +102,7 @@
     ]
   },
   "008": {
-    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, hand reaching toward the camera softly, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, gaze lowered, reflective mood, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
     "theme": "normal_beauty",
     "scenes": [
       {
@@ -111,7 +111,7 @@
       },
       {
         "scene_id": "scene_17",
-        "text": "無痛症患者の遺伝子（SCN9Aなど）を調査した結果、"
+        "text": "無痛症患者の遺伝子を調査した結果、"
       },
       {
         "scene_id": "scene_18",
@@ -120,8 +120,8 @@
     ]
   },
   "009": {
-    "prompt": "open grass field filled with standing bookshelves under cloudy sky, headshot with forehead cropped, cinematic intensity, ceiling becomes floor, subject positioned diagonally, twisting body diagonally, motion trail along frame edge, main subject located in top left or right corner, sky dominant, asymmetric, shadows cast in conflicting directions, ",
-    "theme": "scenery",
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, body turned, head looking over shoulder, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
     "scenes": [
       {
         "scene_id": "scene_19",

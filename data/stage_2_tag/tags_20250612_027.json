@@ -1,0 +1,255 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.21,
+      "text": "目を動かすだけで\n“トラウマが薄れる”",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.21,
+      "duration": 1.58,
+      "text": "3つの根拠で説明します",
+      "type": "fix",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 3.79,
+      "duration": 1.96,
+      "text": "目の動きが\n脳の記憶処理\nを促進",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 5.75,
+      "duration": 1.28,
+      "text": "眼球運動をしながら",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 7.03,
+      "duration": 1.39,
+      "text": "トラウマ記憶を思い出すと、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 8.42,
+      "duration": 1.29,
+      "text": "その記憶の鮮明さや",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 9.71,
+      "duration": 1.77,
+      "text": "感情的強度が弱まるという",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 11.48,
+      "duration": 2.3,
+      "text": "実験結果。これは脳が処理中に",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 13.78,
+      "duration": 1.5,
+      "text": "視覚リソースを使うことで",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 15.29,
+      "duration": 2.77,
+      "text": "記憶が“再構成”されるためと",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 18.06,
+      "duration": 0.82,
+      "text": "考えられる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 18.88,
+      "duration": 2.28,
+      "text": "目の動きと睡眠中の記憶処理は似ている",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 21.16,
+      "duration": 1.77,
+      "text": "レム睡眠中の眼球運動は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 22.93,
+      "duration": 1.83,
+      "text": "日中の記憶や感情を整理する",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 24.77,
+      "duration": 2.05,
+      "text": "“脳内再処理”と関連している。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 26.82,
+      "duration": 1.41,
+      "text": "この自然な処理プロセスを",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 28.22,
+      "duration": 2.34,
+      "text": "人工的に模倣した治療法も存在する。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 30.56,
+      "duration": 3.07,
+      "text": "歩行やジョギングも\n“左右交互刺激”\nになる",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 33.63,
+      "duration": 1.44,
+      "text": "規則的な歩行運動は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 35.07,
+      "duration": 2.18,
+      "text": "左右交互の身体刺激として機能し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 37.25,
+      "duration": 1.32,
+      "text": "ストレスホルモンの低下や",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 38.57,
+      "duration": 1.72,
+      "text": "感情安定に貢献するという",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 40.29,
+      "duration": 1.69,
+      "text": "研究結果が報告されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 41.97,
+      "duration": 1.71,
+      "text": "眼球運動と同様の効果が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 43.68,
+      "duration": 2.15,
+      "text": "日常動作でも部分的に再現される。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 落ち着き (calm)"
+    }
+  ]
+}

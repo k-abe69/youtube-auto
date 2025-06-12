@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, silhouette in unnatural lighting, distorted horizon, top-down angle with subject placed off-center, avoids symmetry, climbing diagonally across a wall, angle from below-left, viewed from a crack in the ground, subject half-cropped above, asymmetrical, background is sharp while subject is blurred, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "「親ガチャ」\n存在証明してみた"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, hand reaching toward the camera softly, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "遺伝より\n“家庭環境”が決め手"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "子どもの学業成績には"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "遺伝的な要素よりも、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), female commander in a black uniform, sidecap and medals, stern gaze, battlefield smoke, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, looking slightly upward, hopeful expression, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "幼少期に受けた家庭内の支援や"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "学習環境の方が"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "はるかに大きな影響を与える。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "bird that leaves ink drops behind mid-flight, tail trailing into calligraphy, waist-up composition, hands partially visible, balanced framing, viewed from below with strong tilt, subject placed near frame edge, climbing diagonally across a wall, angle from below-left, frame split vertically with two worlds, subject compressed to one side, background is sharp while subject is blurred, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "特に読み聞かせや語彙の刺激が"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "認知能力の発達を促進する。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "city made of soft fog and light, buildings flicker in and out of view, waist-up composition, hands partially visible, balanced framing, viewed from corner with sharp perspective line, subject in lower third, jumping midair at diagonal angle, limbs offset, subject cropped, subject emerging partially from frame corner, majority off-frame, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "情緒が育ちにくい\n家庭環境"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "怒鳴る・無視する・過干渉など、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "親の未熟な感情表現が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, gaze lowered, reflective mood, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "子どもの情緒安定に深刻な影響を与える。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "特に感情の起伏が激しい\\n親を持つ子どもは、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "感情認知・表現・制御のスキルが"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "city made of soft fog and light, buildings flicker in and out of view, side angle close-up with focus on cheek and ear, cropped frame, top-down angle with subject placed off-center, avoids symmetry, climbing diagonally across a wall, angle from below-left, frame split vertically with two worlds, subject compressed to one side, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "育ちにくく、対人関係でも"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "不安定な振る舞いを示すことが多い。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "city made of soft fog and light, buildings flicker in and out of view, scene viewed through a small hole or tunnel, warped edges, viewed from below with strong tilt, subject placed near frame edge, twisting body diagonally, motion trail along frame edge, subject emerging partially from frame corner, majority off-frame, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "貧困層の子どもは\n“自己抑制力”が低下"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "慢性的な経済的不安に晒される子どもは、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "脳の前頭前皮質の発達が"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, upper body leaning toward viewer, light shapes framing the face from side or back, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "抑制される傾向がある。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "この領域は衝動の抑制や計画性に"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "関与しており、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, background blurred to focus sharply on eyes, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "長期的な目標達成や社会的規範への適応に"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "困難を抱える可能性がある。"
+      }
+    ]
+  }
+}

@@ -94,8 +94,8 @@
     {
       "scene_id": "scene_10",
       "start_sec": 24.9,
-      "duration": 3.01,
-      "text": "アメリカで報告された少女（7歳）は、",
+      "duration": 1.71,
+      "text": "アメリカで報告された少女は、",
       "type": "summary",
       "tags": [],
       "parent_scene_id": "005",
@@ -103,7 +103,7 @@
     },
     {
       "scene_id": "scene_11",
-      "start_sec": 27.9,
+      "start_sec": 26.6,
       "duration": 1.71,
       "text": "腕を骨折したまま遊び続け、",
       "type": "summary",
@@ -113,9 +113,9 @@
     },
     {
       "scene_id": "scene_12",
-      "start_sec": 29.61,
-      "duration": 2.1,
-      "text": "家族が異変に気づくまで放置されていた。",
+      "start_sec": 28.31,
+      "duration": 1.76,
+      "text": "家族が異変に気づくのが遅れた。",
       "type": "summary",
       "tags": [],
       "parent_scene_id": "006",
@@ -123,7 +123,7 @@
     },
     {
       "scene_id": "scene_13",
-      "start_sec": 31.71,
+      "start_sec": 30.07,
       "duration": 2.86,
       "text": "診断の結果、遺伝的な痛覚欠損と判明。",
       "type": "summary",
@@ -133,7 +133,7 @@
     },
     {
       "scene_id": "scene_14",
-      "start_sec": 34.57,
+      "start_sec": 32.93,
       "duration": 3.06,
       "text": "このケースでは、定期的な体温・傷チェックと",
       "type": "summary",
@@ -143,7 +143,7 @@
     },
     {
       "scene_id": "scene_15",
-      "start_sec": 37.63,
+      "start_sec": 35.99,
       "duration": 2.46,
       "text": "行動制限によって生活が管理されていた。",
       "type": "summary",
@@ -153,7 +153,7 @@
     },
     {
       "scene_id": "scene_16",
-      "start_sec": 40.1,
+      "start_sec": 38.45,
       "duration": 2.62,
       "text": "痛みを遮断する\n遺伝子は\n“鎮痛薬の鍵”",
       "type": "title",
@@ -163,9 +163,9 @@
     },
     {
       "scene_id": "scene_17",
-      "start_sec": 42.72,
-      "duration": 4.3,
-      "text": "無痛症患者の遺伝子（SCN9Aなど）を調査した結果、",
+      "start_sec": 41.08,
+      "duration": 2.21,
+      "text": "無痛症患者の遺伝子を調査した結果、",
       "type": "summary",
       "tags": [],
       "parent_scene_id": "008",
@@ -173,7 +173,7 @@
     },
     {
       "scene_id": "scene_18",
-      "start_sec": 47.02,
+      "start_sec": 43.29,
       "duration": 3.32,
       "text": "その構造を応用して新しい鎮痛薬の開発が進んでいる。",
       "type": "summary",
@@ -183,7 +183,7 @@
     },
     {
       "scene_id": "scene_19",
-      "start_sec": 50.34,
+      "start_sec": 46.6,
       "duration": 4.48,
       "text": "副作用の少ない“脳に届かないタイプの痛覚ブロック”が可能となり、",
       "type": "summary",
@@ -193,7 +193,7 @@
     },
     {
       "scene_id": "scene_20",
-      "start_sec": 54.82,
+      "start_sec": 51.08,
       "duration": 3.11,
       "text": "がん性疼痛や慢性痛の治療への応用が期待されている。",
       "type": "summary",

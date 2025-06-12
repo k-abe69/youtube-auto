@@ -1,0 +1,158 @@
+{
+  "001": {
+    "prompt": "forest frozen in multiple seasons simultaneously, color distortion everywhere, distant shot, tiny subject, wide surreal background, ceiling becomes floor, subject positioned diagonally, climbing diagonally across a wall, angle from below-left, subject pushed to the extreme edge of the frame, strong negative space, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "人間の体には\n“使われていない器官”\nがたくさんある"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, looking slightly upward, hopeful expression, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "盲腸は草食時代の\n“消化タンク”の名残"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "人間の盲腸は、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "祖先が植物を主食としていた頃に"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, gaze lowered, reflective mood, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "セルロースを分解する細菌の棲みかだった。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "現在は役割がほとんど失われており、"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "一部の免疫補助以外には"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, hand reaching toward the camera softly, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "“機能していない器官”とされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, arms crossed lightly, relaxed and confident, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "耳の動きは\n“警戒反応”の痕跡"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "人間にも、微細ながら耳を動かす"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "筋肉が残っている。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, touching her hair gently, slightly dreamy pose, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "これはかつて周囲の音に反応して"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "耳を向けていた名残であり、"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "現代人ではほぼ使われていない。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "forest frozen in multiple seasons simultaneously, color distortion everywhere, side angle close-up with focus on cheek and ear, cropped frame, viewed from below with strong tilt, subject placed near frame edge, climbing diagonally across a wall, angle from below-left, horizon twisted, sky blends into floor, subject falling diagonally, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "一部の人が“耳を動かせる”のは"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "この進化の痕跡によるもの。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "bridge that loops endlessly in the sky, vanishing into itself, dreamy haze, headshot with forehead cropped, cinematic intensity, angled underwater perspective, camera tilted, subject half-in frame, twisting body diagonally, motion trail along frame edge, subject emerging partially from frame corner, majority off-frame, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "立毛筋（鳥肌）は\n“毛を逆立てる防御反応”\nだった"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "寒さや恐怖を感じたときに起こる“鳥肌”は、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "毛を逆立てて体温を保ったり、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, body turned, head looking over shoulder, background blurred to focus sharply on eyes, face half in soft shadow, delicate contrast, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "威嚇のために体を大きく見せたりするための"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "進化的な反応の名残。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "現代人は毛が薄いため効果はなく、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, leaning sideways, hair cascading, shoulders perfectly centered, symmetric framing, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "反応だけが残っている。"
+      }
+    ]
+  }
+}

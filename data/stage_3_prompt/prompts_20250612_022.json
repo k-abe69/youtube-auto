@@ -1,0 +1,158 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, upper body leaning toward viewer, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "人間の体には\n“使われていない器官”\nがたくさんある"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, looking slightly upward, hopeful expression, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "盲腸は草食時代の\n“消化タンク”の名残"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "人間の盲腸は、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "祖先が植物を主食としていた頃に"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, hands clasped in front, formal yet soft pose, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "セルロースを分解する細菌の棲みかだった。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "現在は役割がほとんど失われており、"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "一部の免疫補助以外には"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "“機能していない器官”とされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), beautiful female android with translucent skin, visible circuits glowing softly, serene expression, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, resting chin on hand, calm expression, tight head-and-shoulders crop, minimal background, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "耳の動きは\n“警戒反応”の痕跡"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "人間にも、微細ながら耳を動かす"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "筋肉が残っている。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, holding a delicate flower near face, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "これはかつて周囲の音に反応して"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "耳を向けていた名残であり、"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "現代人ではほぼ使われていない。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, fingers near lips or cheek, subtle flirtation, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "一部の人が“耳を動かせる”のは"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "この進化の痕跡によるもの。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, school uniform, sunlight through classroom window, relaxed expression, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "立毛筋（鳥肌）は\n“毛を逆立てる防御反応”\nだった"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "寒さや恐怖を感じたときに起こる“鳥肌”は、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "毛を逆立てて体温を保ったり、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "lion formed from darkness itself, almost intangible, only seen through motion, extreme close-up with stretched perspective, unrealistic lens, top-down angle with subject placed off-center, avoids symmetry, lying on transparent surface, face to the side, half-framed, horizon twisted, sky blends into floor, subject falling diagonally, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "威嚇のために体を大きく見せたりするための"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "進化的な反応の名残。"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "現代人は毛が薄いため効果はなく、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, upper body leaning toward viewer, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "反応だけが残っている。"
+      }
+    ]
+  }
+}

@@ -59,6 +59,7 @@ def synthesize_voice(text: str, output_path: Path):
     # 🎯 改行はVOICEVOXに渡すと「えぬ」と読まれるため空白に置換
     text = text.replace("\\n", " ")  # ← バックスラッシュn（2文字）を空白に
     text = text.replace("\n", " ")   # ← 改行文字（1文字）も空白に
+
     text = apply_misread_corrections(text)
     text = fix_particle_pronunciation(text)
     hiragana_text = convert_to_hiragana(text)

@@ -1,0 +1,174 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, hand reaching toward the camera softly, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“深呼吸”は、\n逆にストレスを\n悪化させる？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, gaze lowered, reflective mood, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "深呼吸＝\nリラックスは誤解"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "深呼吸をすると副交感神経が優位になる"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "という通説は一部で正しいが、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, looking slightly upward, hopeful expression, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "呼吸の“深さ”や“吸い方”によっては、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "むしろ交感神経を刺激し"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "不安や緊張を悪化させる。"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, hand reaching toward the camera softly, tight head-and-shoulders crop, minimal background, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "特に「吸う」行為を強調しすぎると、"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "心拍が上がることが確認された。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, gaze lowered, reflective mood, tight head-and-shoulders crop, minimal background, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "息を吸うより\n吐くが重要"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "不安対処における呼吸法では、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "「吸うよりも吐く」ことに"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, arms crossed lightly, relaxed and confident, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "重点を置くべきとされる。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "呼気をゆっくり長く続けることで"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "迷走神経が刺激され、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "spiraling staircases stretching infinitely upward into clouds, subject seen through an endless corridor or portal, exaggerated depth, viewed from below with strong tilt, subject placed near frame edge, twisting body diagonally, motion trail along frame edge, subject running across bottom frame edge, blurred, anti-center, background is sharp while subject is blurred, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "自律神経が安定しやすい。"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "逆に過度な吸気は"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "過換気を引き起こすリスクもある。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, arms gently behind back, posture upright, tight head-and-shoulders crop, minimal background, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "腹式呼吸の\n自己流は危険"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "腹式呼吸は本来、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "安静時の自律神経安定に効果があるが、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "flock of flying fish glowing with inner light, orbiting together in patterns, waist-up composition, hands partially visible, balanced framing, top-down angle with subject placed off-center, avoids symmetry, stretching motion mid-action, not facing front, cropped, motion blur in horizontal pan, subject near far edge of image, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "誤ったフォームや"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "“無理な腹圧”で行うと、"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "呼吸補助筋や内臓に負担をかけ、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, holding a delicate flower near face, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "かえって身体を緊張させることがある。"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "指導なしでの実践には"
+      },
+      {
+        "scene_id": "scene_28",
+        "text": "注意が必要とされている。"
+      }
+    ]
+  }
+}

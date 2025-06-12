@@ -1,0 +1,154 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, leaning sideways, hair cascading, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“心臓”は、\n感情を\n記憶している？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms crossed lightly, relaxed and confident, tight head-and-shoulders crop, minimal background, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "心臓は独自での\n判断が可能"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "心臓には中枢神経系とは独立した"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "“心臓内神経系”が存在し、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, arms gently behind back, posture upright, blurred object partially in foreground, framing face, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "簡単な情報処理や反応調整を"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "自律的に行っていることが示された。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "これは「心が脳だけにない」ことの"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "forest frozen in multiple seasons simultaneously, color distortion everywhere, silhouette in unnatural lighting, distorted horizon, angled underwater perspective, camera tilted, subject half-in frame, climbing diagonally across a wall, angle from below-left, subject running across bottom frame edge, blurred, anti-center, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "生物学的根拠とされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, holding a delicate flower near face, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "心臓には\n“直感的判断”の\n力がある？"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "人が危険を察知した瞬間、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "脳より先に心拍が変動し、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, arms gently behind back, posture upright, shoulders perfectly centered, symmetric framing, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "その変化が脳の意思決定に"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "影響を与えていることが実験で示された。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "「なんとなく嫌な感じ」の正体が"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glamorous woman lounging on a velvet couch, body slightly arched, heavy bust, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, arms gently behind back, posture upright, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "心臓反応にある可能性を示唆。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, body turned, head looking over shoulder, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "“心臓記憶”仮説\nに対する\n否定的立場"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "移植後の性格変化は、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "免疫系の副作用や"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "心理的ショックの可能性もあるとされ、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "“心臓に記憶がある”とする仮説は"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "現時点では科学的に証明されていない"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "a lake curving inward like a vortex, boats caught in circular drift, shoulder-back view, subject turning face toward camera, viewed from below with strong tilt, subject placed near frame edge, lying on transparent surface, face to the side, half-framed, composition with no symmetry, elements scattered unevenly, avoids centering, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "との立場が明言されている。"
+      }
+    ]
+  }
+}

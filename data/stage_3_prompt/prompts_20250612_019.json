@@ -1,0 +1,158 @@
+{
+  "001": {
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, viewed from below with strong tilt, subject placed near frame edge, taking selfie from tilted camera, not facing directly, subject pushed to the extreme edge of the frame, strong negative space, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "なぜ人間だけが\n涙を流すのか？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, leaning sideways, hair cascading, light shapes framing the face from side or back, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "「感情で泣く」\nのは人間だけ"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "動物にも涙腺はあるが、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "感情によって涙を流す行動は"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "人間以外では確認されていない。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "悲しみ・怒り・感動などで泣くのは、"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "人間特有の社会的・神経的反応であり、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, slight smile while looking back over shoulder, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "動物の涙は物理刺激によるものに限られる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, hands clasped in front, formal yet soft pose, tight head-and-shoulders crop, minimal background, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "涙には\n「ストレスホルモン」を\n排出する作用がある"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "感情性の涙には、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "ストレスホルモン（コルチゾールやACTH）が"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms gently behind back, posture upright, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "含まれていることが確認されている。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "これは涙を通じてストレスを"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "物理的に“排出”していることを示唆し、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, light shapes framing the face from side or back, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "泣くことで脳が一種の"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "感情リセットをしている可能性がある。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated on bed in softly lit room, hands folded, calm expression, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "涙には“におい”があり、\n周囲に影響を与える"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "人間の涙には微量の化学物質が含まれ、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "それを嗅いだ他人の行動や"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, shoulders perfectly centered, symmetric framing, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "ホルモン分泌に影響を与えることがある。"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "特に男性が女性の涙のにおいを嗅ぐと、"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "テストステロン分泌が低下し、"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, scene viewed through a small hole or tunnel, warped edges, top-down angle with subject placed off-center, avoids symmetry, body fragmenting toward left or right frame, non-radial, subject emerging partially from frame corner, majority off-frame, tunnel view into a mirror world, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "性的興奮が抑制されるという研究結果がある。"
+      }
+    ]
+  }
+}

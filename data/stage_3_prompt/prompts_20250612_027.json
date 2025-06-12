@@ -1,0 +1,156 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, background blurred to focus sharply on eyes, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "目を動かすだけで\n“トラウマが薄れる”"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "owl folded from shimmering paper, unfolding mid-flight, trails of ink in the air, headshot with forehead cropped, cinematic intensity, viewed from below with strong tilt, subject placed near frame edge, body fragmenting toward left or right frame, non-radial, subject emerging partially from frame corner, majority off-frame, intense lens flare from unnatural light source, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "目の動きが\n脳の記憶処理\nを促進"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "眼球運動をしながら"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "トラウマ記憶を思い出すと、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, glamorous woman lounging on a velvet couch, body slightly arched, heavy bust, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "その記憶の鮮明さや"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "感情的強度が弱まるという"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "実験結果。これは脳が処理中に"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in tight crop top, seductive eyes, confident body angle, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, slight smile while looking back over shoulder, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "視覚リソースを使うことで"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "記憶が“再構成”されるためと"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "考えられる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, looking slightly upward, hopeful expression, background blurred to focus sharply on eyes, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "目の動きと睡眠中の記憶処理は似ている"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "レム睡眠中の眼球運動は、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "日中の記憶や感情を整理する"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "“脳内再処理”と関連している。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "この自然な処理プロセスを"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "人工的に模倣した治療法も存在する。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "mountain range made of prisms bending sunlight into wild colors, headshot with forehead cropped, cinematic intensity, ceiling becomes floor, subject positioned diagonally, stretching motion mid-action, not facing front, cropped, subject shown through uneven mirror shards, overlapping layers, scattered, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "歩行やジョギングも\n“左右交互刺激”\nになる"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "規則的な歩行運動は、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "左右交互の身体刺激として機能し、"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "space with chunks of reality missing, landscape stitched together from different worlds, extremely distant perspective from space or high orbit, viewed from below with strong tilt, subject placed near frame edge, running motion along slanted ground, angled frame, off-center, main subject located in top left or right corner, sky dominant, asymmetric, dense fog with colored lights and silhouette, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "ストレスホルモンの低下や"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "感情安定に貢献するという"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "研究結果が報告されている。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "a lake curving inward like a vortex, boats caught in circular drift, distant shot, tiny subject, wide surreal background, angled underwater perspective, camera tilted, subject half-in frame, jumping midair at diagonal angle, limbs offset, subject cropped, subject shown through uneven mirror shards, overlapping layers, scattered, lighting from two contradictory directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "眼球運動と同様の効果が"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "日常動作でも部分的に再現される。"
+      }
+    ]
+  }
+}

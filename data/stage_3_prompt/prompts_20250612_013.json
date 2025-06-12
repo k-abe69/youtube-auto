@@ -1,0 +1,140 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, touching her hair gently, slightly dreamy pose, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“痛みを一切感じない”\n人が実在するのか？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, background blurred to focus sharply on eyes, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "“痛覚ゼロ”の人間\nは実在する"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「先天性無痛症（CIP）」という遺伝的疾患を持つ人は、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "火傷・骨折・炎症などでも一切痛みを感じない。"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms crossed lightly, relaxed and confident, face positioned off-center with balanced lighting, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "これは痛みを伝える神経経路の欠損や、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "脳内の痛覚処理が完全に働かないことで生じる。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "本人は無自覚に重傷を負いやすく、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "bird that leaves ink drops behind mid-flight, tail trailing into calligraphy, side angle close-up with focus on cheek and ear, cropped frame, viewed from corner with sharp perspective line, subject in lower third, climbing diagonally across a wall, angle from below-left, subject emerging partially from frame corner, majority off-frame, dense fog with colored lights and silhouette, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "治癒の遅れや事故死のリスクも高い。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, arms crossed lightly, relaxed and confident, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "“無痛症の少女”は\n骨折しても\n走り回っていた"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "アメリカで報告された少女は、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "腕を骨折したまま遊び続け、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, fingers near lips or cheek, subtle flirtation, light shapes framing the face from side or back, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "家族が異変に気づくのが遅れた。"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "診断の結果、遺伝的な痛覚欠損と判明。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "定期的なチェックと行動制限によって"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, touching her hair gently, slightly dreamy pose, tight head-and-shoulders crop, minimal background, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "生活が管理されていた。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, extremely distant perspective from space or high orbit, top-down angle with subject placed off-center, avoids symmetry, lying on transparent surface, face to the side, half-framed, subject pushed to the extreme edge of the frame, strong negative space, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "痛みを遮断する\n遺伝子は\n“鎮痛薬の鍵”"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "無痛症患者の遺伝子を調査し応用した、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "新しい鎮痛薬の開発が進んでいる。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, touching her hair gently, slightly dreamy pose, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "副作用の少ない“脳に届かないタイプの痛覚ブロック”が可能となり、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "がん性疼痛や慢性痛の治療への応用が期待されている。"
+      }
+    ]
+  }
+}

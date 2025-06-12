@@ -195,8 +195,11 @@ def get_all_parent_ids(script_id: str) -> list[str]:
         raise FileNotFoundError(f"{tag_path} not found")
     with open(tag_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-        return [scene["parent_scene_id"] for scene in data["scenes"] if "parent_scene_id" in scene]
-
+        return [
+            scene["parent_scene_id"]
+            for scene in data["scenes"]
+            if "parent_scene_id" in scene and scene.get("scene_type") != "fix"  # ← ここ追加
+        ]
 
 def persona_pipeline(script_id: str, parent_id: str) -> Image.Image:
     all_ids = get_all_parent_ids(script_id)

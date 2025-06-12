@@ -95,6 +95,8 @@ def generate_subtitles(timing_json_path: Path, output_dir: Path, script_id: str)
     # 字幕の見やすさ調整（遅れて表示、早めに消す）
     DISPLAY_START_DELAY = 0.05
     DISPLAY_EARLY_CUT = 0.05
+    title_count = 1  # ← ここでカウント初期化
+
 
     # 各sceneごとに処理
     for i, scene in enumerate(timing_data, start=1):
@@ -126,7 +128,8 @@ def generate_subtitles(timing_json_path: Path, output_dir: Path, script_id: str)
         
         if scene["type"] == "title":
             scene_id = scene["scene_id"]
-            text = scene["text"]
+            text = f"（{title_count}）{scene['text']}"  # ←ここで実際に加工
+            title_count += 1
             start_sec = current_start
             end_sec = current_start + duration
 
@@ -203,6 +206,7 @@ def generate_subtitles(timing_json_path: Path, output_dir: Path, script_id: str)
             end_sec = current_start
             # current_start は更新しない
         else:
+            # summary, fix用の処理
             start_sec = current_start
             end_sec = current_start + duration
             current_start = end_sec
@@ -263,7 +267,8 @@ def generate_ass_from_json(json_path: Path, output_path: Path):
             "title_center": "TitleCenter",
             "title_top": "TitleTop",
             "source": "Source",
-            "summary": "Summary"
+            "summary": "Summary",
+            "fix": "Fix"
         }.get(scene["type"], "Summary")
         # sourceだけレイヤーを1に（最前面）
         layer = 1 if scene["type"] == "source" else 0
@@ -303,6 +308,9 @@ Style: MainTitle,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000
 
 Style: MainTitleCenter,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,2,10,10,40,1
 Style: MainTitleTop,Noto Sans CJK JP,24,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,13,0,8,10,10,30,1
+
+Style: Fix,Noto Sans CJK JP,20,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,5,10,10,30,1
+
 
 Style: TitleCenter,Noto Sans CJK JP,20,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,5,10,10,30,1
 Style: TitleTop,Noto Sans CJK JP,0,&H00CCCCCC,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,0,8,10,10,30,1

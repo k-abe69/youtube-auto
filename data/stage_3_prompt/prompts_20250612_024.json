@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, covering mouth slightly in surprise or playfulness, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "腸内環境で\n人格が決まってる？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの根拠で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, looking slightly upward, hopeful expression, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "“幸せホルモン”の95%は腸で作られる"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "セロトニンの大半は"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "脳ではなく腸で生成されており、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, gaze lowered, reflective mood, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "腸内環境が乱れると"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "その分泌量も減少する。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "これが気分の落ち込みや"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, upper body leaning toward viewer, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "不安の増大に"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "直結するという研究結果がある。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, slight smile while looking back over shoulder, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "腸内細菌が社交性を左右する"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "マウスの研究で、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "腸内細菌の種類を変えると、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "clouds forming walls like a labyrinth, paths lit by starlight, silhouette in unnatural lighting, distorted horizon, angled underwater perspective, camera tilted, subject half-in frame, stretching motion mid-action, not facing front, cropped, horizon twisted, sky blends into floor, subject falling diagonally, shadows cast in conflicting directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "社交性の高さや不安行動に"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "顕著な変化が表れた。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "これは脳の神経伝達物質に"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "lion formed from darkness itself, almost intangible, only seen through motion, subject seen through an endless corridor or portal, exaggerated depth, angled view through a broken side window, subject offset and cropped, lying on transparent surface, face to the side, half-framed, only part of body visible, most is cropped out in motion, avoids central framing, multiple vanishing points converging unnaturally, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "腸内微生物が影響していることを"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "意味している。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, eyes softly closed, calm or dreamlike atmosphere, blurred object partially in foreground, framing face, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_19",
+        "text": "抗生物質で性格が一時的に変化"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "抗生物質の投与により、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "腸内細菌が急激に減少したマウスは、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_22",
+        "text": "その後の行動に"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "臆病さや無気力傾向が現れた。"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "腸の変化が性格面に"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "a lake curving inward like a vortex, boats caught in circular drift, subject seen through an endless corridor or portal, exaggerated depth, ceiling becomes floor, subject positioned diagonally, twisting body diagonally, motion trail along frame edge, subject pushed to the extreme edge of the frame, strong negative space, multiple vanishing points converging unnaturally, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "短期的な影響を与える可能性が"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "示唆されている。"
+      }
+    ]
+  }
+}
