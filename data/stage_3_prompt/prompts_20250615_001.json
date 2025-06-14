@@ -1,0 +1,154 @@
+{
+  "001": {
+    "prompt": "majestic stag with branching antlers made of crystal, catching rainbow light, headshot with forehead cropped, cinematic intensity, angled view through a broken side window, subject offset and cropped, taking selfie from tilted camera, not facing directly, horizon twisted, sky blends into floor, subject falling diagonally, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“心臓”は、\n感情を\n記憶している？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの異なる切り口で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, hands clasped in front, formal yet soft pose, background blurred to focus sharply on eyes, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "心臓は\n脳を介さず\n自己判断が可能"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "心臓には中枢神経系とは独立した"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "“心臓内神経系”が存在し、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "glowing plants and misty lights, swamp reflecting alien colors, distant shot, tiny subject, wide surreal background, viewed from below with strong tilt, subject placed near frame edge, standing on one leg, viewed from side angle, slight off-balance, subject running across bottom frame edge, blurred, anti-center, subject leaving motion trail like time echo, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "簡単な情報処理や反応調整を"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "自律的に行っていることが示された。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "これは「心が脳だけにない」ことの"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), stunning empress with alien bioluminescent veins, crown of tendrils, cosmic throne behind, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, covering mouth slightly in surprise or playfulness, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "生物学的根拠とされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, gaze lowered, reflective mood, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_10",
+        "text": "心臓には\n“直感的判断”の\n力がある？"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "人が危険を察知した瞬間、"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "脳より先に心拍が変動し、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, holding a delicate flower near face, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_13",
+        "text": "その変化が脳の意思決定に"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "影響を与えていることが実験で示された。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "「なんとなく嫌な感じ」の正体が"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in evning, soft smile, shoulders and head visible, soft lighting, viewed subtly from below, strong presence, looking slightly upward, hopeful expression, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_16",
+        "text": "心臓反応にある可能性を示唆。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, looking slightly upward, hopeful expression, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "“心臓記憶”仮説\nに対する\n否定的立場"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "移植後の性格変化は、"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "免疫系の副作用や"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, upper body leaning toward viewer, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "心理的ショックの可能性もあるとされ、"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "“心臓に記憶がある”とする仮説は"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "現時点では科学的に証明されていない"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, slight smile while looking back over shoulder, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "との立場が明言されている。"
+      }
+    ]
+  }
+}

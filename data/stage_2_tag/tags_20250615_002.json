@@ -1,0 +1,275 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 3.06,
+      "text": "“朝シャワー派の男”は、脳が壊れていく",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 3.06,
+      "duration": 1.94,
+      "text": "3つの異なる切り口で説明します",
+      "type": "fix",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 5.0,
+      "duration": 1.63,
+      "text": "朝シャワーで記憶力が落ちる？",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 6.63,
+      "duration": 1.24,
+      "text": "朝のシャワー直後は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 7.87,
+      "duration": 1.62,
+      "text": "脳の前頭前野の活動が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 9.49,
+      "duration": 2.19,
+      "text": "一時的に抑制されることがわかっている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 11.68,
+      "duration": 1.87,
+      "text": "これにより、論理的思考や",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 13.55,
+      "duration": 1.5,
+      "text": "短期記憶の処理効率が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 15.05,
+      "duration": 1.59,
+      "text": "下がる傾向が観測された。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 16.64,
+      "duration": 2.18,
+      "text": "つまり“シャキッとする”は",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 18.82,
+      "duration": 1.62,
+      "text": "脳には逆効果かもしれない。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 20.44,
+      "duration": 1.7,
+      "text": "肌と脳は同時に疲れていく",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 22.13,
+      "duration": 1.15,
+      "text": "起床直後の肌は",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 23.29,
+      "duration": 1.31,
+      "text": "バリア機能が低下している。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 24.6,
+      "duration": 1.69,
+      "text": "その状態でシャワーを浴びると",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 26.28,
+      "duration": 1.66,
+      "text": "微細な炎症が起きやすくなり、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 27.95,
+      "duration": 1.96,
+      "text": "それが神経系にも影響を与える。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 29.91,
+      "duration": 1.79,
+      "text": "皮膚の炎症と脳の疲労感が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 31.7,
+      "duration": 1.91,
+      "text": "同時に進行するリスクがあるという。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 33.61,
+      "duration": 2.78,
+      "text": "朝シャワーで“男性ホルモン”が減る？",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 36.39,
+      "duration": 2.33,
+      "text": "男性ホルモンであるテストステロンの分泌は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 38.72,
+      "duration": 2.49,
+      "text": "起床後すぐの副腎系リズムに強く依存する。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 41.21,
+      "duration": 2.39,
+      "text": "この時間帯に冷水や熱刺激を与えると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 43.59,
+      "duration": 1.39,
+      "text": "自律神経系が乱れ、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 44.98,
+      "duration": 2.39,
+      "text": "ホルモン放出のピークが崩れる可能性がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 47.37,
+      "duration": 2.33,
+      "text": "長期的には性欲低下や筋力減少、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 49.7,
+      "duration": 2.52,
+      "text": "メンタルの不安定化にもつながるという報告もある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 恐れ (fear)"
+    }
+  ]
+}

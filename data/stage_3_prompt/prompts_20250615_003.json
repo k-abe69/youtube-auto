@@ -1,0 +1,166 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, holding a delicate flower near face, light shapes framing the face from side or back, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "\"笑顔が多すぎる\"\n脳の異常？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの異なる切り口で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "glowing plants and misty lights, swamp reflecting alien colors, extremely distant perspective from space or high orbit, top-down angle with subject placed off-center, avoids symmetry, body fragmenting toward left or right frame, non-radial, subject running across bottom frame edge, blurred, anti-center, intense lens flare from unnatural light source, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "“作り笑い”は前頭葉の異常と関係"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "過剰な作り笑いを繰り返す人には、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "前頭前野の活動が"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, holding a delicate flower near face, shoulders perfectly centered, symmetric framing, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "低下しているケースがある。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これは情動制御の障害と"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "関係しており、"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, busty woman in silk robe, hair cascading, laying on bed, sensual expression, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, looking slightly upward, hopeful expression, light shapes framing the face from side or back, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "社会的に不自然な言動を"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "引き起こす要因とされる。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with no make up,  blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, arms gently behind back, posture upright, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "“常に笑顔”の人に違和感を覚えるのは正常"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "不自然な笑顔に対する違和感は、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "ヒトの警戒本能として"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, tight face crop, expressive eyes, detailed makeup, looking past the camera, not directly at viewer, holding a delicate flower near face, intentional asymmetric crop for tension, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "備わっているものとされる。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "表情と感情のズレを感じたとき、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "脳は“この人は危険かもしれない”と"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, resting chin on hand, calm expression, face positioned off-center with balanced lighting, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "自動的に判断する。"
+      },
+      {
+        "scene_id": "scene_18",
+        "text": "“いい人そう”が"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "一番怖いこともある。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, touching her hair gently, slightly dreamy pose, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "笑いすぎる人は“脳腫瘍”の兆候も"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "前頭葉や側頭葉に腫瘍がある人の中に、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "理由のない笑いが出るケースがある。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "horizon line suspended midair, terrain dissolving beneath it, silhouette in unnatural lighting, distorted horizon, angled underwater perspective, camera tilted, subject half-in frame, climbing diagonally across a wall, angle from below-left, subject running across bottom frame edge, blurred, anti-center, lighting from two contradictory directions, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "これは神経圧迫によって"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "感情の抑制が効かなくなるためで、"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "“場違いな笑い”が"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, covering mouth slightly in surprise or playfulness, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "病気の初期症状となる場合もある。"
+      }
+    ]
+  }
+}

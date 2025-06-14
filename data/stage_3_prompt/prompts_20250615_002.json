@@ -1,0 +1,170 @@
+{
+  "001": {
+    "prompt": "serpent composed of cloud segments and lightning veins, drifting through the air, waist-up composition, hands partially visible, balanced framing, viewed from corner with sharp perspective line, subject in lower third, twisting body diagonally, motion trail along frame edge, scene cut across diagonally with light or shadow, subject floats across at edge, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“朝シャワー派の男”は、脳が壊れていく"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの異なる切り口で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, covering mouth slightly in surprise or playfulness, intentional asymmetric crop for tension, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "朝シャワーで記憶力が落ちる？"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "朝のシャワー直後は、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "脳の前頭前野の活動が"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, tight face crop, expressive eyes, detailed makeup, angled from one cheek, soft perspective, arms crossed lightly, relaxed and confident, shoulders perfectly centered, symmetric framing, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "一時的に抑制されることがわかっている。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "これにより、論理的思考や"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "短期記憶の処理効率が"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, covering mouth slightly in surprise or playfulness, tight head-and-shoulders crop, minimal background, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "下がる傾向が観測された。"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "つまり“シャキッとする”は"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "脳には逆効果かもしれない。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, seated at piano, gentle light from window, contemplative face, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, tight head-and-shoulders crop, minimal background, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "肌と脳は同時に疲れていく"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "起床直後の肌は"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "バリア機能が低下している。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "lion formed from darkness itself, almost intangible, only seen through motion, subject seen through an endless corridor or portal, exaggerated depth, angled view through a broken side window, subject offset and cropped, stretching motion mid-action, not facing front, cropped, viewed from a crack in the ground, subject half-cropped above, asymmetrical, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "その状態でシャワーを浴びると"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "微細な炎症が起きやすくなり、"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "それが神経系にも影響を与える。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "皮膚の炎症と脳の疲労感が"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "同時に進行するリスクがあるという。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, leaning sideways, hair cascading, face positioned off-center with balanced lighting, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "朝シャワーで“男性ホルモン”が減る？"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "男性ホルモンであるテストステロンの分泌は、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "起床後すぐの副腎系リズムに強く依存する。"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "adorable but eerie kitten with chrome skeleton visible beneath translucent fur, shoulder-back view, subject turning face toward camera, top-down angle with subject placed off-center, avoids symmetry, twisting body diagonally, motion trail along frame edge, main subject located in top left or right corner, sky dominant, asymmetric, tunnel view into a mirror world, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "この時間帯に冷水や熱刺激を与えると、"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "自律神経系が乱れ、"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "ホルモン放出のピークが崩れる可能性がある。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, background blurred to focus sharply on eyes, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "長期的には性欲低下や筋力減少、"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "メンタルの不安定化にもつながるという報告もある。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.55,
+      "text": "\"独身男\"\n厳しい現実が\n待っている？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.55,
+      "duration": 1.94,
+      "text": "3つの異なる切り口で説明します",
+      "type": "fix",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 緊張 (tension)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.49,
+      "duration": 2.63,
+      "text": "孤独で\n“脳の炎症”\nが進行する",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 7.13,
+      "duration": 2.1,
+      "text": "男性が長期間孤独な状態にあると、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 9.23,
+      "duration": 1.51,
+      "text": "脳内の免疫細胞である",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 10.74,
+      "duration": 1.79,
+      "text": "ミクログリアが過剰に活性化し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 12.53,
+      "duration": 1.97,
+      "text": "神経に慢性的な炎症が起こる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 14.51,
+      "duration": 2.05,
+      "text": "この状態は記憶力や判断力の",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 16.55,
+      "duration": 1.21,
+      "text": "低下と関連しており、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 17.76,
+      "duration": 2.45,
+      "text": "実際にMRIでも変化が確認されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 20.21,
+      "duration": 3.7,
+      "text": "未婚男性は\n“社会的接触”が\n圧倒的に少ない",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 23.91,
+      "duration": 2.97,
+      "text": "週に3回以上の対面会話がある人の割合は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 26.88,
+      "duration": 2.06,
+      "text": "既婚男性では68％、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 28.94,
+      "duration": 2.86,
+      "text": "未婚男性ではわずか27％にとどまった。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 31.8,
+      "duration": 1.99,
+      "text": "この差は友人関係では補えず、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 33.79,
+      "duration": 2.46,
+      "text": "“家庭内での継続的な会話”の有無が",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 36.26,
+      "duration": 2.07,
+      "text": "孤独感に強く影響しているとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 38.33,
+      "duration": 2.1,
+      "text": "“孤独ホルモン”\nで老化が加速",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 40.43,
+      "duration": 1.01,
+      "text": "孤独状態では",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 41.44,
+      "duration": 1.67,
+      "text": "オキシトシンやセロトニンといった",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 43.11,
+      "duration": 2.36,
+      "text": "“つながりホルモン”の分泌が低下する。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 45.47,
+      "duration": 2.09,
+      "text": "その一方でストレスホルモンが慢性化し、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 47.56,
+      "duration": 2.75,
+      "text": "血管・皮膚・内臓の老化を",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 恐れ (fear)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 50.31,
+      "duration": 1.9,
+      "text": "促進させるリスクが高まるとされる。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 52.21,
+      "duration": 2.29,
+      "text": "孤独は、静かに体を腐らせていく。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 悲しみ (sadness)"
+    }
+  ]
+}

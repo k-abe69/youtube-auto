@@ -1,0 +1,174 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), humanoid woman with soft animal features, white fur ears, sharp eyes, glowing forest background, upper half body, elegant posture, cinematic feel, seen through glass or fabric, light distortion, resting chin on hand, calm expression, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "“右脳型・左脳型”\n存在しない？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの異なる切り口で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, intentional asymmetric crop for tension, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "“利き脳診断”は、\n手相レベルの\nオカルト"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「あなたは左脳タイプだから論理派」"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "といった診断は、"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, camera angled slightly from above, flattering light, resting chin on hand, calm expression, tight head-and-shoulders crop, minimal background, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "科学的には“ほぼ占い”と同じ扱いである。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "MITの研究では、脳の使い方の個人差は"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "左右よりも前後・上下の連携パターンに"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, blurred object partially in foreground, framing face, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "よって決まるとされており、"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "左右分け自体が時代遅れであると"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "明言されている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "gigantic whale floating through night sky, glowing lines across its body, stars refracting off it, subject seen through an endless corridor or portal, exaggerated depth, ceiling becomes floor, subject positioned diagonally, climbing diagonally across a wall, angle from below-left, subject emerging partially from frame corner, majority off-frame, lighting from two contradictory directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "左右の脳は\n“常に両方\n使われている”"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "fMRIによる脳活動観測では、"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "論理的な思考も創造的な発想も、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "dog with body made of stained glass, light leaking from cracks, extreme close-up with stretched perspective, unrealistic lens, angled underwater perspective, camera tilted, subject half-in frame, standing on one leg, viewed from side angle, slight off-balance, subject pushed to the extreme edge of the frame, strong negative space, multi-surface reflection in fractured space, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "左右の脳が同時に連携していた。"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "“右脳＝感性”“左脳＝論理”という"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "単純な分担は存在せず、"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, upper body leaning toward viewer, intentional asymmetric crop for tension, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "脳は常に全体で"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "処理を行っていることがわかった。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "sunset shattered across geometric planes in the air, scene viewed through a small hole or tunnel, warped edges, ceiling becomes floor, subject positioned diagonally, stretching motion mid-action, not facing front, cropped, horizon twisted, sky blends into floor, subject falling diagonally, multi-surface reflection in fractured space, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_20",
+        "text": "脳は訓練次第で\n自由に強化可能"
+      },
+      {
+        "scene_id": "scene_21",
+        "text": "脳のネットワーク構造は、"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "日常の思考習慣によって"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "mountain range entirely transparent, light bending across its jagged edges, headshot with forehead cropped, cinematic intensity, angled underwater perspective, camera tilted, subject half-in frame, climbing diagonally across a wall, angle from below-left, subject running across bottom frame edge, blurred, anti-center, blurred view as if seen through shattered glass, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_23",
+        "text": "実際に“配線が変化”する。"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "これを神経可塑性といい、"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "訓練によって“性格すら変化する”"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, resting chin on hand, calm expression, light shapes framing the face from side or back, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_26",
+        "text": "ケースも報告されている。"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "脳は使い方次第で、"
+      },
+      {
+        "scene_id": "scene_28",
+        "text": "進化させられる可能性がある。"
+      }
+    ]
+  }
+}

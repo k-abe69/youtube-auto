@@ -1,0 +1,662 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "\"IQ\"とは、"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "頭の良さを数値で測る、知能指数。"
+      },
+      {
+        "scene_id": "scene_03",
+        "text": "「IQが高い人は賢い」"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "「IQが低いとバカにされる」"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, smart office outfit, gentle smile, standing in soft-lit workspace, natural posture, upper half body, elegant posture, cinematic feel, viewed subtly from below, strong presence, looking slightly upward, hopeful expression, intentional asymmetric crop for tension, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_05",
+        "text": "そんなイメージ、あなたの中にもありませんか？"
+      },
+      {
+        "scene_id": "scene_06",
+        "text": "でもちょっと考えてみてほしいです。"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "人の気持ちを察するのが上手な人。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "ゼロから何かを生み出す人。"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, body turned, head looking over shoulder, background blurred to focus sharply on eyes, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "空気を読んでその場をまとめる人。"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "その全部が、IQで測れるでしょうか？"
+      },
+      {
+        "scene_id": "scene_11",
+        "text": "もしも“賢さ”に、いろんな形があるとしたら――"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "moth with feathers instead of wings, patterns shifting as it flutters, distant shot, tiny subject, wide surreal background, viewed from below with strong tilt, subject placed near frame edge, body fragmenting toward left or right frame, non-radial, subject running across bottom frame edge, blurred, anti-center, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_12",
+        "text": "もしも、IQが測っているのは"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "そのうちのほんの一部にすぎないとしたら――"
+      },
+      {
+        "scene_id": "scene_14",
+        "text": "今回の動画では、"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), priestess fused with holographic tech, floating data rings around her, mystical presence, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms crossed lightly, relaxed and confident, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_15",
+        "text": "IQという「知能のモノサシ」が、実際には何を測っていて、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "逆に何を測れていないのか。"
+      },
+      {
+        "scene_id": "scene_17",
+        "text": "そして、「本当に賢い」とはどういうことなのか。"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, slight smile while looking back over shoulder, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "その答えを、多角的に掘り下げていきます。"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "IQという数字の向こう側にある、"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "あなたの“本当の知性”を、見に行きましょう。"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, surrounded by greenery, morning dew on leaves, fresh look, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, arms gently behind back, posture upright, shoulders perfectly centered, symmetric framing, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "IQは\n“脳の一部機能”\nしか測っていない"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "IQテストで測られているのは、"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "処理速度、短期記憶、パターン認識など、"
+      },
+      {
+        "scene_id": "scene_24",
+        "text": "ごく限られた脳の機能です。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, arms gently behind back, posture upright, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_25",
+        "text": "これは“認知の一側面”にすぎず、"
+      },
+      {
+        "scene_id": "scene_26",
+        "text": "人間の本質的な知性や能力全体を"
+      },
+      {
+        "scene_id": "scene_27",
+        "text": "表しているわけではありません。"
+      },
+      {
+        "scene_id": "scene_28",
+        "text": "たとえば、他人の気持ちを察する力、"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "moth with feathers instead of wings, patterns shifting as it flutters, shoulder-back view, subject turning face toward camera, angled underwater perspective, camera tilted, subject half-in frame, twisting body diagonally, motion trail along frame edge, frame split vertically with two worlds, subject compressed to one side, blurred view as if seen through shattered glass, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_29",
+        "text": "創造的に発想する力、"
+      },
+      {
+        "scene_id": "scene_30",
+        "text": "チームをまとめる力、"
+      },
+      {
+        "scene_id": "scene_31",
+        "text": "感情を制御する力――"
+      },
+      {
+        "scene_id": "scene_32",
+        "text": "こうした“非認知能力”は、"
+      },
+      {
+        "scene_id": "scene_33",
+        "text": "IQテストの枠から完全に漏れているのです。"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, between bookshelves, scanning a book, deep in thought, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, arms gently behind back, posture upright, light shapes framing the face from side or back, emphasis on skin texture like silk, gentle lighting, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_34",
+        "text": "アインシュタインやスティーブ・ジョブズのような人物が"
+      },
+      {
+        "scene_id": "scene_35",
+        "text": "IQの高さだけで語られないのは、"
+      },
+      {
+        "scene_id": "scene_36",
+        "text": "彼らの“知性”が、"
+      },
+      {
+        "scene_id": "scene_37",
+        "text": "単なる数字以上の広がりを持っていたから。"
+      }
+    ]
+  },
+  "011": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, fingers near lips or cheek, subtle flirtation, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_38",
+        "text": "「頭の良さ＝IQの良さ」では、"
+      },
+      {
+        "scene_id": "scene_39",
+        "text": "人間の多面性はとても測りきれない。"
+      },
+      {
+        "scene_id": "scene_40",
+        "text": "そのことをまず、認識する必要があります。"
+      }
+    ]
+  },
+  "012": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, arms gently behind back, posture upright, light shapes framing the face from side or back, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_41",
+        "text": "知能は\n“8つのタイプ”\nに分かれる"
+      },
+      {
+        "scene_id": "scene_42",
+        "text": "知能とは、1つのスコアではなく、"
+      },
+      {
+        "scene_id": "scene_43",
+        "text": "“いくつもの才能の集合体”である。"
+      },
+      {
+        "scene_id": "scene_44",
+        "text": "そう唱えたのが、"
+      }
+    ]
+  },
+  "013": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, upper body leaning toward viewer, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_45",
+        "text": "ハーバード大学の心理学者ガードナーでした。"
+      },
+      {
+        "scene_id": "scene_46",
+        "text": "彼は人間の知性を、"
+      },
+      {
+        "scene_id": "scene_47",
+        "text": "8つの異なるカテゴリーに分類しました。"
+      },
+      {
+        "scene_id": "scene_48",
+        "text": "論理数学的知能、言語的知能、音楽的知能、"
+      }
+    ]
+  },
+  "014": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, touching her hair gently, slightly dreamy pose, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_49",
+        "text": "空間的知能、身体運動的知能、対人的知能、"
+      },
+      {
+        "scene_id": "scene_50",
+        "text": "内省的知能、博物的知能。"
+      },
+      {
+        "scene_id": "scene_51",
+        "text": "たとえばピカソは空間的知能に、"
+      },
+      {
+        "scene_id": "scene_52",
+        "text": "モーツァルトは音楽的知能に、"
+      }
+    ]
+  },
+  "015": {
+    "prompt": "majestic stag with branching antlers made of crystal, catching rainbow light, waist-up composition, hands partially visible, balanced framing, viewed from below with strong tilt, subject placed near frame edge, twisting body diagonally, motion trail along frame edge, motion blur in horizontal pan, subject near far edge of image, shadows cast in conflicting directions, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_53",
+        "text": "マザーテレサは対人的知能に、"
+      },
+      {
+        "scene_id": "scene_54",
+        "text": "それぞれ特化していた。"
+      },
+      {
+        "scene_id": "scene_55",
+        "text": "つまり、「頭の良さ」とは"
+      },
+      {
+        "scene_id": "scene_56",
+        "text": "“どの知能が強いか”というプロフィールであって、"
+      }
+    ]
+  },
+  "016": {
+    "prompt": "horse mid-gallop, body melting into paint streams as it runs, bust-up portrait, shoulders visible, subject slightly turned away, natural angle, severe Dutch angle with asymmetric framing, tension emphasis, running motion along slanted ground, angled frame, off-center, subject running across bottom frame edge, blurred, anti-center, subject leaving motion trail like time echo, ",
+    "theme": "animal",
+    "scenes": [
+      {
+        "scene_id": "scene_57",
+        "text": "誰かと比べて上か下か、という競争ではない。"
+      },
+      {
+        "scene_id": "scene_58",
+        "text": "私たちはそれぞれ、"
+      },
+      {
+        "scene_id": "scene_59",
+        "text": "異なる地図を持って生きている。"
+      },
+      {
+        "scene_id": "scene_60",
+        "text": "IQはその一地点にすぎません。"
+      }
+    ]
+  },
+  "017": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, shoulders and head visible, soft lighting, camera facing directly forward, eye-level symmetry, hand reaching toward the camera softly, tight head-and-shoulders crop, minimal background, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_61",
+        "text": "IQでは\n“人生の成功”\nは測れない"
+      },
+      {
+        "scene_id": "scene_62",
+        "text": "「高IQ＝成功しやすい」"
+      },
+      {
+        "scene_id": "scene_63",
+        "text": "そんなイメージを覆す研究結果は、実は多くあります。"
+      }
+    ]
+  },
+  "018": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), elegant female samurai with no make up,  blowing in wind, katana resting on shoulder, tight face crop, expressive eyes, detailed makeup, camera facing directly forward, eye-level symmetry, looking slightly upward, hopeful expression, intentional asymmetric crop for tension, colorful light gradient across background, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_64",
+        "text": "年収、幸福度、人間関係の安定性――"
+      },
+      {
+        "scene_id": "scene_65",
+        "text": "これらの指標とIQとの相関を調べた結果、"
+      },
+      {
+        "scene_id": "scene_66",
+        "text": "IQが影響するのは、"
+      }
+    ]
+  },
+  "019": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, fingers near lips or cheek, subtle flirtation, intentional asymmetric crop for tension, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_67",
+        "text": "およそ2割にとどまるという報告もあります。"
+      },
+      {
+        "scene_id": "scene_68",
+        "text": "残りの8割は？"
+      },
+      {
+        "scene_id": "scene_69",
+        "text": "・自己制御力（感情の管理）"
+      },
+      {
+        "scene_id": "scene_70",
+        "text": "・GRIT（粘り強さ）"
+      }
+    ]
+  },
+  "020": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, plain white shirt, backlit, minimal background, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, eyes softly closed, calm or dreamlike atmosphere, shoulders perfectly centered, symmetric framing, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_71",
+        "text": "・共感力や対人関係力（EQ）"
+      },
+      {
+        "scene_id": "scene_72",
+        "text": "といった、"
+      },
+      {
+        "scene_id": "scene_73",
+        "text": "“非IQ的な資質”によって左右される。"
+      },
+      {
+        "scene_id": "scene_74",
+        "text": "IQが高くても、独りよがりで空気を読まない人は失敗する。"
+      }
+    ]
+  },
+  "021": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, leaning sideways, hair cascading, shoulders perfectly centered, symmetric framing, colorful light gradient across background, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_75",
+        "text": "逆にIQが平均的でも、"
+      },
+      {
+        "scene_id": "scene_76",
+        "text": "空気を察して人を巻き込むのが上手い人は成功する。"
+      },
+      {
+        "scene_id": "scene_77",
+        "text": "人生の成否を分けるのは、"
+      },
+      {
+        "scene_id": "scene_78",
+        "text": "IQテストの点数ではなく、"
+      }
+    ]
+  },
+  "022": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, lit by candlelight at a small table, soft shadows on face, tight face crop, expressive eyes, detailed makeup, seen through glass or fabric, light distortion, hand reaching toward the camera softly, face positioned off-center with balanced lighting, soft glow around subject with light bloom, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_79",
+        "text": "“人との関わり方”そのものなのかもしれません。"
+      }
+    ]
+  },
+  "023": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, leaning sideways, hair cascading, shoulders perfectly centered, symmetric framing, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_80",
+        "text": "“本当に賢い人”\nとは\nどういう人か？"
+      },
+      {
+        "scene_id": "scene_81",
+        "text": "では、これからの時代における"
+      },
+      {
+        "scene_id": "scene_82",
+        "text": "“本当に賢い人”とは、どんな人でしょうか？"
+      },
+      {
+        "scene_id": "scene_83",
+        "text": "MITの研究では、"
+      }
+    ]
+  },
+  "024": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, arms gently behind back, posture upright, tight head-and-shoulders crop, minimal background, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_84",
+        "text": "優れた意思決定者に共通していたのは、"
+      },
+      {
+        "scene_id": "scene_85",
+        "text": "「思考を俯瞰できる力」でした。"
+      },
+      {
+        "scene_id": "scene_86",
+        "text": "・自分の考え方にバイアスがあると認められる"
+      },
+      {
+        "scene_id": "scene_87",
+        "text": "・情報の信頼性を判断できる"
+      }
+    ]
+  },
+  "025": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting on a wooden chair, crossed legs, relaxed posture, shoulders and head visible, soft lighting, looking past the camera, not directly at viewer, hand reaching toward the camera softly, background blurred to focus sharply on eyes, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_88",
+        "text": "・状況に応じて、自分の立場を修正できる"
+      },
+      {
+        "scene_id": "scene_89",
+        "text": "こうした“思考の使い方”を、"
+      },
+      {
+        "scene_id": "scene_90",
+        "text": "メタ認知能力と呼びます。"
+      },
+      {
+        "scene_id": "scene_91",
+        "text": "これに加えて今注目されているのが、"
+      }
+    ]
+  },
+  "026": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, tight face crop, expressive eyes, detailed makeup, viewed subtly from below, strong presence, touching her hair gently, slightly dreamy pose, light shapes framing the face from side or back, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_92",
+        "text": "「知識×柔軟性」＝創造力です。"
+      },
+      {
+        "scene_id": "scene_93",
+        "text": "ただ知っているだけでは意味がない。"
+      },
+      {
+        "scene_id": "scene_94",
+        "text": "知識を文脈で再編集できる人こそが、"
+      },
+      {
+        "scene_id": "scene_95",
+        "text": "“知的に生きている人”なのです。"
+      }
+    ]
+  },
+  "027": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, golden hour light casting soft shadows, looking into distance, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, gaze lowered, reflective mood, background blurred to focus sharply on eyes, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_96",
+        "text": "IQはその構成要素の一つにすぎません。"
+      },
+      {
+        "scene_id": "scene_97",
+        "text": "問いをつくる力、"
+      },
+      {
+        "scene_id": "scene_98",
+        "text": "視点を変える力、"
+      },
+      {
+        "scene_id": "scene_99",
+        "text": "他者を巻き込む力――"
+      },
+      {
+        "scene_id": "scene_100",
+        "text": "それこそが、"
+      },
+      {
+        "scene_id": "scene_101",
+        "text": "これからの知性の定義になっていくのかもしれません。"
+      }
+    ]
+  },
+  "028": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, large-breasted woman in lowlight room, focused expression, defined lips, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, body turned, head looking over shoulder, face positioned off-center with balanced lighting, colorful light gradient across background, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_102",
+        "text": "最後に"
+      },
+      {
+        "scene_id": "scene_103",
+        "text": "IQという数値は、"
+      },
+      {
+        "scene_id": "scene_104",
+        "text": "人間の知性の“ごく一部”を映し出す鏡にすぎません。"
+      }
+    ]
+  },
+  "029": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, arms crossed lightly, relaxed and confident, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_105",
+        "text": "でも、それだけで「賢さ」や「人の価値」を語ってしまうと、"
+      },
+      {
+        "scene_id": "scene_106",
+        "text": "あまりにも多くの才能が、見逃されてしまう。"
+      }
+    ]
+  },
+  "030": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, covering mouth slightly in surprise or playfulness, intentional asymmetric crop for tension, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_107",
+        "text": "大事なのは、IQが高いか低いかではなく――"
+      },
+      {
+        "scene_id": "scene_108",
+        "text": "自分が「どんな知性を持っているか」を知ること。"
+      },
+      {
+        "scene_id": "scene_109",
+        "text": "そして、それをどう活かすかを考えること。"
+      }
+    ]
+  },
+  "031": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, looking out train window, chin resting on hand, reflective mood, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, leaning sideways, hair cascading, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_110",
+        "text": "数学が得意でも、歌が上手でも、"
+      },
+      {
+        "scene_id": "scene_111",
+        "text": "誰かを励ませても、アイデアを生み出せても、"
+      },
+      {
+        "scene_id": "scene_112",
+        "text": "それはすべて「知性」のかたち。"
+      },
+      {
+        "scene_id": "scene_113",
+        "text": "IQというモノサシに縛られず、"
+      }
+    ]
+  },
+  "032": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, sitting up in bed, hair slightly messy, gentle morning light, upper half body, elegant posture, cinematic feel, head slightly tilted toward camera, intimate framing, looking slightly upward, hopeful expression, background blurred to focus sharply on eyes, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_114",
+        "text": "自分だけの“知性の地図”を描いてみてください。"
+      },
+      {
+        "scene_id": "scene_115",
+        "text": "きっとそこには、"
+      },
+      {
+        "scene_id": "scene_116",
+        "text": "誰かと比べることでは見えなかった、"
+      },
+      {
+        "scene_id": "scene_117",
+        "text": "あなた自身の“本当の強み”があるはずです。"
+      }
+    ]
+  }
+}

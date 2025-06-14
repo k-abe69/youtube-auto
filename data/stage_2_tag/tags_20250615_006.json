@@ -1,0 +1,285 @@
+{
+  "global_image_tag": "知的",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start_sec": 0.0,
+      "duration": 2.54,
+      "text": "“右脳型・左脳型”\n存在しない？",
+      "type": "main_title",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_02",
+      "start_sec": 2.54,
+      "duration": 1.94,
+      "text": "3つの異なる切り口で説明します",
+      "type": "fix",
+      "tags": [],
+      "parent_scene_id": "001",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_03",
+      "start_sec": 4.48,
+      "duration": 2.77,
+      "text": "“利き脳診断”は、\n手相レベルの\nオカルト",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_04",
+      "start_sec": 7.25,
+      "duration": 1.83,
+      "text": "「あなたは左脳タイプだから論理派」",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_05",
+      "start_sec": 9.09,
+      "duration": 0.98,
+      "text": "といった診断は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "002",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_06",
+      "start_sec": 10.07,
+      "duration": 3.08,
+      "text": "科学的には“ほぼ占い”と同じ扱いである。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_07",
+      "start_sec": 13.15,
+      "duration": 2.92,
+      "text": "MITの研究では、脳の使い方の個人差は",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_08",
+      "start_sec": 16.07,
+      "duration": 2.62,
+      "text": "左右よりも前後・上下の連携パターンに",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "003",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_09",
+      "start_sec": 18.7,
+      "duration": 1.26,
+      "text": "よって決まるとされており、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_10",
+      "start_sec": 19.96,
+      "duration": 2.2,
+      "text": "左右分け自体が時代遅れであると",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_11",
+      "start_sec": 22.15,
+      "duration": 0.92,
+      "text": "明言されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "004",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_12",
+      "start_sec": 23.07,
+      "duration": 2.43,
+      "text": "左右の脳は\n“常に両方\n使われている”",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_13",
+      "start_sec": 25.5,
+      "duration": 2.23,
+      "text": "fMRIによる脳活動観測では、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_14",
+      "start_sec": 27.73,
+      "duration": 2.14,
+      "text": "論理的な思考も創造的な発想も、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "005",
+      "emotion": "emotion: 無感情・中立 (neutral)"
+    },
+    {
+      "scene_id": "scene_15",
+      "start_sec": 29.88,
+      "duration": 1.88,
+      "text": "左右の脳が同時に連携していた。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_16",
+      "start_sec": 31.75,
+      "duration": 3.74,
+      "text": "“右脳＝感性”“左脳＝論理”という",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_17",
+      "start_sec": 35.5,
+      "duration": 1.79,
+      "text": "単純な分担は存在せず、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "006",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_18",
+      "start_sec": 37.29,
+      "duration": 1.29,
+      "text": "脳は常に全体で",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_19",
+      "start_sec": 38.58,
+      "duration": 1.57,
+      "text": "処理を行っていることがわかった。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "007",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_20",
+      "start_sec": 40.15,
+      "duration": 2.13,
+      "text": "脳は訓練次第で\n自由に強化可能",
+      "type": "title",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_21",
+      "start_sec": 42.28,
+      "duration": 1.44,
+      "text": "脳のネットワーク構造は、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_22",
+      "start_sec": 43.72,
+      "duration": 1.72,
+      "text": "日常の思考習慣によって",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "008",
+      "emotion": "emotion: 落ち着き (calm)"
+    },
+    {
+      "scene_id": "scene_23",
+      "start_sec": 45.44,
+      "duration": 2.51,
+      "text": "実際に“配線が変化”する。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_24",
+      "start_sec": 47.95,
+      "duration": 1.46,
+      "text": "これを神経可塑性といい、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_25",
+      "start_sec": 49.41,
+      "duration": 2.31,
+      "text": "訓練によって“性格すら変化する”",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "009",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_26",
+      "start_sec": 51.72,
+      "duration": 1.33,
+      "text": "ケースも報告されている。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_27",
+      "start_sec": 53.06,
+      "duration": 1.22,
+      "text": "脳は使い方次第で、",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 驚き (surprise)"
+    },
+    {
+      "scene_id": "scene_28",
+      "start_sec": 54.27,
+      "duration": 1.64,
+      "text": "進化させられる可能性がある。",
+      "type": "summary",
+      "tags": [],
+      "parent_scene_id": "010",
+      "emotion": "emotion: 驚き (surprise)"
+    }
+  ]
+}

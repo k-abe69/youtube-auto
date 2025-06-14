@@ -1,0 +1,162 @@
+{
+  "001": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, voluptuous figure in evening gown, thick lips, soft lighting, relaxed confidence, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, leaning sideways, hair cascading, background blurred to focus sharply on eyes, light refracted through semi-transparent glass, ",
+    "theme": "girl",
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "text": "\"独身男\"\n厳しい現実が\n待っている？"
+      },
+      {
+        "scene_id": "scene_02",
+        "text": "3つの異なる切り口で説明します"
+      }
+    ]
+  },
+  "002": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, wearing stylish glasses, head slightly tilted, friendly smile, shoulders and head visible, soft lighting, head slightly tilted toward camera, intimate framing, upper body leaning toward viewer, background blurred to focus sharply on eyes, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_03",
+        "text": "孤独で\n“脳の炎症”\nが進行する"
+      },
+      {
+        "scene_id": "scene_04",
+        "text": "男性が長期間孤独な状態にあると、"
+      },
+      {
+        "scene_id": "scene_05",
+        "text": "脳内の免疫細胞である"
+      }
+    ]
+  },
+  "003": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, camera facing directly forward, eye-level symmetry, gaze lowered, reflective mood, blurred object partially in foreground, framing face, sparkle and sharp detail in eyes, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_06",
+        "text": "ミクログリアが過剰に活性化し、"
+      },
+      {
+        "scene_id": "scene_07",
+        "text": "神経に慢性的な炎症が起こる。"
+      },
+      {
+        "scene_id": "scene_08",
+        "text": "この状態は記憶力や判断力の"
+      }
+    ]
+  },
+  "004": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, reading a book with quiet concentration, warm lighting, serene background, upper half body, elegant posture, cinematic feel, camera angled slightly from above, flattering light, gaze lowered, reflective mood, light shapes framing the face from side or back, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_09",
+        "text": "低下と関連しており、"
+      },
+      {
+        "scene_id": "scene_10",
+        "text": "実際にMRIでも変化が確認されている。"
+      }
+    ]
+  },
+  "005": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, walking through tree-lined park, autumn leaves, soft gaze, shoulders and head visible, soft lighting, angled from one cheek, soft perspective, eyes softly closed, calm or dreamlike atmosphere, blurred object partially in foreground, framing face, light refracted through semi-transparent glass, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_11",
+        "text": "未婚男性は\n“社会的接触”が\n圧倒的に少ない"
+      },
+      {
+        "scene_id": "scene_12",
+        "text": "週に3回以上の対面会話がある人の割合は、"
+      },
+      {
+        "scene_id": "scene_13",
+        "text": "既婚男性では68％、"
+      }
+    ]
+  },
+  "006": {
+    "prompt": "mountain range entirely transparent, light bending across its jagged edges, headshot with forehead cropped, cinematic intensity, top-down angle with subject placed off-center, avoids symmetry, running motion along slanted ground, angled frame, off-center, viewed from a crack in the ground, subject half-cropped above, asymmetrical, tunnel view into a mirror world, ",
+    "theme": "scenery",
+    "scenes": [
+      {
+        "scene_id": "scene_14",
+        "text": "未婚男性ではわずか27％にとどまった。"
+      },
+      {
+        "scene_id": "scene_15",
+        "text": "この差は友人関係では補えず、"
+      },
+      {
+        "scene_id": "scene_16",
+        "text": "“家庭内での継続的な会話”の有無が"
+      }
+    ]
+  },
+  "007": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, long hair blowing in the wind, neutral expression, clear blue sky behind, upper half body, elegant posture, cinematic feel, looking past the camera, not directly at viewer, gaze lowered, reflective mood, blurred object partially in foreground, framing face, gentle bokeh in background, soft tones, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_17",
+        "text": "孤独感に強く影響しているとされる。"
+      }
+    ]
+  },
+  "008": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), ethereal woman made of smoke and silk, dancing midair with flowing scarves, glowing smile, shoulders and head visible, soft lighting, seen through glass or fabric, light distortion, body turned, head looking over shoulder, tight head-and-shoulders crop, minimal background, sparkle and sharp detail in eyes, ",
+    "theme": "beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_18",
+        "text": "“孤独ホルモン”\nで老化が加速"
+      },
+      {
+        "scene_id": "scene_19",
+        "text": "孤独状態では"
+      },
+      {
+        "scene_id": "scene_20",
+        "text": "オキシトシンやセロトニンといった"
+      }
+    ]
+  },
+  "009": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, casual outfit, sipping coffee in morning light, soft smile, tight face crop, expressive eyes, detailed makeup, head slightly tilted toward camera, intimate framing, holding a delicate flower near face, face positioned off-center with balanced lighting, face half in soft shadow, delicate contrast, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_21",
+        "text": "“つながりホルモン”の分泌が低下する。"
+      },
+      {
+        "scene_id": "scene_22",
+        "text": "その一方でストレスホルモンが慢性化し、"
+      },
+      {
+        "scene_id": "scene_23",
+        "text": "血管・皮膚・内臓の老化を"
+      }
+    ]
+  },
+  "010": {
+    "prompt": "(Su_MCraft_AP_Ep81:0.65), 1girl, modest dress, standing in a quiet hall, poised expression, tight face crop, expressive eyes, detailed makeup, camera angled slightly from above, flattering light, eyes softly closed, calm or dreamlike atmosphere, background blurred to focus sharply on eyes, light source behind creating glow around hair, ",
+    "theme": "normal_beauty",
+    "scenes": [
+      {
+        "scene_id": "scene_24",
+        "text": "促進させるリスクが高まるとされる。"
+      },
+      {
+        "scene_id": "scene_25",
+        "text": "孤独は、静かに体を腐らせていく。"
+      }
+    ]
+  }
+}
